@@ -74,7 +74,7 @@ This repository currently includes paper data from the following top-tier confer
 - **🔗 Official Data Source:** [IJCAI Proceedings](https://www.ijcai.org/all_proceedings)
 - **📌 Included Tracks:** `Main Tracks`, `Survey Tracks (if available)`
 
-### 9. NIPS / NeurIPS (Conference on Neural Information Processing Systems)
+### 9. NIPS / NeurIPS (Neural Information Processing Systems)
 
 - **📁 Folder:** `NIPS`
 - **📅 Years Covered:** `2016 - 2025`
