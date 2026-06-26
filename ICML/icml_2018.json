@@ -1,623 +1,2486 @@
-{
-    "Improved Regret Bounds for Thompson Sampling in Linear Quadratic Control Problems": "https://proceedings.mlr.press/v80/abeille18a.html",
-    "State Abstractions for Lifelong Reinforcement Learning": "https://proceedings.mlr.press/v80/abel18a.html",
-    "Policy and Value Transfer in Lifelong Reinforcement Learning": "https://proceedings.mlr.press/v80/abel18b.html",
-    "INSPECTRE: Privately Estimating the Unseen": "https://proceedings.mlr.press/v80/acharya18a.html",
-    "Learning Representations and Generative Models for 3D Point Clouds": "https://proceedings.mlr.press/v80/achlioptas18a.html",
-    "Discovering Interpretable Representations for Both Deep Generative and Discriminative Models": "https://proceedings.mlr.press/v80/adel18a.html",
-    "A Reductions Approach to Fair Classification": "https://proceedings.mlr.press/v80/agarwal18a.html",
-    "Accelerated Spectral Ranking": "https://proceedings.mlr.press/v80/agarwal18b.html",
-    "MISSION: Ultra Large-Scale Feature Selection using Count-Sketches": "https://proceedings.mlr.press/v80/aghazadeh18a.html",
-    "Minimal I-MAP MCMC for Scalable Structure Discovery in Causal DAG Models": "https://proceedings.mlr.press/v80/agrawal18a.html",
-    "Proportional Allocation: Simple, Distributed, and Diverse Matching with High Entropy": "https://proceedings.mlr.press/v80/agrawal18b.html",
-    "Bucket Renormalization for Approximate Inference": "https://proceedings.mlr.press/v80/ahn18a.html",
-    "oi-VAE: Output Interpretable VAEs for Nonlinear Group Factor Analysis": "https://proceedings.mlr.press/v80/ainsworth18a.html",
-    "Limits of Estimating Heterogeneous Treatment Effects: Guidelines for Practical Algorithm Design": "https://proceedings.mlr.press/v80/alaa18a.html",
-    "AutoPrognosis: Automated Clinical Prognostic Modeling via Bayesian Optimization with Structured Kernel Learning": "https://proceedings.mlr.press/v80/alaa18b.html",
-    "Information Theoretic Guarantees for Empirical Risk Minimization with Applications to Model Selection and Large-Scale Optimization": "https://proceedings.mlr.press/v80/alabdulmohsin18a.html",
-    "Fixing a Broken ELBO": "https://proceedings.mlr.press/v80/alemi18a.html",
-    "Differentially Private Identity and Equivalence Testing of Discrete Distributions": "https://proceedings.mlr.press/v80/aliakbarpour18a.html",
-    "Katyusha X: Simple Momentum Method for Stochastic Sum-of-Nonconvex Optimization": "https://proceedings.mlr.press/v80/allen-zhu18a.html",
-    "Make the Minority Great Again: First-Order Regret Bound for Contextual Bandits": "https://proceedings.mlr.press/v80/allen-zhu18b.html",
-    "Augmented CycleGAN: Learning Many-to-Many Mappings from Unpaired Data": "https://proceedings.mlr.press/v80/almahairi18a.html",
-    "Meta-Learning by Adjusting Priors Based on Extended PAC-Bayes Theory": "https://proceedings.mlr.press/v80/amit18a.html",
-    "MAGAN: Aligning Biological Manifolds": "https://proceedings.mlr.press/v80/amodio18a.html",
-    "Subspace Embedding and Linear Regression with Orlicz Norm": "https://proceedings.mlr.press/v80/andoni18a.html",
-    "Efficient Gradient-Free Variational Inference using Policy Search": "https://proceedings.mlr.press/v80/arenz18a.html",
-    "On the Optimization of Deep Networks: Implicit Acceleration by Overparameterization": "https://proceedings.mlr.press/v80/arora18a.html",
-    "Stronger Generalization Bounds for Deep Nets via a Compression Approach": "https://proceedings.mlr.press/v80/arora18b.html",
-    "Lipschitz Continuity in Model-based Reinforcement Learning": "https://proceedings.mlr.press/v80/asadi18a.html",
-    "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples": "https://proceedings.mlr.press/v80/athalye18a.html",
-    "Synthesizing Robust Adversarial Examples": "https://proceedings.mlr.press/v80/athalye18b.html",
-    "Contextual Graph Markov Model: A Deep and Generative Approach to Graph Processing": "https://proceedings.mlr.press/v80/bacciu18a.html",
-    "Greed is Still Good: Maximizing Monotone Submodular+Supermodular (BP) Functions": "https://proceedings.mlr.press/v80/bai18a.html",
-    "Comparing Dynamics: Deep Neural Networks versus Glassy Systems": "https://proceedings.mlr.press/v80/baity-jesi18a.html",
-    "SMAC: Simultaneous Mapping and Clustering Using Spectral Decompositions": "https://proceedings.mlr.press/v80/bajaj18a.html",
-    "A Boo(n) for Evaluating Architecture Performance": "https://proceedings.mlr.press/v80/bajgar18a.html",
-    "Learning to Branch": "https://proceedings.mlr.press/v80/balcan18a.html",
-    "The Mechanics of n-Player Differentiable Games": "https://proceedings.mlr.press/v80/balduzzi18a.html",
-    "Spline Filters For End-to-End Deep Learning": "https://proceedings.mlr.press/v80/balestriero18a.html",
-    "A Spline Theory of Deep Learning": "https://proceedings.mlr.press/v80/balestriero18b.html",
-    "Approximation Guarantees for Adaptive Sampling": "https://proceedings.mlr.press/v80/balkanski18a.html",
-    "Improving the Gaussian Mechanism for Differential Privacy: Analytical Calibration and Optimal Denoising": "https://proceedings.mlr.press/v80/balle18a.html",
-    "Dissecting Adam: The Sign, Magnitude and Variance of Stochastic Gradients": "https://proceedings.mlr.press/v80/balles18a.html",
-    "Differentially Private Database Release via Kernel Mean Embeddings": "https://proceedings.mlr.press/v80/balog18a.html",
-    "Improving Optimization for Models With Continuous Symmetry Breaking": "https://proceedings.mlr.press/v80/bamler18a.html",
-    "Improved Training of Generative Adversarial Networks Using Representative Features": "https://proceedings.mlr.press/v80/bang18a.html",
-    "Using Inherent Structures to design Lean 2-layer RBMs": "https://proceedings.mlr.press/v80/bansal18a.html",
-    "Classification from Pairwise Similarity and Unlabeled Data": "https://proceedings.mlr.press/v80/bao18a.html",
-    "Bayesian Optimization of Combinatorial Structures": "https://proceedings.mlr.press/v80/baptista18a.html",
-    "Geodesic Convolutional Shape Optimization": "https://proceedings.mlr.press/v80/baque18a.html",
-    "Learning to Coordinate with Coordination Graphs in Repeated Single-Stage Multi-Agent Decision Problems": "https://proceedings.mlr.press/v80/bargiacchi18a.html",
-    "Testing Sparsity over Known and Unknown Bases": "https://proceedings.mlr.press/v80/barman18a.html",
-    "Transfer in Deep Reinforcement Learning Using Successor Features and Generalised Policy Improvement": "https://proceedings.mlr.press/v80/barreto18a.html",
-    "Measuring abstract reasoning in neural networks": "https://proceedings.mlr.press/v80/barrett18a.html",
-    "Gradient descent with identity initialization efficiently learns positive definite linear transformations by deep residual networks": "https://proceedings.mlr.press/v80/bartlett18a.html",
-    "Mutual Information Neural Estimation": "https://proceedings.mlr.press/v80/belghazi18a.html",
-    "To Understand Deep Learning We Need to Understand Kernel Learning": "https://proceedings.mlr.press/v80/belkin18a.html",
-    "Understanding and Simplifying One-Shot Architecture Search": "https://proceedings.mlr.press/v80/bender18a.html",
-    "signSGD: Compressed Optimisation for Non-Convex Problems": "https://proceedings.mlr.press/v80/bernstein18a.html",
-    "Distributed Clustering via LSH Based Data Partitioning": "https://proceedings.mlr.press/v80/bhaskara18a.html",
-    "Autoregressive Convolutional Neural Networks for Asynchronous Time Series": "https://proceedings.mlr.press/v80/binkowski18a.html",
-    "Adaptive Sampled Softmax with Kernel Based Sampling": "https://proceedings.mlr.press/v80/blanc18a.html",
-    "Optimizing the Latent Space of Generative Networks": "https://proceedings.mlr.press/v80/bojanowski18a.html",
-    "NetGAN: Generating Graphs via Random Walks": "https://proceedings.mlr.press/v80/bojchevski18a.html",
-    "A Progressive Batching L-BFGS Method for Machine Learning": "https://proceedings.mlr.press/v80/bollapragada18a.html",
-    "Prediction Rule Reshaping": "https://proceedings.mlr.press/v80/bonakdarpour18a.html",
-    "QuantTree: Histograms for Change Detection in Multivariate Data Streams": "https://proceedings.mlr.press/v80/boracchi18a.html",
-    "Matrix Norms in Data Streams: Faster, Multi-Pass and Row-Order": "https://proceedings.mlr.press/v80/braverman18a.html",
-    "Predict and Constrain: Modeling Cardinality in Deep Structured Prediction": "https://proceedings.mlr.press/v80/brukhim18a.html",
-    "Quasi-Monte Carlo Variational Inference": "https://proceedings.mlr.press/v80/buchholz18a.html",
-    "Path-Level Network Transformation for Efficient Architecture Search": "https://proceedings.mlr.press/v80/cai18a.html",
-    "Improved large-scale graph learning through ridge spectral sparsification": "https://proceedings.mlr.press/v80/calandriello18a.html",
-    "Bayesian Coreset Construction via Greedy Iterative Geodesic Ascent": "https://proceedings.mlr.press/v80/campbell18a.html",
-    "Adversarial Learning with Local Coordinate Coding": "https://proceedings.mlr.press/v80/cao18a.html",
-    "Fair and Diverse DPP-Based Data Summarization": "https://proceedings.mlr.press/v80/celis18a.html",
-    "Conditional Noise-Contrastive Estimation of Unnormalised Models": "https://proceedings.mlr.press/v80/ceylan18a.html",
-    "Adversarial Time-to-Event Modeling": "https://proceedings.mlr.press/v80/chapfuwa18a.html",
-    "Stability and Generalization of Learning Algorithms that Converge to Global Optima": "https://proceedings.mlr.press/v80/charles18a.html",
-    "Learning and Memorization": "https://proceedings.mlr.press/v80/chatterjee18a.html",
-    "On the Theory of Variance Reduction for Stochastic Gradient Monte Carlo": "https://proceedings.mlr.press/v80/chatterji18a.html",
-    "Hierarchical Clustering with Structural Constraints": "https://proceedings.mlr.press/v80/chatziafratis18a.html",
-    "Hierarchical Deep Generative Models for Multi-Rate Multivariate Time Series": "https://proceedings.mlr.press/v80/che18a.html",
-    "GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks": "https://proceedings.mlr.press/v80/chen18a.html",
-    "Weakly Submodular Maximization Beyond Cardinality Constraints: Does Randomization Help Greedy?": "https://proceedings.mlr.press/v80/chen18b.html",
-    "Projection-Free Online Optimization with Stochastic Gradient: From Convexity to Submodularity": "https://proceedings.mlr.press/v80/chen18c.html",
-    "Continuous-Time Flows for Efficient Inference and Density Estimation": "https://proceedings.mlr.press/v80/chen18d.html",
-    "Scalable Bilinear Pi Learning Using State and Action Features": "https://proceedings.mlr.press/v80/chen18e.html",
-    "Stein Points": "https://proceedings.mlr.press/v80/chen18f.html",
-    "Learning K-way D-dimensional Discrete Codes for Compact Embedding Representations": "https://proceedings.mlr.press/v80/chen18g.html",
-    "PixelSNAIL: An Improved Autoregressive Generative Model": "https://proceedings.mlr.press/v80/chen18h.html",
-    "Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks": "https://proceedings.mlr.press/v80/chen18i.html",
-    "Learning to Explain: An Information-Theoretic Perspective on Model Interpretation": "https://proceedings.mlr.press/v80/chen18j.html",
-    "Variational Inference and Model Selection with Generalized Evidence Bounds": "https://proceedings.mlr.press/v80/chen18k.html",
-    "DRACO: Byzantine-resilient Distributed Training via Redundant Gradients": "https://proceedings.mlr.press/v80/chen18l.html",
-    "SADAGRAD: Strongly Adaptive Stochastic Gradient Methods": "https://proceedings.mlr.press/v80/chen18m.html",
-    "Covariate Adjusted Precision Matrix Estimation via Nonconvex Optimization": "https://proceedings.mlr.press/v80/chen18n.html",
-    "End-to-End Learning for the Deep Multivariate Probit Model": "https://proceedings.mlr.press/v80/chen18o.html",
-    "Stochastic Training of Graph Convolutional Networks with Variance Reduction": "https://proceedings.mlr.press/v80/chen18p.html",
-    "Extreme Learning to Rank via Low Rank Assumption": "https://proceedings.mlr.press/v80/cheng18a.html",
-    "Learning a Mixture of Two Multinomial Logits": "https://proceedings.mlr.press/v80/chierichetti18a.html",
-    "Structured Evolution with Compact Architectures for Scalable Policy Optimization": "https://proceedings.mlr.press/v80/choromanski18a.html",
-    "Path Consistency Learning in Tsallis Entropy Regularized MDPs": "https://proceedings.mlr.press/v80/chow18a.html",
-    "An Iterative, Sketching-based Framework for Ridge Regression": "https://proceedings.mlr.press/v80/chowdhury18a.html",
-    "Stochastic Wasserstein Barycenters": "https://proceedings.mlr.press/v80/claici18a.html",
-    "Self-Consistent Trajectory Autoencoder: Hierarchical Reinforcement Learning with Trajectory Embeddings": "https://proceedings.mlr.press/v80/co-reyes18a.html",
-    "On Acceleration with Noise-Corrupted Gradients": "https://proceedings.mlr.press/v80/cohen18a.html",
-    "Online Linear Quadratic Control": "https://proceedings.mlr.press/v80/cohen18b.html",
-    "GEP-PG: Decoupling Exploration and Exploitation in Deep Reinforcement Learning Algorithms": "https://proceedings.mlr.press/v80/colas18a.html",
-    "Efficient Model-Based Deep Reinforcement Learning with Variational State Tabulation": "https://proceedings.mlr.press/v80/corneil18a.html",
-    "Online Learning with Abstention": "https://proceedings.mlr.press/v80/cortes18a.html",
-    "Constrained Interacting Submodular Groupings": "https://proceedings.mlr.press/v80/cotter18a.html",
-    "Inference Suboptimality in Variational Autoencoders": "https://proceedings.mlr.press/v80/cremer18a.html",
-    "Mix & Match Agent Curricula for Reinforcement Learning": "https://proceedings.mlr.press/v80/czarnecki18a.html",
-    "Implicit Quantile Networks for Distributional Reinforcement Learning": "https://proceedings.mlr.press/v80/dabney18a.html",
-    "Learning Steady-States of Iterative Algorithms over Graphs": "https://proceedings.mlr.press/v80/dai18a.html",
-    "Adversarial Attack on Graph Structured Data": "https://proceedings.mlr.press/v80/dai18b.html",
-    "SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation": "https://proceedings.mlr.press/v80/dai18c.html",
-    "Compressing Neural Networks using the Variational Information Bottleneck": "https://proceedings.mlr.press/v80/dai18d.html",
-    "Asynchronous Byzantine Machine Learning (the case of SGD)": "https://proceedings.mlr.press/v80/damaskinos18a.html",
-    "Escaping Saddles with Stochastic Gradients": "https://proceedings.mlr.press/v80/daneshmand18a.html",
-    "Minibatch Gibbs Sampling on Large Graphical Models": "https://proceedings.mlr.press/v80/desa18a.html",
-    "Stochastic Video Generation with a Learned Prior": "https://proceedings.mlr.press/v80/denton18a.html",
-    "Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning": "https://proceedings.mlr.press/v80/depeweg18a.html",
-    "Accurate Inference for Adaptive Linear Models": "https://proceedings.mlr.press/v80/deshpande18a.html",
-    "Variational Network Inference: Strong and Stable with Concrete Support": "https://proceedings.mlr.press/v80/dezfouli18a.html",
-    "Modeling Sparse Deviations for Compressed Sensing using Generative Models": "https://proceedings.mlr.press/v80/dhar18a.html",
-    "Alternating Randomized Block Coordinate Descent": "https://proceedings.mlr.press/v80/diakonikolas18a.html",
-    "Learning to Act in Decentralized Partially Observable MDPs": "https://proceedings.mlr.press/v80/dibangoye18a.html",
-    "Leveraging Well-Conditioned Bases: Streaming and Distributed Summaries in Minkowski $p$-Norms": "https://proceedings.mlr.press/v80/dickens18a.html",
-    "Noisin: Unbiased Regularization for Recurrent Neural Networks": "https://proceedings.mlr.press/v80/dieng18a.html",
-    "Discovering and Removing Exogenous State Variables and Rewards for Reinforcement Learning": "https://proceedings.mlr.press/v80/dietterich18a.html",
-    "Coordinated Exploration in Concurrent Reinforcement Learning": "https://proceedings.mlr.press/v80/dimakopoulou18a.html",
-    "Probabilistic Recurrent State-Space Models": "https://proceedings.mlr.press/v80/doerr18a.html",
-    "Randomized Block Cubic Newton Method": "https://proceedings.mlr.press/v80/doikov18a.html",
-    "Low-Rank Riemannian Optimization on Positive Semidefinite Stochastic Matrices with Applications to Graph Clustering": "https://proceedings.mlr.press/v80/douik18a.html",
-    "Essentially No Barriers in Neural Network Energy Landscape": "https://proceedings.mlr.press/v80/draxler18a.html",
-    "Weakly Consistent Optimal Pricing Algorithms in Repeated Posted-Price Auctions with Strategic Buyer": "https://proceedings.mlr.press/v80/drutsa18a.html",
-    "On the Power of Over-parametrization in Neural Networks with Quadratic Activation": "https://proceedings.mlr.press/v80/du18a.html",
-    "Gradient Descent Learns One-hidden-layer CNN: Don’t be Afraid of Spurious Local Minima": "https://proceedings.mlr.press/v80/du18b.html",
-    "Investigating Human Priors for Playing Video Games": "https://proceedings.mlr.press/v80/dubey18a.html",
-    "A Distributed Second-Order Algorithm You Can Trust": "https://proceedings.mlr.press/v80/duenner18a.html",
-    "Computational Optimal Transport: Complexity by Accelerated Gradient Descent Is Better Than by Sinkhorn’s Algorithm": "https://proceedings.mlr.press/v80/dvurechensky18a.html",
-    "Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors": "https://proceedings.mlr.press/v80/dziugaite18a.html",
-    "Beyond the One-Step Greedy Approach in Reinforcement Learning": "https://proceedings.mlr.press/v80/efroni18a.html",
-    "Parallel and Streaming Algorithms for K-Core Decomposition": "https://proceedings.mlr.press/v80/esfandiari18a.html",
-    "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures": "https://proceedings.mlr.press/v80/espeholt18a.html",
-    "Scalable Gaussian Processes with Grid-Structured Eigenfunctions (GP-GRIEF)": "https://proceedings.mlr.press/v80/evans18a.html",
-    "The Limits of Maxing, Ranking, and Preference Learning": "https://proceedings.mlr.press/v80/falahatgar18a.html",
-    "BOHB: Robust and Efficient Hyperparameter Optimization at Scale": "https://proceedings.mlr.press/v80/falkner18a.html",
-    "More Robust Doubly Robust Off-policy Evaluation": "https://proceedings.mlr.press/v80/farajtabar18a.html",
-    "Efficient and Consistent Adversarial Bipartite Matching": "https://proceedings.mlr.press/v80/fathony18a.html",
-    "Global Convergence of Policy Gradient Methods for the Linear Quadratic Regulator": "https://proceedings.mlr.press/v80/fazel18a.html",
-    "CRVI: Convex Relaxation for Variational Inference": "https://proceedings.mlr.press/v80/fazelnia18a.html",
-    "Fourier Policy Gradients": "https://proceedings.mlr.press/v80/fellows18a.html",
-    "Nonparametric variable importance using an augmented neural network with multi-task learning": "https://proceedings.mlr.press/v80/feng18a.html",
-    "Closed-form Marginal Likelihood in Gamma-Poisson Matrix Factorization": "https://proceedings.mlr.press/v80/filstroff18a.html",
-    "Automatic Goal Generation for Reinforcement Learning Agents": "https://proceedings.mlr.press/v80/florensa18a.html",
-    "DiCE: The Infinitely Differentiable Monte Carlo Estimator": "https://proceedings.mlr.press/v80/foerster18a.html",
-    "Practical Contextual Bandits with Regression Oracles": "https://proceedings.mlr.press/v80/foster18a.html",
-    "Generative Temporal Models with Spatial Memory for Partially Observed Environments": "https://proceedings.mlr.press/v80/fraccaro18a.html",
-    "ADMM and Accelerated ADMM as Continuous Dynamical Systems": "https://proceedings.mlr.press/v80/franca18a.html",
-    "Bilevel Programming for Hyperparameter Optimization and Meta-Learning": "https://proceedings.mlr.press/v80/franceschi18a.html",
-    "Efficient Bias-Span-Constrained Exploration-Exploitation in Reinforcement Learning": "https://proceedings.mlr.press/v80/fruit18a.html",
-    "Addressing Function Approximation Error in Actor-Critic Methods": "https://proceedings.mlr.press/v80/fujimoto18a.html",
-    "Clipped Action Policy Gradient": "https://proceedings.mlr.press/v80/fujita18a.html",
-    "Born Again Neural Networks": "https://proceedings.mlr.press/v80/furlanello18a.html",
-    "The Generalization Error of Dictionary Learning with Moreau Envelopes": "https://proceedings.mlr.press/v80/georgogiannis18a.html",
-    "Local Private Hypothesis Testing: Chi-Square Tests": "https://proceedings.mlr.press/v80/gaboardi18a.html",
-    "Inductive Two-Layer Modeling with Parametric Bregman Transfer": "https://proceedings.mlr.press/v80/ganapathiraman18a.html",
-    "Hyperbolic Entailment Cones for Learning Hierarchical Embeddings": "https://proceedings.mlr.press/v80/ganea18a.html",
-    "Parameterized Algorithms for the Matrix Completion Problem": "https://proceedings.mlr.press/v80/ganian18a.html",
-    "Synthesizing Programs for Images using Reinforced Adversarial Learning": "https://proceedings.mlr.press/v80/ganin18a.html",
-    "Spotlight: Optimizing Device Placement for Training Deep Neural Networks": "https://proceedings.mlr.press/v80/gao18a.html",
-    "Parallel Bayesian Network Structure Learning": "https://proceedings.mlr.press/v80/gao18b.html",
-    "Structured Output Learning with Abstention: Application to Accurate Opinion Prediction": "https://proceedings.mlr.press/v80/garcia18a.html",
-    "Conditional Neural Processes": "https://proceedings.mlr.press/v80/garnelo18a.html",
-    "Temporal Poisson Square Root Graphical Models": "https://proceedings.mlr.press/v80/geng18a.html",
-    "Budgeted Experiment Design for Causal Structure Learning": "https://proceedings.mlr.press/v80/ghassami18a.html",
-    "Linear Spectral Estimators and an Application to Phase Retrieval": "https://proceedings.mlr.press/v80/ghods18a.html",
-    "Structured Variational Learning of Bayesian Neural Networks with Horseshoe Priors": "https://proceedings.mlr.press/v80/ghosh18a.html",
-    "Learning Maximum-A-Posteriori Perturbation Models for Structured Prediction in Polynomial Time": "https://proceedings.mlr.press/v80/ghoshal18a.html",
-    "Robust and Scalable Models of Microbiome Dynamics": "https://proceedings.mlr.press/v80/gibson18a.html",
-    "Non-linear motor control by local learning in spiking neural networks": "https://proceedings.mlr.press/v80/gilra18a.html",
-    "Learning One Convolutional Layer with Overlapping Patches": "https://proceedings.mlr.press/v80/goel18a.html",
-    "Visualizing and Understanding Atari Agents": "https://proceedings.mlr.press/v80/greydanus18a.html",
-    "Learning Policy Representations in Multiagent Systems": "https://proceedings.mlr.press/v80/grover18a.html",
-    "Faster Derivative-Free Stochastic Algorithm for Shared Memory Machines": "https://proceedings.mlr.press/v80/gu18a.html",
-    "Learning to search with MCTSnets": "https://proceedings.mlr.press/v80/guez18a.html",
-    "Characterizing Implicit Bias in Terms of Optimization Geometry": "https://proceedings.mlr.press/v80/gunasekar18a.html",
-    "Shampoo: Preconditioned Stochastic Tensor Optimization": "https://proceedings.mlr.press/v80/gupta18a.html",
-    "Latent Space Policies for Hierarchical Reinforcement Learning": "https://proceedings.mlr.press/v80/haarnoja18a.html",
-    "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor": "https://proceedings.mlr.press/v80/haarnoja18b.html",
-    "Comparison-Based Random Forests": "https://proceedings.mlr.press/v80/haghiri18a.html",
-    "K-Beam Minimax: Efficient Optimization for Deep Adversarial Learning": "https://proceedings.mlr.press/v80/hamm18a.html",
-    "Candidates vs. Noises Estimation for Large Multi-Class Classification Problem": "https://proceedings.mlr.press/v80/han18a.html",
-    "Stein Variational Gradient Descent Without Gradient": "https://proceedings.mlr.press/v80/han18b.html",
-    "Deep Models of Interactions Across Sets": "https://proceedings.mlr.press/v80/hartford18a.html",
-    "Learning Memory Access Patterns": "https://proceedings.mlr.press/v80/hashemi18a.html",
-    "Fairness Without Demographics in Repeated Loss Minimization": "https://proceedings.mlr.press/v80/hashimoto18a.html",
-    "Multicalibration: Calibration for the (Computationally-Identifiable) Masses": "https://proceedings.mlr.press/v80/hebert-johnson18a.html",
-    "Recurrent Predictive State Policy Networks": "https://proceedings.mlr.press/v80/hefny18a.html",
-    "Learning unknown ODE models with Gaussian processes": "https://proceedings.mlr.press/v80/heinonen18a.html",
-    "Orthogonal Recurrent Neural Networks with Scaled Cayley Transform": "https://proceedings.mlr.press/v80/helfrich18a.html",
-    "Fast Bellman Updates for Robust MDPs": "https://proceedings.mlr.press/v80/ho18a.html",
-    "CyCADA: Cycle-Consistent Adversarial Domain Adaptation": "https://proceedings.mlr.press/v80/hoffman18a.html",
-    "Sound Abstraction and Decomposition of Probabilistic Programs": "https://proceedings.mlr.press/v80/holtzen18a.html",
-    "Gradient Primal-Dual Algorithm Converges to Second-Order Stationary Solution for Nonconvex Distributed Optimization Over Networks": "https://proceedings.mlr.press/v80/hong18a.html",
-    "Variational Bayesian dropout: pitfalls and fixes": "https://proceedings.mlr.press/v80/hron18a.html",
-    "Does Distributionally Robust Supervised Learning Give Robust Classifiers?": "https://proceedings.mlr.press/v80/hu18a.html",
-    "Dissipativity Theory for Accelerating Stochastic Variance Reduction: A Unified Analysis of SVRG and Katyusha Using Semidefinite Programs": "https://proceedings.mlr.press/v80/hu18b.html",
-    "Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices": "https://proceedings.mlr.press/v80/huang18a.html",
-    "Learning Deep ResNet Blocks Sequentially using Boosting Theory": "https://proceedings.mlr.press/v80/huang18b.html",
-    "Learning Hidden Markov Models from Pairwise Co-occurrences with Application to Topic Modeling": "https://proceedings.mlr.press/v80/huang18c.html",
-    "Neural Autoregressive Flows": "https://proceedings.mlr.press/v80/huang18d.html",
-    "Topological mixture estimation": "https://proceedings.mlr.press/v80/huntsman18a.html",
-    "Decoupled Parallel Backpropagation with Convergence Guarantee": "https://proceedings.mlr.press/v80/huo18a.html",
-    "Using Reward Machines for High-Level Task Specification and Decomposition in Reinforcement Learning": "https://proceedings.mlr.press/v80/icarte18a.html",
-    "Deep Variational Reinforcement Learning for POMDPs": "https://proceedings.mlr.press/v80/igl18a.html",
-    "Attention-based Deep Multiple Instance Learning": "https://proceedings.mlr.press/v80/ilse18a.html",
-    "Black-box Adversarial Attacks with Limited Queries and Information": "https://proceedings.mlr.press/v80/ilyas18a.html",
-    "Analysis of Minimax Error Rate for Crowdsourcing and Its Application to Worker Clustering Model": "https://proceedings.mlr.press/v80/imamura18a.html",
-    "Improving Regression Performance with Distributional Losses": "https://proceedings.mlr.press/v80/imani18a.html",
-    "Deep Density Destructors": "https://proceedings.mlr.press/v80/inouye18a.html",
-    "Unbiased Objective Estimation in Predictive Optimization": "https://proceedings.mlr.press/v80/ito18a.html",
-    "Anonymous Walk Embeddings": "https://proceedings.mlr.press/v80/ivanov18a.html",
-    "Learning Binary Latent Variable Models: A Tensor Eigenpair Approach": "https://proceedings.mlr.press/v80/jaffe18a.html",
-    "Firing Bandits: Optimizing Crowdfunding": "https://proceedings.mlr.press/v80/jain18a.html",
-    "Differentially Private Matrix Completion Revisited": "https://proceedings.mlr.press/v80/jain18b.html",
-    "Video Prediction with Appearance and Motion Conditions": "https://proceedings.mlr.press/v80/jang18a.html",
-    "Pathwise Derivatives Beyond the Reparameterization Trick": "https://proceedings.mlr.press/v80/jankowiak18a.html",
-    "Detecting non-causal artifacts in multivariate linear regression models": "https://proceedings.mlr.press/v80/janzing18a.html",
-    "A Unified Framework for Structured Low-rank Matrix Learning": "https://proceedings.mlr.press/v80/jawanpuria18a.html",
-    "Efficient end-to-end learning for quantizable representations": "https://proceedings.mlr.press/v80/jeong18a.html",
-    "Exploring Hidden Dimensions in Accelerating Convolutional Neural Networks": "https://proceedings.mlr.press/v80/jia18a.html",
-    "Feedback-Based Tree Search for Reinforcement Learning": "https://proceedings.mlr.press/v80/jiang18a.html",
-    "Quickshift++: Provably Good Initializations for Sample-Based Mean Shift": "https://proceedings.mlr.press/v80/jiang18b.html",
-    "MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels": "https://proceedings.mlr.press/v80/jiang18c.html",
-    "The Weighted Kendall and High-order Kernels for Permutations": "https://proceedings.mlr.press/v80/jiao18a.html",
-    "Junction Tree Variational Autoencoder for Molecular Graph Generation": "https://proceedings.mlr.press/v80/jin18a.html",
-    "Network Global Testing by Counting Graphlets": "https://proceedings.mlr.press/v80/jin18b.html",
-    "Regret Minimization for Partially Observable Deep Reinforcement Learning": "https://proceedings.mlr.press/v80/jin18c.html",
-    "WSNet: Compact and Efficient Networks Through Weight Sampling": "https://proceedings.mlr.press/v80/jin18d.html",
-    "Large-Scale Cox Process Inference using Variational Fourier Features": "https://proceedings.mlr.press/v80/john18a.html",
-    "Composite Functional Gradient Learning of Generative Adversarial Models": "https://proceedings.mlr.press/v80/johnson18a.html",
-    "Kronecker Recurrent Units": "https://proceedings.mlr.press/v80/jose18a.html",
-    "Fast Decoding in Sequence Models Using Discrete Latent Variables": "https://proceedings.mlr.press/v80/kaiser18a.html",
-    "Kernel Recursive ABC: Point Estimation with Intractable Likelihood": "https://proceedings.mlr.press/v80/kajihara18a.html",
-    "Efficient Neural Audio Synthesis": "https://proceedings.mlr.press/v80/kalchbrenner18a.html",
-    "Learning Diffusion using Hyperparameters": "https://proceedings.mlr.press/v80/kalimeris18a.html",
-    "Signal and Noise Statistics Oblivious Orthogonal Matching Pursuit": "https://proceedings.mlr.press/v80/kallummil18a.html",
-    "Residual Unfairness in Fair Machine Learning from Prejudiced Data": "https://proceedings.mlr.press/v80/kallus18a.html",
-    "Learn from Your Neighbor: Learning Multi-modal Mappings from Sparse Annotations": "https://proceedings.mlr.press/v80/kalyan18a.html",
-    "Semi-Supervised Learning via Compact Latent Space Clustering": "https://proceedings.mlr.press/v80/kamnitsas18a.html",
-    "Policy Optimization with Demonstrations": "https://proceedings.mlr.press/v80/kang18a.html",
-    "Improving Sign Random Projections With Additional Information": "https://proceedings.mlr.press/v80/kang18b.html",
-    "Let’s be Honest: An Optimal No-Regret Framework for Zero-Sum Games": "https://proceedings.mlr.press/v80/kangarshahi18a.html",
-    "Continual Reinforcement Learning with Complex Synapses": "https://proceedings.mlr.press/v80/kaplanis18a.html",
-    "LaVAN: Localized and Visible Adversarial Noise": "https://proceedings.mlr.press/v80/karmon18a.html",
-    "Riemannian Stochastic Recursive Gradient Algorithm": "https://proceedings.mlr.press/v80/kasai18a.html",
-    "Not All Samples Are Created Equal: Deep Learning with Importance Sampling": "https://proceedings.mlr.press/v80/katharopoulos18a.html",
-    "Feasible Arm Identification": "https://proceedings.mlr.press/v80/katz-samuels18a.html",
-    "Scalable Deletion-Robust Submodular Maximization: Data Summarization with Privacy and Fairness Constraints": "https://proceedings.mlr.press/v80/kazemi18a.html",
-    "Focused Hierarchical RNNs for Conditional Sequence Processing": "https://proceedings.mlr.press/v80/ke18a.html",
-    "Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness": "https://proceedings.mlr.press/v80/kearns18a.html",
-    "Improved nearest neighbor search using auxiliary information and priority functions": "https://proceedings.mlr.press/v80/keivani18a.html",
-    "ContextNet: Deep learning for Star Galaxy Classification": "https://proceedings.mlr.press/v80/kennamer18a.html",
-    "Frank-Wolfe with Subsampling Oracle": "https://proceedings.mlr.press/v80/kerdreux18a.html",
-    "Convergence guarantees for a class of non-convex and non-smooth optimization problems": "https://proceedings.mlr.press/v80/khamaru18a.html",
-    "Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam": "https://proceedings.mlr.press/v80/khan18a.html",
-    "Geometry Score: A Method For Comparing Generative Adversarial Networks": "https://proceedings.mlr.press/v80/khrulkov18a.html",
-    "Blind Justice: Fairness with Encrypted Sensitive Attributes": "https://proceedings.mlr.press/v80/kilbertus18a.html",
-    "Markov Modulated Gaussian Cox Processes for Semi-Stationary Intensity Modeling of Events Data": "https://proceedings.mlr.press/v80/kim18a.html",
-    "Disentangling by Factorising": "https://proceedings.mlr.press/v80/kim18b.html",
-    "Self-Bounded Prediction Suffix Tree via Approximate String Matching": "https://proceedings.mlr.press/v80/kim18c.html",
-    "Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)": "https://proceedings.mlr.press/v80/kim18d.html",
-    "Semi-Amortized Variational Autoencoders": "https://proceedings.mlr.press/v80/kim18e.html",
-    "Neural Relational Inference for Interacting Systems": "https://proceedings.mlr.press/v80/kipf18a.html",
-    "An Alternative View: When Does SGD Escape Local Minima?": "https://proceedings.mlr.press/v80/kleinberg18a.html",
-    "Crowdsourcing with Arbitrary Adversaries": "https://proceedings.mlr.press/v80/kleindessner18a.html",
-    "Spatio-temporal Bayesian On-line Changepoint Detection with Model Selection": "https://proceedings.mlr.press/v80/knoblauch18a.html",
-    "Fast Gradient-Based Methods with Exponential Rate: A Hybrid Control Framework": "https://proceedings.mlr.press/v80/kolarijani18a.html",
-    "Nonconvex Optimization for Regression with Fairness Constraints": "https://proceedings.mlr.press/v80/komiyama18a.html",
-    "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups": "https://proceedings.mlr.press/v80/kondor18a.html",
-    "Compiling Combinatorial Prediction Games": "https://proceedings.mlr.press/v80/koriche18a.html",
-    "Dynamic Evaluation of Neural Sequence Models": "https://proceedings.mlr.press/v80/krause18a.html",
-    "Semiparametric Contextual Bandits": "https://proceedings.mlr.press/v80/krishnamurthy18a.html",
-    "Fast Maximization of Non-Submodular, Monotonic Functions on the Integer Lattice": "https://proceedings.mlr.press/v80/kuhnle18a.html",
-    "Accurate Uncertainties for Deep Learning Using Calibrated Regression": "https://proceedings.mlr.press/v80/kuleshov18a.html",
-    "Trainable Calibration Measures for Neural Networks from Kernel Mean Embeddings": "https://proceedings.mlr.press/v80/kumar18a.html",
-    "Data-Dependent Stability of Stochastic Gradient Descent": "https://proceedings.mlr.press/v80/kuzborskij18a.html",
-    "Explicit Inductive Bias for Transfer Learning with Convolutional Networks": "https://proceedings.mlr.press/v80/li18a.html",
-    "Understanding the Loss Surface of Neural Networks for Binary Classification": "https://proceedings.mlr.press/v80/liang18a.html",
-    "Mixed batches and symmetric discriminators for GAN training": "https://proceedings.mlr.press/v80/lucas18a.html",
-    "Binary Partitions with Approximate Minimum Impurity": "https://proceedings.mlr.press/v80/laber18a.html",
-    "Canonical Tensor Decomposition for Knowledge Base Completion": "https://proceedings.mlr.press/v80/lacroix18a.html",
-    "Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks": "https://proceedings.mlr.press/v80/lake18a.html",
-    "An Estimation and Analysis Framework for the Rasch Model": "https://proceedings.mlr.press/v80/lan18a.html",
-    "Partial Optimality and Fast Lower Bounds for Weighted Correlation Clustering": "https://proceedings.mlr.press/v80/lange18a.html",
-    "Deep Linear Networks with Arbitrary Loss: All Local Minima Are Global": "https://proceedings.mlr.press/v80/laurent18a.html",
-    "The Multilinear Structure of ReLU Networks": "https://proceedings.mlr.press/v80/laurent18b.html",
-    "Hierarchical Imitation and Reinforcement Learning": "https://proceedings.mlr.press/v80/le18a.html",
-    "Gradient-Based Meta-Learning with Learned Layerwise Metric and Subspace": "https://proceedings.mlr.press/v80/lee18a.html",
-    "Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling": "https://proceedings.mlr.press/v80/lee18b.html",
-    "Gated Path Planning Networks": "https://proceedings.mlr.press/v80/lee18c.html",
-    "Deep Asymmetric Multi-task Feature Learning": "https://proceedings.mlr.press/v80/lee18d.html",
-    "Noise2Noise: Learning Image Restoration without Clean Data": "https://proceedings.mlr.press/v80/lehtinen18a.html",
-    "Out-of-sample extension of graph adjacency spectral embedding": "https://proceedings.mlr.press/v80/levin18a.html",
-    "An Optimal Control Approach to Deep Learning and Applications to Discrete-Weight Neural Networks": "https://proceedings.mlr.press/v80/li18b.html",
-    "Towards Binary-Valued Gates for Robust LSTM Training": "https://proceedings.mlr.press/v80/li18c.html",
-    "On the Limitations of First-Order Approximation in GAN Dynamics": "https://proceedings.mlr.press/v80/li18d.html",
-    "Submodular Hypergraphs: p-Laplacians, Cheeger Inequalities and Spectral Clustering": "https://proceedings.mlr.press/v80/li18e.html",
-    "The Well-Tempered Lasso": "https://proceedings.mlr.press/v80/li18f.html",
-    "Estimation of Markov Chain via Rank-Constrained Likelihood": "https://proceedings.mlr.press/v80/li18g.html",
-    "Asynchronous Decentralized Parallel Stochastic Gradient Descent": "https://proceedings.mlr.press/v80/lian18a.html",
-    "RLlib: Abstractions for Distributed Reinforcement Learning": "https://proceedings.mlr.press/v80/liang18b.html",
-    "On the Spectrum of Random Features Maps of High Dimensional Data": "https://proceedings.mlr.press/v80/liao18a.html",
-    "The Dynamics of Learning: A Random Matrix Approach": "https://proceedings.mlr.press/v80/liao18b.html",
-    "Reviving and Improving Recurrent Back-Propagation": "https://proceedings.mlr.press/v80/liao18c.html",
-    "Optimal Distributed Learning with Multi-pass Stochastic Gradient Methods": "https://proceedings.mlr.press/v80/lin18a.html",
-    "Optimal Rates of Sketched-regularized Algorithms for Least-Squares Regression over Hilbert Spaces": "https://proceedings.mlr.press/v80/lin18b.html",
-    "Level-Set Methods for Finite-Sum Constrained Convex Optimization": "https://proceedings.mlr.press/v80/lin18c.html",
-    "Detecting and Correcting for Label Shift with Black Box Predictors": "https://proceedings.mlr.press/v80/lipton18a.html",
-    "Generalized Robust Bayesian Committee Machine for Large-scale Gaussian Process Regression": "https://proceedings.mlr.press/v80/liu18a.html",
-    "Towards Black-box Iterative Machine Teaching": "https://proceedings.mlr.press/v80/liu18b.html",
-    "Delayed Impact of Fair Machine Learning": "https://proceedings.mlr.press/v80/liu18c.html",
-    "A Two-Step Computation of the Exact GAN Wasserstein Distance": "https://proceedings.mlr.press/v80/liu18d.html",
-    "Open Category Detection with PAC Guarantees": "https://proceedings.mlr.press/v80/liu18e.html",
-    "Fast Variance Reduction Method with Stochastic Batch Size": "https://proceedings.mlr.press/v80/liu18f.html",
-    "Fast Stochastic AUC Maximization with $O(1/n)$-Convergence Rate": "https://proceedings.mlr.press/v80/liu18g.html",
-    "On Matching Pursuit and Coordinate Descent": "https://proceedings.mlr.press/v80/locatello18a.html",
-    "PDE-Net: Learning PDEs from Data": "https://proceedings.mlr.press/v80/long18a.html",
-    "Error Estimation for Randomized Least-Squares Algorithms via the Bootstrap": "https://proceedings.mlr.press/v80/lopes18a.html",
-    "Constraining the Dynamics of Deep Probabilistic Models": "https://proceedings.mlr.press/v80/lorenzi18a.html",
-    "Spectrally Approximating Large Graphs with Smaller Graphs": "https://proceedings.mlr.press/v80/loukas18a.html",
-    "The Edge Density Barrier: Computational-Statistical Tradeoffs in Combinatorial Inference": "https://proceedings.mlr.press/v80/lu18a.html",
-    "Accelerating Greedy Coordinate Descent Methods": "https://proceedings.mlr.press/v80/lu18b.html",
-    "Structured Variationally Auto-encoded Optimization": "https://proceedings.mlr.press/v80/lu18c.html",
-    "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations": "https://proceedings.mlr.press/v80/lu18d.html",
-    "End-to-end Active Object Tracking via Reinforcement Learning": "https://proceedings.mlr.press/v80/luo18a.html",
-    "Competitive Caching with Machine Learned Advice": "https://proceedings.mlr.press/v80/lykouris18a.html",
-    "Batch Bayesian Optimization via Multi-objective Acquisition Ensemble for Automated Analog Circuit Design": "https://proceedings.mlr.press/v80/lyu18a.html",
-    "Celer: a Fast Solver for the Lasso with Dual Extrapolation": "https://proceedings.mlr.press/v80/massias18a.html",
-    "The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning": "https://proceedings.mlr.press/v80/ma18a.html",
-    "Gradient Descent for Sparse Rank-One Matrix Completion for Crowd-Sourced Aggregation of Sparsely Interacting Workers": "https://proceedings.mlr.press/v80/ma18b.html",
-    "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval and Matrix Completion": "https://proceedings.mlr.press/v80/ma18c.html",
-    "Dimensionality-Driven Learning with Noisy Labels": "https://proceedings.mlr.press/v80/ma18d.html",
-    "Approximate message passing for amplitude based optimization": "https://proceedings.mlr.press/v80/ma18e.html",
-    "Orthogonal Machine Learning: Power and Limitations": "https://proceedings.mlr.press/v80/mackey18a.html",
-    "Learning Adversarially Fair and Transferable Representations": "https://proceedings.mlr.press/v80/madras18a.html",
-    "An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning": "https://proceedings.mlr.press/v80/malik18a.html",
-    "Iterative Amortized Inference": "https://proceedings.mlr.press/v80/marino18a.html",
-    "Streaming Principal Component Analysis in Noisy Setting": "https://proceedings.mlr.press/v80/marinov18a.html",
-    "Fast Approximate Spectral Clustering for Dynamic Networks": "https://proceedings.mlr.press/v80/martin18a.html",
-    "Bayesian Model Selection for Change Point Detection and Clustering": "https://proceedings.mlr.press/v80/mazhar18a.html",
-    "Optimization, fast and slow: optimally switching between local and Bayesian optimization": "https://proceedings.mlr.press/v80/mcleod18a.html",
-    "Bounds on the Approximation Power of Feedforward Neural Networks": "https://proceedings.mlr.press/v80/mehrabi18a.html",
-    "Differentiable Dynamic Programming for Structured Prediction and Attention": "https://proceedings.mlr.press/v80/mensch18a.html",
-    "Ranking Distributions based on Noisy Sorting": "https://proceedings.mlr.press/v80/mesaoudi-paul18a.html",
-    "Which Training Methods for GANs do actually Converge?": "https://proceedings.mlr.press/v80/mescheder18a.html",
-    "Configurable Markov Decision Processes": "https://proceedings.mlr.press/v80/metelli18a.html",
-    "prDeep: Robust Phase Retrieval with a Flexible Deep Network": "https://proceedings.mlr.press/v80/metzler18a.html",
-    "Pseudo-task Augmentation: From Deep Multitask Learning to Intratask Sharing—and Back": "https://proceedings.mlr.press/v80/meyerson18a.html",
-    "The Hidden Vulnerability of Distributed Learning in Byzantium": "https://proceedings.mlr.press/v80/mhamdi18a.html",
-    "Stochastic PCA with $\\ell_2$ and $\\ell_1$ Regularization": "https://proceedings.mlr.press/v80/mianjy18a.html",
-    "On the Implicit Bias of Dropout": "https://proceedings.mlr.press/v80/mianjy18b.html",
-    "One-Shot Segmentation in Clutter": "https://proceedings.mlr.press/v80/michaelis18a.html",
-    "Differentiable plasticity: training plastic neural networks with backpropagation": "https://proceedings.mlr.press/v80/miconi18a.html",
-    "Training Neural Machines with Trace-Based Supervision": "https://proceedings.mlr.press/v80/mirman18a.html",
-    "Differentiable Abstract Interpretation for Provably Robust Neural Networks": "https://proceedings.mlr.press/v80/mirman18b.html",
-    "A Delay-tolerant Proximal-Gradient Algorithm for Distributed Learning": "https://proceedings.mlr.press/v80/mishchenko18a.html",
-    "Data Summarization at Scale: A Two-Stage Submodular Approach": "https://proceedings.mlr.press/v80/mitrovic18a.html",
-    "The Hierarchical Adaptive Forgetting Variational Filter": "https://proceedings.mlr.press/v80/moens18a.html",
-    "Decentralized Submodular Maximization: Bridging Discrete and Continuous Settings": "https://proceedings.mlr.press/v80/mokhtari18a.html",
-    "DICOD: Distributed Convolutional Coordinate Descent for Convolutional Sparse Coding": "https://proceedings.mlr.press/v80/moreau18a.html",
-    "WHInter: A Working set algorithm for High-dimensional sparse second order Interaction models": "https://proceedings.mlr.press/v80/morvan18a.html",
-    "Dropout Training, Data-dependent Regularization, and Generalization Bounds": "https://proceedings.mlr.press/v80/mou18a.html",
-    "Kernelized Synaptic Weight Matrices": "https://proceedings.mlr.press/v80/muller18a.html",
-    "Rapid Adaptation with Conditionally Shifted Neurons": "https://proceedings.mlr.press/v80/munkhdalai18a.html",
-    "On the Relationship between Data Efficiency and Error for Uncertainty Sampling": "https://proceedings.mlr.press/v80/mussmann18a.html",
-    "Fitting New Speakers Based on a Short Untranscribed Sample": "https://proceedings.mlr.press/v80/nachmani18a.html",
-    "Smoothed Action Value Functions for Learning Gaussian Policies": "https://proceedings.mlr.press/v80/nachum18a.html",
-    "Nearly Optimal Robust Subspace Tracking": "https://proceedings.mlr.press/v80/narayanamurthy18a.html",
-    "Stochastic Proximal Algorithms for AUC Maximization": "https://proceedings.mlr.press/v80/natole18a.html",
-    "Mitigating Bias in Adaptive Data Gathering via Differential Privacy": "https://proceedings.mlr.press/v80/neel18a.html",
-    "Optimization Landscape and Expressivity of Deep CNNs": "https://proceedings.mlr.press/v80/nguyen18a.html",
-    "Neural Networks Should Be Wide Enough to Learn Disconnected Decision Regions": "https://proceedings.mlr.press/v80/nguyen18b.html",
-    "SGD and Hogwild! Convergence Without the Bounded Gradients Assumption": "https://proceedings.mlr.press/v80/nguyen18c.html",
-    "Active Testing: An Efficient and Robust Framework for Estimating Accuracy": "https://proceedings.mlr.press/v80/nguyen18d.html",
-    "On Learning Sparsely Used Dictionaries from Incomplete Samples": "https://proceedings.mlr.press/v80/nguyen18e.html",
-    "Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry": "https://proceedings.mlr.press/v80/nickel18a.html",
-    "State Space Gaussian Processes with Non-Gaussian Likelihood": "https://proceedings.mlr.press/v80/nickisch18a.html",
-    "SparseMAP: Differentiable Sparse Structured Inference": "https://proceedings.mlr.press/v80/niculae18a.html",
-    "A Theoretical Explanation for Perplexing Behaviors of Backpropagation-based Visualizations": "https://proceedings.mlr.press/v80/nie18a.html",
-    "Functional Gradient Boosting based on Residual Network Perception": "https://proceedings.mlr.press/v80/nitanda18a.html",
-    "Beyond 1/2-Approximation for Submodular Maximization on Massive Data Streams": "https://proceedings.mlr.press/v80/norouzi-fard18a.html",
-    "The Uncertainty Bellman Equation and Exploration": "https://proceedings.mlr.press/v80/odonoghue18a.html",
-    "Is Generator Conditioning Causally Related to GAN Performance?": "https://proceedings.mlr.press/v80/odena18a.html",
-    "Learning in Reproducing Kernel Kreı̆n Spaces": "https://proceedings.mlr.press/v80/oglic18a.html",
-    "BOCK : Bayesian Optimization with Cylindrical Kernels": "https://proceedings.mlr.press/v80/oh18a.html",
-    "Self-Imitation Learning": "https://proceedings.mlr.press/v80/oh18b.html",
-    "A probabilistic framework for multi-view feature learning with many-to-many associations via neural networks": "https://proceedings.mlr.press/v80/okuno18a.html",
-    "Transformation Autoregressive Networks": "https://proceedings.mlr.press/v80/oliva18a.html",
-    "Design of Experiments for Model Discrimination Hybridising Analytical and Data-Driven Approaches": "https://proceedings.mlr.press/v80/olofsson18a.html",
-    "Parallel WaveNet: Fast High-Fidelity Speech Synthesis": "https://proceedings.mlr.press/v80/oord18a.html",
-    "Learning Localized Spatio-Temporal Models From Streaming Data": "https://proceedings.mlr.press/v80/osama18a.html",
-    "Autoregressive Quantile Networks for Generative Modeling": "https://proceedings.mlr.press/v80/ostrovski18a.html",
-    "Efficient First-Order Algorithms for Adaptive Signal Denoising": "https://proceedings.mlr.press/v80/ostrovskii18a.html",
-    "Analyzing Uncertainty in Neural Machine Translation": "https://proceedings.mlr.press/v80/ott18a.html",
-    "Learning Compact Neural Networks with Regularization": "https://proceedings.mlr.press/v80/oymak18a.html",
-    "Tree Edit Distance Learning via Adaptive Symbol Embeddings": "https://proceedings.mlr.press/v80/paassen18a.html",
-    "Reinforcement Learning with Function-Valued Action Spaces for Partial Differential Equation Control": "https://proceedings.mlr.press/v80/pan18a.html",
-    "Learning to Speed Up Structured Output Prediction": "https://proceedings.mlr.press/v80/pan18b.html",
-    "Theoretical Analysis of Image-to-Image Translation with Adversarial Learning": "https://proceedings.mlr.press/v80/pan18c.html",
-    "Max-Mahalanobis Linear Discriminant Analysis Networks": "https://proceedings.mlr.press/v80/pang18a.html",
-    "Stochastic Variance-Reduced Policy Gradient": "https://proceedings.mlr.press/v80/papini18a.html",
-    "Learning Independent Causal Mechanisms": "https://proceedings.mlr.press/v80/parascandolo18a.html",
-    "Time Limits in Reinforcement Learning": "https://proceedings.mlr.press/v80/pardo18a.html",
-    "Image Transformer": "https://proceedings.mlr.press/v80/parmar18a.html",
-    "PIPPS: Flexible Model-Based Policy Search Robust to the Curse of Chaos": "https://proceedings.mlr.press/v80/parmas18a.html",
-    "High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach": "https://proceedings.mlr.press/v80/pearce18a.html",
-    "Adaptive Three Operator Splitting": "https://proceedings.mlr.press/v80/pedregosa18a.html",
-    "Efficient Neural Architecture Search via Parameters Sharing": "https://proceedings.mlr.press/v80/pham18a.html",
-    "Bandits with Delayed, Aggregated Anonymous Feedback": "https://proceedings.mlr.press/v80/pike-burke18a.html",
-    "Constant-Time Predictive Distributions for Gaussian Processes": "https://proceedings.mlr.press/v80/pleiss18a.html",
-    "Local Convergence Properties of SAGA/Prox-SVRG and Acceleration": "https://proceedings.mlr.press/v80/poon18a.html",
-    "Equivalence of Multicategory SVM and Simplex Cone SVM: Fast Computations and Statistical Theory": "https://proceedings.mlr.press/v80/pouliot18a.html",
-    "Learning Dynamics of Linear Denoising Autoencoders": "https://proceedings.mlr.press/v80/pretorius18a.html",
-    "JointGAN: Multi-Domain Joint Distribution Learning with Generative Adversarial Nets": "https://proceedings.mlr.press/v80/pu18a.html",
-    "Selecting Representative Examples for Program Synthesis": "https://proceedings.mlr.press/v80/pu18b.html",
-    "Generalized Earley Parser: Bridging Symbolic Grammars and Sequence Data for Future Prediction": "https://proceedings.mlr.press/v80/qi18a.html",
-    "Do Outliers Ruin Collaboration?": "https://proceedings.mlr.press/v80/qiao18a.html",
-    "Gradually Updated Neural Networks for Large-Scale Image Recognition": "https://proceedings.mlr.press/v80/qiao18b.html",
-    "DCFNet: Deep Neural Network with Decomposed Convolutional Filters": "https://proceedings.mlr.press/v80/qiu18a.html",
-    "Non-convex Conditional Gradient Sliding": "https://proceedings.mlr.press/v80/qu18a.html",
-    "Machine Theory of Mind": "https://proceedings.mlr.press/v80/rabinowitz18a.html",
-    "Fast Parametric Learning with Activation Memorization": "https://proceedings.mlr.press/v80/rae18a.html",
-    "Can Deep Reinforcement Learning Solve Erdos-Selfridge-Spencer Games?": "https://proceedings.mlr.press/v80/raghu18a.html",
-    "Cut-Pursuit Algorithm for Regularizing Nonsmooth Functionals with Graph Total Variation": "https://proceedings.mlr.press/v80/raguet18a.html",
-    "Modeling Others using Oneself in Multi-Agent Reinforcement Learning": "https://proceedings.mlr.press/v80/raileanu18a.html",
-    "On Nesting Monte Carlo Estimators": "https://proceedings.mlr.press/v80/rainforth18a.html",
-    "Tighter Variational Bounds are Not Necessarily Better": "https://proceedings.mlr.press/v80/rainforth18b.html",
-    "SAFFRON: an Adaptive Algorithm for Online Control of the False Discovery Rate": "https://proceedings.mlr.press/v80/ramdas18a.html",
-    "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning": "https://proceedings.mlr.press/v80/rashid18a.html",
-    "Gradient Coding from Cyclic MDS Codes and Expander Graphs": "https://proceedings.mlr.press/v80/raviv18a.html",
-    "Learning Implicit Generative Models with the Method of Learned Moments": "https://proceedings.mlr.press/v80/ravuri18a.html",
-    "Weightless: Lossy weight encoding for deep neural network compression": "https://proceedings.mlr.press/v80/reagan18a.html",
-    "Learning to Reweight Examples for Robust Deep Learning": "https://proceedings.mlr.press/v80/ren18a.html",
-    "Learning by Playing Solving Sparse Reward Tasks from Scratch": "https://proceedings.mlr.press/v80/riedmiller18a.html",
-    "Been There, Done That: Meta-Learning with Episodic Recall": "https://proceedings.mlr.press/v80/ritter18a.html",
-    "A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music": "https://proceedings.mlr.press/v80/roberts18a.html",
-    "Learning to Optimize Combinatorial Functions": "https://proceedings.mlr.press/v80/rosenfeld18a.html",
-    "Fast Information-theoretic Bayesian Optimisation": "https://proceedings.mlr.press/v80/ru18a.html",
-    "Deep One-Class Classification": "https://proceedings.mlr.press/v80/ruff18a.html",
-    "Augment and Reduce: Stochastic Inference for Large Categorical Distributions": "https://proceedings.mlr.press/v80/ruiz18a.html",
-    "Probabilistic Boolean Tensor Decomposition": "https://proceedings.mlr.press/v80/rukat18a.html",
-    "Black-Box Variational Inference for Stochastic Differential Equations": "https://proceedings.mlr.press/v80/ryder18a.html",
-    "Spurious Local Minima are Common in Two-Layer ReLU Neural Networks": "https://proceedings.mlr.press/v80/safran18a.html",
-    "Learning Equations for Extrapolation and Control": "https://proceedings.mlr.press/v80/sahoo18a.html",
-    "Tempered Adversarial Networks": "https://proceedings.mlr.press/v80/sajjadi18a.html",
-    "Representation Tradeoffs for Hyperbolic Embeddings": "https://proceedings.mlr.press/v80/sala18a.html",
-    "Graph Networks as Learnable Physics Engines for Inference and Control": "https://proceedings.mlr.press/v80/sanchez-gonzalez18a.html",
-    "A Classification-Based Study of Covariate Shift in GAN Distributions": "https://proceedings.mlr.press/v80/santurkar18a.html",
-    "TAPAS: Tricks to Accelerate (encrypted) Prediction As a Service": "https://proceedings.mlr.press/v80/sanyal18a.html",
-    "Tight Regret Bounds for Bayesian Optimization in One Dimension": "https://proceedings.mlr.press/v80/scarlett18a.html",
-    "Learning with Abandonment": "https://proceedings.mlr.press/v80/schmit18a.html",
-    "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care": "https://proceedings.mlr.press/v80/schwab18a.html",
-    "Progress & Compress: A scalable framework for continual learning": "https://proceedings.mlr.press/v80/schwarz18a.html",
-    "Multi-Fidelity Black-Box Optimization with Hierarchical Partitions": "https://proceedings.mlr.press/v80/sen18a.html",
-    "Overcoming Catastrophic Forgetting with Hard Attention to the Task": "https://proceedings.mlr.press/v80/serra18a.html",
-    "Bounding and Counting Linear Regions of Deep Neural Networks": "https://proceedings.mlr.press/v80/serra18b.html",
-    "First Order Generative Adversarial Networks": "https://proceedings.mlr.press/v80/seward18a.html",
-    "Finding Influential Training Samples for Gradient Boosted Decision Trees": "https://proceedings.mlr.press/v80/sharchilev18a.html",
-    "Solving Partial Assignment Problems using Random Clique Complexes": "https://proceedings.mlr.press/v80/sharma18a.html",
-    "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost": "https://proceedings.mlr.press/v80/shazeer18a.html",
-    "Locally Private Hypothesis Testing": "https://proceedings.mlr.press/v80/sheffet18a.html",
-    "Learning in Integer Latent Variable Models with Nested Automatic Differentiation": "https://proceedings.mlr.press/v80/sheldon18a.html",
-    "Towards More Efficient Stochastic Decentralized Learning: Faster Convergence and Sparse Communication": "https://proceedings.mlr.press/v80/shen18a.html",
-    "An Algorithmic Framework of Variable Metric Over-Relaxed Hybrid Proximal Extra-Gradient Method": "https://proceedings.mlr.press/v80/shen18b.html",
-    "A Spectral Approach to Gradient Estimation for Implicit Distributions": "https://proceedings.mlr.press/v80/shi18a.html",
-    "TACO: Learning Task Decomposition via Temporal Alignment for Control": "https://proceedings.mlr.press/v80/shiarlis18a.html",
-    "CRAFTML, an Efficient Clustering-based Random Forest for Extreme Multi-label Learning": "https://proceedings.mlr.press/v80/siblini18a.html",
-    "Asynchronous Stochastic Quasi-Newton MCMC for Non-Convex Optimization": "https://proceedings.mlr.press/v80/simsekli18a.html",
-    "K-means clustering using random matrix sparsification": "https://proceedings.mlr.press/v80/sinha18a.html",
-    "Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron": "https://proceedings.mlr.press/v80/skerry-ryan18a.html",
-    "An Inference-Based Policy Gradient Method for Learning Options": "https://proceedings.mlr.press/v80/smith18a.html",
-    "Accelerating Natural Gradient with Higher-Order Invariance": "https://proceedings.mlr.press/v80/song18a.html",
-    "Knowledge Transfer with Jacobian Matching": "https://proceedings.mlr.press/v80/srinivas18a.html",
-    "Universal Planning Networks: Learning Generalizable Representations for Visuomotor Control": "https://proceedings.mlr.press/v80/srinivas18b.html",
-    "Structured Control Nets for Deep Reinforcement Learning": "https://proceedings.mlr.press/v80/srouji18a.html",
-    "Approximation Algorithms for Cascading Prediction Models": "https://proceedings.mlr.press/v80/streeter18a.html",
-    "Learning Low-Dimensional Temporal Representations": "https://proceedings.mlr.press/v80/su18a.html",
-    "Exploiting the Potential of Standard Convolutional Autoencoders for Image Restoration by Evolutionary Search": "https://proceedings.mlr.press/v80/suganuma18a.html",
-    "Stagewise Safe Bayesian Optimization with Gaussian Processes": "https://proceedings.mlr.press/v80/sui18a.html",
-    "Neural Program Synthesis from Diverse Demonstration Videos": "https://proceedings.mlr.press/v80/sun18a.html",
-    "Scalable approximate Bayesian inference for particle tracking data": "https://proceedings.mlr.press/v80/sun18b.html",
-    "Graphical Nonconvex Optimization via an Adaptive Convex Relaxation": "https://proceedings.mlr.press/v80/sun18c.html",
-    "Convolutional Imputation of Matrix Networks": "https://proceedings.mlr.press/v80/sun18d.html",
-    "Differentiable Compositional Kernel Learning for Gaussian Processes": "https://proceedings.mlr.press/v80/sun18e.html",
-    "Learning the Reward Function for a Misspecified Model": "https://proceedings.mlr.press/v80/talvitie18a.html",
-    "$D^2$: Decentralized Training over Decentralized Data": "https://proceedings.mlr.press/v80/tang18a.html",
-    "Neural Inverse Rendering for General Reflectance Photometric Stereo": "https://proceedings.mlr.press/v80/taniai18a.html",
-    "Black Box FDR": "https://proceedings.mlr.press/v80/tansey18a.html",
-    "Best Arm Identification in Linear Bandits with Linear Dimension Dependency": "https://proceedings.mlr.press/v80/tao18a.html",
-    "Chi-square Generative Adversarial Network": "https://proceedings.mlr.press/v80/tao18b.html",
-    "Lyapunov Functions for First-Order Methods: Tight Automated Convergence Guarantees": "https://proceedings.mlr.press/v80/taylor18a.html",
-    "Bayesian Uncertainty Estimation for Batch Normalized Deep Networks": "https://proceedings.mlr.press/v80/teye18a.html",
-    "Decoupling Gradient-Like Learning Rules from Representations": "https://proceedings.mlr.press/v80/thomas18a.html",
-    "CoVeR: Learning Covariate-Specific Vector Representations with Tensor Decompositions": "https://proceedings.mlr.press/v80/tian18a.html",
-    "Importance Weighted Transfer of Samples in Reinforcement Learning": "https://proceedings.mlr.press/v80/tirinzoni18a.html",
-    "Adversarial Regression with Multiple Learners": "https://proceedings.mlr.press/v80/tong18a.html",
-    "Convergent Tree Backup and Retrace with Function Approximation": "https://proceedings.mlr.press/v80/touati18a.html",
-    "Learning Longer-term Dependencies in RNNs with Auxiliary Losses": "https://proceedings.mlr.press/v80/trinh18a.html",
-    "Theoretical Analysis of Sparse Subspace Clustering with Missing Entries": "https://proceedings.mlr.press/v80/tsakiris18a.html",
-    "StrassenNets: Deep Learning with a Multiplication Budget": "https://proceedings.mlr.press/v80/tschannen18a.html",
-    "Invariance of Weight Distributions in Rectified MLPs": "https://proceedings.mlr.press/v80/tsuchida18a.html",
-    "Least-Squares Temporal Difference Learning for the Linear Quadratic Regulator": "https://proceedings.mlr.press/v80/tu18a.html",
-    "The Mirage of Action-Dependent Baselines in Reinforcement Learning": "https://proceedings.mlr.press/v80/tucker18a.html",
-    "Adversarial Risk and the Dangers of Evaluating Against Weak Attacks": "https://proceedings.mlr.press/v80/uesato18a.html",
-    "DVAE++: Discrete Variational Autoencoders with Overlapping Transformations": "https://proceedings.mlr.press/v80/vahdat18a.html",
-    "Programmatically Interpretable Reinforcement Learning": "https://proceedings.mlr.press/v80/verma18a.html",
-    "Clustering Semi-Random Mixtures of Gaussians": "https://proceedings.mlr.press/v80/vijayaraghavan18a.html",
-    "A Probabilistic Theory of Supervised Similarity Learning for Pointwise ROC Curve Optimization": "https://proceedings.mlr.press/v80/vogel18a.html",
-    "Hierarchical Multi-Label Classification Networks": "https://proceedings.mlr.press/v80/wehrmann18a.html",
-    "Transfer Learning via Learning to Transfer": "https://proceedings.mlr.press/v80/wei18a.html",
-    "Semi-Supervised Learning on Data Streams via Temporal Label Propagation": "https://proceedings.mlr.press/v80/wagner18a.html",
-    "Neural Dynamic Programming for Musical Self Similarity": "https://proceedings.mlr.press/v80/walder18a.html",
-    "Thompson Sampling for Combinatorial Semi-Bandits": "https://proceedings.mlr.press/v80/wang18a.html",
-    "PredRNN++: Towards A Resolution of the Deep-in-Time Dilemma in Spatiotemporal Predictive Learning": "https://proceedings.mlr.press/v80/wang18b.html",
-    "Analyzing the Robustness of Nearest Neighbors to Adversarial Examples": "https://proceedings.mlr.press/v80/wang18c.html",
-    "Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations": "https://proceedings.mlr.press/v80/wang18d.html",
-    "Coded Sparse Matrix Multiplication": "https://proceedings.mlr.press/v80/wang18e.html",
-    "A Fast and Scalable Joint Estimator for Integrating Additional Knowledge in Learning Multiple Related Sparse Gaussian Graphical Models": "https://proceedings.mlr.press/v80/wang18f.html",
-    "Provable Variable Selection for Streaming Features": "https://proceedings.mlr.press/v80/wang18g.html",
-    "Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis": "https://proceedings.mlr.press/v80/wang18h.html",
-    "Adversarial Distillation of Bayesian Neural Network Posteriors": "https://proceedings.mlr.press/v80/wang18i.html",
-    "Minimax Concave Penalized Multi-Armed Bandit Model with High-Dimensional Covariates": "https://proceedings.mlr.press/v80/wang18j.html",
-    "Online Convolutional Sparse Coding with Sample-Dependent Dictionary": "https://proceedings.mlr.press/v80/wang18k.html",
-    "Stein Variational Message Passing for Continuous Graphical Models": "https://proceedings.mlr.press/v80/wang18l.html",
-    "Approximate Leave-One-Out for Fast Parameter Tuning in High Dimensions": "https://proceedings.mlr.press/v80/wang18m.html",
-    "Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks": "https://proceedings.mlr.press/v80/weinshall18a.html",
-    "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples": "https://proceedings.mlr.press/v80/weiss18a.html",
-    "LeapsAndBounds: A Method for Approximately Optimal Algorithm Configuration": "https://proceedings.mlr.press/v80/weisz18a.html",
-    "Deep Predictive Coding Network for Object Recognition": "https://proceedings.mlr.press/v80/wen18a.html",
-    "Towards Fast Computation of Certified Robustness for ReLU Networks": "https://proceedings.mlr.press/v80/weng18a.html",
-    "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope": "https://proceedings.mlr.press/v80/wong18a.html",
-    "Local Density Estimation in High Dimensions": "https://proceedings.mlr.press/v80/wu18a.html",
-    "Adaptive Exploration-Exploitation Tradeoff for Opportunistic Bandits": "https://proceedings.mlr.press/v80/wu18b.html",
-    "SQL-Rank: A Listwise Approach to Collaborative Ranking": "https://proceedings.mlr.press/v80/wu18c.html",
-    "Error Compensated Quantized SGD and its Applications to Large-scale Distributed Optimization": "https://proceedings.mlr.press/v80/wu18d.html",
-    "Reinforcing Adversarial Robustness using Model Confidence Induced by Adversarial Training": "https://proceedings.mlr.press/v80/wu18e.html",
-    "Discrete-Continuous Mixtures in Probabilistic Programming: Generalized Semantics and Inference Algorithms": "https://proceedings.mlr.press/v80/wu18f.html",
-    "Variance Regularized Counterfactual Risk Minimization via Variational Divergence Minimization": "https://proceedings.mlr.press/v80/wu18g.html",
-    "Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster Assignments for Compressing Deep Convolutions": "https://proceedings.mlr.press/v80/wu18h.html",
-    "Bayesian Quadrature for Multiple Related Integrals": "https://proceedings.mlr.press/v80/xi18a.html",
-    "Model-Level Dual Learning": "https://proceedings.mlr.press/v80/xia18a.html",
-    "Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks": "https://proceedings.mlr.press/v80/xiao18a.html",
-    "Orthogonality-Promoting Distance Metric Learning: Convex Relaxation and Theoretical Analysis": "https://proceedings.mlr.press/v80/xie18a.html",
-    "Nonoverlap-Promoting Variable Selection": "https://proceedings.mlr.press/v80/xie18b.html",
-    "Learning Semantic Representations for Unsupervised Domain Adaptation": "https://proceedings.mlr.press/v80/xie18c.html",
-    "Rates of Convergence of Spectral Methods for Graphon Estimation": "https://proceedings.mlr.press/v80/xu18a.html",
-    "Learning Registered Point Processes from Idiosyncratic Observations": "https://proceedings.mlr.press/v80/xu18b.html",
-    "Representation Learning on Graphs with Jumping Knowledge Networks": "https://proceedings.mlr.press/v80/xu18c.html",
-    "Learning to Explore via Meta-Policy Gradient": "https://proceedings.mlr.press/v80/xu18d.html",
-    "Nonparametric Regression with Comparisons: Escaping the Curse of Dimensionality with Ordinal Information": "https://proceedings.mlr.press/v80/xu18e.html",
-    "Optimal Tuning for Divide-and-conquer Kernel Ridge Regression with Massive Data": "https://proceedings.mlr.press/v80/xu18f.html",
-    "Continuous and Discrete-time Accelerated Stochastic Mirror Descent for Strongly Convex Functions": "https://proceedings.mlr.press/v80/xu18g.html",
-    "A Semantic Loss Function for Deep Learning with Symbolic Knowledge": "https://proceedings.mlr.press/v80/xu18h.html",
-    "Causal Bandits with Propagating Inference": "https://proceedings.mlr.press/v80/yabe18a.html",
-    "Active Learning with Logged Data": "https://proceedings.mlr.press/v80/yan18a.html",
-    "Binary Classification with Karmic, Threshold-Quasi-Concave Metrics": "https://proceedings.mlr.press/v80/yan18b.html",
-    "Characterizing and Learning Equivalence Classes of Causal DAGs under Interventions": "https://proceedings.mlr.press/v80/yang18a.html",
-    "Dependent Relational Gamma Process Models for Longitudinal Networks": "https://proceedings.mlr.press/v80/yang18b.html",
-    "Goodness-of-Fit Testing for Discrete Distributions via Stein Discrepancy": "https://proceedings.mlr.press/v80/yang18c.html",
-    "Mean Field Multi-Agent Reinforcement Learning": "https://proceedings.mlr.press/v80/yang18d.html",
-    "Yes, but Did It Work?: Evaluating Variational Inference": "https://proceedings.mlr.press/v80/yao18a.html",
-    "Hierarchical Text Generation and Planning for Strategic Dialogue": "https://proceedings.mlr.press/v80/yarats18a.html",
-    "Massively Parallel Algorithms and Hardness for Single-Linkage Clustering under $\\ell_p$ Distances": "https://proceedings.mlr.press/v80/yaroslavtsev18a.html",
-    "Communication-Computation Efficient Gradient Coding": "https://proceedings.mlr.press/v80/ye18a.html",
-    "Variable Selection via Penalized Neural Network: a Drop-Out-One Loss Approach": "https://proceedings.mlr.press/v80/ye18b.html",
-    "Loss Decomposition for Fast Learning in Large Output Spaces": "https://proceedings.mlr.press/v80/yen18a.html",
-    "Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates": "https://proceedings.mlr.press/v80/yin18a.html",
-    "Semi-Implicit Variational Inference": "https://proceedings.mlr.press/v80/yin18b.html",
-    "Disentangled Sequential Autoencoder": "https://proceedings.mlr.press/v80/yingzhen18a.html",
-    "Probably Approximately Metric-Fair Learning": "https://proceedings.mlr.press/v80/yona18a.html",
-    "GAIN: Missing Data Imputation using Generative Adversarial Nets": "https://proceedings.mlr.press/v80/yoon18a.html",
-    "RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks": "https://proceedings.mlr.press/v80/yoon18b.html",
-    "GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models": "https://proceedings.mlr.press/v80/you18a.html",
-    "An Efficient Semismooth Newton based Algorithm for Convex Clustering": "https://proceedings.mlr.press/v80/yuan18a.html",
-    "A Conditional Gradient Framework for Composite Convex Minimization with Applications to Semidefinite Programming": "https://proceedings.mlr.press/v80/yurtsever18a.html",
-    "Policy Optimization as Wasserstein Gradient Flows": "https://proceedings.mlr.press/v80/zhang18a.html",
-    "Problem Dependent Reinforcement Learning Bounds Which Can Identify Bandit Structure in MDPs": "https://proceedings.mlr.press/v80/zanette18a.html",
-    "Fast and Sample Efficient Inductive Matrix Completion via Multi-Phase Procrustes Flow": "https://proceedings.mlr.press/v80/zhang18b.html",
-    "Large-Scale Sparse Inverse Covariance Estimation via Thresholding and Max-Det Matrix Completion": "https://proceedings.mlr.press/v80/zhang18c.html",
-    "High Performance Zero-Memory Overhead Direct Convolutions": "https://proceedings.mlr.press/v80/zhang18d.html",
-    "Safe Element Screening for Submodular Function Minimization": "https://proceedings.mlr.press/v80/zhang18e.html",
-    "Improving the Privacy and Accuracy of ADMM-Based Distributed Algorithms": "https://proceedings.mlr.press/v80/zhang18f.html",
-    "Stabilizing Gradients for Deep Neural Networks via Efficient SVD Parameterization": "https://proceedings.mlr.press/v80/zhang18g.html",
-    "Learning Long Term Dependencies via Fourier Recurrent Units": "https://proceedings.mlr.press/v80/zhang18h.html",
-    "Tropical Geometry of Deep Neural Networks": "https://proceedings.mlr.press/v80/zhang18i.html",
-    "Deep Bayesian Nonparametric Tracking": "https://proceedings.mlr.press/v80/zhang18j.html",
-    "Composable Planning with Attributes": "https://proceedings.mlr.press/v80/zhang18k.html",
-    "Noisy Natural Gradient as Variational Inference": "https://proceedings.mlr.press/v80/zhang18l.html",
-    "A Primal-Dual Analysis of Global Optimality in Nonconvex Low-Rank Matrix Recovery": "https://proceedings.mlr.press/v80/zhang18m.html",
-    "Fully Decentralized Multi-Agent Reinforcement Learning with Networked Agents": "https://proceedings.mlr.press/v80/zhang18n.html",
-    "Dynamic Regret of Strongly Adaptive Methods": "https://proceedings.mlr.press/v80/zhang18o.html",
-    "Inter and Intra Topic Structure Learning with Word Embeddings": "https://proceedings.mlr.press/v80/zhao18a.html",
-    "Adversarially Regularized Autoencoders": "https://proceedings.mlr.press/v80/zhao18b.html",
-    "MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning": "https://proceedings.mlr.press/v80/zhao18c.html",
-    "Composite Marginal Likelihood Methods for Random Utility Models": "https://proceedings.mlr.press/v80/zhao18d.html",
-    "Lightweight Stochastic Optimization for Minimizing Finite Sums with Infinite Data": "https://proceedings.mlr.press/v80/zheng18a.html",
-    "A Robust Approach to Sequential Information Theoretic Planning": "https://proceedings.mlr.press/v80/zheng18b.html",
-    "Revealing Common Statistical Behaviors in Heterogeneous Populations": "https://proceedings.mlr.press/v80/zhitnikov18a.html",
-    "Understanding Generalization and Optimization Performance of Deep CNNs": "https://proceedings.mlr.press/v80/zhou18a.html",
-    "Distributed Asynchronous Optimization with Unbounded Delays: How Slow Can You Go?": "https://proceedings.mlr.press/v80/zhou18b.html",
-    "A Simple Stochastic Variance Reduced Algorithm with Fast Convergence Rates": "https://proceedings.mlr.press/v80/zhou18c.html",
-    "Stochastic Variance-Reduced Cubic Regularized Newton Methods": "https://proceedings.mlr.press/v80/zhou18d.html",
-    "Racing Thompson: an Efficient Algorithm for Thompson Sampling with Non-conjugate Priors": "https://proceedings.mlr.press/v80/zhou18e.html",
-    "Distributed Nonparametric Regression under Communication Constraints": "https://proceedings.mlr.press/v80/zhu18a.html",
-    "Message Passing Stein Variational Gradient Descent": "https://proceedings.mlr.press/v80/zhuo18a.html",
-    "Stochastic Variance-Reduced Hamilton Monte Carlo Methods": "https://proceedings.mlr.press/v80/zou18a.html",
-    "Rectify Heterogeneous Models with Semantic Mapping": "https://proceedings.mlr.press/v80/ye18c.html",
-    "Hierarchical Long-term Video Prediction without Supervision": "https://proceedings.mlr.press/v80/wichers18a.html"
-}
+[
+    {
+        "title": "Improved Regret Bounds for Thompson Sampling in Linear Quadratic Control Problems",
+        "url": "https://proceedings.mlr.press/v80/abeille18a.html"
+    },
+    {
+        "title": "State Abstractions for Lifelong Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/abel18a.html"
+    },
+    {
+        "title": "Policy and Value Transfer in Lifelong Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/abel18b.html"
+    },
+    {
+        "title": "INSPECTRE: Privately Estimating the Unseen",
+        "url": "https://proceedings.mlr.press/v80/acharya18a.html"
+    },
+    {
+        "title": "Learning Representations and Generative Models for 3D Point Clouds",
+        "url": "https://proceedings.mlr.press/v80/achlioptas18a.html"
+    },
+    {
+        "title": "Discovering Interpretable Representations for Both Deep Generative and Discriminative Models",
+        "url": "https://proceedings.mlr.press/v80/adel18a.html"
+    },
+    {
+        "title": "A Reductions Approach to Fair Classification",
+        "url": "https://proceedings.mlr.press/v80/agarwal18a.html"
+    },
+    {
+        "title": "Accelerated Spectral Ranking",
+        "url": "https://proceedings.mlr.press/v80/agarwal18b.html"
+    },
+    {
+        "title": "MISSION: Ultra Large-Scale Feature Selection using Count-Sketches",
+        "url": "https://proceedings.mlr.press/v80/aghazadeh18a.html"
+    },
+    {
+        "title": "Minimal I-MAP MCMC for Scalable Structure Discovery in Causal DAG Models",
+        "url": "https://proceedings.mlr.press/v80/agrawal18a.html"
+    },
+    {
+        "title": "Proportional Allocation: Simple, Distributed, and Diverse Matching with High Entropy",
+        "url": "https://proceedings.mlr.press/v80/agrawal18b.html"
+    },
+    {
+        "title": "Bucket Renormalization for Approximate Inference",
+        "url": "https://proceedings.mlr.press/v80/ahn18a.html"
+    },
+    {
+        "title": "oi-VAE: Output Interpretable VAEs for Nonlinear Group Factor Analysis",
+        "url": "https://proceedings.mlr.press/v80/ainsworth18a.html"
+    },
+    {
+        "title": "Limits of Estimating Heterogeneous Treatment Effects: Guidelines for Practical Algorithm Design",
+        "url": "https://proceedings.mlr.press/v80/alaa18a.html"
+    },
+    {
+        "title": "AutoPrognosis: Automated Clinical Prognostic Modeling via Bayesian Optimization with Structured Kernel Learning",
+        "url": "https://proceedings.mlr.press/v80/alaa18b.html"
+    },
+    {
+        "title": "Information Theoretic Guarantees for Empirical Risk Minimization with Applications to Model Selection and Large-Scale Optimization",
+        "url": "https://proceedings.mlr.press/v80/alabdulmohsin18a.html"
+    },
+    {
+        "title": "Fixing a Broken ELBO",
+        "url": "https://proceedings.mlr.press/v80/alemi18a.html"
+    },
+    {
+        "title": "Differentially Private Identity and Equivalence Testing of Discrete Distributions",
+        "url": "https://proceedings.mlr.press/v80/aliakbarpour18a.html"
+    },
+    {
+        "title": "Katyusha X: Simple Momentum Method for Stochastic Sum-of-Nonconvex Optimization",
+        "url": "https://proceedings.mlr.press/v80/allen-zhu18a.html"
+    },
+    {
+        "title": "Make the Minority Great Again: First-Order Regret Bound for Contextual Bandits",
+        "url": "https://proceedings.mlr.press/v80/allen-zhu18b.html"
+    },
+    {
+        "title": "Augmented CycleGAN: Learning Many-to-Many Mappings from Unpaired Data",
+        "url": "https://proceedings.mlr.press/v80/almahairi18a.html"
+    },
+    {
+        "title": "Meta-Learning by Adjusting Priors Based on Extended PAC-Bayes Theory",
+        "url": "https://proceedings.mlr.press/v80/amit18a.html"
+    },
+    {
+        "title": "MAGAN: Aligning Biological Manifolds",
+        "url": "https://proceedings.mlr.press/v80/amodio18a.html"
+    },
+    {
+        "title": "Subspace Embedding and Linear Regression with Orlicz Norm",
+        "url": "https://proceedings.mlr.press/v80/andoni18a.html"
+    },
+    {
+        "title": "Efficient Gradient-Free Variational Inference using Policy Search",
+        "url": "https://proceedings.mlr.press/v80/arenz18a.html"
+    },
+    {
+        "title": "On the Optimization of Deep Networks: Implicit Acceleration by Overparameterization",
+        "url": "https://proceedings.mlr.press/v80/arora18a.html"
+    },
+    {
+        "title": "Stronger Generalization Bounds for Deep Nets via a Compression Approach",
+        "url": "https://proceedings.mlr.press/v80/arora18b.html"
+    },
+    {
+        "title": "Lipschitz Continuity in Model-based Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/asadi18a.html"
+    },
+    {
+        "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+        "url": "https://proceedings.mlr.press/v80/athalye18a.html"
+    },
+    {
+        "title": "Synthesizing Robust Adversarial Examples",
+        "url": "https://proceedings.mlr.press/v80/athalye18b.html"
+    },
+    {
+        "title": "Contextual Graph Markov Model: A Deep and Generative Approach to Graph Processing",
+        "url": "https://proceedings.mlr.press/v80/bacciu18a.html"
+    },
+    {
+        "title": "Greed is Still Good: Maximizing Monotone Submodular+Supermodular (BP) Functions",
+        "url": "https://proceedings.mlr.press/v80/bai18a.html"
+    },
+    {
+        "title": "Comparing Dynamics: Deep Neural Networks versus Glassy Systems",
+        "url": "https://proceedings.mlr.press/v80/baity-jesi18a.html"
+    },
+    {
+        "title": "SMAC: Simultaneous Mapping and Clustering Using Spectral Decompositions",
+        "url": "https://proceedings.mlr.press/v80/bajaj18a.html"
+    },
+    {
+        "title": "A Boo(n) for Evaluating Architecture Performance",
+        "url": "https://proceedings.mlr.press/v80/bajgar18a.html"
+    },
+    {
+        "title": "Learning to Branch",
+        "url": "https://proceedings.mlr.press/v80/balcan18a.html"
+    },
+    {
+        "title": "The Mechanics of n-Player Differentiable Games",
+        "url": "https://proceedings.mlr.press/v80/balduzzi18a.html"
+    },
+    {
+        "title": "Spline Filters For End-to-End Deep Learning",
+        "url": "https://proceedings.mlr.press/v80/balestriero18a.html"
+    },
+    {
+        "title": "A Spline Theory of Deep Learning",
+        "url": "https://proceedings.mlr.press/v80/balestriero18b.html"
+    },
+    {
+        "title": "Approximation Guarantees for Adaptive Sampling",
+        "url": "https://proceedings.mlr.press/v80/balkanski18a.html"
+    },
+    {
+        "title": "Improving the Gaussian Mechanism for Differential Privacy: Analytical Calibration and Optimal Denoising",
+        "url": "https://proceedings.mlr.press/v80/balle18a.html"
+    },
+    {
+        "title": "Dissecting Adam: The Sign, Magnitude and Variance of Stochastic Gradients",
+        "url": "https://proceedings.mlr.press/v80/balles18a.html"
+    },
+    {
+        "title": "Differentially Private Database Release via Kernel Mean Embeddings",
+        "url": "https://proceedings.mlr.press/v80/balog18a.html"
+    },
+    {
+        "title": "Improving Optimization for Models With Continuous Symmetry Breaking",
+        "url": "https://proceedings.mlr.press/v80/bamler18a.html"
+    },
+    {
+        "title": "Improved Training of Generative Adversarial Networks Using Representative Features",
+        "url": "https://proceedings.mlr.press/v80/bang18a.html"
+    },
+    {
+        "title": "Using Inherent Structures to design Lean 2-layer RBMs",
+        "url": "https://proceedings.mlr.press/v80/bansal18a.html"
+    },
+    {
+        "title": "Classification from Pairwise Similarity and Unlabeled Data",
+        "url": "https://proceedings.mlr.press/v80/bao18a.html"
+    },
+    {
+        "title": "Bayesian Optimization of Combinatorial Structures",
+        "url": "https://proceedings.mlr.press/v80/baptista18a.html"
+    },
+    {
+        "title": "Geodesic Convolutional Shape Optimization",
+        "url": "https://proceedings.mlr.press/v80/baque18a.html"
+    },
+    {
+        "title": "Learning to Coordinate with Coordination Graphs in Repeated Single-Stage Multi-Agent Decision Problems",
+        "url": "https://proceedings.mlr.press/v80/bargiacchi18a.html"
+    },
+    {
+        "title": "Testing Sparsity over Known and Unknown Bases",
+        "url": "https://proceedings.mlr.press/v80/barman18a.html"
+    },
+    {
+        "title": "Transfer in Deep Reinforcement Learning Using Successor Features and Generalised Policy Improvement",
+        "url": "https://proceedings.mlr.press/v80/barreto18a.html"
+    },
+    {
+        "title": "Measuring abstract reasoning in neural networks",
+        "url": "https://proceedings.mlr.press/v80/barrett18a.html"
+    },
+    {
+        "title": "Gradient descent with identity initialization efficiently learns positive definite linear transformations by deep residual networks",
+        "url": "https://proceedings.mlr.press/v80/bartlett18a.html"
+    },
+    {
+        "title": "Mutual Information Neural Estimation",
+        "url": "https://proceedings.mlr.press/v80/belghazi18a.html"
+    },
+    {
+        "title": "To Understand Deep Learning We Need to Understand Kernel Learning",
+        "url": "https://proceedings.mlr.press/v80/belkin18a.html"
+    },
+    {
+        "title": "Understanding and Simplifying One-Shot Architecture Search",
+        "url": "https://proceedings.mlr.press/v80/bender18a.html"
+    },
+    {
+        "title": "signSGD: Compressed Optimisation for Non-Convex Problems",
+        "url": "https://proceedings.mlr.press/v80/bernstein18a.html"
+    },
+    {
+        "title": "Distributed Clustering via LSH Based Data Partitioning",
+        "url": "https://proceedings.mlr.press/v80/bhaskara18a.html"
+    },
+    {
+        "title": "Autoregressive Convolutional Neural Networks for Asynchronous Time Series",
+        "url": "https://proceedings.mlr.press/v80/binkowski18a.html"
+    },
+    {
+        "title": "Adaptive Sampled Softmax with Kernel Based Sampling",
+        "url": "https://proceedings.mlr.press/v80/blanc18a.html"
+    },
+    {
+        "title": "Optimizing the Latent Space of Generative Networks",
+        "url": "https://proceedings.mlr.press/v80/bojanowski18a.html"
+    },
+    {
+        "title": "NetGAN: Generating Graphs via Random Walks",
+        "url": "https://proceedings.mlr.press/v80/bojchevski18a.html"
+    },
+    {
+        "title": "A Progressive Batching L-BFGS Method for Machine Learning",
+        "url": "https://proceedings.mlr.press/v80/bollapragada18a.html"
+    },
+    {
+        "title": "Prediction Rule Reshaping",
+        "url": "https://proceedings.mlr.press/v80/bonakdarpour18a.html"
+    },
+    {
+        "title": "QuantTree: Histograms for Change Detection in Multivariate Data Streams",
+        "url": "https://proceedings.mlr.press/v80/boracchi18a.html"
+    },
+    {
+        "title": "Matrix Norms in Data Streams: Faster, Multi-Pass and Row-Order",
+        "url": "https://proceedings.mlr.press/v80/braverman18a.html"
+    },
+    {
+        "title": "Predict and Constrain: Modeling Cardinality in Deep Structured Prediction",
+        "url": "https://proceedings.mlr.press/v80/brukhim18a.html"
+    },
+    {
+        "title": "Quasi-Monte Carlo Variational Inference",
+        "url": "https://proceedings.mlr.press/v80/buchholz18a.html"
+    },
+    {
+        "title": "Path-Level Network Transformation for Efficient Architecture Search",
+        "url": "https://proceedings.mlr.press/v80/cai18a.html"
+    },
+    {
+        "title": "Improved large-scale graph learning through ridge spectral sparsification",
+        "url": "https://proceedings.mlr.press/v80/calandriello18a.html"
+    },
+    {
+        "title": "Bayesian Coreset Construction via Greedy Iterative Geodesic Ascent",
+        "url": "https://proceedings.mlr.press/v80/campbell18a.html"
+    },
+    {
+        "title": "Adversarial Learning with Local Coordinate Coding",
+        "url": "https://proceedings.mlr.press/v80/cao18a.html"
+    },
+    {
+        "title": "Fair and Diverse DPP-Based Data Summarization",
+        "url": "https://proceedings.mlr.press/v80/celis18a.html"
+    },
+    {
+        "title": "Conditional Noise-Contrastive Estimation of Unnormalised Models",
+        "url": "https://proceedings.mlr.press/v80/ceylan18a.html"
+    },
+    {
+        "title": "Adversarial Time-to-Event Modeling",
+        "url": "https://proceedings.mlr.press/v80/chapfuwa18a.html"
+    },
+    {
+        "title": "Stability and Generalization of Learning Algorithms that Converge to Global Optima",
+        "url": "https://proceedings.mlr.press/v80/charles18a.html"
+    },
+    {
+        "title": "Learning and Memorization",
+        "url": "https://proceedings.mlr.press/v80/chatterjee18a.html"
+    },
+    {
+        "title": "On the Theory of Variance Reduction for Stochastic Gradient Monte Carlo",
+        "url": "https://proceedings.mlr.press/v80/chatterji18a.html"
+    },
+    {
+        "title": "Hierarchical Clustering with Structural Constraints",
+        "url": "https://proceedings.mlr.press/v80/chatziafratis18a.html"
+    },
+    {
+        "title": "Hierarchical Deep Generative Models for Multi-Rate Multivariate Time Series",
+        "url": "https://proceedings.mlr.press/v80/che18a.html"
+    },
+    {
+        "title": "GradNorm: Gradient Normalization for Adaptive Loss Balancing in Deep Multitask Networks",
+        "url": "https://proceedings.mlr.press/v80/chen18a.html"
+    },
+    {
+        "title": "Weakly Submodular Maximization Beyond Cardinality Constraints: Does Randomization Help Greedy?",
+        "url": "https://proceedings.mlr.press/v80/chen18b.html"
+    },
+    {
+        "title": "Projection-Free Online Optimization with Stochastic Gradient: From Convexity to Submodularity",
+        "url": "https://proceedings.mlr.press/v80/chen18c.html"
+    },
+    {
+        "title": "Continuous-Time Flows for Efficient Inference and Density Estimation",
+        "url": "https://proceedings.mlr.press/v80/chen18d.html"
+    },
+    {
+        "title": "Scalable Bilinear Pi Learning Using State and Action Features",
+        "url": "https://proceedings.mlr.press/v80/chen18e.html"
+    },
+    {
+        "title": "Stein Points",
+        "url": "https://proceedings.mlr.press/v80/chen18f.html"
+    },
+    {
+        "title": "Learning K-way D-dimensional Discrete Codes for Compact Embedding Representations",
+        "url": "https://proceedings.mlr.press/v80/chen18g.html"
+    },
+    {
+        "title": "PixelSNAIL: An Improved Autoregressive Generative Model",
+        "url": "https://proceedings.mlr.press/v80/chen18h.html"
+    },
+    {
+        "title": "Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/chen18i.html"
+    },
+    {
+        "title": "Learning to Explain: An Information-Theoretic Perspective on Model Interpretation",
+        "url": "https://proceedings.mlr.press/v80/chen18j.html"
+    },
+    {
+        "title": "Variational Inference and Model Selection with Generalized Evidence Bounds",
+        "url": "https://proceedings.mlr.press/v80/chen18k.html"
+    },
+    {
+        "title": "DRACO: Byzantine-resilient Distributed Training via Redundant Gradients",
+        "url": "https://proceedings.mlr.press/v80/chen18l.html"
+    },
+    {
+        "title": "SADAGRAD: Strongly Adaptive Stochastic Gradient Methods",
+        "url": "https://proceedings.mlr.press/v80/chen18m.html"
+    },
+    {
+        "title": "Covariate Adjusted Precision Matrix Estimation via Nonconvex Optimization",
+        "url": "https://proceedings.mlr.press/v80/chen18n.html"
+    },
+    {
+        "title": "End-to-End Learning for the Deep Multivariate Probit Model",
+        "url": "https://proceedings.mlr.press/v80/chen18o.html"
+    },
+    {
+        "title": "Stochastic Training of Graph Convolutional Networks with Variance Reduction",
+        "url": "https://proceedings.mlr.press/v80/chen18p.html"
+    },
+    {
+        "title": "Extreme Learning to Rank via Low Rank Assumption",
+        "url": "https://proceedings.mlr.press/v80/cheng18a.html"
+    },
+    {
+        "title": "Learning a Mixture of Two Multinomial Logits",
+        "url": "https://proceedings.mlr.press/v80/chierichetti18a.html"
+    },
+    {
+        "title": "Structured Evolution with Compact Architectures for Scalable Policy Optimization",
+        "url": "https://proceedings.mlr.press/v80/choromanski18a.html"
+    },
+    {
+        "title": "Path Consistency Learning in Tsallis Entropy Regularized MDPs",
+        "url": "https://proceedings.mlr.press/v80/chow18a.html"
+    },
+    {
+        "title": "An Iterative, Sketching-based Framework for Ridge Regression",
+        "url": "https://proceedings.mlr.press/v80/chowdhury18a.html"
+    },
+    {
+        "title": "Stochastic Wasserstein Barycenters",
+        "url": "https://proceedings.mlr.press/v80/claici18a.html"
+    },
+    {
+        "title": "Self-Consistent Trajectory Autoencoder: Hierarchical Reinforcement Learning with Trajectory Embeddings",
+        "url": "https://proceedings.mlr.press/v80/co-reyes18a.html"
+    },
+    {
+        "title": "On Acceleration with Noise-Corrupted Gradients",
+        "url": "https://proceedings.mlr.press/v80/cohen18a.html"
+    },
+    {
+        "title": "Online Linear Quadratic Control",
+        "url": "https://proceedings.mlr.press/v80/cohen18b.html"
+    },
+    {
+        "title": "GEP-PG: Decoupling Exploration and Exploitation in Deep Reinforcement Learning Algorithms",
+        "url": "https://proceedings.mlr.press/v80/colas18a.html"
+    },
+    {
+        "title": "Efficient Model-Based Deep Reinforcement Learning with Variational State Tabulation",
+        "url": "https://proceedings.mlr.press/v80/corneil18a.html"
+    },
+    {
+        "title": "Online Learning with Abstention",
+        "url": "https://proceedings.mlr.press/v80/cortes18a.html"
+    },
+    {
+        "title": "Constrained Interacting Submodular Groupings",
+        "url": "https://proceedings.mlr.press/v80/cotter18a.html"
+    },
+    {
+        "title": "Inference Suboptimality in Variational Autoencoders",
+        "url": "https://proceedings.mlr.press/v80/cremer18a.html"
+    },
+    {
+        "title": "Mix & Match Agent Curricula for Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/czarnecki18a.html"
+    },
+    {
+        "title": "Implicit Quantile Networks for Distributional Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/dabney18a.html"
+    },
+    {
+        "title": "Learning Steady-States of Iterative Algorithms over Graphs",
+        "url": "https://proceedings.mlr.press/v80/dai18a.html"
+    },
+    {
+        "title": "Adversarial Attack on Graph Structured Data",
+        "url": "https://proceedings.mlr.press/v80/dai18b.html"
+    },
+    {
+        "title": "SBEED: Convergent Reinforcement Learning with Nonlinear Function Approximation",
+        "url": "https://proceedings.mlr.press/v80/dai18c.html"
+    },
+    {
+        "title": "Compressing Neural Networks using the Variational Information Bottleneck",
+        "url": "https://proceedings.mlr.press/v80/dai18d.html"
+    },
+    {
+        "title": "Asynchronous Byzantine Machine Learning (the case of SGD)",
+        "url": "https://proceedings.mlr.press/v80/damaskinos18a.html"
+    },
+    {
+        "title": "Escaping Saddles with Stochastic Gradients",
+        "url": "https://proceedings.mlr.press/v80/daneshmand18a.html"
+    },
+    {
+        "title": "Minibatch Gibbs Sampling on Large Graphical Models",
+        "url": "https://proceedings.mlr.press/v80/desa18a.html"
+    },
+    {
+        "title": "Stochastic Video Generation with a Learned Prior",
+        "url": "https://proceedings.mlr.press/v80/denton18a.html"
+    },
+    {
+        "title": "Decomposition of Uncertainty in Bayesian Deep Learning for Efficient and Risk-sensitive Learning",
+        "url": "https://proceedings.mlr.press/v80/depeweg18a.html"
+    },
+    {
+        "title": "Accurate Inference for Adaptive Linear Models",
+        "url": "https://proceedings.mlr.press/v80/deshpande18a.html"
+    },
+    {
+        "title": "Variational Network Inference: Strong and Stable with Concrete Support",
+        "url": "https://proceedings.mlr.press/v80/dezfouli18a.html"
+    },
+    {
+        "title": "Modeling Sparse Deviations for Compressed Sensing using Generative Models",
+        "url": "https://proceedings.mlr.press/v80/dhar18a.html"
+    },
+    {
+        "title": "Alternating Randomized Block Coordinate Descent",
+        "url": "https://proceedings.mlr.press/v80/diakonikolas18a.html"
+    },
+    {
+        "title": "Learning to Act in Decentralized Partially Observable MDPs",
+        "url": "https://proceedings.mlr.press/v80/dibangoye18a.html"
+    },
+    {
+        "title": "Leveraging Well-Conditioned Bases: Streaming and Distributed Summaries in Minkowski $p$-Norms",
+        "url": "https://proceedings.mlr.press/v80/dickens18a.html"
+    },
+    {
+        "title": "Noisin: Unbiased Regularization for Recurrent Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/dieng18a.html"
+    },
+    {
+        "title": "Discovering and Removing Exogenous State Variables and Rewards for Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/dietterich18a.html"
+    },
+    {
+        "title": "Coordinated Exploration in Concurrent Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/dimakopoulou18a.html"
+    },
+    {
+        "title": "Probabilistic Recurrent State-Space Models",
+        "url": "https://proceedings.mlr.press/v80/doerr18a.html"
+    },
+    {
+        "title": "Randomized Block Cubic Newton Method",
+        "url": "https://proceedings.mlr.press/v80/doikov18a.html"
+    },
+    {
+        "title": "Low-Rank Riemannian Optimization on Positive Semidefinite Stochastic Matrices with Applications to Graph Clustering",
+        "url": "https://proceedings.mlr.press/v80/douik18a.html"
+    },
+    {
+        "title": "Essentially No Barriers in Neural Network Energy Landscape",
+        "url": "https://proceedings.mlr.press/v80/draxler18a.html"
+    },
+    {
+        "title": "Weakly Consistent Optimal Pricing Algorithms in Repeated Posted-Price Auctions with Strategic Buyer",
+        "url": "https://proceedings.mlr.press/v80/drutsa18a.html"
+    },
+    {
+        "title": "On the Power of Over-parametrization in Neural Networks with Quadratic Activation",
+        "url": "https://proceedings.mlr.press/v80/du18a.html"
+    },
+    {
+        "title": "Gradient Descent Learns One-hidden-layer CNN: Don’t be Afraid of Spurious Local Minima",
+        "url": "https://proceedings.mlr.press/v80/du18b.html"
+    },
+    {
+        "title": "Investigating Human Priors for Playing Video Games",
+        "url": "https://proceedings.mlr.press/v80/dubey18a.html"
+    },
+    {
+        "title": "A Distributed Second-Order Algorithm You Can Trust",
+        "url": "https://proceedings.mlr.press/v80/duenner18a.html"
+    },
+    {
+        "title": "Computational Optimal Transport: Complexity by Accelerated Gradient Descent Is Better Than by Sinkhorn’s Algorithm",
+        "url": "https://proceedings.mlr.press/v80/dvurechensky18a.html"
+    },
+    {
+        "title": "Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors",
+        "url": "https://proceedings.mlr.press/v80/dziugaite18a.html"
+    },
+    {
+        "title": "Beyond the One-Step Greedy Approach in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/efroni18a.html"
+    },
+    {
+        "title": "Parallel and Streaming Algorithms for K-Core Decomposition",
+        "url": "https://proceedings.mlr.press/v80/esfandiari18a.html"
+    },
+    {
+        "title": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+        "url": "https://proceedings.mlr.press/v80/espeholt18a.html"
+    },
+    {
+        "title": "Scalable Gaussian Processes with Grid-Structured Eigenfunctions (GP-GRIEF)",
+        "url": "https://proceedings.mlr.press/v80/evans18a.html"
+    },
+    {
+        "title": "The Limits of Maxing, Ranking, and Preference Learning",
+        "url": "https://proceedings.mlr.press/v80/falahatgar18a.html"
+    },
+    {
+        "title": "BOHB: Robust and Efficient Hyperparameter Optimization at Scale",
+        "url": "https://proceedings.mlr.press/v80/falkner18a.html"
+    },
+    {
+        "title": "More Robust Doubly Robust Off-policy Evaluation",
+        "url": "https://proceedings.mlr.press/v80/farajtabar18a.html"
+    },
+    {
+        "title": "Efficient and Consistent Adversarial Bipartite Matching",
+        "url": "https://proceedings.mlr.press/v80/fathony18a.html"
+    },
+    {
+        "title": "Global Convergence of Policy Gradient Methods for the Linear Quadratic Regulator",
+        "url": "https://proceedings.mlr.press/v80/fazel18a.html"
+    },
+    {
+        "title": "CRVI: Convex Relaxation for Variational Inference",
+        "url": "https://proceedings.mlr.press/v80/fazelnia18a.html"
+    },
+    {
+        "title": "Fourier Policy Gradients",
+        "url": "https://proceedings.mlr.press/v80/fellows18a.html"
+    },
+    {
+        "title": "Nonparametric variable importance using an augmented neural network with multi-task learning",
+        "url": "https://proceedings.mlr.press/v80/feng18a.html"
+    },
+    {
+        "title": "Closed-form Marginal Likelihood in Gamma-Poisson Matrix Factorization",
+        "url": "https://proceedings.mlr.press/v80/filstroff18a.html"
+    },
+    {
+        "title": "Automatic Goal Generation for Reinforcement Learning Agents",
+        "url": "https://proceedings.mlr.press/v80/florensa18a.html"
+    },
+    {
+        "title": "DiCE: The Infinitely Differentiable Monte Carlo Estimator",
+        "url": "https://proceedings.mlr.press/v80/foerster18a.html"
+    },
+    {
+        "title": "Practical Contextual Bandits with Regression Oracles",
+        "url": "https://proceedings.mlr.press/v80/foster18a.html"
+    },
+    {
+        "title": "Generative Temporal Models with Spatial Memory for Partially Observed Environments",
+        "url": "https://proceedings.mlr.press/v80/fraccaro18a.html"
+    },
+    {
+        "title": "ADMM and Accelerated ADMM as Continuous Dynamical Systems",
+        "url": "https://proceedings.mlr.press/v80/franca18a.html"
+    },
+    {
+        "title": "Bilevel Programming for Hyperparameter Optimization and Meta-Learning",
+        "url": "https://proceedings.mlr.press/v80/franceschi18a.html"
+    },
+    {
+        "title": "Efficient Bias-Span-Constrained Exploration-Exploitation in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/fruit18a.html"
+    },
+    {
+        "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+        "url": "https://proceedings.mlr.press/v80/fujimoto18a.html"
+    },
+    {
+        "title": "Clipped Action Policy Gradient",
+        "url": "https://proceedings.mlr.press/v80/fujita18a.html"
+    },
+    {
+        "title": "Born Again Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/furlanello18a.html"
+    },
+    {
+        "title": "The Generalization Error of Dictionary Learning with Moreau Envelopes",
+        "url": "https://proceedings.mlr.press/v80/georgogiannis18a.html"
+    },
+    {
+        "title": "Local Private Hypothesis Testing: Chi-Square Tests",
+        "url": "https://proceedings.mlr.press/v80/gaboardi18a.html"
+    },
+    {
+        "title": "Inductive Two-Layer Modeling with Parametric Bregman Transfer",
+        "url": "https://proceedings.mlr.press/v80/ganapathiraman18a.html"
+    },
+    {
+        "title": "Hyperbolic Entailment Cones for Learning Hierarchical Embeddings",
+        "url": "https://proceedings.mlr.press/v80/ganea18a.html"
+    },
+    {
+        "title": "Parameterized Algorithms for the Matrix Completion Problem",
+        "url": "https://proceedings.mlr.press/v80/ganian18a.html"
+    },
+    {
+        "title": "Synthesizing Programs for Images using Reinforced Adversarial Learning",
+        "url": "https://proceedings.mlr.press/v80/ganin18a.html"
+    },
+    {
+        "title": "Spotlight: Optimizing Device Placement for Training Deep Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/gao18a.html"
+    },
+    {
+        "title": "Parallel Bayesian Network Structure Learning",
+        "url": "https://proceedings.mlr.press/v80/gao18b.html"
+    },
+    {
+        "title": "Structured Output Learning with Abstention: Application to Accurate Opinion Prediction",
+        "url": "https://proceedings.mlr.press/v80/garcia18a.html"
+    },
+    {
+        "title": "Conditional Neural Processes",
+        "url": "https://proceedings.mlr.press/v80/garnelo18a.html"
+    },
+    {
+        "title": "Temporal Poisson Square Root Graphical Models",
+        "url": "https://proceedings.mlr.press/v80/geng18a.html"
+    },
+    {
+        "title": "Budgeted Experiment Design for Causal Structure Learning",
+        "url": "https://proceedings.mlr.press/v80/ghassami18a.html"
+    },
+    {
+        "title": "Linear Spectral Estimators and an Application to Phase Retrieval",
+        "url": "https://proceedings.mlr.press/v80/ghods18a.html"
+    },
+    {
+        "title": "Structured Variational Learning of Bayesian Neural Networks with Horseshoe Priors",
+        "url": "https://proceedings.mlr.press/v80/ghosh18a.html"
+    },
+    {
+        "title": "Learning Maximum-A-Posteriori Perturbation Models for Structured Prediction in Polynomial Time",
+        "url": "https://proceedings.mlr.press/v80/ghoshal18a.html"
+    },
+    {
+        "title": "Robust and Scalable Models of Microbiome Dynamics",
+        "url": "https://proceedings.mlr.press/v80/gibson18a.html"
+    },
+    {
+        "title": "Non-linear motor control by local learning in spiking neural networks",
+        "url": "https://proceedings.mlr.press/v80/gilra18a.html"
+    },
+    {
+        "title": "Learning One Convolutional Layer with Overlapping Patches",
+        "url": "https://proceedings.mlr.press/v80/goel18a.html"
+    },
+    {
+        "title": "Visualizing and Understanding Atari Agents",
+        "url": "https://proceedings.mlr.press/v80/greydanus18a.html"
+    },
+    {
+        "title": "Learning Policy Representations in Multiagent Systems",
+        "url": "https://proceedings.mlr.press/v80/grover18a.html"
+    },
+    {
+        "title": "Faster Derivative-Free Stochastic Algorithm for Shared Memory Machines",
+        "url": "https://proceedings.mlr.press/v80/gu18a.html"
+    },
+    {
+        "title": "Learning to search with MCTSnets",
+        "url": "https://proceedings.mlr.press/v80/guez18a.html"
+    },
+    {
+        "title": "Characterizing Implicit Bias in Terms of Optimization Geometry",
+        "url": "https://proceedings.mlr.press/v80/gunasekar18a.html"
+    },
+    {
+        "title": "Shampoo: Preconditioned Stochastic Tensor Optimization",
+        "url": "https://proceedings.mlr.press/v80/gupta18a.html"
+    },
+    {
+        "title": "Latent Space Policies for Hierarchical Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/haarnoja18a.html"
+    },
+    {
+        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+        "url": "https://proceedings.mlr.press/v80/haarnoja18b.html"
+    },
+    {
+        "title": "Comparison-Based Random Forests",
+        "url": "https://proceedings.mlr.press/v80/haghiri18a.html"
+    },
+    {
+        "title": "K-Beam Minimax: Efficient Optimization for Deep Adversarial Learning",
+        "url": "https://proceedings.mlr.press/v80/hamm18a.html"
+    },
+    {
+        "title": "Candidates vs. Noises Estimation for Large Multi-Class Classification Problem",
+        "url": "https://proceedings.mlr.press/v80/han18a.html"
+    },
+    {
+        "title": "Stein Variational Gradient Descent Without Gradient",
+        "url": "https://proceedings.mlr.press/v80/han18b.html"
+    },
+    {
+        "title": "Deep Models of Interactions Across Sets",
+        "url": "https://proceedings.mlr.press/v80/hartford18a.html"
+    },
+    {
+        "title": "Learning Memory Access Patterns",
+        "url": "https://proceedings.mlr.press/v80/hashemi18a.html"
+    },
+    {
+        "title": "Fairness Without Demographics in Repeated Loss Minimization",
+        "url": "https://proceedings.mlr.press/v80/hashimoto18a.html"
+    },
+    {
+        "title": "Multicalibration: Calibration for the (Computationally-Identifiable) Masses",
+        "url": "https://proceedings.mlr.press/v80/hebert-johnson18a.html"
+    },
+    {
+        "title": "Recurrent Predictive State Policy Networks",
+        "url": "https://proceedings.mlr.press/v80/hefny18a.html"
+    },
+    {
+        "title": "Learning unknown ODE models with Gaussian processes",
+        "url": "https://proceedings.mlr.press/v80/heinonen18a.html"
+    },
+    {
+        "title": "Orthogonal Recurrent Neural Networks with Scaled Cayley Transform",
+        "url": "https://proceedings.mlr.press/v80/helfrich18a.html"
+    },
+    {
+        "title": "Fast Bellman Updates for Robust MDPs",
+        "url": "https://proceedings.mlr.press/v80/ho18a.html"
+    },
+    {
+        "title": "CyCADA: Cycle-Consistent Adversarial Domain Adaptation",
+        "url": "https://proceedings.mlr.press/v80/hoffman18a.html"
+    },
+    {
+        "title": "Sound Abstraction and Decomposition of Probabilistic Programs",
+        "url": "https://proceedings.mlr.press/v80/holtzen18a.html"
+    },
+    {
+        "title": "Gradient Primal-Dual Algorithm Converges to Second-Order Stationary Solution for Nonconvex Distributed Optimization Over Networks",
+        "url": "https://proceedings.mlr.press/v80/hong18a.html"
+    },
+    {
+        "title": "Variational Bayesian dropout: pitfalls and fixes",
+        "url": "https://proceedings.mlr.press/v80/hron18a.html"
+    },
+    {
+        "title": "Does Distributionally Robust Supervised Learning Give Robust Classifiers?",
+        "url": "https://proceedings.mlr.press/v80/hu18a.html"
+    },
+    {
+        "title": "Dissipativity Theory for Accelerating Stochastic Variance Reduction: A Unified Analysis of SVRG and Katyusha Using Semidefinite Programs",
+        "url": "https://proceedings.mlr.press/v80/hu18b.html"
+    },
+    {
+        "title": "Near Optimal Frequent Directions for Sketching Dense and Sparse Matrices",
+        "url": "https://proceedings.mlr.press/v80/huang18a.html"
+    },
+    {
+        "title": "Learning Deep ResNet Blocks Sequentially using Boosting Theory",
+        "url": "https://proceedings.mlr.press/v80/huang18b.html"
+    },
+    {
+        "title": "Learning Hidden Markov Models from Pairwise Co-occurrences with Application to Topic Modeling",
+        "url": "https://proceedings.mlr.press/v80/huang18c.html"
+    },
+    {
+        "title": "Neural Autoregressive Flows",
+        "url": "https://proceedings.mlr.press/v80/huang18d.html"
+    },
+    {
+        "title": "Topological mixture estimation",
+        "url": "https://proceedings.mlr.press/v80/huntsman18a.html"
+    },
+    {
+        "title": "Decoupled Parallel Backpropagation with Convergence Guarantee",
+        "url": "https://proceedings.mlr.press/v80/huo18a.html"
+    },
+    {
+        "title": "Using Reward Machines for High-Level Task Specification and Decomposition in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/icarte18a.html"
+    },
+    {
+        "title": "Deep Variational Reinforcement Learning for POMDPs",
+        "url": "https://proceedings.mlr.press/v80/igl18a.html"
+    },
+    {
+        "title": "Attention-based Deep Multiple Instance Learning",
+        "url": "https://proceedings.mlr.press/v80/ilse18a.html"
+    },
+    {
+        "title": "Black-box Adversarial Attacks with Limited Queries and Information",
+        "url": "https://proceedings.mlr.press/v80/ilyas18a.html"
+    },
+    {
+        "title": "Analysis of Minimax Error Rate for Crowdsourcing and Its Application to Worker Clustering Model",
+        "url": "https://proceedings.mlr.press/v80/imamura18a.html"
+    },
+    {
+        "title": "Improving Regression Performance with Distributional Losses",
+        "url": "https://proceedings.mlr.press/v80/imani18a.html"
+    },
+    {
+        "title": "Deep Density Destructors",
+        "url": "https://proceedings.mlr.press/v80/inouye18a.html"
+    },
+    {
+        "title": "Unbiased Objective Estimation in Predictive Optimization",
+        "url": "https://proceedings.mlr.press/v80/ito18a.html"
+    },
+    {
+        "title": "Anonymous Walk Embeddings",
+        "url": "https://proceedings.mlr.press/v80/ivanov18a.html"
+    },
+    {
+        "title": "Learning Binary Latent Variable Models: A Tensor Eigenpair Approach",
+        "url": "https://proceedings.mlr.press/v80/jaffe18a.html"
+    },
+    {
+        "title": "Firing Bandits: Optimizing Crowdfunding",
+        "url": "https://proceedings.mlr.press/v80/jain18a.html"
+    },
+    {
+        "title": "Differentially Private Matrix Completion Revisited",
+        "url": "https://proceedings.mlr.press/v80/jain18b.html"
+    },
+    {
+        "title": "Video Prediction with Appearance and Motion Conditions",
+        "url": "https://proceedings.mlr.press/v80/jang18a.html"
+    },
+    {
+        "title": "Pathwise Derivatives Beyond the Reparameterization Trick",
+        "url": "https://proceedings.mlr.press/v80/jankowiak18a.html"
+    },
+    {
+        "title": "Detecting non-causal artifacts in multivariate linear regression models",
+        "url": "https://proceedings.mlr.press/v80/janzing18a.html"
+    },
+    {
+        "title": "A Unified Framework for Structured Low-rank Matrix Learning",
+        "url": "https://proceedings.mlr.press/v80/jawanpuria18a.html"
+    },
+    {
+        "title": "Efficient end-to-end learning for quantizable representations",
+        "url": "https://proceedings.mlr.press/v80/jeong18a.html"
+    },
+    {
+        "title": "Exploring Hidden Dimensions in Accelerating Convolutional Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/jia18a.html"
+    },
+    {
+        "title": "Feedback-Based Tree Search for Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/jiang18a.html"
+    },
+    {
+        "title": "Quickshift++: Provably Good Initializations for Sample-Based Mean Shift",
+        "url": "https://proceedings.mlr.press/v80/jiang18b.html"
+    },
+    {
+        "title": "MentorNet: Learning Data-Driven Curriculum for Very Deep Neural Networks on Corrupted Labels",
+        "url": "https://proceedings.mlr.press/v80/jiang18c.html"
+    },
+    {
+        "title": "The Weighted Kendall and High-order Kernels for Permutations",
+        "url": "https://proceedings.mlr.press/v80/jiao18a.html"
+    },
+    {
+        "title": "Junction Tree Variational Autoencoder for Molecular Graph Generation",
+        "url": "https://proceedings.mlr.press/v80/jin18a.html"
+    },
+    {
+        "title": "Network Global Testing by Counting Graphlets",
+        "url": "https://proceedings.mlr.press/v80/jin18b.html"
+    },
+    {
+        "title": "Regret Minimization for Partially Observable Deep Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/jin18c.html"
+    },
+    {
+        "title": "WSNet: Compact and Efficient Networks Through Weight Sampling",
+        "url": "https://proceedings.mlr.press/v80/jin18d.html"
+    },
+    {
+        "title": "Large-Scale Cox Process Inference using Variational Fourier Features",
+        "url": "https://proceedings.mlr.press/v80/john18a.html"
+    },
+    {
+        "title": "Composite Functional Gradient Learning of Generative Adversarial Models",
+        "url": "https://proceedings.mlr.press/v80/johnson18a.html"
+    },
+    {
+        "title": "Kronecker Recurrent Units",
+        "url": "https://proceedings.mlr.press/v80/jose18a.html"
+    },
+    {
+        "title": "Fast Decoding in Sequence Models Using Discrete Latent Variables",
+        "url": "https://proceedings.mlr.press/v80/kaiser18a.html"
+    },
+    {
+        "title": "Kernel Recursive ABC: Point Estimation with Intractable Likelihood",
+        "url": "https://proceedings.mlr.press/v80/kajihara18a.html"
+    },
+    {
+        "title": "Efficient Neural Audio Synthesis",
+        "url": "https://proceedings.mlr.press/v80/kalchbrenner18a.html"
+    },
+    {
+        "title": "Learning Diffusion using Hyperparameters",
+        "url": "https://proceedings.mlr.press/v80/kalimeris18a.html"
+    },
+    {
+        "title": "Signal and Noise Statistics Oblivious Orthogonal Matching Pursuit",
+        "url": "https://proceedings.mlr.press/v80/kallummil18a.html"
+    },
+    {
+        "title": "Residual Unfairness in Fair Machine Learning from Prejudiced Data",
+        "url": "https://proceedings.mlr.press/v80/kallus18a.html"
+    },
+    {
+        "title": "Learn from Your Neighbor: Learning Multi-modal Mappings from Sparse Annotations",
+        "url": "https://proceedings.mlr.press/v80/kalyan18a.html"
+    },
+    {
+        "title": "Semi-Supervised Learning via Compact Latent Space Clustering",
+        "url": "https://proceedings.mlr.press/v80/kamnitsas18a.html"
+    },
+    {
+        "title": "Policy Optimization with Demonstrations",
+        "url": "https://proceedings.mlr.press/v80/kang18a.html"
+    },
+    {
+        "title": "Improving Sign Random Projections With Additional Information",
+        "url": "https://proceedings.mlr.press/v80/kang18b.html"
+    },
+    {
+        "title": "Let’s be Honest: An Optimal No-Regret Framework for Zero-Sum Games",
+        "url": "https://proceedings.mlr.press/v80/kangarshahi18a.html"
+    },
+    {
+        "title": "Continual Reinforcement Learning with Complex Synapses",
+        "url": "https://proceedings.mlr.press/v80/kaplanis18a.html"
+    },
+    {
+        "title": "LaVAN: Localized and Visible Adversarial Noise",
+        "url": "https://proceedings.mlr.press/v80/karmon18a.html"
+    },
+    {
+        "title": "Riemannian Stochastic Recursive Gradient Algorithm",
+        "url": "https://proceedings.mlr.press/v80/kasai18a.html"
+    },
+    {
+        "title": "Not All Samples Are Created Equal: Deep Learning with Importance Sampling",
+        "url": "https://proceedings.mlr.press/v80/katharopoulos18a.html"
+    },
+    {
+        "title": "Feasible Arm Identification",
+        "url": "https://proceedings.mlr.press/v80/katz-samuels18a.html"
+    },
+    {
+        "title": "Scalable Deletion-Robust Submodular Maximization: Data Summarization with Privacy and Fairness Constraints",
+        "url": "https://proceedings.mlr.press/v80/kazemi18a.html"
+    },
+    {
+        "title": "Focused Hierarchical RNNs for Conditional Sequence Processing",
+        "url": "https://proceedings.mlr.press/v80/ke18a.html"
+    },
+    {
+        "title": "Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness",
+        "url": "https://proceedings.mlr.press/v80/kearns18a.html"
+    },
+    {
+        "title": "Improved nearest neighbor search using auxiliary information and priority functions",
+        "url": "https://proceedings.mlr.press/v80/keivani18a.html"
+    },
+    {
+        "title": "ContextNet: Deep learning for Star Galaxy Classification",
+        "url": "https://proceedings.mlr.press/v80/kennamer18a.html"
+    },
+    {
+        "title": "Frank-Wolfe with Subsampling Oracle",
+        "url": "https://proceedings.mlr.press/v80/kerdreux18a.html"
+    },
+    {
+        "title": "Convergence guarantees for a class of non-convex and non-smooth optimization problems",
+        "url": "https://proceedings.mlr.press/v80/khamaru18a.html"
+    },
+    {
+        "title": "Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam",
+        "url": "https://proceedings.mlr.press/v80/khan18a.html"
+    },
+    {
+        "title": "Geometry Score: A Method For Comparing Generative Adversarial Networks",
+        "url": "https://proceedings.mlr.press/v80/khrulkov18a.html"
+    },
+    {
+        "title": "Blind Justice: Fairness with Encrypted Sensitive Attributes",
+        "url": "https://proceedings.mlr.press/v80/kilbertus18a.html"
+    },
+    {
+        "title": "Markov Modulated Gaussian Cox Processes for Semi-Stationary Intensity Modeling of Events Data",
+        "url": "https://proceedings.mlr.press/v80/kim18a.html"
+    },
+    {
+        "title": "Disentangling by Factorising",
+        "url": "https://proceedings.mlr.press/v80/kim18b.html"
+    },
+    {
+        "title": "Self-Bounded Prediction Suffix Tree via Approximate String Matching",
+        "url": "https://proceedings.mlr.press/v80/kim18c.html"
+    },
+    {
+        "title": "Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)",
+        "url": "https://proceedings.mlr.press/v80/kim18d.html"
+    },
+    {
+        "title": "Semi-Amortized Variational Autoencoders",
+        "url": "https://proceedings.mlr.press/v80/kim18e.html"
+    },
+    {
+        "title": "Neural Relational Inference for Interacting Systems",
+        "url": "https://proceedings.mlr.press/v80/kipf18a.html"
+    },
+    {
+        "title": "An Alternative View: When Does SGD Escape Local Minima?",
+        "url": "https://proceedings.mlr.press/v80/kleinberg18a.html"
+    },
+    {
+        "title": "Crowdsourcing with Arbitrary Adversaries",
+        "url": "https://proceedings.mlr.press/v80/kleindessner18a.html"
+    },
+    {
+        "title": "Spatio-temporal Bayesian On-line Changepoint Detection with Model Selection",
+        "url": "https://proceedings.mlr.press/v80/knoblauch18a.html"
+    },
+    {
+        "title": "Fast Gradient-Based Methods with Exponential Rate: A Hybrid Control Framework",
+        "url": "https://proceedings.mlr.press/v80/kolarijani18a.html"
+    },
+    {
+        "title": "Nonconvex Optimization for Regression with Fairness Constraints",
+        "url": "https://proceedings.mlr.press/v80/komiyama18a.html"
+    },
+    {
+        "title": "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups",
+        "url": "https://proceedings.mlr.press/v80/kondor18a.html"
+    },
+    {
+        "title": "Compiling Combinatorial Prediction Games",
+        "url": "https://proceedings.mlr.press/v80/koriche18a.html"
+    },
+    {
+        "title": "Dynamic Evaluation of Neural Sequence Models",
+        "url": "https://proceedings.mlr.press/v80/krause18a.html"
+    },
+    {
+        "title": "Semiparametric Contextual Bandits",
+        "url": "https://proceedings.mlr.press/v80/krishnamurthy18a.html"
+    },
+    {
+        "title": "Fast Maximization of Non-Submodular, Monotonic Functions on the Integer Lattice",
+        "url": "https://proceedings.mlr.press/v80/kuhnle18a.html"
+    },
+    {
+        "title": "Accurate Uncertainties for Deep Learning Using Calibrated Regression",
+        "url": "https://proceedings.mlr.press/v80/kuleshov18a.html"
+    },
+    {
+        "title": "Trainable Calibration Measures for Neural Networks from Kernel Mean Embeddings",
+        "url": "https://proceedings.mlr.press/v80/kumar18a.html"
+    },
+    {
+        "title": "Data-Dependent Stability of Stochastic Gradient Descent",
+        "url": "https://proceedings.mlr.press/v80/kuzborskij18a.html"
+    },
+    {
+        "title": "Explicit Inductive Bias for Transfer Learning with Convolutional Networks",
+        "url": "https://proceedings.mlr.press/v80/li18a.html"
+    },
+    {
+        "title": "Understanding the Loss Surface of Neural Networks for Binary Classification",
+        "url": "https://proceedings.mlr.press/v80/liang18a.html"
+    },
+    {
+        "title": "Mixed batches and symmetric discriminators for GAN training",
+        "url": "https://proceedings.mlr.press/v80/lucas18a.html"
+    },
+    {
+        "title": "Binary Partitions with Approximate Minimum Impurity",
+        "url": "https://proceedings.mlr.press/v80/laber18a.html"
+    },
+    {
+        "title": "Canonical Tensor Decomposition for Knowledge Base Completion",
+        "url": "https://proceedings.mlr.press/v80/lacroix18a.html"
+    },
+    {
+        "title": "Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks",
+        "url": "https://proceedings.mlr.press/v80/lake18a.html"
+    },
+    {
+        "title": "An Estimation and Analysis Framework for the Rasch Model",
+        "url": "https://proceedings.mlr.press/v80/lan18a.html"
+    },
+    {
+        "title": "Partial Optimality and Fast Lower Bounds for Weighted Correlation Clustering",
+        "url": "https://proceedings.mlr.press/v80/lange18a.html"
+    },
+    {
+        "title": "Deep Linear Networks with Arbitrary Loss: All Local Minima Are Global",
+        "url": "https://proceedings.mlr.press/v80/laurent18a.html"
+    },
+    {
+        "title": "The Multilinear Structure of ReLU Networks",
+        "url": "https://proceedings.mlr.press/v80/laurent18b.html"
+    },
+    {
+        "title": "Hierarchical Imitation and Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/le18a.html"
+    },
+    {
+        "title": "Gradient-Based Meta-Learning with Learned Layerwise Metric and Subspace",
+        "url": "https://proceedings.mlr.press/v80/lee18a.html"
+    },
+    {
+        "title": "Deep Reinforcement Learning in Continuous Action Spaces: a Case Study in the Game of Simulated Curling",
+        "url": "https://proceedings.mlr.press/v80/lee18b.html"
+    },
+    {
+        "title": "Gated Path Planning Networks",
+        "url": "https://proceedings.mlr.press/v80/lee18c.html"
+    },
+    {
+        "title": "Deep Asymmetric Multi-task Feature Learning",
+        "url": "https://proceedings.mlr.press/v80/lee18d.html"
+    },
+    {
+        "title": "Noise2Noise: Learning Image Restoration without Clean Data",
+        "url": "https://proceedings.mlr.press/v80/lehtinen18a.html"
+    },
+    {
+        "title": "Out-of-sample extension of graph adjacency spectral embedding",
+        "url": "https://proceedings.mlr.press/v80/levin18a.html"
+    },
+    {
+        "title": "An Optimal Control Approach to Deep Learning and Applications to Discrete-Weight Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/li18b.html"
+    },
+    {
+        "title": "Towards Binary-Valued Gates for Robust LSTM Training",
+        "url": "https://proceedings.mlr.press/v80/li18c.html"
+    },
+    {
+        "title": "On the Limitations of First-Order Approximation in GAN Dynamics",
+        "url": "https://proceedings.mlr.press/v80/li18d.html"
+    },
+    {
+        "title": "Submodular Hypergraphs: p-Laplacians, Cheeger Inequalities and Spectral Clustering",
+        "url": "https://proceedings.mlr.press/v80/li18e.html"
+    },
+    {
+        "title": "The Well-Tempered Lasso",
+        "url": "https://proceedings.mlr.press/v80/li18f.html"
+    },
+    {
+        "title": "Estimation of Markov Chain via Rank-Constrained Likelihood",
+        "url": "https://proceedings.mlr.press/v80/li18g.html"
+    },
+    {
+        "title": "Asynchronous Decentralized Parallel Stochastic Gradient Descent",
+        "url": "https://proceedings.mlr.press/v80/lian18a.html"
+    },
+    {
+        "title": "RLlib: Abstractions for Distributed Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/liang18b.html"
+    },
+    {
+        "title": "On the Spectrum of Random Features Maps of High Dimensional Data",
+        "url": "https://proceedings.mlr.press/v80/liao18a.html"
+    },
+    {
+        "title": "The Dynamics of Learning: A Random Matrix Approach",
+        "url": "https://proceedings.mlr.press/v80/liao18b.html"
+    },
+    {
+        "title": "Reviving and Improving Recurrent Back-Propagation",
+        "url": "https://proceedings.mlr.press/v80/liao18c.html"
+    },
+    {
+        "title": "Optimal Distributed Learning with Multi-pass Stochastic Gradient Methods",
+        "url": "https://proceedings.mlr.press/v80/lin18a.html"
+    },
+    {
+        "title": "Optimal Rates of Sketched-regularized Algorithms for Least-Squares Regression over Hilbert Spaces",
+        "url": "https://proceedings.mlr.press/v80/lin18b.html"
+    },
+    {
+        "title": "Level-Set Methods for Finite-Sum Constrained Convex Optimization",
+        "url": "https://proceedings.mlr.press/v80/lin18c.html"
+    },
+    {
+        "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+        "url": "https://proceedings.mlr.press/v80/lipton18a.html"
+    },
+    {
+        "title": "Generalized Robust Bayesian Committee Machine for Large-scale Gaussian Process Regression",
+        "url": "https://proceedings.mlr.press/v80/liu18a.html"
+    },
+    {
+        "title": "Towards Black-box Iterative Machine Teaching",
+        "url": "https://proceedings.mlr.press/v80/liu18b.html"
+    },
+    {
+        "title": "Delayed Impact of Fair Machine Learning",
+        "url": "https://proceedings.mlr.press/v80/liu18c.html"
+    },
+    {
+        "title": "A Two-Step Computation of the Exact GAN Wasserstein Distance",
+        "url": "https://proceedings.mlr.press/v80/liu18d.html"
+    },
+    {
+        "title": "Open Category Detection with PAC Guarantees",
+        "url": "https://proceedings.mlr.press/v80/liu18e.html"
+    },
+    {
+        "title": "Fast Variance Reduction Method with Stochastic Batch Size",
+        "url": "https://proceedings.mlr.press/v80/liu18f.html"
+    },
+    {
+        "title": "Fast Stochastic AUC Maximization with $O(1/n)$-Convergence Rate",
+        "url": "https://proceedings.mlr.press/v80/liu18g.html"
+    },
+    {
+        "title": "On Matching Pursuit and Coordinate Descent",
+        "url": "https://proceedings.mlr.press/v80/locatello18a.html"
+    },
+    {
+        "title": "PDE-Net: Learning PDEs from Data",
+        "url": "https://proceedings.mlr.press/v80/long18a.html"
+    },
+    {
+        "title": "Error Estimation for Randomized Least-Squares Algorithms via the Bootstrap",
+        "url": "https://proceedings.mlr.press/v80/lopes18a.html"
+    },
+    {
+        "title": "Constraining the Dynamics of Deep Probabilistic Models",
+        "url": "https://proceedings.mlr.press/v80/lorenzi18a.html"
+    },
+    {
+        "title": "Spectrally Approximating Large Graphs with Smaller Graphs",
+        "url": "https://proceedings.mlr.press/v80/loukas18a.html"
+    },
+    {
+        "title": "The Edge Density Barrier: Computational-Statistical Tradeoffs in Combinatorial Inference",
+        "url": "https://proceedings.mlr.press/v80/lu18a.html"
+    },
+    {
+        "title": "Accelerating Greedy Coordinate Descent Methods",
+        "url": "https://proceedings.mlr.press/v80/lu18b.html"
+    },
+    {
+        "title": "Structured Variationally Auto-encoded Optimization",
+        "url": "https://proceedings.mlr.press/v80/lu18c.html"
+    },
+    {
+        "title": "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations",
+        "url": "https://proceedings.mlr.press/v80/lu18d.html"
+    },
+    {
+        "title": "End-to-end Active Object Tracking via Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/luo18a.html"
+    },
+    {
+        "title": "Competitive Caching with Machine Learned Advice",
+        "url": "https://proceedings.mlr.press/v80/lykouris18a.html"
+    },
+    {
+        "title": "Batch Bayesian Optimization via Multi-objective Acquisition Ensemble for Automated Analog Circuit Design",
+        "url": "https://proceedings.mlr.press/v80/lyu18a.html"
+    },
+    {
+        "title": "Celer: a Fast Solver for the Lasso with Dual Extrapolation",
+        "url": "https://proceedings.mlr.press/v80/massias18a.html"
+    },
+    {
+        "title": "The Power of Interpolation: Understanding the Effectiveness of SGD in Modern Over-parametrized Learning",
+        "url": "https://proceedings.mlr.press/v80/ma18a.html"
+    },
+    {
+        "title": "Gradient Descent for Sparse Rank-One Matrix Completion for Crowd-Sourced Aggregation of Sparsely Interacting Workers",
+        "url": "https://proceedings.mlr.press/v80/ma18b.html"
+    },
+    {
+        "title": "Implicit Regularization in Nonconvex Statistical Estimation: Gradient Descent Converges Linearly for Phase Retrieval and Matrix Completion",
+        "url": "https://proceedings.mlr.press/v80/ma18c.html"
+    },
+    {
+        "title": "Dimensionality-Driven Learning with Noisy Labels",
+        "url": "https://proceedings.mlr.press/v80/ma18d.html"
+    },
+    {
+        "title": "Approximate message passing for amplitude based optimization",
+        "url": "https://proceedings.mlr.press/v80/ma18e.html"
+    },
+    {
+        "title": "Orthogonal Machine Learning: Power and Limitations",
+        "url": "https://proceedings.mlr.press/v80/mackey18a.html"
+    },
+    {
+        "title": "Learning Adversarially Fair and Transferable Representations",
+        "url": "https://proceedings.mlr.press/v80/madras18a.html"
+    },
+    {
+        "title": "An Efficient, Generalized Bellman Update For Cooperative Inverse Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/malik18a.html"
+    },
+    {
+        "title": "Iterative Amortized Inference",
+        "url": "https://proceedings.mlr.press/v80/marino18a.html"
+    },
+    {
+        "title": "Streaming Principal Component Analysis in Noisy Setting",
+        "url": "https://proceedings.mlr.press/v80/marinov18a.html"
+    },
+    {
+        "title": "Fast Approximate Spectral Clustering for Dynamic Networks",
+        "url": "https://proceedings.mlr.press/v80/martin18a.html"
+    },
+    {
+        "title": "Bayesian Model Selection for Change Point Detection and Clustering",
+        "url": "https://proceedings.mlr.press/v80/mazhar18a.html"
+    },
+    {
+        "title": "Optimization, fast and slow: optimally switching between local and Bayesian optimization",
+        "url": "https://proceedings.mlr.press/v80/mcleod18a.html"
+    },
+    {
+        "title": "Bounds on the Approximation Power of Feedforward Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/mehrabi18a.html"
+    },
+    {
+        "title": "Differentiable Dynamic Programming for Structured Prediction and Attention",
+        "url": "https://proceedings.mlr.press/v80/mensch18a.html"
+    },
+    {
+        "title": "Ranking Distributions based on Noisy Sorting",
+        "url": "https://proceedings.mlr.press/v80/mesaoudi-paul18a.html"
+    },
+    {
+        "title": "Which Training Methods for GANs do actually Converge?",
+        "url": "https://proceedings.mlr.press/v80/mescheder18a.html"
+    },
+    {
+        "title": "Configurable Markov Decision Processes",
+        "url": "https://proceedings.mlr.press/v80/metelli18a.html"
+    },
+    {
+        "title": "prDeep: Robust Phase Retrieval with a Flexible Deep Network",
+        "url": "https://proceedings.mlr.press/v80/metzler18a.html"
+    },
+    {
+        "title": "Pseudo-task Augmentation: From Deep Multitask Learning to Intratask Sharing—and Back",
+        "url": "https://proceedings.mlr.press/v80/meyerson18a.html"
+    },
+    {
+        "title": "The Hidden Vulnerability of Distributed Learning in Byzantium",
+        "url": "https://proceedings.mlr.press/v80/mhamdi18a.html"
+    },
+    {
+        "title": "Stochastic PCA with $\\ell_2$ and $\\ell_1$ Regularization",
+        "url": "https://proceedings.mlr.press/v80/mianjy18a.html"
+    },
+    {
+        "title": "On the Implicit Bias of Dropout",
+        "url": "https://proceedings.mlr.press/v80/mianjy18b.html"
+    },
+    {
+        "title": "One-Shot Segmentation in Clutter",
+        "url": "https://proceedings.mlr.press/v80/michaelis18a.html"
+    },
+    {
+        "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+        "url": "https://proceedings.mlr.press/v80/miconi18a.html"
+    },
+    {
+        "title": "Training Neural Machines with Trace-Based Supervision",
+        "url": "https://proceedings.mlr.press/v80/mirman18a.html"
+    },
+    {
+        "title": "Differentiable Abstract Interpretation for Provably Robust Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/mirman18b.html"
+    },
+    {
+        "title": "A Delay-tolerant Proximal-Gradient Algorithm for Distributed Learning",
+        "url": "https://proceedings.mlr.press/v80/mishchenko18a.html"
+    },
+    {
+        "title": "Data Summarization at Scale: A Two-Stage Submodular Approach",
+        "url": "https://proceedings.mlr.press/v80/mitrovic18a.html"
+    },
+    {
+        "title": "The Hierarchical Adaptive Forgetting Variational Filter",
+        "url": "https://proceedings.mlr.press/v80/moens18a.html"
+    },
+    {
+        "title": "Decentralized Submodular Maximization: Bridging Discrete and Continuous Settings",
+        "url": "https://proceedings.mlr.press/v80/mokhtari18a.html"
+    },
+    {
+        "title": "DICOD: Distributed Convolutional Coordinate Descent for Convolutional Sparse Coding",
+        "url": "https://proceedings.mlr.press/v80/moreau18a.html"
+    },
+    {
+        "title": "WHInter: A Working set algorithm for High-dimensional sparse second order Interaction models",
+        "url": "https://proceedings.mlr.press/v80/morvan18a.html"
+    },
+    {
+        "title": "Dropout Training, Data-dependent Regularization, and Generalization Bounds",
+        "url": "https://proceedings.mlr.press/v80/mou18a.html"
+    },
+    {
+        "title": "Kernelized Synaptic Weight Matrices",
+        "url": "https://proceedings.mlr.press/v80/muller18a.html"
+    },
+    {
+        "title": "Rapid Adaptation with Conditionally Shifted Neurons",
+        "url": "https://proceedings.mlr.press/v80/munkhdalai18a.html"
+    },
+    {
+        "title": "On the Relationship between Data Efficiency and Error for Uncertainty Sampling",
+        "url": "https://proceedings.mlr.press/v80/mussmann18a.html"
+    },
+    {
+        "title": "Fitting New Speakers Based on a Short Untranscribed Sample",
+        "url": "https://proceedings.mlr.press/v80/nachmani18a.html"
+    },
+    {
+        "title": "Smoothed Action Value Functions for Learning Gaussian Policies",
+        "url": "https://proceedings.mlr.press/v80/nachum18a.html"
+    },
+    {
+        "title": "Nearly Optimal Robust Subspace Tracking",
+        "url": "https://proceedings.mlr.press/v80/narayanamurthy18a.html"
+    },
+    {
+        "title": "Stochastic Proximal Algorithms for AUC Maximization",
+        "url": "https://proceedings.mlr.press/v80/natole18a.html"
+    },
+    {
+        "title": "Mitigating Bias in Adaptive Data Gathering via Differential Privacy",
+        "url": "https://proceedings.mlr.press/v80/neel18a.html"
+    },
+    {
+        "title": "Optimization Landscape and Expressivity of Deep CNNs",
+        "url": "https://proceedings.mlr.press/v80/nguyen18a.html"
+    },
+    {
+        "title": "Neural Networks Should Be Wide Enough to Learn Disconnected Decision Regions",
+        "url": "https://proceedings.mlr.press/v80/nguyen18b.html"
+    },
+    {
+        "title": "SGD and Hogwild! Convergence Without the Bounded Gradients Assumption",
+        "url": "https://proceedings.mlr.press/v80/nguyen18c.html"
+    },
+    {
+        "title": "Active Testing: An Efficient and Robust Framework for Estimating Accuracy",
+        "url": "https://proceedings.mlr.press/v80/nguyen18d.html"
+    },
+    {
+        "title": "On Learning Sparsely Used Dictionaries from Incomplete Samples",
+        "url": "https://proceedings.mlr.press/v80/nguyen18e.html"
+    },
+    {
+        "title": "Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry",
+        "url": "https://proceedings.mlr.press/v80/nickel18a.html"
+    },
+    {
+        "title": "State Space Gaussian Processes with Non-Gaussian Likelihood",
+        "url": "https://proceedings.mlr.press/v80/nickisch18a.html"
+    },
+    {
+        "title": "SparseMAP: Differentiable Sparse Structured Inference",
+        "url": "https://proceedings.mlr.press/v80/niculae18a.html"
+    },
+    {
+        "title": "A Theoretical Explanation for Perplexing Behaviors of Backpropagation-based Visualizations",
+        "url": "https://proceedings.mlr.press/v80/nie18a.html"
+    },
+    {
+        "title": "Functional Gradient Boosting based on Residual Network Perception",
+        "url": "https://proceedings.mlr.press/v80/nitanda18a.html"
+    },
+    {
+        "title": "Beyond 1/2-Approximation for Submodular Maximization on Massive Data Streams",
+        "url": "https://proceedings.mlr.press/v80/norouzi-fard18a.html"
+    },
+    {
+        "title": "The Uncertainty Bellman Equation and Exploration",
+        "url": "https://proceedings.mlr.press/v80/odonoghue18a.html"
+    },
+    {
+        "title": "Is Generator Conditioning Causally Related to GAN Performance?",
+        "url": "https://proceedings.mlr.press/v80/odena18a.html"
+    },
+    {
+        "title": "Learning in Reproducing Kernel Kreı̆n Spaces",
+        "url": "https://proceedings.mlr.press/v80/oglic18a.html"
+    },
+    {
+        "title": "BOCK : Bayesian Optimization with Cylindrical Kernels",
+        "url": "https://proceedings.mlr.press/v80/oh18a.html"
+    },
+    {
+        "title": "Self-Imitation Learning",
+        "url": "https://proceedings.mlr.press/v80/oh18b.html"
+    },
+    {
+        "title": "A probabilistic framework for multi-view feature learning with many-to-many associations via neural networks",
+        "url": "https://proceedings.mlr.press/v80/okuno18a.html"
+    },
+    {
+        "title": "Transformation Autoregressive Networks",
+        "url": "https://proceedings.mlr.press/v80/oliva18a.html"
+    },
+    {
+        "title": "Design of Experiments for Model Discrimination Hybridising Analytical and Data-Driven Approaches",
+        "url": "https://proceedings.mlr.press/v80/olofsson18a.html"
+    },
+    {
+        "title": "Parallel WaveNet: Fast High-Fidelity Speech Synthesis",
+        "url": "https://proceedings.mlr.press/v80/oord18a.html"
+    },
+    {
+        "title": "Learning Localized Spatio-Temporal Models From Streaming Data",
+        "url": "https://proceedings.mlr.press/v80/osama18a.html"
+    },
+    {
+        "title": "Autoregressive Quantile Networks for Generative Modeling",
+        "url": "https://proceedings.mlr.press/v80/ostrovski18a.html"
+    },
+    {
+        "title": "Efficient First-Order Algorithms for Adaptive Signal Denoising",
+        "url": "https://proceedings.mlr.press/v80/ostrovskii18a.html"
+    },
+    {
+        "title": "Analyzing Uncertainty in Neural Machine Translation",
+        "url": "https://proceedings.mlr.press/v80/ott18a.html"
+    },
+    {
+        "title": "Learning Compact Neural Networks with Regularization",
+        "url": "https://proceedings.mlr.press/v80/oymak18a.html"
+    },
+    {
+        "title": "Tree Edit Distance Learning via Adaptive Symbol Embeddings",
+        "url": "https://proceedings.mlr.press/v80/paassen18a.html"
+    },
+    {
+        "title": "Reinforcement Learning with Function-Valued Action Spaces for Partial Differential Equation Control",
+        "url": "https://proceedings.mlr.press/v80/pan18a.html"
+    },
+    {
+        "title": "Learning to Speed Up Structured Output Prediction",
+        "url": "https://proceedings.mlr.press/v80/pan18b.html"
+    },
+    {
+        "title": "Theoretical Analysis of Image-to-Image Translation with Adversarial Learning",
+        "url": "https://proceedings.mlr.press/v80/pan18c.html"
+    },
+    {
+        "title": "Max-Mahalanobis Linear Discriminant Analysis Networks",
+        "url": "https://proceedings.mlr.press/v80/pang18a.html"
+    },
+    {
+        "title": "Stochastic Variance-Reduced Policy Gradient",
+        "url": "https://proceedings.mlr.press/v80/papini18a.html"
+    },
+    {
+        "title": "Learning Independent Causal Mechanisms",
+        "url": "https://proceedings.mlr.press/v80/parascandolo18a.html"
+    },
+    {
+        "title": "Time Limits in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/pardo18a.html"
+    },
+    {
+        "title": "Image Transformer",
+        "url": "https://proceedings.mlr.press/v80/parmar18a.html"
+    },
+    {
+        "title": "PIPPS: Flexible Model-Based Policy Search Robust to the Curse of Chaos",
+        "url": "https://proceedings.mlr.press/v80/parmas18a.html"
+    },
+    {
+        "title": "High-Quality Prediction Intervals for Deep Learning: A Distribution-Free, Ensembled Approach",
+        "url": "https://proceedings.mlr.press/v80/pearce18a.html"
+    },
+    {
+        "title": "Adaptive Three Operator Splitting",
+        "url": "https://proceedings.mlr.press/v80/pedregosa18a.html"
+    },
+    {
+        "title": "Efficient Neural Architecture Search via Parameters Sharing",
+        "url": "https://proceedings.mlr.press/v80/pham18a.html"
+    },
+    {
+        "title": "Bandits with Delayed, Aggregated Anonymous Feedback",
+        "url": "https://proceedings.mlr.press/v80/pike-burke18a.html"
+    },
+    {
+        "title": "Constant-Time Predictive Distributions for Gaussian Processes",
+        "url": "https://proceedings.mlr.press/v80/pleiss18a.html"
+    },
+    {
+        "title": "Local Convergence Properties of SAGA/Prox-SVRG and Acceleration",
+        "url": "https://proceedings.mlr.press/v80/poon18a.html"
+    },
+    {
+        "title": "Equivalence of Multicategory SVM and Simplex Cone SVM: Fast Computations and Statistical Theory",
+        "url": "https://proceedings.mlr.press/v80/pouliot18a.html"
+    },
+    {
+        "title": "Learning Dynamics of Linear Denoising Autoencoders",
+        "url": "https://proceedings.mlr.press/v80/pretorius18a.html"
+    },
+    {
+        "title": "JointGAN: Multi-Domain Joint Distribution Learning with Generative Adversarial Nets",
+        "url": "https://proceedings.mlr.press/v80/pu18a.html"
+    },
+    {
+        "title": "Selecting Representative Examples for Program Synthesis",
+        "url": "https://proceedings.mlr.press/v80/pu18b.html"
+    },
+    {
+        "title": "Generalized Earley Parser: Bridging Symbolic Grammars and Sequence Data for Future Prediction",
+        "url": "https://proceedings.mlr.press/v80/qi18a.html"
+    },
+    {
+        "title": "Do Outliers Ruin Collaboration?",
+        "url": "https://proceedings.mlr.press/v80/qiao18a.html"
+    },
+    {
+        "title": "Gradually Updated Neural Networks for Large-Scale Image Recognition",
+        "url": "https://proceedings.mlr.press/v80/qiao18b.html"
+    },
+    {
+        "title": "DCFNet: Deep Neural Network with Decomposed Convolutional Filters",
+        "url": "https://proceedings.mlr.press/v80/qiu18a.html"
+    },
+    {
+        "title": "Non-convex Conditional Gradient Sliding",
+        "url": "https://proceedings.mlr.press/v80/qu18a.html"
+    },
+    {
+        "title": "Machine Theory of Mind",
+        "url": "https://proceedings.mlr.press/v80/rabinowitz18a.html"
+    },
+    {
+        "title": "Fast Parametric Learning with Activation Memorization",
+        "url": "https://proceedings.mlr.press/v80/rae18a.html"
+    },
+    {
+        "title": "Can Deep Reinforcement Learning Solve Erdos-Selfridge-Spencer Games?",
+        "url": "https://proceedings.mlr.press/v80/raghu18a.html"
+    },
+    {
+        "title": "Cut-Pursuit Algorithm for Regularizing Nonsmooth Functionals with Graph Total Variation",
+        "url": "https://proceedings.mlr.press/v80/raguet18a.html"
+    },
+    {
+        "title": "Modeling Others using Oneself in Multi-Agent Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/raileanu18a.html"
+    },
+    {
+        "title": "On Nesting Monte Carlo Estimators",
+        "url": "https://proceedings.mlr.press/v80/rainforth18a.html"
+    },
+    {
+        "title": "Tighter Variational Bounds are Not Necessarily Better",
+        "url": "https://proceedings.mlr.press/v80/rainforth18b.html"
+    },
+    {
+        "title": "SAFFRON: an Adaptive Algorithm for Online Control of the False Discovery Rate",
+        "url": "https://proceedings.mlr.press/v80/ramdas18a.html"
+    },
+    {
+        "title": "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/rashid18a.html"
+    },
+    {
+        "title": "Gradient Coding from Cyclic MDS Codes and Expander Graphs",
+        "url": "https://proceedings.mlr.press/v80/raviv18a.html"
+    },
+    {
+        "title": "Learning Implicit Generative Models with the Method of Learned Moments",
+        "url": "https://proceedings.mlr.press/v80/ravuri18a.html"
+    },
+    {
+        "title": "Weightless: Lossy weight encoding for deep neural network compression",
+        "url": "https://proceedings.mlr.press/v80/reagan18a.html"
+    },
+    {
+        "title": "Learning to Reweight Examples for Robust Deep Learning",
+        "url": "https://proceedings.mlr.press/v80/ren18a.html"
+    },
+    {
+        "title": "Learning by Playing Solving Sparse Reward Tasks from Scratch",
+        "url": "https://proceedings.mlr.press/v80/riedmiller18a.html"
+    },
+    {
+        "title": "Been There, Done That: Meta-Learning with Episodic Recall",
+        "url": "https://proceedings.mlr.press/v80/ritter18a.html"
+    },
+    {
+        "title": "A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music",
+        "url": "https://proceedings.mlr.press/v80/roberts18a.html"
+    },
+    {
+        "title": "Learning to Optimize Combinatorial Functions",
+        "url": "https://proceedings.mlr.press/v80/rosenfeld18a.html"
+    },
+    {
+        "title": "Fast Information-theoretic Bayesian Optimisation",
+        "url": "https://proceedings.mlr.press/v80/ru18a.html"
+    },
+    {
+        "title": "Deep One-Class Classification",
+        "url": "https://proceedings.mlr.press/v80/ruff18a.html"
+    },
+    {
+        "title": "Augment and Reduce: Stochastic Inference for Large Categorical Distributions",
+        "url": "https://proceedings.mlr.press/v80/ruiz18a.html"
+    },
+    {
+        "title": "Probabilistic Boolean Tensor Decomposition",
+        "url": "https://proceedings.mlr.press/v80/rukat18a.html"
+    },
+    {
+        "title": "Black-Box Variational Inference for Stochastic Differential Equations",
+        "url": "https://proceedings.mlr.press/v80/ryder18a.html"
+    },
+    {
+        "title": "Spurious Local Minima are Common in Two-Layer ReLU Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/safran18a.html"
+    },
+    {
+        "title": "Learning Equations for Extrapolation and Control",
+        "url": "https://proceedings.mlr.press/v80/sahoo18a.html"
+    },
+    {
+        "title": "Tempered Adversarial Networks",
+        "url": "https://proceedings.mlr.press/v80/sajjadi18a.html"
+    },
+    {
+        "title": "Representation Tradeoffs for Hyperbolic Embeddings",
+        "url": "https://proceedings.mlr.press/v80/sala18a.html"
+    },
+    {
+        "title": "Graph Networks as Learnable Physics Engines for Inference and Control",
+        "url": "https://proceedings.mlr.press/v80/sanchez-gonzalez18a.html"
+    },
+    {
+        "title": "A Classification-Based Study of Covariate Shift in GAN Distributions",
+        "url": "https://proceedings.mlr.press/v80/santurkar18a.html"
+    },
+    {
+        "title": "TAPAS: Tricks to Accelerate (encrypted) Prediction As a Service",
+        "url": "https://proceedings.mlr.press/v80/sanyal18a.html"
+    },
+    {
+        "title": "Tight Regret Bounds for Bayesian Optimization in One Dimension",
+        "url": "https://proceedings.mlr.press/v80/scarlett18a.html"
+    },
+    {
+        "title": "Learning with Abandonment",
+        "url": "https://proceedings.mlr.press/v80/schmit18a.html"
+    },
+    {
+        "title": "Not to Cry Wolf: Distantly Supervised Multitask Learning in Critical Care",
+        "url": "https://proceedings.mlr.press/v80/schwab18a.html"
+    },
+    {
+        "title": "Progress & Compress: A scalable framework for continual learning",
+        "url": "https://proceedings.mlr.press/v80/schwarz18a.html"
+    },
+    {
+        "title": "Multi-Fidelity Black-Box Optimization with Hierarchical Partitions",
+        "url": "https://proceedings.mlr.press/v80/sen18a.html"
+    },
+    {
+        "title": "Overcoming Catastrophic Forgetting with Hard Attention to the Task",
+        "url": "https://proceedings.mlr.press/v80/serra18a.html"
+    },
+    {
+        "title": "Bounding and Counting Linear Regions of Deep Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/serra18b.html"
+    },
+    {
+        "title": "First Order Generative Adversarial Networks",
+        "url": "https://proceedings.mlr.press/v80/seward18a.html"
+    },
+    {
+        "title": "Finding Influential Training Samples for Gradient Boosted Decision Trees",
+        "url": "https://proceedings.mlr.press/v80/sharchilev18a.html"
+    },
+    {
+        "title": "Solving Partial Assignment Problems using Random Clique Complexes",
+        "url": "https://proceedings.mlr.press/v80/sharma18a.html"
+    },
+    {
+        "title": "Adafactor: Adaptive Learning Rates with Sublinear Memory Cost",
+        "url": "https://proceedings.mlr.press/v80/shazeer18a.html"
+    },
+    {
+        "title": "Locally Private Hypothesis Testing",
+        "url": "https://proceedings.mlr.press/v80/sheffet18a.html"
+    },
+    {
+        "title": "Learning in Integer Latent Variable Models with Nested Automatic Differentiation",
+        "url": "https://proceedings.mlr.press/v80/sheldon18a.html"
+    },
+    {
+        "title": "Towards More Efficient Stochastic Decentralized Learning: Faster Convergence and Sparse Communication",
+        "url": "https://proceedings.mlr.press/v80/shen18a.html"
+    },
+    {
+        "title": "An Algorithmic Framework of Variable Metric Over-Relaxed Hybrid Proximal Extra-Gradient Method",
+        "url": "https://proceedings.mlr.press/v80/shen18b.html"
+    },
+    {
+        "title": "A Spectral Approach to Gradient Estimation for Implicit Distributions",
+        "url": "https://proceedings.mlr.press/v80/shi18a.html"
+    },
+    {
+        "title": "TACO: Learning Task Decomposition via Temporal Alignment for Control",
+        "url": "https://proceedings.mlr.press/v80/shiarlis18a.html"
+    },
+    {
+        "title": "CRAFTML, an Efficient Clustering-based Random Forest for Extreme Multi-label Learning",
+        "url": "https://proceedings.mlr.press/v80/siblini18a.html"
+    },
+    {
+        "title": "Asynchronous Stochastic Quasi-Newton MCMC for Non-Convex Optimization",
+        "url": "https://proceedings.mlr.press/v80/simsekli18a.html"
+    },
+    {
+        "title": "K-means clustering using random matrix sparsification",
+        "url": "https://proceedings.mlr.press/v80/sinha18a.html"
+    },
+    {
+        "title": "Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron",
+        "url": "https://proceedings.mlr.press/v80/skerry-ryan18a.html"
+    },
+    {
+        "title": "An Inference-Based Policy Gradient Method for Learning Options",
+        "url": "https://proceedings.mlr.press/v80/smith18a.html"
+    },
+    {
+        "title": "Accelerating Natural Gradient with Higher-Order Invariance",
+        "url": "https://proceedings.mlr.press/v80/song18a.html"
+    },
+    {
+        "title": "Knowledge Transfer with Jacobian Matching",
+        "url": "https://proceedings.mlr.press/v80/srinivas18a.html"
+    },
+    {
+        "title": "Universal Planning Networks: Learning Generalizable Representations for Visuomotor Control",
+        "url": "https://proceedings.mlr.press/v80/srinivas18b.html"
+    },
+    {
+        "title": "Structured Control Nets for Deep Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/srouji18a.html"
+    },
+    {
+        "title": "Approximation Algorithms for Cascading Prediction Models",
+        "url": "https://proceedings.mlr.press/v80/streeter18a.html"
+    },
+    {
+        "title": "Learning Low-Dimensional Temporal Representations",
+        "url": "https://proceedings.mlr.press/v80/su18a.html"
+    },
+    {
+        "title": "Exploiting the Potential of Standard Convolutional Autoencoders for Image Restoration by Evolutionary Search",
+        "url": "https://proceedings.mlr.press/v80/suganuma18a.html"
+    },
+    {
+        "title": "Stagewise Safe Bayesian Optimization with Gaussian Processes",
+        "url": "https://proceedings.mlr.press/v80/sui18a.html"
+    },
+    {
+        "title": "Neural Program Synthesis from Diverse Demonstration Videos",
+        "url": "https://proceedings.mlr.press/v80/sun18a.html"
+    },
+    {
+        "title": "Scalable approximate Bayesian inference for particle tracking data",
+        "url": "https://proceedings.mlr.press/v80/sun18b.html"
+    },
+    {
+        "title": "Graphical Nonconvex Optimization via an Adaptive Convex Relaxation",
+        "url": "https://proceedings.mlr.press/v80/sun18c.html"
+    },
+    {
+        "title": "Convolutional Imputation of Matrix Networks",
+        "url": "https://proceedings.mlr.press/v80/sun18d.html"
+    },
+    {
+        "title": "Differentiable Compositional Kernel Learning for Gaussian Processes",
+        "url": "https://proceedings.mlr.press/v80/sun18e.html"
+    },
+    {
+        "title": "Learning the Reward Function for a Misspecified Model",
+        "url": "https://proceedings.mlr.press/v80/talvitie18a.html"
+    },
+    {
+        "title": "$D^2$: Decentralized Training over Decentralized Data",
+        "url": "https://proceedings.mlr.press/v80/tang18a.html"
+    },
+    {
+        "title": "Neural Inverse Rendering for General Reflectance Photometric Stereo",
+        "url": "https://proceedings.mlr.press/v80/taniai18a.html"
+    },
+    {
+        "title": "Black Box FDR",
+        "url": "https://proceedings.mlr.press/v80/tansey18a.html"
+    },
+    {
+        "title": "Best Arm Identification in Linear Bandits with Linear Dimension Dependency",
+        "url": "https://proceedings.mlr.press/v80/tao18a.html"
+    },
+    {
+        "title": "Chi-square Generative Adversarial Network",
+        "url": "https://proceedings.mlr.press/v80/tao18b.html"
+    },
+    {
+        "title": "Lyapunov Functions for First-Order Methods: Tight Automated Convergence Guarantees",
+        "url": "https://proceedings.mlr.press/v80/taylor18a.html"
+    },
+    {
+        "title": "Bayesian Uncertainty Estimation for Batch Normalized Deep Networks",
+        "url": "https://proceedings.mlr.press/v80/teye18a.html"
+    },
+    {
+        "title": "Decoupling Gradient-Like Learning Rules from Representations",
+        "url": "https://proceedings.mlr.press/v80/thomas18a.html"
+    },
+    {
+        "title": "CoVeR: Learning Covariate-Specific Vector Representations with Tensor Decompositions",
+        "url": "https://proceedings.mlr.press/v80/tian18a.html"
+    },
+    {
+        "title": "Importance Weighted Transfer of Samples in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/tirinzoni18a.html"
+    },
+    {
+        "title": "Adversarial Regression with Multiple Learners",
+        "url": "https://proceedings.mlr.press/v80/tong18a.html"
+    },
+    {
+        "title": "Convergent Tree Backup and Retrace with Function Approximation",
+        "url": "https://proceedings.mlr.press/v80/touati18a.html"
+    },
+    {
+        "title": "Learning Longer-term Dependencies in RNNs with Auxiliary Losses",
+        "url": "https://proceedings.mlr.press/v80/trinh18a.html"
+    },
+    {
+        "title": "Theoretical Analysis of Sparse Subspace Clustering with Missing Entries",
+        "url": "https://proceedings.mlr.press/v80/tsakiris18a.html"
+    },
+    {
+        "title": "StrassenNets: Deep Learning with a Multiplication Budget",
+        "url": "https://proceedings.mlr.press/v80/tschannen18a.html"
+    },
+    {
+        "title": "Invariance of Weight Distributions in Rectified MLPs",
+        "url": "https://proceedings.mlr.press/v80/tsuchida18a.html"
+    },
+    {
+        "title": "Least-Squares Temporal Difference Learning for the Linear Quadratic Regulator",
+        "url": "https://proceedings.mlr.press/v80/tu18a.html"
+    },
+    {
+        "title": "The Mirage of Action-Dependent Baselines in Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/tucker18a.html"
+    },
+    {
+        "title": "Adversarial Risk and the Dangers of Evaluating Against Weak Attacks",
+        "url": "https://proceedings.mlr.press/v80/uesato18a.html"
+    },
+    {
+        "title": "DVAE++: Discrete Variational Autoencoders with Overlapping Transformations",
+        "url": "https://proceedings.mlr.press/v80/vahdat18a.html"
+    },
+    {
+        "title": "Programmatically Interpretable Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/verma18a.html"
+    },
+    {
+        "title": "Clustering Semi-Random Mixtures of Gaussians",
+        "url": "https://proceedings.mlr.press/v80/vijayaraghavan18a.html"
+    },
+    {
+        "title": "A Probabilistic Theory of Supervised Similarity Learning for Pointwise ROC Curve Optimization",
+        "url": "https://proceedings.mlr.press/v80/vogel18a.html"
+    },
+    {
+        "title": "Hierarchical Multi-Label Classification Networks",
+        "url": "https://proceedings.mlr.press/v80/wehrmann18a.html"
+    },
+    {
+        "title": "Transfer Learning via Learning to Transfer",
+        "url": "https://proceedings.mlr.press/v80/wei18a.html"
+    },
+    {
+        "title": "Semi-Supervised Learning on Data Streams via Temporal Label Propagation",
+        "url": "https://proceedings.mlr.press/v80/wagner18a.html"
+    },
+    {
+        "title": "Neural Dynamic Programming for Musical Self Similarity",
+        "url": "https://proceedings.mlr.press/v80/walder18a.html"
+    },
+    {
+        "title": "Thompson Sampling for Combinatorial Semi-Bandits",
+        "url": "https://proceedings.mlr.press/v80/wang18a.html"
+    },
+    {
+        "title": "PredRNN++: Towards A Resolution of the Deep-in-Time Dilemma in Spatiotemporal Predictive Learning",
+        "url": "https://proceedings.mlr.press/v80/wang18b.html"
+    },
+    {
+        "title": "Analyzing the Robustness of Nearest Neighbors to Adversarial Examples",
+        "url": "https://proceedings.mlr.press/v80/wang18c.html"
+    },
+    {
+        "title": "Competitive Multi-agent Inverse Reinforcement Learning with Sub-optimal Demonstrations",
+        "url": "https://proceedings.mlr.press/v80/wang18d.html"
+    },
+    {
+        "title": "Coded Sparse Matrix Multiplication",
+        "url": "https://proceedings.mlr.press/v80/wang18e.html"
+    },
+    {
+        "title": "A Fast and Scalable Joint Estimator for Integrating Additional Knowledge in Learning Multiple Related Sparse Gaussian Graphical Models",
+        "url": "https://proceedings.mlr.press/v80/wang18f.html"
+    },
+    {
+        "title": "Provable Variable Selection for Streaming Features",
+        "url": "https://proceedings.mlr.press/v80/wang18g.html"
+    },
+    {
+        "title": "Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis",
+        "url": "https://proceedings.mlr.press/v80/wang18h.html"
+    },
+    {
+        "title": "Adversarial Distillation of Bayesian Neural Network Posteriors",
+        "url": "https://proceedings.mlr.press/v80/wang18i.html"
+    },
+    {
+        "title": "Minimax Concave Penalized Multi-Armed Bandit Model with High-Dimensional Covariates",
+        "url": "https://proceedings.mlr.press/v80/wang18j.html"
+    },
+    {
+        "title": "Online Convolutional Sparse Coding with Sample-Dependent Dictionary",
+        "url": "https://proceedings.mlr.press/v80/wang18k.html"
+    },
+    {
+        "title": "Stein Variational Message Passing for Continuous Graphical Models",
+        "url": "https://proceedings.mlr.press/v80/wang18l.html"
+    },
+    {
+        "title": "Approximate Leave-One-Out for Fast Parameter Tuning in High Dimensions",
+        "url": "https://proceedings.mlr.press/v80/wang18m.html"
+    },
+    {
+        "title": "Curriculum Learning by Transfer Learning: Theory and Experiments with Deep Networks",
+        "url": "https://proceedings.mlr.press/v80/weinshall18a.html"
+    },
+    {
+        "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples",
+        "url": "https://proceedings.mlr.press/v80/weiss18a.html"
+    },
+    {
+        "title": "LeapsAndBounds: A Method for Approximately Optimal Algorithm Configuration",
+        "url": "https://proceedings.mlr.press/v80/weisz18a.html"
+    },
+    {
+        "title": "Deep Predictive Coding Network for Object Recognition",
+        "url": "https://proceedings.mlr.press/v80/wen18a.html"
+    },
+    {
+        "title": "Towards Fast Computation of Certified Robustness for ReLU Networks",
+        "url": "https://proceedings.mlr.press/v80/weng18a.html"
+    },
+    {
+        "title": "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope",
+        "url": "https://proceedings.mlr.press/v80/wong18a.html"
+    },
+    {
+        "title": "Local Density Estimation in High Dimensions",
+        "url": "https://proceedings.mlr.press/v80/wu18a.html"
+    },
+    {
+        "title": "Adaptive Exploration-Exploitation Tradeoff for Opportunistic Bandits",
+        "url": "https://proceedings.mlr.press/v80/wu18b.html"
+    },
+    {
+        "title": "SQL-Rank: A Listwise Approach to Collaborative Ranking",
+        "url": "https://proceedings.mlr.press/v80/wu18c.html"
+    },
+    {
+        "title": "Error Compensated Quantized SGD and its Applications to Large-scale Distributed Optimization",
+        "url": "https://proceedings.mlr.press/v80/wu18d.html"
+    },
+    {
+        "title": "Reinforcing Adversarial Robustness using Model Confidence Induced by Adversarial Training",
+        "url": "https://proceedings.mlr.press/v80/wu18e.html"
+    },
+    {
+        "title": "Discrete-Continuous Mixtures in Probabilistic Programming: Generalized Semantics and Inference Algorithms",
+        "url": "https://proceedings.mlr.press/v80/wu18f.html"
+    },
+    {
+        "title": "Variance Regularized Counterfactual Risk Minimization via Variational Divergence Minimization",
+        "url": "https://proceedings.mlr.press/v80/wu18g.html"
+    },
+    {
+        "title": "Deep k-Means: Re-Training and Parameter Sharing with Harder Cluster Assignments for Compressing Deep Convolutions",
+        "url": "https://proceedings.mlr.press/v80/wu18h.html"
+    },
+    {
+        "title": "Bayesian Quadrature for Multiple Related Integrals",
+        "url": "https://proceedings.mlr.press/v80/xi18a.html"
+    },
+    {
+        "title": "Model-Level Dual Learning",
+        "url": "https://proceedings.mlr.press/v80/xia18a.html"
+    },
+    {
+        "title": "Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/xiao18a.html"
+    },
+    {
+        "title": "Orthogonality-Promoting Distance Metric Learning: Convex Relaxation and Theoretical Analysis",
+        "url": "https://proceedings.mlr.press/v80/xie18a.html"
+    },
+    {
+        "title": "Nonoverlap-Promoting Variable Selection",
+        "url": "https://proceedings.mlr.press/v80/xie18b.html"
+    },
+    {
+        "title": "Learning Semantic Representations for Unsupervised Domain Adaptation",
+        "url": "https://proceedings.mlr.press/v80/xie18c.html"
+    },
+    {
+        "title": "Rates of Convergence of Spectral Methods for Graphon Estimation",
+        "url": "https://proceedings.mlr.press/v80/xu18a.html"
+    },
+    {
+        "title": "Learning Registered Point Processes from Idiosyncratic Observations",
+        "url": "https://proceedings.mlr.press/v80/xu18b.html"
+    },
+    {
+        "title": "Representation Learning on Graphs with Jumping Knowledge Networks",
+        "url": "https://proceedings.mlr.press/v80/xu18c.html"
+    },
+    {
+        "title": "Learning to Explore via Meta-Policy Gradient",
+        "url": "https://proceedings.mlr.press/v80/xu18d.html"
+    },
+    {
+        "title": "Nonparametric Regression with Comparisons: Escaping the Curse of Dimensionality with Ordinal Information",
+        "url": "https://proceedings.mlr.press/v80/xu18e.html"
+    },
+    {
+        "title": "Optimal Tuning for Divide-and-conquer Kernel Ridge Regression with Massive Data",
+        "url": "https://proceedings.mlr.press/v80/xu18f.html"
+    },
+    {
+        "title": "Continuous and Discrete-time Accelerated Stochastic Mirror Descent for Strongly Convex Functions",
+        "url": "https://proceedings.mlr.press/v80/xu18g.html"
+    },
+    {
+        "title": "A Semantic Loss Function for Deep Learning with Symbolic Knowledge",
+        "url": "https://proceedings.mlr.press/v80/xu18h.html"
+    },
+    {
+        "title": "Causal Bandits with Propagating Inference",
+        "url": "https://proceedings.mlr.press/v80/yabe18a.html"
+    },
+    {
+        "title": "Active Learning with Logged Data",
+        "url": "https://proceedings.mlr.press/v80/yan18a.html"
+    },
+    {
+        "title": "Binary Classification with Karmic, Threshold-Quasi-Concave Metrics",
+        "url": "https://proceedings.mlr.press/v80/yan18b.html"
+    },
+    {
+        "title": "Characterizing and Learning Equivalence Classes of Causal DAGs under Interventions",
+        "url": "https://proceedings.mlr.press/v80/yang18a.html"
+    },
+    {
+        "title": "Dependent Relational Gamma Process Models for Longitudinal Networks",
+        "url": "https://proceedings.mlr.press/v80/yang18b.html"
+    },
+    {
+        "title": "Goodness-of-Fit Testing for Discrete Distributions via Stein Discrepancy",
+        "url": "https://proceedings.mlr.press/v80/yang18c.html"
+    },
+    {
+        "title": "Mean Field Multi-Agent Reinforcement Learning",
+        "url": "https://proceedings.mlr.press/v80/yang18d.html"
+    },
+    {
+        "title": "Yes, but Did It Work?: Evaluating Variational Inference",
+        "url": "https://proceedings.mlr.press/v80/yao18a.html"
+    },
+    {
+        "title": "Hierarchical Text Generation and Planning for Strategic Dialogue",
+        "url": "https://proceedings.mlr.press/v80/yarats18a.html"
+    },
+    {
+        "title": "Massively Parallel Algorithms and Hardness for Single-Linkage Clustering under $\\ell_p$ Distances",
+        "url": "https://proceedings.mlr.press/v80/yaroslavtsev18a.html"
+    },
+    {
+        "title": "Communication-Computation Efficient Gradient Coding",
+        "url": "https://proceedings.mlr.press/v80/ye18a.html"
+    },
+    {
+        "title": "Variable Selection via Penalized Neural Network: a Drop-Out-One Loss Approach",
+        "url": "https://proceedings.mlr.press/v80/ye18b.html"
+    },
+    {
+        "title": "Loss Decomposition for Fast Learning in Large Output Spaces",
+        "url": "https://proceedings.mlr.press/v80/yen18a.html"
+    },
+    {
+        "title": "Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates",
+        "url": "https://proceedings.mlr.press/v80/yin18a.html"
+    },
+    {
+        "title": "Semi-Implicit Variational Inference",
+        "url": "https://proceedings.mlr.press/v80/yin18b.html"
+    },
+    {
+        "title": "Disentangled Sequential Autoencoder",
+        "url": "https://proceedings.mlr.press/v80/yingzhen18a.html"
+    },
+    {
+        "title": "Probably Approximately Metric-Fair Learning",
+        "url": "https://proceedings.mlr.press/v80/yona18a.html"
+    },
+    {
+        "title": "GAIN: Missing Data Imputation using Generative Adversarial Nets",
+        "url": "https://proceedings.mlr.press/v80/yoon18a.html"
+    },
+    {
+        "title": "RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks",
+        "url": "https://proceedings.mlr.press/v80/yoon18b.html"
+    },
+    {
+        "title": "GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models",
+        "url": "https://proceedings.mlr.press/v80/you18a.html"
+    },
+    {
+        "title": "An Efficient Semismooth Newton based Algorithm for Convex Clustering",
+        "url": "https://proceedings.mlr.press/v80/yuan18a.html"
+    },
+    {
+        "title": "A Conditional Gradient Framework for Composite Convex Minimization with Applications to Semidefinite Programming",
+        "url": "https://proceedings.mlr.press/v80/yurtsever18a.html"
+    },
+    {
+        "title": "Policy Optimization as Wasserstein Gradient Flows",
+        "url": "https://proceedings.mlr.press/v80/zhang18a.html"
+    },
+    {
+        "title": "Problem Dependent Reinforcement Learning Bounds Which Can Identify Bandit Structure in MDPs",
+        "url": "https://proceedings.mlr.press/v80/zanette18a.html"
+    },
+    {
+        "title": "Fast and Sample Efficient Inductive Matrix Completion via Multi-Phase Procrustes Flow",
+        "url": "https://proceedings.mlr.press/v80/zhang18b.html"
+    },
+    {
+        "title": "Large-Scale Sparse Inverse Covariance Estimation via Thresholding and Max-Det Matrix Completion",
+        "url": "https://proceedings.mlr.press/v80/zhang18c.html"
+    },
+    {
+        "title": "High Performance Zero-Memory Overhead Direct Convolutions",
+        "url": "https://proceedings.mlr.press/v80/zhang18d.html"
+    },
+    {
+        "title": "Safe Element Screening for Submodular Function Minimization",
+        "url": "https://proceedings.mlr.press/v80/zhang18e.html"
+    },
+    {
+        "title": "Improving the Privacy and Accuracy of ADMM-Based Distributed Algorithms",
+        "url": "https://proceedings.mlr.press/v80/zhang18f.html"
+    },
+    {
+        "title": "Stabilizing Gradients for Deep Neural Networks via Efficient SVD Parameterization",
+        "url": "https://proceedings.mlr.press/v80/zhang18g.html"
+    },
+    {
+        "title": "Learning Long Term Dependencies via Fourier Recurrent Units",
+        "url": "https://proceedings.mlr.press/v80/zhang18h.html"
+    },
+    {
+        "title": "Tropical Geometry of Deep Neural Networks",
+        "url": "https://proceedings.mlr.press/v80/zhang18i.html"
+    },
+    {
+        "title": "Deep Bayesian Nonparametric Tracking",
+        "url": "https://proceedings.mlr.press/v80/zhang18j.html"
+    },
+    {
+        "title": "Composable Planning with Attributes",
+        "url": "https://proceedings.mlr.press/v80/zhang18k.html"
+    },
+    {
+        "title": "Noisy Natural Gradient as Variational Inference",
+        "url": "https://proceedings.mlr.press/v80/zhang18l.html"
+    },
+    {
+        "title": "A Primal-Dual Analysis of Global Optimality in Nonconvex Low-Rank Matrix Recovery",
+        "url": "https://proceedings.mlr.press/v80/zhang18m.html"
+    },
+    {
+        "title": "Fully Decentralized Multi-Agent Reinforcement Learning with Networked Agents",
+        "url": "https://proceedings.mlr.press/v80/zhang18n.html"
+    },
+    {
+        "title": "Dynamic Regret of Strongly Adaptive Methods",
+        "url": "https://proceedings.mlr.press/v80/zhang18o.html"
+    },
+    {
+        "title": "Inter and Intra Topic Structure Learning with Word Embeddings",
+        "url": "https://proceedings.mlr.press/v80/zhao18a.html"
+    },
+    {
+        "title": "Adversarially Regularized Autoencoders",
+        "url": "https://proceedings.mlr.press/v80/zhao18b.html"
+    },
+    {
+        "title": "MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning",
+        "url": "https://proceedings.mlr.press/v80/zhao18c.html"
+    },
+    {
+        "title": "Composite Marginal Likelihood Methods for Random Utility Models",
+        "url": "https://proceedings.mlr.press/v80/zhao18d.html"
+    },
+    {
+        "title": "Lightweight Stochastic Optimization for Minimizing Finite Sums with Infinite Data",
+        "url": "https://proceedings.mlr.press/v80/zheng18a.html"
+    },
+    {
+        "title": "A Robust Approach to Sequential Information Theoretic Planning",
+        "url": "https://proceedings.mlr.press/v80/zheng18b.html"
+    },
+    {
+        "title": "Revealing Common Statistical Behaviors in Heterogeneous Populations",
+        "url": "https://proceedings.mlr.press/v80/zhitnikov18a.html"
+    },
+    {
+        "title": "Understanding Generalization and Optimization Performance of Deep CNNs",
+        "url": "https://proceedings.mlr.press/v80/zhou18a.html"
+    },
+    {
+        "title": "Distributed Asynchronous Optimization with Unbounded Delays: How Slow Can You Go?",
+        "url": "https://proceedings.mlr.press/v80/zhou18b.html"
+    },
+    {
+        "title": "A Simple Stochastic Variance Reduced Algorithm with Fast Convergence Rates",
+        "url": "https://proceedings.mlr.press/v80/zhou18c.html"
+    },
+    {
+        "title": "Stochastic Variance-Reduced Cubic Regularized Newton Methods",
+        "url": "https://proceedings.mlr.press/v80/zhou18d.html"
+    },
+    {
+        "title": "Racing Thompson: an Efficient Algorithm for Thompson Sampling with Non-conjugate Priors",
+        "url": "https://proceedings.mlr.press/v80/zhou18e.html"
+    },
+    {
+        "title": "Distributed Nonparametric Regression under Communication Constraints",
+        "url": "https://proceedings.mlr.press/v80/zhu18a.html"
+    },
+    {
+        "title": "Message Passing Stein Variational Gradient Descent",
+        "url": "https://proceedings.mlr.press/v80/zhuo18a.html"
+    },
+    {
+        "title": "Stochastic Variance-Reduced Hamilton Monte Carlo Methods",
+        "url": "https://proceedings.mlr.press/v80/zou18a.html"
+    },
+    {
+        "title": "Rectify Heterogeneous Models with Semantic Mapping",
+        "url": "https://proceedings.mlr.press/v80/ye18c.html"
+    },
+    {
+        "title": "Hierarchical Long-term Video Prediction without Supervision",
+        "url": "https://proceedings.mlr.press/v80/wichers18a.html"
+    }
+]

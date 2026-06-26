@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Top-Tier Conference Paper Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入极轻量的撒花特效库 -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script>
+        // 开启 Tailwind 的 class 策略以支持手动深色模式
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb { background: #475569; }
+        ::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+        .dark ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        
+        .fade-in { animation: fadeIn 0.4s ease-out forwards; opacity: 0; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .hidden-element { display: none !important; }
+    </style>
+</head>
+<body class="bg-[#f8fafc] dark:bg-slate-900 min-h-screen text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-indigo-100 selection:text-indigo-900 transition-colors duration-300">
+
+    <!-- 顶部导航栏 -->
+    <header class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50 transition-colors duration-300">
+        <div class="max-w-6xl mx-auto px-5 py-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="bg-indigo-600 p-2 rounded-xl shadow-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-slate-900 dark:text-white tracking-tight">AI Top-Tier Conference Paper Explorer</h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium" data-i18n="subtitle">AI顶会文献一站式搜索引擎</p>
+                </div>
+            </div>
+            
+            <!-- 右上角工具栏：GitHub、语言、深色模式、分享 -->
+            <div class="flex items-center gap-2">
+                <!-- 新增：GitHub 链接图标 -->
+                <a href="https://github.com/你的用户名/你的仓库" target="_blank" rel="noopener noreferrer" class="p-1.5 text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none" aria-label="GitHub Repository">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <button id="langToggle" class="px-2.5 py-1.5 text-xs font-bold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none">
+                    EN
+                </button>
+                <button id="themeToggle" class="p-1.5 text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none" aria-label="Toggle Dark Mode">
+                    <!-- 月亮图标 (默认隐藏，因为现在默认是深色模式) -->
+                    <svg id="moonIcon" class="w-5 h-5 hidden-element" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                    <!-- 太阳图标 (默认显示) -->
+                    <svg id="sunIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </button>
+                <button id="shareBtn" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 rounded-lg transition-colors focus:outline-none shadow-sm">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                    <span id="shareText" data-i18n="shareBtn">分享</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 🌟 精美的分享感谢弹窗 (默认隐藏，带上滑淡入动画) -->
+    <div id="shareToast" class="fixed top-24 left-1/2 transform -translate-x-1/2 z-[100] transition-all duration-500 opacity-0 pointer-events-none -translate-y-10">
+        <div class="bg-white dark:bg-slate-800 px-5 py-3.5 rounded-2xl shadow-2xl border border-indigo-100 dark:border-indigo-500/30 flex items-center gap-3.5">
+            <div class="bg-indigo-100 dark:bg-indigo-900/50 p-2 rounded-full shrink-0">
+                <svg class="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-slate-900 dark:text-white" data-i18n="shareToastTitle">链接已复制成功</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 font-medium" data-i18n="shareToastDesc">非常感谢您将本站分享给更多的人！🎉</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主体内容 -->
+    <main class="max-w-6xl mx-auto px-5 py-8">
+        
+        <!-- 集成化控制面板 -->
+        <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] border border-slate-100 dark:border-slate-700 p-5 mb-8 transition-colors duration-300">
+            
+            <!-- 模式切换 Tabs -->
+            <div class="flex gap-4 mb-5 border-b border-slate-100 dark:border-slate-700 pb-3">
+                <button id="tabBasic" class="text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors" data-i18n="tabBasic">基础检索</button>
+                <button id="tabAdv" class="text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent" data-i18n="tabAdv">高级检索</button>
+            </div>
+
+            <!-- 数据源选择区 1: 基础模式 (默认显示) -->
+            <div id="basicSourcePanel" class="flex flex-col md:flex-row gap-4 mb-6">
+                <div class="flex-1 min-w-[150px]">
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="confLabel">会议 (Conference)</label>
+                    <select id="confSelect" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm rounded-xl focus:ring-2 focus:ring-indigo-500 p-2.5 outline-none cursor-pointer transition-colors"></select>
+                </div>
+                <div class="flex-1 min-w-[120px]">
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="yearLabel">年份 (Year)</label>
+                    <select id="yearSelect" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm rounded-xl focus:ring-2 focus:ring-indigo-500 p-2.5 outline-none cursor-pointer transition-colors"></select>
+                </div>
+            </div>
+
+            <!-- 数据源选择区 2: 高级模式 (默认隐藏) -->
+            <div id="advSourcePanel" class="hidden-element mb-6 bg-slate-50 dark:bg-slate-900/50 p-4 rounded-xl border border-slate-100 dark:border-slate-700/50">
+                <div class="mb-4">
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="advConfLabel">参与检索的会议 (多选)</label>
+                    <div id="advConfCheckboxes" class="flex flex-wrap gap-2"></div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="advYearLabel">参与检索的年份 (多选)</label>
+                    <div id="advYearCheckboxes" class="flex flex-wrap gap-2"></div>
+                </div>
+            </div>
+
+            <hr class="border-slate-100 dark:border-slate-700 mb-6 transition-colors duration-300">
+
+            <!-- 核心过滤器 -->
+            <div class="flex flex-col md:flex-row gap-4 items-start">
+                <!-- 动态 Track 筛选器 -->
+                <div id="trackSelectContainer" class="flex-1 min-w-[150px] hidden-element mt-1">
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="trackLabel">筛选Track</label>
+                    <select id="trackSelect" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm rounded-xl focus:ring-2 focus:ring-indigo-500 p-2.5 outline-none cursor-pointer transition-colors">
+                        <option value="all" data-i18n="allTracks">所有 Track (All)</option>
+                    </select>
+                </div>
+
+                <!-- 标题关键字搜索 -->
+                <div class="flex-[2] min-w-[250px] w-full">
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
+                        <span data-i18n="searchLabel">论文题目搜索</span> <span class="text-indigo-500 dark:text-indigo-400 font-normal normal-case ml-1" data-i18n="searchHint">(支持用逗号,表示或，用&表示与)</span>
+                    </label>
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+                            <svg class="w-4 h-4 text-slate-400 dark:text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </div>
+                        <input type="text" id="searchInput" data-i18n-placeholder="searchPlaceholder" class="block w-full p-2.5 pl-10 text-sm text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-indigo-500 outline-none transition-colors" placeholder="例如: LLM & Vision, Transformer...">
+                    </div>
+                    <!-- 正则表达式复选框 -->
+                    <div class="mt-2.5 flex items-center ml-1">
+                        <input type="checkbox" id="regexCheckbox" class="w-4 h-4 text-indigo-600 bg-slate-100 border-slate-300 dark:bg-slate-800 dark:border-slate-600 rounded focus:ring-indigo-500 focus:ring-2 cursor-pointer transition-all">
+                        <label for="regexCheckbox" class="ml-2 text-xs font-medium text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer select-none" data-i18n="regexLabel">
+                            启用正则表达式检索 (Regex)
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 状态/统计提示 & 导出功能区 -->
+        <div id="statusContainer" class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6 hidden-element">
+            <div id="statusMsg" class="text-sm text-slate-600 dark:text-slate-400 font-medium"></div>
+            <!-- 一键保存/导出区 -->
+            <div id="exportActionArea" class="flex flex-wrap items-center gap-2 hidden-element">
+                <button id="btnExportMD" class="inline-flex items-center gap-1.5 text-xs font-semibold text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-900/30 hover:bg-sky-100 dark:hover:bg-sky-900/50 border border-sky-200 dark:border-sky-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <span data-i18n="exportMD">保存为 Markdown</span>
+                </button>
+                <button id="btnExportCSV" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-900/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 border border-emerald-200 dark:border-emerald-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <span data-i18n="exportCSV">保存为 CSV</span>
+                </button>
+                <button id="btnExportJSON" class="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 border border-indigo-200 dark:border-indigo-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span data-i18n="exportJSON">保存为 JSON</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 论文列表渲染区域 -->
+        <div id="paperList" class="space-y-4"></div>
+
+        <!-- 无限滚动探测点 -->
+        <div id="scrollAnchor" class="h-10 w-full opacity-0 pointer-events-none mt-8"></div>
+
+        <!-- 🌟 新增：页脚 Author Credit -->
+        <footer class="mt-12 mb-6 text-center text-xs text-slate-400 dark:text-slate-500 border-t border-slate-200 dark:border-slate-800 pt-6">
+            <span data-i18n="footerText">Made with ❤️ by 你的名字 | 开源于</span>
+            <a href="https://github.com/你的用户名/你的仓库" target="_blank" rel="noopener noreferrer" class="font-semibold text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                GitHub
+            </a>
+        </footer>
+
+    </main>
+
+    <script>
+        // ================= 多语言支持 (i18n) =================
+        let currentLang = 'zh'; 
+        const translations = {
+            zh: {
+                subtitle: "AI顶会文献一站式搜索引擎",
+                tabBasic: "基础检索",
+                tabAdv: "高级检索",
+                confLabel: "会议 (Conference)",
+                yearLabel: "年份 (Year)",
+                advConfLabel: "参与检索的会议 (多选)",
+                advYearLabel: "参与检索的年份 (多选)",
+                trackLabel: "筛选Track",
+                searchLabel: "论文题目搜索",
+                searchHint: "(支持用逗号,表示或，用&表示与)",
+                searchPlaceholder: "例如: LLM & Vision, Transformer...",
+                regexLabel: "启用正则表达式检索 (Regex)",
+                shareBtn: "分享",
+                shareToastTitle: "链接已复制成功",
+                shareToastDesc: "非常感谢您将本站分享给更多的人！🎉",
+                exportMD: "保存为 Markdown",
+                exportCSV: "保存为 CSV",
+                exportJSON: "保存为 JSON",
+                allTracks: "所有 Track (All)",
+                viewPaper: "查看论文",
+                noResult: "没有找到匹配的论文 🤔",
+                foundPapers: "当前检索出 <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> 篇文献",
+                configError: "<span class='text-rose-500 font-semibold'>🚨 配置文件 config.json 加载失败</span>，请确保根目录下存在该文件。",
+                fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>正在拉取数据源...</span>",
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>未能加载到任何数据</span>，请检查本地是否存在对应的 JSON 文件。",
+                advEmpty: "<span class='text-rose-500 font-semibold'>请至少选择一个会议和一个年份！</span>",
+                footerText: "Made with ❤️ by 你的名字 | 开源于"
+            },
+            en: {
+                subtitle: "A One-Stop Search Engine for Top-Tier AI Literature",
+                tabBasic: "Basic Search",
+                tabAdv: "Advanced Search",
+                confLabel: "Conference",
+                yearLabel: "Year",
+                advConfLabel: "Select Conferences (Multiple)",
+                advYearLabel: "Select Years (Multiple)",
+                trackLabel: "Filter Track",
+                searchLabel: "Title Search",
+                searchHint: "(Use comma ',' for OR, '&' for AND)",
+                searchPlaceholder: "e.g.: LLM & Vision, Transformer...",
+                regexLabel: "Enable Regex Search",
+                shareBtn: "Share",
+                shareToastTitle: "Link Copied Successfully",
+                shareToastDesc: "Thank you for sharing this site with more people! 🎉",
+                exportMD: "Export Markdown",
+                exportCSV: "Export CSV",
+                exportJSON: "Export JSON",
+                allTracks: "All Tracks",
+                viewPaper: "View Paper",
+                noResult: "No matching papers found 🤔",
+                foundPapers: "Found <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> papers",
+                configError: "<span class='text-rose-500 font-semibold'>🚨 Failed to load config.json</span>, ensure it exists.",
+                fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>Loading data sources...</span>",
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>No data loaded</span>, please check JSON files.",
+                advEmpty: "<span class='text-rose-500 font-semibold'>Please select at least one conference and year!</span>",
+                footerText: "Made with ❤️ by Author | Open sourced on"
+            }
+        };
+
+        function updateLanguageUI() {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[currentLang][key]) {
+                    el.innerHTML = translations[currentLang][key]; 
+                }
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (translations[currentLang][key]) {
+                    el.setAttribute('placeholder', translations[currentLang][key]);
+                }
+            });
+            if (globalConfig.length > 0) {
+                filterPapers(); 
+                extractAndRenderTracks(); 
+            }
+        }
+
+        document.getElementById('langToggle').addEventListener('click', (e) => {
+            currentLang = currentLang === 'zh' ? 'en' : 'zh';
+            e.target.textContent = currentLang === 'zh' ? 'EN' : '中';
+            updateLanguageUI();
+        });
+
+        // ================= 深色模式支持 (Dark Mode) =================
+        const themeToggle = document.getElementById('themeToggle');
+        const moonIcon = document.getElementById('moonIcon');
+        const sunIcon = document.getElementById('sunIcon');
+        const htmlElement = document.documentElement;
+
+        themeToggle.addEventListener('click', () => {
+            if (htmlElement.classList.contains('dark')) {
+                htmlElement.classList.remove('dark');
+                moonIcon.classList.remove('hidden-element');
+                sunIcon.classList.add('hidden-element');
+            } else {
+                htmlElement.classList.add('dark');
+                moonIcon.classList.add('hidden-element');
+                sunIcon.classList.remove('hidden-element');
+            }
+        });
+
+        // ================= 分享功能 (配合礼花弹窗特效) =================
+        document.getElementById('shareBtn').addEventListener('click', async () => {
+            const shareTextElem = document.getElementById('shareText');
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                triggerShareSuccess();
+            } catch (err) {
+                const dummy = document.createElement('input');
+                document.body.appendChild(dummy);
+                dummy.value = window.location.href;
+                dummy.select();
+                document.execCommand('copy');
+                document.body.removeChild(dummy);
+                triggerShareSuccess();
+            }
+        });
+
+        function triggerShareSuccess() {
+            // 1. 触发撒花特效 (小花花喷上去)
+            confetti({
+                particleCount: 120,
+                spread: 70,
+                origin: { y: 0.5 },
+                colors: ['#4f46e5', '#818cf8', '#c084fc', '#e879f9', '#38bdf8'] // 契合网站色系的紫蓝色调
+            });
+
+            // 2. 显示精美的 Toast 感谢弹窗
+            const toast = document.getElementById('shareToast');
+            toast.classList.remove('opacity-0', '-translate-y-10', 'pointer-events-none');
+            toast.classList.add('opacity-100', 'translate-y-0');
+
+            // 3秒后自动隐藏
+            setTimeout(() => {
+                toast.classList.remove('opacity-100', 'translate-y-0');
+                toast.classList.add('opacity-0', '-translate-y-10', 'pointer-events-none');
+            }, 3500);
+        }
+
+        // ================= 核心业务逻辑 =================
+        const tabBasic = document.getElementById('tabBasic');
+        const tabAdv = document.getElementById('tabAdv');
+        const basicSourcePanel = document.getElementById('basicSourcePanel');
+        const advSourcePanel = document.getElementById('advSourcePanel');
+        
+        const confSelect = document.getElementById('confSelect');
+        const yearSelect = document.getElementById('yearSelect');
+        const advConfCheckboxes = document.getElementById('advConfCheckboxes');
+        const advYearCheckboxes = document.getElementById('advYearCheckboxes');
+
+        const trackSelectContainer = document.getElementById('trackSelectContainer');
+        const trackSelect = document.getElementById('trackSelect');
+        const searchInput = document.getElementById('searchInput');
+        const regexCheckbox = document.getElementById('regexCheckbox'); 
+        
+        const paperList = document.getElementById('paperList');
+        const statusContainer = document.getElementById('statusContainer');
+        const statusMsg = document.getElementById('statusMsg');
+        const exportActionArea = document.getElementById('exportActionArea');
+        const scrollAnchor = document.getElementById('scrollAnchor');
+
+        let globalConfig = []; 
+        let currentPapers = [];      
+        let filteredPapers = [];     
+        let renderIndex = 0;         
+        const CHUNK_SIZE = 100;      
+        let currentMode = 'basic';   
+
+        function toTitleCase(str) {
+            if (!str) return '';
+            return str.toLowerCase().split(' ').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                renderNextChunk();
+            }
+        }, { rootMargin: '800px' }); 
+
+        async function initApp() {
+            try {
+                const response = await fetch('config.json');
+                if (!response.ok) throw new Error('config.json missing');
+                
+                globalConfig = await response.json();
+                
+                confSelect.innerHTML = '';
+                globalConfig.forEach(conf => {
+                    const opt = document.createElement('option');
+                    opt.value = conf.folder; 
+                    opt.textContent = conf.name;
+                    confSelect.appendChild(opt);
+                });
+
+                let allYearsSet = new Set();
+                globalConfig.forEach(conf => conf.years.forEach(y => allYearsSet.add(y)));
+                const allYears = Array.from(allYearsSet).sort((a, b) => b - a);
+
+                advConfCheckboxes.innerHTML = globalConfig.map(conf => `
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="${conf.folder}" class="peer sr-only adv-conf-cb" checked>
+                        <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
+                            ${conf.name}
+                        </div>
+                    </label>
+                `).join('');
+
+                advYearCheckboxes.innerHTML = allYears.map((year, index) => `
+                    <label class="inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="${year}" class="peer sr-only adv-year-cb" ${index < 2 ? 'checked' : ''}>
+                        <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
+                            ${year}
+                        </div>
+                    </label>
+                `).join('');
+
+                document.querySelectorAll('.adv-conf-cb, .adv-year-cb').forEach(cb => {
+                    cb.addEventListener('change', loadAdvancedData);
+                });
+
+                updateYearSelect(); 
+                await loadBasicData(); 
+                
+            } catch (error) {
+                statusContainer.classList.remove('hidden-element');
+                statusMsg.innerHTML = translations[currentLang].configError;
+            }
+        }
+
+        tabBasic.addEventListener('click', () => {
+            currentMode = 'basic';
+            tabBasic.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
+            tabAdv.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
+            basicSourcePanel.classList.remove('hidden-element');
+            advSourcePanel.classList.add('hidden-element');
+            loadBasicData();
+        });
+
+        tabAdv.addEventListener('click', () => {
+            currentMode = 'advanced';
+            tabAdv.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
+            tabBasic.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
+            advSourcePanel.classList.remove('hidden-element');
+            basicSourcePanel.classList.add('hidden-element');
+            loadAdvancedData();
+        });
+
+        function updateYearSelect() {
+            const selectedFolder = confSelect.value;
+            const confData = globalConfig.find(c => c.folder === selectedFolder);
+            yearSelect.innerHTML = '';
+            if (confData && confData.years) {
+                const sortedYears = [...confData.years].sort((a, b) => b - a);
+                sortedYears.forEach(year => {
+                    const opt = document.createElement('option');
+                    opt.value = year;
+                    opt.textContent = year;
+                    yearSelect.appendChild(opt);
+                });
+            }
+        }
+
+        async function fetchSources(tasks) {
+            statusContainer.classList.remove('hidden-element');
+            exportActionArea.classList.add('hidden-element'); 
+            statusMsg.innerHTML = translations[currentLang].fetchLoading;
+            paperList.innerHTML = ''; 
+            observer.unobserve(scrollAnchor);
+            
+            let allLoadedPapers = [];
+            let successCount = 0;
+
+            const promises = tasks.map(async task => {
+                const fileName = `${task.conf}/${task.conf.toLowerCase()}_${task.year}.json`;
+                try {
+                    const response = await fetch(fileName);
+                    if (response.ok) {
+                        const data = await response.json();
+                        const enrichedData = data.map(p => ({...p, _conf: task.conf, _year: task.year}));
+                        allLoadedPapers = allLoadedPapers.concat(enrichedData);
+                        successCount++;
+                    }
+                } catch (e) {
+                    // skip
+                }
+            });
+
+            await Promise.all(promises);
+
+            if (successCount === 0) {
+                statusMsg.innerHTML = translations[currentLang].fetchEmpty;
+                currentPapers = [];
+            } else {
+                currentPapers = allLoadedPapers;
+                extractAndRenderTracks();
+                filterPapers();
+            }
+        }
+
+        function loadBasicData() {
+            if(!confSelect.value || !yearSelect.value) return;
+            fetchSources([{ conf: confSelect.value, year: yearSelect.value }]);
+        }
+
+        function loadAdvancedData() {
+            const selectedConfs = Array.from(document.querySelectorAll('.adv-conf-cb:checked')).map(cb => cb.value);
+            const selectedYears = Array.from(document.querySelectorAll('.adv-year-cb:checked')).map(cb => cb.value);
+            
+            if(selectedConfs.length === 0 || selectedYears.length === 0) {
+                currentPapers = [];
+                filterPapers(); 
+                statusContainer.classList.remove('hidden-element');
+                statusMsg.innerHTML = translations[currentLang].advEmpty;
+                return;
+            }
+
+            const tasks = [];
+            selectedConfs.forEach(conf => {
+                selectedYears.forEach(year => {
+                    tasks.push({ conf, year });
+                });
+            });
+            fetchSources(tasks);
+        }
+
+        function extractAndRenderTracks() {
+            if (currentMode === 'advanced') {
+                trackSelectContainer.classList.add('hidden-element');
+                trackSelect.value = 'all';
+                return;
+            }
+
+            const uniqueTracks = [...new Set(currentPapers.map(p => p.track).filter(Boolean))];
+            if (uniqueTracks.length > 0) {
+                trackSelectContainer.classList.remove('hidden-element');
+                trackSelect.innerHTML = `<option value="all">${translations[currentLang].allTracks}</option>`;
+                uniqueTracks.sort().forEach(track => {
+                    const opt = document.createElement('option');
+                    opt.value = track;
+                    opt.textContent = toTitleCase(track);
+                    trackSelect.appendChild(opt);
+                });
+            } else {
+                trackSelectContainer.classList.add('hidden-element');
+                trackSelect.innerHTML = `<option value="all">${translations[currentLang].allTracks}</option>`;
+            }
+        }
+
+        function filterPapers() {
+            const query = searchInput.value.trim();
+            const selectedTrack = currentMode === 'advanced' ? 'all' : trackSelect.value;
+            const useRegex = regexCheckbox.checked;
+            
+            const orGroups = query.split(',')
+                                  .map(group => group.split('&').map(k => k.trim().toLowerCase()).filter(k => k))
+                                  .filter(group => group.length > 0);
+            
+            filteredPapers = currentPapers.filter(paper => {
+                const titleLower = paper.title.toLowerCase();
+                let matchTitle = false;
+
+                if (!query) {
+                    matchTitle = true;
+                } else if (useRegex) {
+                    try {
+                        const regex = new RegExp(query, 'i');
+                        matchTitle = regex.test(paper.title);
+                    } catch (e) {
+                        matchTitle = false;
+                    }
+                } else {
+                    matchTitle = orGroups.some(andGroup => 
+                        andGroup.every(kw => titleLower.includes(kw))
+                    );
+                }
+
+                const matchTrack = (selectedTrack === 'all') || (paper.track === selectedTrack);
+                return matchTitle && matchTrack;
+            });
+
+            paperList.innerHTML = '';
+            renderIndex = 0;
+            observer.unobserve(scrollAnchor);
+            
+            statusContainer.classList.remove('hidden-element');
+            if (currentPapers.length === 0) {
+                exportActionArea.classList.add('hidden-element');
+            } else if (filteredPapers.length === 0) {
+                statusMsg.innerHTML = translations[currentLang].noResult;
+                exportActionArea.classList.add('hidden-element');
+            } else {
+                const msgTemplate = translations[currentLang].foundPapers;
+                statusMsg.innerHTML = msgTemplate.replace('{count}', filteredPapers.length);
+                exportActionArea.classList.remove('hidden-element'); 
+                renderNextChunk();
+            }
+        }
+
+        function renderNextChunk() {
+            if (renderIndex >= filteredPapers.length) {
+                observer.unobserve(scrollAnchor);
+                return;
+            }
+
+            const end = Math.min(renderIndex + CHUNK_SIZE, filteredPapers.length);
+            const chunk = filteredPapers.slice(renderIndex, end);
+            
+            let htmlChunk = '';
+
+            chunk.forEach((paper) => {
+                let tagsHtml = '';
+                
+                if (paper.track) {
+                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-semibold text-blue-600 dark:text-blue-400 border border-blue-100 dark:border-blue-800">Track: ${toTitleCase(paper.track)}</span>`;
+                }
+                
+                if (paper.subtrack) {
+                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-purple-50 dark:bg-purple-900/30 px-2.5 py-0.5 text-xs font-semibold text-purple-600 dark:text-purple-400 border border-purple-100 dark:border-purple-800">Subtrack: ${toTitleCase(paper.subtrack)}</span>`;
+                }
+
+                htmlChunk += `
+                    <div class="group relative bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200/60 dark:border-slate-700 shadow-[0_2px_10px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] dark:hover:shadow-black/40 hover:border-indigo-100 dark:hover:border-indigo-500 transition-all duration-300 fade-in flex flex-col md:flex-row md:items-center justify-between gap-5 overflow-hidden">
+                        
+                        <div class="absolute left-0 top-0 bottom-0 w-1 bg-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                        <div class="flex-1 pl-1">
+                            <h3 class="text-base font-bold text-slate-800 dark:text-slate-100 leading-snug mb-2.5 group-hover:text-indigo-700 dark:group-hover:text-indigo-400 transition-colors duration-200">
+                                ${paper.title}
+                            </h3>
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="inline-flex items-center rounded-full bg-indigo-50 dark:bg-indigo-900/30 px-2.5 py-0.5 text-xs font-semibold text-indigo-700 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-800">
+                                    ${paper._conf} ${paper._year}
+                                </span>
+                                ${tagsHtml}
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 pl-1 pt-2 md:pt-0">
+                            <a href="${paper.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-slate-900 dark:bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 dark:hover:bg-indigo-500 focus:outline-none transition-all duration-200">
+                                ${translations[currentLang].viewPaper}
+                                <svg class="ml-2 -mr-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                `;
+            });
+
+            paperList.insertAdjacentHTML('beforeend', htmlChunk);
+            renderIndex = end;
+
+            if (renderIndex < filteredPapers.length) {
+                observer.observe(scrollAnchor);
+            }
+        }
+
+        // ================= 导出功能 =================
+        document.getElementById('btnExportMD').addEventListener('click', () => {
+            if(filteredPapers.length === 0) return;
+            
+            let mdContent = "# AI Top Conf Papers Export\n\n";
+            mdContent += `> Found ${filteredPapers.length} papers. Exported at: ${new Date().toLocaleString()}\n\n`;
+            
+            filteredPapers.forEach((row, index) => {
+                mdContent += `### ${index + 1}. [${row.title}](${row.url})\n`;
+                mdContent += `- **Conference:** ${row._conf} ${row._year}\n`;
+                if (row.track) mdContent += `- **Track:** ${toTitleCase(row.track)}\n`;
+                if (row.subtrack) mdContent += `- **Subtrack:** ${toTitleCase(row.subtrack)}\n`;
+                mdContent += `\n`; 
+            });
+            
+            const dataStr = "data:text/markdown;charset=utf-8," + encodeURIComponent(mdContent);
+            const dlAnchorElem = document.createElement('a');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", `papers_export_${new Date().getTime()}.md`);
+            dlAnchorElem.click();
+        });
+
+        document.getElementById('btnExportJSON').addEventListener('click', () => {
+            if(filteredPapers.length === 0) return;
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(filteredPapers, null, 4));
+            const dlAnchorElem = document.createElement('a');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", `papers_export_${new Date().getTime()}.json`);
+            dlAnchorElem.click();
+        });
+
+        document.getElementById('btnExportCSV').addEventListener('click', () => {
+            if(filteredPapers.length === 0) return;
+            let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
+            csvContent += "Conference,Year,Title,URL,Track,Subtrack\n";
+            
+            filteredPapers.forEach(row => {
+                const conf = row._conf || "";
+                const year = row._year || "";
+                const title = `"${(row.title || "").replace(/"/g, '""')}"`;
+                const url = `"${row.url || ""}"`;
+                const track = `"${row.track || ""}"`;
+                const subtrack = `"${row.subtrack || ""}"`;
+                csvContent += `${conf},${year},${title},${url},${track},${subtrack}\n`;
+            });
+            
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", `papers_export_${new Date().getTime()}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+
+        // ================= 事件监听绑定 =================
+        confSelect.addEventListener('change', () => {
+            updateYearSelect(); 
+            loadBasicData();         
+        });
+        
+        yearSelect.addEventListener('change', loadBasicData);
+        trackSelect.addEventListener('change', filterPapers);
+        
+        searchInput.addEventListener('input', filterPapers);
+        regexCheckbox.addEventListener('change', filterPapers);
+
+        window.onload = initApp;
+    </script>
+</body>
+</html>
