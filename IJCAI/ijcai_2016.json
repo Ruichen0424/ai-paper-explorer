@@ -1,0 +1,2606 @@
+[
+    {
+        "title": "Interdependent Scheduling Games",
+        "url": "https://www.ijcai.org/Abstract/16/008"
+    },
+    {
+        "title": "Scalable Greedy Algorithms for Task/Resource Constrained Multi-Agent Stochastic Planning",
+        "url": "https://www.ijcai.org/Abstract/16/009"
+    },
+    {
+        "title": "Coco: Runtime Reasoning about Conflicting Commitments",
+        "url": "https://www.ijcai.org/Abstract/16/010"
+    },
+    {
+        "title": "Verifying Existence of Resource-Bounded Coalition Uniform Strategies",
+        "url": "https://www.ijcai.org/Abstract/16/011"
+    },
+    {
+        "title": "On Truthful Mechanisms for Maximin Share Allocations",
+        "url": "https://www.ijcai.org/Abstract/16/012"
+    },
+    {
+        "title": "Modeling and Reasoning about NTU Games via Answer Set Programming",
+        "url": "https://www.ijcai.org/Abstract/16/013"
+    },
+    {
+        "title": "Randomized Social Choice Functions under Metric Preferences",
+        "url": "https://www.ijcai.org/Abstract/16/014"
+    },
+    {
+        "title": "Generalized Discrete Preference Games",
+        "url": "https://www.ijcai.org/Abstract/16/015"
+    },
+    {
+        "title": "Computing Pareto Optimal Committees",
+        "url": "https://www.ijcai.org/Abstract/16/016"
+    },
+    {
+        "title": "Control of Fair Division",
+        "url": "https://www.ijcai.org/Abstract/16/017"
+    },
+    {
+        "title": "A Characterization of Voting Power for Discrete Weight Distributions",
+        "url": "https://www.ijcai.org/Abstract/16/018"
+    },
+    {
+        "title": "Misrepresentation in District Voting",
+        "url": "https://www.ijcai.org/Abstract/16/019"
+    },
+    {
+        "title": "Conditional and Sequential Approval Voting on Combinatorial Domains",
+        "url": "https://www.ijcai.org/Abstract/16/020"
+    },
+    {
+        "title": "On Logics of Strategic Ability Based on Propositional Control",
+        "url": "https://www.ijcai.org/Abstract/16/021"
+    },
+    {
+        "title": "Complexity of Efficient and Envy-Free Resource Allocation: Few Agents, Resources, or Utility Levels",
+        "url": "https://www.ijcai.org/Abstract/16/022"
+    },
+    {
+        "title": "The Complexity of Playing Durak",
+        "url": "https://www.ijcai.org/Abstract/16/023"
+    },
+    {
+        "title": "Proving the Incompatibility of Efficiency and Strategyproofness via SMT Solving",
+        "url": "https://www.ijcai.org/Abstract/16/024"
+    },
+    {
+        "title": "To Give or Not to Give: Fair Division for Single Minded Valuations",
+        "url": "https://www.ijcai.org/Abstract/16/025"
+    },
+    {
+        "title": "Pairwise Diffusion of Preference Rankings in Social Networks",
+        "url": "https://www.ijcai.org/Abstract/16/026"
+    },
+    {
+        "title": "Facility Location with Minimax Envy",
+        "url": "https://www.ijcai.org/Abstract/16/027"
+    },
+    {
+        "title": "Achieving Proportional Representation in Conference Programs",
+        "url": "https://www.ijcai.org/Abstract/16/028"
+    },
+    {
+        "title": "Subset Selection via Implicit Utilitarian Voting",
+        "url": "https://www.ijcai.org/Abstract/16/029"
+    },
+    {
+        "title": "Trading on a Rigged Game: Outcome Manipulation in Prediction Markets",
+        "url": "https://www.ijcai.org/Abstract/16/030"
+    },
+    {
+        "title": "Congestion Games with Polytopal Strategy Spaces",
+        "url": "https://www.ijcai.org/Abstract/16/031"
+    },
+    {
+        "title": "Robust Draws in Balanced Knockout Tournaments",
+        "url": "https://www.ijcai.org/Abstract/16/032"
+    },
+    {
+        "title": "Verifying Pushdown Multi-Agent Systems against Strategy Logics",
+        "url": "https://www.ijcai.org/Abstract/16/033"
+    },
+    {
+        "title": "Truthfulness of a Proportional Sharing Mechanism in Resource Exchange",
+        "url": "https://www.ijcai.org/Abstract/16/034"
+    },
+    {
+        "title": "Better Strategyproof Mechanisms without Payments or Prior — An Analytic Approach",
+        "url": "https://www.ijcai.org/Abstract/16/035"
+    },
+    {
+        "title": "Approximating Value Equivalence in Interactive Dynamic Influence Diagrams Using Behavioral Coverage",
+        "url": "https://www.ijcai.org/Abstract/16/036"
+    },
+    {
+        "title": "Selective Norm Monitoring",
+        "url": "https://www.ijcai.org/Abstract/16/037"
+    },
+    {
+        "title": "Elicitation for Preferences Single Peaked on Trees",
+        "url": "https://www.ijcai.org/Abstract/16/038"
+    },
+    {
+        "title": "Preference Elicitation for Single Crossing Domain",
+        "url": "https://www.ijcai.org/Abstract/16/039"
+    },
+    {
+        "title": "Complexity of Manipulation with Partial Information in Voting",
+        "url": "https://www.ijcai.org/Abstract/16/040"
+    },
+    {
+        "title": "Strategic Voting with Incomplete Information",
+        "url": "https://www.ijcai.org/Abstract/16/041"
+    },
+    {
+        "title": "Voting-Based Group Formation",
+        "url": "https://www.ijcai.org/Abstract/16/042"
+    },
+    {
+        "title": "Committee Scoring Rules: Axiomatic Classification and Hierarchy",
+        "url": "https://www.ijcai.org/Abstract/16/043"
+    },
+    {
+        "title": "How Hard Is It for a Party to Nominate an Election Winner?",
+        "url": "https://www.ijcai.org/Abstract/16/044"
+    },
+    {
+        "title": "Digital Good Exchange",
+        "url": "https://www.ijcai.org/Abstract/16/045"
+    },
+    {
+        "title": "Parallel Behavior Composition for Manufacturing",
+        "url": "https://www.ijcai.org/Abstract/16/046"
+    },
+    {
+        "title": "Opinion Dynamics with Local Interactions",
+        "url": "https://www.ijcai.org/Abstract/16/047"
+    },
+    {
+        "title": "Online Mechanism Design for Vehicle-to-Grid Car Parks",
+        "url": "https://www.ijcai.org/Abstract/16/048"
+    },
+    {
+        "title": "Moving in a Crowd: Safe and Efficient Navigation among Heterogeneous Agents",
+        "url": "https://www.ijcai.org/Abstract/16/049"
+    },
+    {
+        "title": "A Network-Based Rating System and Its Resistance to Bribery",
+        "url": "https://www.ijcai.org/Abstract/16/050"
+    },
+    {
+        "title": "Three Strategies to Success: Learning Adversary Models in Security Games",
+        "url": "https://www.ijcai.org/Abstract/16/051"
+    },
+    {
+        "title": "Reconfigurability in Reactive Multiagent Systems",
+        "url": "https://www.ijcai.org/Abstract/16/052"
+    },
+    {
+        "title": "Probabilistic Matrix Inspection and Group Scheduling",
+        "url": "https://www.ijcai.org/Abstract/16/053"
+    },
+    {
+        "title": "Catcher-Evader Games",
+        "url": "https://www.ijcai.org/Abstract/16/054"
+    },
+    {
+        "title": "Asymptotically Tight Bounds for Inefficiency in Risk-Averse Selfish Routing",
+        "url": "https://www.ijcai.org/Abstract/16/055"
+    },
+    {
+        "title": "Social Choice for Agents with General Utilities",
+        "url": "https://www.ijcai.org/Abstract/16/056"
+    },
+    {
+        "title": "Incentivizing Reliability in Demand-Side Response",
+        "url": "https://www.ijcai.org/Abstract/16/057"
+    },
+    {
+        "title": "Allocating Indivisible Items in Categorized Domains",
+        "url": "https://www.ijcai.org/Abstract/16/058"
+    },
+    {
+        "title": "Correlated Voting",
+        "url": "https://www.ijcai.org/Abstract/16/059"
+    },
+    {
+        "title": "Silk: A Simulation Study of Regulating Open Normative Multiagent Systems",
+        "url": "https://www.ijcai.org/Abstract/16/060"
+    },
+    {
+        "title": "Incentivizing Intelligent Customer Behavior in Smart-Grids: A Risk-Sharing Tariff & Optimal Strategies",
+        "url": "https://www.ijcai.org/Abstract/16/061"
+    },
+    {
+        "title": "Dynamic Auctions with Bank Accounts",
+        "url": "https://www.ijcai.org/Abstract/16/062"
+    },
+    {
+        "title": "SLIM: Semi-Lazy Inference Mechanism for Plan Recognition",
+        "url": "https://www.ijcai.org/Abstract/16/063"
+    },
+    {
+        "title": "Sequential Plan Recognition",
+        "url": "https://www.ijcai.org/Abstract/16/064"
+    },
+    {
+        "title": "Distributed Decoupling of Multiagent Simple Temporal Problems",
+        "url": "https://www.ijcai.org/Abstract/16/065"
+    },
+    {
+        "title": "Role Assignment for Game-Theoretic Cooperation",
+        "url": "https://www.ijcai.org/Abstract/16/066"
+    },
+    {
+        "title": "Core-Selecting Payment Rules for Combinatorial Auctions with Uncertain Availability of Goods",
+        "url": "https://www.ijcai.org/Abstract/16/067"
+    },
+    {
+        "title": "Automated Mechanism Design without Money via Machine Learning",
+        "url": "https://www.ijcai.org/Abstract/16/068"
+    },
+    {
+        "title": "Trembling Hand Equilibria of Plurality Voting",
+        "url": "https://www.ijcai.org/Abstract/16/069"
+    },
+    {
+        "title": "Distributed Breakout: Beyond Satisfaction",
+        "url": "https://www.ijcai.org/Abstract/16/070"
+    },
+    {
+        "title": "Mission Oriented Robust Multi-Team Formation and Its Application to Robot Rescue Simulation",
+        "url": "https://www.ijcai.org/Abstract/16/071"
+    },
+    {
+        "title": "Controlling Growing Tasks with Heterogeneous Agents",
+        "url": "https://www.ijcai.org/Abstract/16/072"
+    },
+    {
+        "title": "Using Message-Passing DCOP Algorithms to Solve Energy-Efficient Smart Environment Configuration Problems",
+        "url": "https://www.ijcai.org/Abstract/16/073"
+    },
+    {
+        "title": "An Online Mechanism for Ridesharing in Autonomous Mobility-on-Demand Systems",
+        "url": "https://www.ijcai.org/Abstract/16/074"
+    },
+    {
+        "title": "Efficient Local Search in Coordination Games on Graphs",
+        "url": "https://www.ijcai.org/Abstract/16/075"
+    },
+    {
+        "title": "Assigning a Small Agreeable Set of Indivisible Items to Multiple Players",
+        "url": "https://www.ijcai.org/Abstract/16/076"
+    },
+    {
+        "title": "Preserving Privacy in Region Optimal DCOP Algorithms",
+        "url": "https://www.ijcai.org/Abstract/16/077"
+    },
+    {
+        "title": "Nash Equilibria and Their Elimination in Resource Games",
+        "url": "https://www.ijcai.org/Abstract/16/078"
+    },
+    {
+        "title": "An Empirical Game-Theoretic Analysis of Price Discovery in Prediction Markets",
+        "url": "https://www.ijcai.org/Abstract/16/079"
+    },
+    {
+        "title": "Hierarchical Approach to Transfer of Control in Semi-Autonomous Systems",
+        "url": "https://www.ijcai.org/Abstract/16/080"
+    },
+    {
+        "title": "Coordinating Human-UAV Teams in Disaster Response",
+        "url": "https://www.ijcai.org/Abstract/16/081"
+    },
+    {
+        "title": "Efficient Resource Allocation for Protecting Coral Reef Ecosystems",
+        "url": "https://www.ijcai.org/Abstract/16/082"
+    },
+    {
+        "title": "Optimally Protecting Elections",
+        "url": "https://www.ijcai.org/Abstract/16/083"
+    },
+    {
+        "title": "Decision-Making Policies for Heterogeneous Autonomous Multi-Agent Systems with Safety Constraints",
+        "url": "https://www.ijcai.org/Abstract/16/084"
+    },
+    {
+        "title": "Towards a White Box Approach to Automated Algorithm Design",
+        "url": "https://www.ijcai.org/Abstract/16/085"
+    },
+    {
+        "title": "Action Selection for Hammer Shots in Curling",
+        "url": "https://www.ijcai.org/Abstract/16/086"
+    },
+    {
+        "title": "Fast Solving Maximum Weight Clique Problem in Massive Graphs",
+        "url": "https://www.ijcai.org/Abstract/16/087"
+    },
+    {
+        "title": "Packing Graphs with ASP for Landscape Simulation",
+        "url": "https://www.ijcai.org/Abstract/16/088"
+    },
+    {
+        "title": "On the Topology of Genetic Algorithms",
+        "url": "https://www.ijcai.org/Abstract/16/089"
+    },
+    {
+        "title": "Truncating Shortest Path Search for Efficient Map-Matching",
+        "url": "https://www.ijcai.org/Abstract/16/090"
+    },
+    {
+        "title": "Relevance for SAT(ID)",
+        "url": "https://www.ijcai.org/Abstract/16/091"
+    },
+    {
+        "title": "Counting Linear Extensions of Sparse Posets",
+        "url": "https://www.ijcai.org/Abstract/16/092"
+    },
+    {
+        "title": "Comparing Search Algorithms Using Sorting and Hashing on Disk and in Memory",
+        "url": "https://www.ijcai.org/Abstract/16/093"
+    },
+    {
+        "title": "Limited Discrepancy AND/OR Search and Its Application to Optimization Tasks in Graphical Models",
+        "url": "https://www.ijcai.org/Abstract/16/094"
+    },
+    {
+        "title": "FastLCD: Fast Label Coordinate Descent for the Efficient Optimization of 2D Label MRFs",
+        "url": "https://www.ijcai.org/Abstract/16/095"
+    },
+    {
+        "title": "Heuristics and Really Hard Instances for Subgraph Isomorphism Problems",
+        "url": "https://www.ijcai.org/Abstract/16/096"
+    },
+    {
+        "title": "Markov Chain Analysis of Noise and Restart in Stochastic Local Search",
+        "url": "https://www.ijcai.org/Abstract/16/097"
+    },
+    {
+        "title": "Efficiently Finding Conceptual Clustering Models with Integer Linear Programming",
+        "url": "https://www.ijcai.org/Abstract/16/098"
+    },
+    {
+        "title": "Scalable Segment Abstraction Method for Advertising Campaign Admission and Inventory Allocation Optimization",
+        "url": "https://www.ijcai.org/Abstract/16/099"
+    },
+    {
+        "title": "Improved Heuristic and Tie-Breaking for Optimally Solving Sokoban",
+        "url": "https://www.ijcai.org/Abstract/16/100"
+    },
+    {
+        "title": "An Approximation Algorithm for the Subpath Planning Problem",
+        "url": "https://www.ijcai.org/Abstract/16/101"
+    },
+    {
+        "title": "External Memory Bidirectional Search",
+        "url": "https://www.ijcai.org/Abstract/16/102"
+    },
+    {
+        "title": "Canonical Orderings on Grids",
+        "url": "https://www.ijcai.org/Abstract/16/103"
+    },
+    {
+        "title": "Monte Carlo Tree Search in Continuous Action Spaces with Execution Uncertainty",
+        "url": "https://www.ijcai.org/Abstract/16/104"
+    },
+    {
+        "title": "Multiple Constraint Acquisition",
+        "url": "https://www.ijcai.org/Abstract/16/105"
+    },
+    {
+        "title": "Ranking Constraints",
+        "url": "https://www.ijcai.org/Abstract/16/106"
+    },
+    {
+        "title": "Bias in Algorithm Portfolio Performance Evaluation",
+        "url": "https://www.ijcai.org/Abstract/16/107"
+    },
+    {
+        "title": "Constraint Acquisition with Recommendation Queries",
+        "url": "https://www.ijcai.org/Abstract/16/108"
+    },
+    {
+        "title": "Combining the k-CNF and XOR Phase-Transitions",
+        "url": "https://www.ijcai.org/Abstract/16/109"
+    },
+    {
+        "title": "Linear Arithmetic Satisfiability via Strategy Improvement",
+        "url": "https://www.ijcai.org/Abstract/16/110"
+    },
+    {
+        "title": "Constraint Detection in Natural Language Problem Descriptions",
+        "url": "https://www.ijcai.org/Abstract/16/111"
+    },
+    {
+        "title": "Improving Model Counting by Leveraging Definability",
+        "url": "https://www.ijcai.org/Abstract/16/112"
+    },
+    {
+        "title": "Static Symmetry Breaking with the Reflex Ordering",
+        "url": "https://www.ijcai.org/Abstract/16/113"
+    },
+    {
+        "title": "A Clause Tableau Calculus for MaxSAT",
+        "url": "https://www.ijcai.org/Abstract/16/114"
+    },
+    {
+        "title": "Optimizing Molecular Cloning of Multiple Plasmids",
+        "url": "https://www.ijcai.org/Abstract/16/115"
+    },
+    {
+        "title": "Controllable Procedural Content Generation via Constrained Multi-Dimensional Markov Chain Sampling",
+        "url": "https://www.ijcai.org/Abstract/16/116"
+    },
+    {
+        "title": "Optimizing Simple Tabular Reduction with a Bitwise Representation",
+        "url": "https://www.ijcai.org/Abstract/16/117"
+    },
+    {
+        "title": "Mutual Influence Potential Networks: Enabling Information Sharing in Loosely-Coupled Extended-Duration Teamwork",
+        "url": "https://www.ijcai.org/Abstract/16/118"
+    },
+    {
+        "title": "Interactive Teaching Strategies for Agent Training",
+        "url": "https://www.ijcai.org/Abstract/16/119"
+    },
+    {
+        "title": "Planning with Task-Oriented Knowledge Acquisition for a Service Robot",
+        "url": "https://www.ijcai.org/Abstract/16/120"
+    },
+    {
+        "title": "A Polynomial Time Optimal Algorithm for Robot-Human Search under Uncertainty",
+        "url": "https://www.ijcai.org/Abstract/16/121"
+    },
+    {
+        "title": "Apprenticeship Scheduling: Learning to Schedule from Human Experts",
+        "url": "https://www.ijcai.org/Abstract/16/122"
+    },
+    {
+        "title": "DeepSchema: Automatic Schema Acquisition from Wearable Sensor Data in Restaurant Situations",
+        "url": "https://www.ijcai.org/Abstract/16/123"
+    },
+    {
+        "title": "Interactive Martingale Boosting",
+        "url": "https://www.ijcai.org/Abstract/16/124"
+    },
+    {
+        "title": "Fear and Hope Emerge from Anticipation in Model-Based Reinforcement Learning",
+        "url": "https://www.ijcai.org/Abstract/16/125"
+    },
+    {
+        "title": "Predictive Models of Malicious Behavior in Human Negotiations",
+        "url": "https://www.ijcai.org/Abstract/16/126"
+    },
+    {
+        "title": "Verbalization: Narration of Autonomous Robot Experience",
+        "url": "https://www.ijcai.org/Abstract/16/127"
+    },
+    {
+        "title": "Interactive Scheduling of Appliance Usage in the Home",
+        "url": "https://www.ijcai.org/Abstract/16/128"
+    },
+    {
+        "title": "Polynomial Datalog Rewritings for Expressive Description Logics with Closed Predicates",
+        "url": "https://www.ijcai.org/Abstract/16/129"
+    },
+    {
+        "title": "Completion of Disjunctive Logic Programs",
+        "url": "https://www.ijcai.org/Abstract/16/130"
+    },
+    {
+        "title": "Query Answering with Transitive and Linear-Ordered Data",
+        "url": "https://www.ijcai.org/Abstract/16/131"
+    },
+    {
+        "title": "Evaluation of Arguments from Support Relations: Axioms and Semantics",
+        "url": "https://www.ijcai.org/Abstract/16/132"
+    },
+    {
+        "title": "Incomplete Causal Laws in the Situation Calculus Using Free Fluents",
+        "url": "https://www.ijcai.org/Abstract/16/133"
+    },
+    {
+        "title": "On the Relationship between P-log and LPMLN",
+        "url": "https://www.ijcai.org/Abstract/16/134"
+    },
+    {
+        "title": "Online Agent Supervision in the Situation Calculus",
+        "url": "https://www.ijcai.org/Abstract/16/135"
+    },
+    {
+        "title": "Equivalent Stream Reasoning Programs",
+        "url": "https://www.ijcai.org/Abstract/16/136"
+    },
+    {
+        "title": "The Inconsistency in Gödel’s Ontological Argument: A Success Story for AI in Metaphysics",
+        "url": "https://www.ijcai.org/Abstract/16/137"
+    },
+    {
+        "title": "Ontology-Mediated Queries Distributing over Components",
+        "url": "https://www.ijcai.org/Abstract/16/138"
+    },
+    {
+        "title": "Leviathan: A New LTL Satisfiability Checking Tool Based on a One-Pass Tree-Shaped Tableau",
+        "url": "https://www.ijcai.org/Abstract/16/139"
+    },
+    {
+        "title": "Query-Driven Repairing of Inconsistent DL-Lite Knowledge Bases",
+        "url": "https://www.ijcai.org/Abstract/16/140"
+    },
+    {
+        "title": "First Order-Rewritability and Containment of Conjunctive Queries in Horn Description Logics",
+        "url": "https://www.ijcai.org/Abstract/16/141"
+    },
+    {
+        "title": "Automated Synthesis of Timed Failure Propagation Graphs",
+        "url": "https://www.ijcai.org/Abstract/16/142"
+    },
+    {
+        "title": "ASP for Anytime Dynamic Programming on Tree Decompositions",
+        "url": "https://www.ijcai.org/Abstract/16/143"
+    },
+    {
+        "title": "Extending the Harper Identity to Iterated Belief Change",
+        "url": "https://www.ijcai.org/Abstract/16/144"
+    },
+    {
+        "title": "Preferential Query Answering over the Semantic Web with Possibilistic Networks",
+        "url": "https://www.ijcai.org/Abstract/16/145"
+    },
+    {
+        "title": "Query-Based Entailment and Inseparability for ALC Ontologies",
+        "url": "https://www.ijcai.org/Abstract/16/146"
+    },
+    {
+        "title": "Knowledge Compilation Meets Communication Complexity",
+        "url": "https://www.ijcai.org/Abstract/16/147"
+    },
+    {
+        "title": "An ASP Semantics for Default Reasoning with Constraints",
+        "url": "https://www.ijcai.org/Abstract/16/148"
+    },
+    {
+        "title": "Plan Synthesis for Knowledge and Action Bases",
+        "url": "https://www.ijcai.org/Abstract/16/149"
+    },
+    {
+        "title": "On the Impact of Modal Depth in Epistemic Planning",
+        "url": "https://www.ijcai.org/Abstract/16/150"
+    },
+    {
+        "title": "Imperfect-Information Games and Generalized Planning",
+        "url": "https://www.ijcai.org/Abstract/16/151"
+    },
+    {
+        "title": "LTLf and LDLf Synthesis under Partial Observability",
+        "url": "https://www.ijcai.org/Abstract/16/152"
+    },
+    {
+        "title": "Investigating the Relationship between Argumentation Semantics via Signatures",
+        "url": "https://www.ijcai.org/Abstract/16/153"
+    },
+    {
+        "title": "Exploiting Partial Assignments for Efficient Evaluation of Answer Set Programs with External Source Access",
+        "url": "https://www.ijcai.org/Abstract/16/154"
+    },
+    {
+        "title": "Forgetting in Multi-Agent Modal Logics",
+        "url": "https://www.ijcai.org/Abstract/16/155"
+    },
+    {
+        "title": "Trend-Based Prediction of Spatial Change",
+        "url": "https://www.ijcai.org/Abstract/16/156"
+    },
+    {
+        "title": "Towards Fast Algorithms for the Preference Consistency Problem Based on Hierarchical Models",
+        "url": "https://www.ijcai.org/Abstract/16/157"
+    },
+    {
+        "title": "Querying Data Graphs with Arithmetical Regular Expressions",
+        "url": "https://www.ijcai.org/Abstract/16/158"
+    },
+    {
+        "title": "On Consensus Extraction",
+        "url": "https://www.ijcai.org/Abstract/16/159"
+    },
+    {
+        "title": "Temporalized EL Ontologies for Accessing Temporal Data: Complexity of Atomic Queries",
+        "url": "https://www.ijcai.org/Abstract/16/160"
+    },
+    {
+        "title": "Distributing Knowledge into Simple Bases",
+        "url": "https://www.ijcai.org/Abstract/16/161"
+    },
+    {
+        "title": "Epistemic Boolean Games Based on a Logic of Visibility and Control",
+        "url": "https://www.ijcai.org/Abstract/16/162"
+    },
+    {
+        "title": "Normative Multiagent Systems: The Dynamic Generalization",
+        "url": "https://www.ijcai.org/Abstract/16/163"
+    },
+    {
+        "title": "Eliminating Disjunctions in Answer Set Programming by Restricted Unfolding",
+        "url": "https://www.ijcai.org/Abstract/16/164"
+    },
+    {
+        "title": "Epistemic GDL: A Logic for Representing and Reasoning about Imperfect Information Games",
+        "url": "https://www.ijcai.org/Abstract/16/165"
+    },
+    {
+        "title": "Question Answering via Integer Programming over Semi-Structured Knowledge",
+        "url": "https://www.ijcai.org/Abstract/16/166"
+    },
+    {
+        "title": "Conservative Rewritability of Description Logic TBoxes",
+        "url": "https://www.ijcai.org/Abstract/16/167"
+    },
+    {
+        "title": "Temporal and Spatial OBDA with Many-Dimensional Halpern-Shoham Logic",
+        "url": "https://www.ijcai.org/Abstract/16/168"
+    },
+    {
+        "title": "Learning Possibilistic Logic Theories from Default Rules",
+        "url": "https://www.ijcai.org/Abstract/16/169"
+    },
+    {
+        "title": "Answering Metaqueries over Hi (OWL 2 QL) Ontologies",
+        "url": "https://www.ijcai.org/Abstract/16/170"
+    },
+    {
+        "title": "Constraint Answer Set Programming versus Satisfiability Modulo Theories",
+        "url": "https://www.ijcai.org/Abstract/16/171"
+    },
+    {
+        "title": "Exploring the Context of Locations for Personalized Location Recommendations",
+        "url": "https://www.ijcai.org/Abstract/16/172"
+    },
+    {
+        "title": "A Decision Procedure for a Fragment of Linear Time Mu-Calculus",
+        "url": "https://www.ijcai.org/Abstract/16/173"
+    },
+    {
+        "title": "Efficient Path Consistency Algorithm for Large Qualitative Constraint Networks",
+        "url": "https://www.ijcai.org/Abstract/16/174"
+    },
+    {
+        "title": "Belief Update for Proper Epistemic Knowledge Bases",
+        "url": "https://www.ijcai.org/Abstract/16/175"
+    },
+    {
+        "title": "Optimal Status Enforcement in Abstract Argumentation",
+        "url": "https://www.ijcai.org/Abstract/16/176"
+    },
+    {
+        "title": "Efficient Representations for the Modal Logic S5",
+        "url": "https://www.ijcai.org/Abstract/16/177"
+    },
+    {
+        "title": "Expressivity of Datalog Variants — Completing the Picture",
+        "url": "https://www.ijcai.org/Abstract/16/178"
+    },
+    {
+        "title": "Is Promoting Beliefs Useful to Make Them Accepted in Networks of Agents?",
+        "url": "https://www.ijcai.org/Abstract/16/179"
+    },
+    {
+        "title": "Normative Practical Reasoning via Argumentation and Dialogue",
+        "url": "https://www.ijcai.org/Abstract/16/180"
+    },
+    {
+        "title": "Efficient Sequential Model-Based Fault-Localization with Partial Diagnoses",
+        "url": "https://www.ijcai.org/Abstract/16/181"
+    },
+    {
+        "title": "Object-Relational Queries over CFDInc Knowledge Bases: OBDA for the SQL-Literate",
+        "url": "https://www.ijcai.org/Abstract/16/182"
+    },
+    {
+        "title": "Diagnosability of Discrete-Event Systems with Uncertain Observations",
+        "url": "https://www.ijcai.org/Abstract/16/183"
+    },
+    {
+        "title": "Sampling-Based Belief Revision",
+        "url": "https://www.ijcai.org/Abstract/16/184"
+    },
+    {
+        "title": "Efficient Query Answering over Expressive Inconsistent Description Logics",
+        "url": "https://www.ijcai.org/Abstract/16/185"
+    },
+    {
+        "title": "Distributed Autoepistemic Logic and its Application to Access Control",
+        "url": "https://www.ijcai.org/Abstract/16/186"
+    },
+    {
+        "title": "Text-Enhanced Representation Learning for Knowledge Graph",
+        "url": "https://www.ijcai.org/Abstract/16/187"
+    },
+    {
+        "title": "On the Representation and Embedding of Knowledge Bases beyond Binary Relations",
+        "url": "https://www.ijcai.org/Abstract/16/188"
+    },
+    {
+        "title": "Connecting Qualitative Spatial and Temporal Representations by Propositional Closure",
+        "url": "https://www.ijcai.org/Abstract/16/189"
+    },
+    {
+        "title": "From One Point to a Manifold: Knowledge Graph Embedding for Precise Link Prediction",
+        "url": "https://www.ijcai.org/Abstract/16/190"
+    },
+    {
+        "title": "Strategy Representation and Reasoning for Incomplete Information Concurrent Games in the Situation Calculus",
+        "url": "https://www.ijcai.org/Abstract/16/191"
+    },
+    {
+        "title": "Expressive Completeness of Existential Rule Languages for Ontology-Based Query Answering",
+        "url": "https://www.ijcai.org/Abstract/16/192"
+    },
+    {
+        "title": "A Characterization of the Semantics of Logic Programs with Aggregates",
+        "url": "https://www.ijcai.org/Abstract/16/193"
+    },
+    {
+        "title": "Forgetting Concept and Role Symbols in ALCOIHμ+(∇, ⊓)-Ontologies",
+        "url": "https://www.ijcai.org/Abstract/16/194"
+    },
+    {
+        "title": "Driver Frustration Detection from Audio and Video in the Wild",
+        "url": "https://www.ijcai.org/Abstract/16/195"
+    },
+    {
+        "title": "The Complexity of Learning Acyclic CP-Nets",
+        "url": "https://www.ijcai.org/Abstract/16/196"
+    },
+    {
+        "title": "Change Detection in Multivariate Datastreams: Likelihood and Detectability Loss",
+        "url": "https://www.ijcai.org/Abstract/16/197"
+    },
+    {
+        "title": "Cold-Start Recommendations for Audio News Stories Using Matrix Factorization",
+        "url": "https://www.ijcai.org/Abstract/16/198"
+    },
+    {
+        "title": "MPMA: Mixture Probabilistic Matrix Approximation for Collaborative Filtering",
+        "url": "https://www.ijcai.org/Abstract/16/199"
+    },
+    {
+        "title": "A Generalized Matching Pursuit Approach for Graph-Structured Sparsity",
+        "url": "https://www.ijcai.org/Abstract/16/200"
+    },
+    {
+        "title": "Entity Embedding-Based Anomaly Detection for Heterogeneous Categorical Events",
+        "url": "https://www.ijcai.org/Abstract/16/201"
+    },
+    {
+        "title": "ADL™: A Topic Model for Discovery of Activities of Daily Living in a Smart Home",
+        "url": "https://www.ijcai.org/Abstract/16/202"
+    },
+    {
+        "title": "Cost-Aware Pre-Training for Multiclass Cost-Sensitive Deep Learning",
+        "url": "https://www.ijcai.org/Abstract/16/203"
+    },
+    {
+        "title": "Learning Higher-Order Logic Programs through Abstraction and Invention",
+        "url": "https://www.ijcai.org/Abstract/16/204"
+    },
+    {
+        "title": "A Unifying Framework for Learning Bag Labels from Generalized Multiple-Instance Data",
+        "url": "https://www.ijcai.org/Abstract/16/205"
+    },
+    {
+        "title": "Hidden Parameter Markov Decision Processes: A Semiparametric Regression Approach for Discovering Latent Task Parametrizations",
+        "url": "https://www.ijcai.org/Abstract/16/206"
+    },
+    {
+        "title": "EBEK: Exemplar-Based Kernel Preserving Embedding",
+        "url": "https://www.ijcai.org/Abstract/16/207"
+    },
+    {
+        "title": "Version Space Reduction Based on Ensembles of Dissimilar Balanced Perceptrons",
+        "url": "https://www.ijcai.org/Abstract/16/208"
+    },
+    {
+        "title": "Robust Domain Generalisation by Enforcing Distribution Invariance",
+        "url": "https://www.ijcai.org/Abstract/16/209"
+    },
+    {
+        "title": "Copula Mixed-Membership Stochastic Blockmodel",
+        "url": "https://www.ijcai.org/Abstract/16/210"
+    },
+    {
+        "title": "DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/211"
+    },
+    {
+        "title": "A Robust Convex Formulation for Ensemble Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/212"
+    },
+    {
+        "title": "Semi-Data-Driven Network Coarsening",
+        "url": "https://www.ijcai.org/Abstract/16/213"
+    },
+    {
+        "title": "Constrained Local Latent Variable Discovery",
+        "url": "https://www.ijcai.org/Abstract/16/214"
+    },
+    {
+        "title": "Knowledge-Based Sequence Mining with ASP",
+        "url": "https://www.ijcai.org/Abstract/16/215"
+    },
+    {
+        "title": "Incremental Truncated LSTD",
+        "url": "https://www.ijcai.org/Abstract/16/216"
+    },
+    {
+        "title": "A Distributed and Scalable Machine Learning Approach for Big Data",
+        "url": "https://www.ijcai.org/Abstract/16/217"
+    },
+    {
+        "title": "Deep Learning for Reward Design to Improve Monte Carlo Tree Search in ATARI Games",
+        "url": "https://www.ijcai.org/Abstract/16/218"
+    },
+    {
+        "title": "Semi-Supervised Active Learning with Cross-Class Sample Transfer",
+        "url": "https://www.ijcai.org/Abstract/16/219"
+    },
+    {
+        "title": "Deep, Convolutional, and Recurrent Models for Human Activity Recognition Using Wearables",
+        "url": "https://www.ijcai.org/Abstract/16/220"
+    },
+    {
+        "title": "Incorporating External Knowledge into Crowd Intelligence for More Specific Knowledge Acquisition",
+        "url": "https://www.ijcai.org/Abstract/16/221"
+    },
+    {
+        "title": "Partially Supervised Graph Embedding for Positive Unlabelled Feature Selection",
+        "url": "https://www.ijcai.org/Abstract/16/222"
+    },
+    {
+        "title": "Online Bayesian Max-Margin Subspace Multi-View Learning",
+        "url": "https://www.ijcai.org/Abstract/16/223"
+    },
+    {
+        "title": "Tight Policy Regret Bounds for Improving and Decaying Bandits",
+        "url": "https://www.ijcai.org/Abstract/16/224"
+    },
+    {
+        "title": "Bayesian Reinforcement Learning with Behavioral Feedback",
+        "url": "https://www.ijcai.org/Abstract/16/225"
+    },
+    {
+        "title": "Grounding Topic Models with Knowledge Bases",
+        "url": "https://www.ijcai.org/Abstract/16/226"
+    },
+    {
+        "title": "Class-Wise Supervised Hashing with Label Embedding and Active Bits",
+        "url": "https://www.ijcai.org/Abstract/16/227"
+    },
+    {
+        "title": "Transfer Learning with Active Queries from Source Domain",
+        "url": "https://www.ijcai.org/Abstract/16/228"
+    },
+    {
+        "title": "Learning Stable Linear Dynamical Systems with the Weighted Least Square Method",
+        "url": "https://www.ijcai.org/Abstract/16/229"
+    },
+    {
+        "title": "Learning Unified Features from Natural and Programming Languages for Locating Buggy Source Code",
+        "url": "https://www.ijcai.org/Abstract/16/230"
+    },
+    {
+        "title": "Change Detection Using Directional Statistics",
+        "url": "https://www.ijcai.org/Abstract/16/231"
+    },
+    {
+        "title": "Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning",
+        "url": "https://www.ijcai.org/Abstract/16/232"
+    },
+    {
+        "title": "Multi-Label Informed Feature Selection",
+        "url": "https://www.ijcai.org/Abstract/16/233"
+    },
+    {
+        "title": "Robust Out-of-Sample Data Recovery",
+        "url": "https://www.ijcai.org/Abstract/16/234"
+    },
+    {
+        "title": "On Structural Properties of MDPs that Bound Loss Due to Shallow Planning",
+        "url": "https://www.ijcai.org/Abstract/16/235"
+    },
+    {
+        "title": "Constructing Abstraction Hierarchies Using a Skill-Symbol Loop",
+        "url": "https://www.ijcai.org/Abstract/16/236"
+    },
+    {
+        "title": "Bounds for Learning from Evolutionary-Related Data in the Realizable Case",
+        "url": "https://www.ijcai.org/Abstract/16/237"
+    },
+    {
+        "title": "Learning Multi-Step Predictive State Representations",
+        "url": "https://www.ijcai.org/Abstract/16/238"
+    },
+    {
+        "title": "Dual-Memory Deep Learning Architectures for Lifelong Learning of Everyday Human Behaviors",
+        "url": "https://www.ijcai.org/Abstract/16/239"
+    },
+    {
+        "title": "Predicting Personal Traits from Facial Images Using Convolutional Neural Networks Augmented with Facial Landmark Information",
+        "url": "https://www.ijcai.org/Abstract/16/240"
+    },
+    {
+        "title": "A Relaxed Ranking-Based Factor Model for Recommender System from Implicit Feedback",
+        "url": "https://www.ijcai.org/Abstract/16/241"
+    },
+    {
+        "title": "Adversarial Sequence Tagging",
+        "url": "https://www.ijcai.org/Abstract/16/242"
+    },
+    {
+        "title": "Joint Feature Selection and Structure Preservation for Domain Adaptation",
+        "url": "https://www.ijcai.org/Abstract/16/243"
+    },
+    {
+        "title": "Multiple Kernel Clustering with Local Kernel Alignment Maximization",
+        "url": "https://www.ijcai.org/Abstract/16/244"
+    },
+    {
+        "title": "Feature Learning Based Deep Supervised Hashing with Pairwise Labels",
+        "url": "https://www.ijcai.org/Abstract/16/245"
+    },
+    {
+        "title": "Multi-View Learning with Limited and Noisy Tagging",
+        "url": "https://www.ijcai.org/Abstract/16/246"
+    },
+    {
+        "title": "Graph Quality Judgement: A Large Margin Expedition",
+        "url": "https://www.ijcai.org/Abstract/16/247"
+    },
+    {
+        "title": "Sparse Bayesian Content-Aware Collaborative Filtering for Implicit Feedback",
+        "url": "https://www.ijcai.org/Abstract/16/248"
+    },
+    {
+        "title": "Group-Invariant Cross-Modal Subspace Learning",
+        "url": "https://www.ijcai.org/Abstract/16/249"
+    },
+    {
+        "title": "Learning to Detect Concepts from Webly-Labeled Video Data",
+        "url": "https://www.ijcai.org/Abstract/16/250"
+    },
+    {
+        "title": "Towards Convolutional Neural Networks Compression via Global Error Reconstruction",
+        "url": "https://www.ijcai.org/Abstract/16/251"
+    },
+    {
+        "title": "Efficient k-Support-Norm Regularized Minimization via Fully Corrective Frank-Wolfe Method",
+        "url": "https://www.ijcai.org/Abstract/16/252"
+    },
+    {
+        "title": "Supervised Matrix Factorization for Cross-Modality Hashing",
+        "url": "https://www.ijcai.org/Abstract/16/253"
+    },
+    {
+        "title": "Aligning Users across Social Networks Using Network Embedding",
+        "url": "https://www.ijcai.org/Abstract/16/254"
+    },
+    {
+        "title": "Transductive Optimization of Top k Precision",
+        "url": "https://www.ijcai.org/Abstract/16/255"
+    },
+    {
+        "title": "Natural Supervised Hashing",
+        "url": "https://www.ijcai.org/Abstract/16/256"
+    },
+    {
+        "title": "Linear-Time Outlier Detection via Sensitivity",
+        "url": "https://www.ijcai.org/Abstract/16/257"
+    },
+    {
+        "title": "Avoiding Optimal Mean Robust PCA/2DPCA with Non-greedy ℓ1-Norm Maximization",
+        "url": "https://www.ijcai.org/Abstract/16/258"
+    },
+    {
+        "title": "On Combining Side Information and Unlabeled Data for Heterogeneous Multi-Task Metric Learning",
+        "url": "https://www.ijcai.org/Abstract/16/259"
+    },
+    {
+        "title": "Multi-Grained Role Labeling Based on Multi-Modality Information for Real Customer Service Telephone Conversation",
+        "url": "https://www.ijcai.org/Abstract/16/260"
+    },
+    {
+        "title": "Predict Anchor Links across Social Networks via an Embedding Approach",
+        "url": "https://www.ijcai.org/Abstract/16/261"
+    },
+    {
+        "title": "Efficient Bayesian Clustering for Reinforcement Learning",
+        "url": "https://www.ijcai.org/Abstract/16/262"
+    },
+    {
+        "title": "Soft Margin Consistency Based Scalable Multi-View Maximum Entropy Discrimination",
+        "url": "https://www.ijcai.org/Abstract/16/263"
+    },
+    {
+        "title": "Sum-Product-Max Networks for Tractable Decision Making",
+        "url": "https://www.ijcai.org/Abstract/16/264"
+    },
+    {
+        "title": "Asynchronous Accelerated Stochastic Gradient Descent",
+        "url": "https://www.ijcai.org/Abstract/16/265"
+    },
+    {
+        "title": "Coordinate Discrete Optimization for Efficient Cross-View Image Retrieval",
+        "url": "https://www.ijcai.org/Abstract/16/266"
+    },
+    {
+        "title": "Fast Laplace Approximation for Sparse Bayesian Spike and Slab Models",
+        "url": "https://www.ijcai.org/Abstract/16/267"
+    },
+    {
+        "title": "Subspace Clustering via New Low-Rank Model with Discrete Group Structure Constraint",
+        "url": "https://www.ijcai.org/Abstract/16/268"
+    },
+    {
+        "title": "Parameter-Free Auto-Weighted Multiple Graph Learning: A Framework for Multiview Clustering and Semi-Supervised Classification",
+        "url": "https://www.ijcai.org/Abstract/16/269"
+    },
+    {
+        "title": "Gated Probabilistic Matrix Factorization: Learning Users’ Attention from Missing Values",
+        "url": "https://www.ijcai.org/Abstract/16/270"
+    },
+    {
+        "title": "Tri-Party Deep Network Representation",
+        "url": "https://www.ijcai.org/Abstract/16/271"
+    },
+    {
+        "title": "Outlier Detection in Complex Categorical Data by Modeling the Feature Value Couplings",
+        "url": "https://www.ijcai.org/Abstract/16/272"
+    },
+    {
+        "title": "Fast Learning from Distributed Datasets without Entity Matching",
+        "url": "https://www.ijcai.org/Abstract/16/273"
+    },
+    {
+        "title": "Direct Sparsity Optimization Based Feature Selection for Multi-Class Classification",
+        "url": "https://www.ijcai.org/Abstract/16/274"
+    },
+    {
+        "title": "Deep Subspace Clustering with Sparsity Prior",
+        "url": "https://www.ijcai.org/Abstract/16/275"
+    },
+    {
+        "title": "Self-Paced Boost Learning for Classification",
+        "url": "https://www.ijcai.org/Abstract/16/276"
+    },
+    {
+        "title": "Parallel Pareto Optimization for Subset Selection",
+        "url": "https://www.ijcai.org/Abstract/16/277"
+    },
+    {
+        "title": "Derivative-Free Optimization of High-Dimensional Non-Convex Functions by Sequential Random Embeddings",
+        "url": "https://www.ijcai.org/Abstract/16/278"
+    },
+    {
+        "title": "Bridging LSTM Architecture and the Neural Dynamics during Reading",
+        "url": "https://www.ijcai.org/Abstract/16/279"
+    },
+    {
+        "title": "Non-Negative Matrix Factorization with Sinkhorn Distance",
+        "url": "https://www.ijcai.org/Abstract/16/280"
+    },
+    {
+        "title": "Dependency Clustering of Mixed Data with Gaussian Mixture Copulas",
+        "url": "https://www.ijcai.org/Abstract/16/281"
+    },
+    {
+        "title": "Trading-Off Cost of Deployment Versus Accuracy in Learning Predictive Models",
+        "url": "https://www.ijcai.org/Abstract/16/282"
+    },
+    {
+        "title": "Portfolio Blending via Thompson Sampling",
+        "url": "https://www.ijcai.org/Abstract/16/283"
+    },
+    {
+        "title": "Adaptive Variance Reducing for Stochastic Gradient Descent",
+        "url": "https://www.ijcai.org/Abstract/16/284"
+    },
+    {
+        "title": "Diversifying Convex Transductive Experimental Design for Active Learning",
+        "url": "https://www.ijcai.org/Abstract/16/285"
+    },
+    {
+        "title": "Improving CNN Performance with Min-Max Objective",
+        "url": "https://www.ijcai.org/Abstract/16/286"
+    },
+    {
+        "title": "Distance-Preserving Probabilistic Embeddings with Side Information: Variational Bayesian Multidimensional Scaling Gaussian Process",
+        "url": "https://www.ijcai.org/Abstract/16/287"
+    },
+    {
+        "title": "Fast Structural Binary Coding",
+        "url": "https://www.ijcai.org/Abstract/16/288"
+    },
+    {
+        "title": "Unsupervised Alignment of Actions in Video with Text Descriptions",
+        "url": "https://www.ijcai.org/Abstract/16/289"
+    },
+    {
+        "title": "Distance Based Modeling of Interactions in Structured Regression",
+        "url": "https://www.ijcai.org/Abstract/16/290"
+    },
+    {
+        "title": "Supervised Heterogeneous Domain Adaptation via Random Forests",
+        "url": "https://www.ijcai.org/Abstract/16/291"
+    },
+    {
+        "title": "Learning Compact Neural Word Embeddings by Parameter Space Sharing",
+        "url": "https://www.ijcai.org/Abstract/16/292"
+    },
+    {
+        "title": "A Novel Feature Matching Strategy for Large Scale Image Retrieval",
+        "url": "https://www.ijcai.org/Abstract/16/293"
+    },
+    {
+        "title": "Learning Using Unselected Features (LUFe)",
+        "url": "https://www.ijcai.org/Abstract/16/294"
+    },
+    {
+        "title": "Constructive Preference Elicitation by Setwise Max-Margin Learning",
+        "url": "https://www.ijcai.org/Abstract/16/295"
+    },
+    {
+        "title": "Inference Machines for Nonparametric Filter Learning",
+        "url": "https://www.ijcai.org/Abstract/16/296"
+    },
+    {
+        "title": "Dynamic Early Stopping for Naive Bayes",
+        "url": "https://www.ijcai.org/Abstract/16/297"
+    },
+    {
+        "title": "Policy Search in Reproducing Kernel Hilbert Space",
+        "url": "https://www.ijcai.org/Abstract/16/298"
+    },
+    {
+        "title": "Generalized Dictionary for Multitask Learning with Boosting",
+        "url": "https://www.ijcai.org/Abstract/16/299"
+    },
+    {
+        "title": "Fast Robust Non-Negative Matrix Factorization for Large-Scale Human Action Data Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/300"
+    },
+    {
+        "title": "Cost-Saving Effect of Crowdsourcing Learning",
+        "url": "https://www.ijcai.org/Abstract/16/301"
+    },
+    {
+        "title": "Dealing with Multiple Classes in Online Class Imbalance Learning",
+        "url": "https://www.ijcai.org/Abstract/16/302"
+    },
+    {
+        "title": "Coupled Marginalized Auto-Encoders for Cross-Domain Multi-View Learning",
+        "url": "https://www.ijcai.org/Abstract/16/303"
+    },
+    {
+        "title": "Learning First-Order Logic Embeddings via Matrix Factorization",
+        "url": "https://www.ijcai.org/Abstract/16/304"
+    },
+    {
+        "title": "Constrained Preference Embedding for Item Recommendation",
+        "url": "https://www.ijcai.org/Abstract/16/305"
+    },
+    {
+        "title": "Nonparametric Risk and Stability Analysis for Multi-Task Learning Problems",
+        "url": "https://www.ijcai.org/Abstract/16/306"
+    },
+    {
+        "title": "Iterative Views Agreement: An Iterative Low-Rank Based Structured Optimization Method to Multi-View Spectral Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/307"
+    },
+    {
+        "title": "Bayesian Optimization of Partition Layouts for Mondrian Processes",
+        "url": "https://www.ijcai.org/Abstract/16/308"
+    },
+    {
+        "title": "Bernoulli Random Forests: Closing the Gap between Theoretical Consistency and Empirical Soundness",
+        "url": "https://www.ijcai.org/Abstract/16/309"
+    },
+    {
+        "title": "Learning A Deep ℓ∞ Encoder for Hashing",
+        "url": "https://www.ijcai.org/Abstract/16/310"
+    },
+    {
+        "title": "To Project More or to Quantize More: Minimize Reconstruction Bias for Learning Compact Binary Codes",
+        "url": "https://www.ijcai.org/Abstract/16/311"
+    },
+    {
+        "title": "Deep Nonlinear Feature Coding for Unsupervised Domain Adaptation",
+        "url": "https://www.ijcai.org/Abstract/16/312"
+    },
+    {
+        "title": "Discriminatively Trained Recurrent Neural Networks for Continuous Dimensional Emotion Recognition from Audio",
+        "url": "https://www.ijcai.org/Abstract/16/313"
+    },
+    {
+        "title": "Preference Inference through Rescaling Preference Learning",
+        "url": "https://www.ijcai.org/Abstract/16/314"
+    },
+    {
+        "title": "Budgeted Multi-Armed Bandits with Multiple Plays",
+        "url": "https://www.ijcai.org/Abstract/16/315"
+    },
+    {
+        "title": "Multi-View Exclusive Unsupervised Dimension Reduction for Video-Based Facial Expression Recognition",
+        "url": "https://www.ijcai.org/Abstract/16/316"
+    },
+    {
+        "title": "Robust and Sparse Fuzzy K-Means Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/317"
+    },
+    {
+        "title": "Weight Features for Predicting Future Model Performance of Deep Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/318"
+    },
+    {
+        "title": "i, Poet: Automatic Poetry Composition through Recurrent Neural Networks with Iterative Polishing Schema",
+        "url": "https://www.ijcai.org/Abstract/16/319"
+    },
+    {
+        "title": "Unsupervised Human Action Categorization with Consensus Information Bottleneck Method",
+        "url": "https://www.ijcai.org/Abstract/16/320"
+    },
+    {
+        "title": "Modularity Based Community Detection with Deep Learning",
+        "url": "https://www.ijcai.org/Abstract/16/321"
+    },
+    {
+        "title": "Sparsity Conditional Energy Label Distribution Learning for Age Estimation",
+        "url": "https://www.ijcai.org/Abstract/16/322"
+    },
+    {
+        "title": "Empirical Risk Minimization for Metric Learning Using Privileged Information",
+        "url": "https://www.ijcai.org/Abstract/16/323"
+    },
+    {
+        "title": "A Unified Framework for Discrete Spectral Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/324"
+    },
+    {
+        "title": "Learning by Actively Querying Strong Modal Features",
+        "url": "https://www.ijcai.org/Abstract/16/325"
+    },
+    {
+        "title": "Multi-Modal Bayesian Embeddings for Learning Social Knowledge Graphs",
+        "url": "https://www.ijcai.org/Abstract/16/326"
+    },
+    {
+        "title": "Greedy Learning of Generalized Low-Rank Models",
+        "url": "https://www.ijcai.org/Abstract/16/327"
+    },
+    {
+        "title": "Frequent Direction Algorithms for Approximate Matrix Multiplication with Applications in CCA",
+        "url": "https://www.ijcai.org/Abstract/16/328"
+    },
+    {
+        "title": "Neural Enquirer: Learning to Query Tables in Natural Language",
+        "url": "https://www.ijcai.org/Abstract/16/329"
+    },
+    {
+        "title": "Theoretically-Grounded Policy Advice from Multiple Teachers in Reinforcement Learning Settings with Applications to Negative Transfer",
+        "url": "https://www.ijcai.org/Abstract/16/330"
+    },
+    {
+        "title": "Unsupervised Feature Learning from Time Series",
+        "url": "https://www.ijcai.org/Abstract/16/331"
+    },
+    {
+        "title": "Collaborative Filtering with Generalized Laplacian Constraint via Overlapping Decomposition",
+        "url": "https://www.ijcai.org/Abstract/16/332"
+    },
+    {
+        "title": "Large Scale Sparse Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/333"
+    },
+    {
+        "title": "Improving DCNN Performance with Sparse Category-Selective Objective Function",
+        "url": "https://www.ijcai.org/Abstract/16/334"
+    },
+    {
+        "title": "Staleness-Aware Async-SGD for Distributed Deep Learning",
+        "url": "https://www.ijcai.org/Abstract/16/335"
+    },
+    {
+        "title": "Self-Adapted Multi-Task Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/336"
+    },
+    {
+        "title": "Bayesian Dictionary Learning with Gaussian Processes and Sigmoid Belief Networks",
+        "url": "https://www.ijcai.org/Abstract/16/337"
+    },
+    {
+        "title": "Denoising and Completion of 3D Data via Multidimensional Dictionary Learning",
+        "url": "https://www.ijcai.org/Abstract/16/338"
+    },
+    {
+        "title": "Improving Top-N Recommendation with Heterogeneous Loss",
+        "url": "https://www.ijcai.org/Abstract/16/339"
+    },
+    {
+        "title": "Predictive Collaborative Filtering with Side Information",
+        "url": "https://www.ijcai.org/Abstract/16/340"
+    },
+    {
+        "title": "Incomplete Multi-Modal Visual Data Grouping",
+        "url": "https://www.ijcai.org/Abstract/16/341"
+    },
+    {
+        "title": "Learning Cross-View Binary Identities for Fast Person Re-Identification",
+        "url": "https://www.ijcai.org/Abstract/16/342"
+    },
+    {
+        "title": "Fast-and-Light Stochastic ADMM",
+        "url": "https://www.ijcai.org/Abstract/16/343"
+    },
+    {
+        "title": "Transfer Hashing with Privileged Information",
+        "url": "https://www.ijcai.org/Abstract/16/344"
+    },
+    {
+        "title": "Model-Based Deep Hand Pose Estimation",
+        "url": "https://www.ijcai.org/Abstract/16/345"
+    },
+    {
+        "title": "Probabilistic Rank-One Matrix Analysis with Concurrent Regularization",
+        "url": "https://www.ijcai.org/Abstract/16/346"
+    },
+    {
+        "title": "Crowdsourcing via Tensor Augmentation and Completion",
+        "url": "https://www.ijcai.org/Abstract/16/347"
+    },
+    {
+        "title": "A Self-Representation Induced Classifier",
+        "url": "https://www.ijcai.org/Abstract/16/348"
+    },
+    {
+        "title": "Stochastic Multiresolution Persistent Homology Kernel",
+        "url": "https://www.ijcai.org/Abstract/16/349"
+    },
+    {
+        "title": "Asymptotic Optimality of Myopic Optimization in Trial-Offer Markets with Social Influence",
+        "url": "https://www.ijcai.org/Abstract/16/350"
+    },
+    {
+        "title": "Managing Overstaying Electric Vehicles in Park-and-Charge Facilities",
+        "url": "https://www.ijcai.org/Abstract/16/351"
+    },
+    {
+        "title": "A SAT-Based Approach for Mining Association Rules",
+        "url": "https://www.ijcai.org/Abstract/16/352"
+    },
+    {
+        "title": "Taking Up the Gaokao Challenge: An Information Retrieval Approach",
+        "url": "https://www.ijcai.org/Abstract/16/353"
+    },
+    {
+        "title": "A Framework for Integrating Symbolic and Sub-Symbolic Representations",
+        "url": "https://www.ijcai.org/Abstract/16/354"
+    },
+    {
+        "title": "Informed Expectations to Guide GDA Agents in Partially Observable Environments",
+        "url": "https://www.ijcai.org/Abstract/16/355"
+    },
+    {
+        "title": "A Collaborative Filtering Approach to Citywide Human Mobility Completion from Sparse Call Records",
+        "url": "https://www.ijcai.org/Abstract/16/356"
+    },
+    {
+        "title": "Optimal Interdiction of Illegal Network Flow",
+        "url": "https://www.ijcai.org/Abstract/16/357"
+    },
+    {
+        "title": "Modifying MCTS for Human-Like General Video Game Playing",
+        "url": "https://www.ijcai.org/Abstract/16/358"
+    },
+    {
+        "title": "Baseline Regularization for Computational Drug Repositioning with Longitudinal Observational Data",
+        "url": "https://www.ijcai.org/Abstract/16/359"
+    },
+    {
+        "title": "Predicting Confusion in Information Visualization from Eye Tracking and Interaction Data",
+        "url": "https://www.ijcai.org/Abstract/16/360"
+    },
+    {
+        "title": "Word Clouds with Latent Variable Analysis for Visual Comparison of Documents",
+        "url": "https://www.ijcai.org/Abstract/16/361"
+    },
+    {
+        "title": "Bayesian Nonparametric Collaborative Topic Poisson Factorization for Electronic Health Records-Based Phenotyping",
+        "url": "https://www.ijcai.org/Abstract/16/362"
+    },
+    {
+        "title": "Household Structure Analysis via Hawkes Processes for Enhancing Energy Disaggregation",
+        "url": "https://www.ijcai.org/Abstract/16/363"
+    },
+    {
+        "title": "Protein Secondary Structure Prediction Using Cascaded Convolutional and Recurrent Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/364"
+    },
+    {
+        "title": "Makeup Like a Superstar: Deep Localized Makeup Transfer Network",
+        "url": "https://www.ijcai.org/Abstract/16/365"
+    },
+    {
+        "title": "Urban Water Quality Prediction Based on Multi-Task Multi-View Learning",
+        "url": "https://www.ijcai.org/Abstract/16/366"
+    },
+    {
+        "title": "Clustering Financial Time Series: How Long Is Enough?",
+        "url": "https://www.ijcai.org/Abstract/16/367"
+    },
+    {
+        "title": "Player Goal Recognition in Open-World Digital Games with Long Short-Term Memory Networks",
+        "url": "https://www.ijcai.org/Abstract/16/368"
+    },
+    {
+        "title": "How to Build Your Network? A Structural Analysis",
+        "url": "https://www.ijcai.org/Abstract/16/369"
+    },
+    {
+        "title": "Simulating Human Inferences in the Light of New Information: A Formal Analysis",
+        "url": "https://www.ijcai.org/Abstract/16/370"
+    },
+    {
+        "title": "Measuring Performance of Peer Prediction Mechanisms Using Replicator Dynamics",
+        "url": "https://www.ijcai.org/Abstract/16/371"
+    },
+    {
+        "title": "DeepTransport: Prediction and Simulation of Human Mobility and Transportation Mode at a Citywide Level",
+        "url": "https://www.ijcai.org/Abstract/16/372"
+    },
+    {
+        "title": "Balancing Appearance and Context in Sketch Interpretation",
+        "url": "https://www.ijcai.org/Abstract/16/373"
+    },
+    {
+        "title": "Semantic Question-Answering with Video and Eye-Tracking Data: AI Foundations for Human Visual Perception Driven Cognitive Film Studies",
+        "url": "https://www.ijcai.org/Abstract/16/374"
+    },
+    {
+        "title": "Rating-Boosted Latent Topics: Understanding Users and Items with Ratings and Reviews",
+        "url": "https://www.ijcai.org/Abstract/16/375"
+    },
+    {
+        "title": "Scene Text Detection in Video by Learning Locally and Globally",
+        "url": "https://www.ijcai.org/Abstract/16/376"
+    },
+    {
+        "title": "Stochastic and-or Grammars: A Unified Framework and Logic Perspective",
+        "url": "https://www.ijcai.org/Abstract/16/377"
+    },
+    {
+        "title": "Dimensionally Guided Synthesis of Mathematical Word Problems",
+        "url": "https://www.ijcai.org/Abstract/16/378"
+    },
+    {
+        "title": "Scale-Adaptive Low-Resolution Person Re-Identification via Learning a Discriminating Surface",
+        "url": "https://www.ijcai.org/Abstract/16/379"
+    },
+    {
+        "title": "On Modeling and Predicting Individual Paper Citation Count over Time",
+        "url": "https://www.ijcai.org/Abstract/16/380"
+    },
+    {
+        "title": "Exploiting Problem Structure in Combinatorial Landscapes: A Case Study on Pure Mathematics Application",
+        "url": "https://www.ijcai.org/Abstract/16/381"
+    },
+    {
+        "title": "Modeling Contagious Merger and Acquisition via Point Processes with a Profile Regression Prior",
+        "url": "https://www.ijcai.org/Abstract/16/382"
+    },
+    {
+        "title": "POISketch: Semantic Place Labeling over User Activity Streams",
+        "url": "https://www.ijcai.org/Abstract/16/383"
+    },
+    {
+        "title": "ST-MVL: Filling Missing Values in Geo-Sensory Time Series Data",
+        "url": "https://www.ijcai.org/Abstract/16/384"
+    },
+    {
+        "title": "Nonlinear Hierarchical Part-Based Regression for Unconstrained Face Alignment",
+        "url": "https://www.ijcai.org/Abstract/16/385"
+    },
+    {
+        "title": "Situation Testing-Based Discrimination Discovery: A Causal Inference Approach",
+        "url": "https://www.ijcai.org/Abstract/16/386"
+    },
+    {
+        "title": "Maximum Sustainable Yield Problem for Robot Foraging and Construction System",
+        "url": "https://www.ijcai.org/Abstract/16/387"
+    },
+    {
+        "title": "Personalizing EEG-Based Affective Models with Transfer Learning",
+        "url": "https://www.ijcai.org/Abstract/16/388"
+    },
+    {
+        "title": "WikiWrite: Generating Wikipedia Articles Automatically",
+        "url": "https://www.ijcai.org/Abstract/16/389"
+    },
+    {
+        "title": "A Discriminative Approach to Grounded Spoken Language Understanding in Interactive Robotics",
+        "url": "https://www.ijcai.org/Abstract/16/390"
+    },
+    {
+        "title": "Distraction-Based Neural Networks for Modeling Document",
+        "url": "https://www.ijcai.org/Abstract/16/391"
+    },
+    {
+        "title": "Agreement-Based Joint Training for Bidirectional Attention-Based Neural Machine Translation",
+        "url": "https://www.ijcai.org/Abstract/16/392"
+    },
+    {
+        "title": "Neural Network Translation Models for Grammatical Error Correction",
+        "url": "https://www.ijcai.org/Abstract/16/393"
+    },
+    {
+        "title": "Recognizing Opinion Sources Based on a New Categorization of Opinion Types",
+        "url": "https://www.ijcai.org/Abstract/16/394"
+    },
+    {
+        "title": "Hashtag Recommendation Using Attention-Based Convolutional Neural Network",
+        "url": "https://www.ijcai.org/Abstract/16/395"
+    },
+    {
+        "title": "Intersubjectivity and Sentiment: From Language to Knowledge",
+        "url": "https://www.ijcai.org/Abstract/16/396"
+    },
+    {
+        "title": "Parse Tree Fragmentation of Ungrammatical Sentences",
+        "url": "https://www.ijcai.org/Abstract/16/397"
+    },
+    {
+        "title": "Exploiting N-Best Hypotheses to Improve an SMT Approach to Grammatical Error Correction",
+        "url": "https://www.ijcai.org/Abstract/16/398"
+    },
+    {
+        "title": "Generating Recommendation Evidence Using Translation Model",
+        "url": "https://www.ijcai.org/Abstract/16/399"
+    },
+    {
+        "title": "Tree-State Based Rule Selection Models for Hierarchical Phrase-Based Machine Translation",
+        "url": "https://www.ijcai.org/Abstract/16/400"
+    },
+    {
+        "title": "Bag-of-Embeddings for Text Classification",
+        "url": "https://www.ijcai.org/Abstract/16/401"
+    },
+    {
+        "title": "Reinforcement Learning for Turn-Taking Management in Incremental Spoken Dialogue Systems",
+        "url": "https://www.ijcai.org/Abstract/16/402"
+    },
+    {
+        "title": "Joint Models for Extracting Adverse Drug Events from Biomedical Text",
+        "url": "https://www.ijcai.org/Abstract/16/403"
+    },
+    {
+        "title": "StalemateBreaker: A Proactive Content-Introducing Approach to Automatic Human-Computer Conversation",
+        "url": "https://www.ijcai.org/Abstract/16/404"
+    },
+    {
+        "title": "Towards Zero Unknown Word in Neural Machine Translation",
+        "url": "https://www.ijcai.org/Abstract/16/405"
+    },
+    {
+        "title": "Learning Paraphrase Identification with Structural Alignment",
+        "url": "https://www.ijcai.org/Abstract/16/406"
+    },
+    {
+        "title": "Knowledge Representation Learning with Entities, Attributes and Relations",
+        "url": "https://www.ijcai.org/Abstract/16/407"
+    },
+    {
+        "title": "Recurrent Neural Network for Text Classification with Multi-Task Learning",
+        "url": "https://www.ijcai.org/Abstract/16/408"
+    },
+    {
+        "title": "Exploring Segment Representations for Neural Segmentation Models",
+        "url": "https://www.ijcai.org/Abstract/16/409"
+    },
+    {
+        "title": "HC-Search for Incremental Parsing",
+        "url": "https://www.ijcai.org/Abstract/16/410"
+    },
+    {
+        "title": "Automatic Construction and Evaluation of a Large Semantically Enriched Wikipedia",
+        "url": "https://www.ijcai.org/Abstract/16/411"
+    },
+    {
+        "title": "Cross-Lingual Dataless Classification for Many Languages",
+        "url": "https://www.ijcai.org/Abstract/16/412"
+    },
+    {
+        "title": "Robust Natural Language Processing — Combining Reasoning, Cognitive Semantics, and Construction Grammar for Spatial Language",
+        "url": "https://www.ijcai.org/Abstract/16/413"
+    },
+    {
+        "title": "Sparse Word Embeddings Using ℓ1 Regularized Online Learning",
+        "url": "https://www.ijcai.org/Abstract/16/414"
+    },
+    {
+        "title": "Match-SRNN: Modeling the Recursive Matching Structure with Spatial RNN",
+        "url": "https://www.ijcai.org/Abstract/16/415"
+    },
+    {
+        "title": "Employing External Rich Knowledge for Machine Comprehension",
+        "url": "https://www.ijcai.org/Abstract/16/416"
+    },
+    {
+        "title": "Building Joint Spaces for Relation Extraction",
+        "url": "https://www.ijcai.org/Abstract/16/417"
+    },
+    {
+        "title": "Chinese Song Iambics Generation with Neural Attention-Based Model",
+        "url": "https://www.ijcai.org/Abstract/16/418"
+    },
+    {
+        "title": "A Bilingual Graph-Based Semantic Model for Statistical Machine Translation",
+        "url": "https://www.ijcai.org/Abstract/16/419"
+    },
+    {
+        "title": "Diverse Image Captioning via GroupTalk",
+        "url": "https://www.ijcai.org/Abstract/16/420"
+    },
+    {
+        "title": "Representation Learning of Knowledge Graphs with Hierarchical Types",
+        "url": "https://www.ijcai.org/Abstract/16/421"
+    },
+    {
+        "title": "Neural Generative Question Answering",
+        "url": "https://www.ijcai.org/Abstract/16/422"
+    },
+    {
+        "title": "Unsupervised Word and Dependency Path Embeddings for Aspect Term Extraction",
+        "url": "https://www.ijcai.org/Abstract/16/423"
+    },
+    {
+        "title": "Collaborative Multi-Level Embedding Learning from Reviews for Rating Prediction",
+        "url": "https://www.ijcai.org/Abstract/16/424"
+    },
+    {
+        "title": "A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding",
+        "url": "https://www.ijcai.org/Abstract/16/425"
+    },
+    {
+        "title": "Expert Finding for Community-Based Question Answering via Ranking Metric Network Learning",
+        "url": "https://www.ijcai.org/Abstract/16/426"
+    },
+    {
+        "title": "Context-Specific and Multi-Prototype Character Representations",
+        "url": "https://www.ijcai.org/Abstract/16/427"
+    },
+    {
+        "title": "Unsupervised Storyline Extraction from News Articles",
+        "url": "https://www.ijcai.org/Abstract/16/428"
+    },
+    {
+        "title": "Hierarchical Planning: Relating Task and Goal Decomposition with Task Sharing",
+        "url": "https://www.ijcai.org/Abstract/16/429"
+    },
+    {
+        "title": "Markovian State and Action Abstractions for MDPs via Hierarchical MCTS",
+        "url": "https://www.ijcai.org/Abstract/16/430"
+    },
+    {
+        "title": "Which Contingent Events to Observe for the Dynamic Controllability of a Plan",
+        "url": "https://www.ijcai.org/Abstract/16/431"
+    },
+    {
+        "title": "Factored Probabilistic Belief Tracking",
+        "url": "https://www.ijcai.org/Abstract/16/432"
+    },
+    {
+        "title": "Maintaining Evolving Domain Models",
+        "url": "https://www.ijcai.org/Abstract/16/433"
+    },
+    {
+        "title": "A Branch-and-Price Algorithm for Scheduling Observations on a Telescope",
+        "url": "https://www.ijcai.org/Abstract/16/434"
+    },
+    {
+        "title": "Improved Solvers for Bounded-Suboptimal Multi-Agent Path Finding",
+        "url": "https://www.ijcai.org/Abstract/16/435"
+    },
+    {
+        "title": "Online Symbolic Gradient-Based Optimization for Factored Action MDPs",
+        "url": "https://www.ijcai.org/Abstract/16/436"
+    },
+    {
+        "title": "∃-STRIPS: Existential Quantification in Planning and Constraint Satisfaction",
+        "url": "https://www.ijcai.org/Abstract/16/437"
+    },
+    {
+        "title": "Learning to Rank for Synthesizing Planning Heuristics",
+        "url": "https://www.ijcai.org/Abstract/16/438"
+    },
+    {
+        "title": "Robust Repositioning to Counter Unpredictable Demand in Bike Sharing Systems",
+        "url": "https://www.ijcai.org/Abstract/16/439"
+    },
+    {
+        "title": "Generalizing the Edge-Finder Rule for the Cumulative Constraint",
+        "url": "https://www.ijcai.org/Abstract/16/440"
+    },
+    {
+        "title": "Decoupled Strong Stubborn Sets",
+        "url": "https://www.ijcai.org/Abstract/16/441"
+    },
+    {
+        "title": "Demand Prediction and Placement Optimization for Electric Vehicle Charging Stations",
+        "url": "https://www.ijcai.org/Abstract/16/442"
+    },
+    {
+        "title": "A POMDP Approach to Influence Diagram Evaluation",
+        "url": "https://www.ijcai.org/Abstract/16/443"
+    },
+    {
+        "title": "Anticipatory Troubleshooting",
+        "url": "https://www.ijcai.org/Abstract/16/444"
+    },
+    {
+        "title": "Hierarchical Model Predictive Control for Multi-Robot Navigation",
+        "url": "https://www.ijcai.org/Abstract/16/445"
+    },
+    {
+        "title": "Batch-Switching Policy Iteration",
+        "url": "https://www.ijcai.org/Abstract/16/446"
+    },
+    {
+        "title": "In Search of Tractability for Partial Satisfaction Planning",
+        "url": "https://www.ijcai.org/Abstract/16/447"
+    },
+    {
+        "title": "State-Dependent Cost Partitionings for Cartesian Abstractions in Classical Planning",
+        "url": "https://www.ijcai.org/Abstract/16/448"
+    },
+    {
+        "title": "Privacy Preserving Plans in Partially Observable Environments",
+        "url": "https://www.ijcai.org/Abstract/16/449"
+    },
+    {
+        "title": "Sequential Planning for Steering Immune System Adaptation",
+        "url": "https://www.ijcai.org/Abstract/16/450"
+    },
+    {
+        "title": "Heuristic Subset Selection in Classical Planning",
+        "url": "https://www.ijcai.org/Abstract/16/451"
+    },
+    {
+        "title": "Learning Predictive State Representations via Monte-Carlo Tree Search",
+        "url": "https://www.ijcai.org/Abstract/16/452"
+    },
+    {
+        "title": "Automatic Generation of High-Level State Features for Generalized Planning",
+        "url": "https://www.ijcai.org/Abstract/16/453"
+    },
+    {
+        "title": "Planning for a Single Agent in a Multi-Agent Environment Using FOND",
+        "url": "https://www.ijcai.org/Abstract/16/454"
+    },
+    {
+        "title": "Heuristic Planning for PDDL+ Domains",
+        "url": "https://www.ijcai.org/Abstract/16/455"
+    },
+    {
+        "title": "PAC Greedy Maximization with Efficient Bounds on Information Gain for Sensor Selection",
+        "url": "https://www.ijcai.org/Abstract/16/456"
+    },
+    {
+        "title": "Heuristics for Numeric Planning via Subgoaling",
+        "url": "https://www.ijcai.org/Abstract/16/457"
+    },
+    {
+        "title": "Hierarchical Finite State Controllers for Generalized Planning",
+        "url": "https://www.ijcai.org/Abstract/16/458"
+    },
+    {
+        "title": "Correlation Complexity of Classical Planning Domains",
+        "url": "https://www.ijcai.org/Abstract/16/459"
+    },
+    {
+        "title": "Blind Search for Atari-Like Online Planning Revisited",
+        "url": "https://www.ijcai.org/Abstract/16/460"
+    },
+    {
+        "title": "Plan Recognition as Planning Revisited",
+        "url": "https://www.ijcai.org/Abstract/16/461"
+    },
+    {
+        "title": "On State-Dominance Criteria in Fork-Decoupled Search",
+        "url": "https://www.ijcai.org/Abstract/16/462"
+    },
+    {
+        "title": "Abstraction Heuristics for Symbolic Bidirectional Search",
+        "url": "https://www.ijcai.org/Abstract/16/463"
+    },
+    {
+        "title": "Goal Recognition Design with Stochastic Agent Action Outcomes",
+        "url": "https://www.ijcai.org/Abstract/16/464"
+    },
+    {
+        "title": "Graph-Based Factorization of Classical Planning Problems",
+        "url": "https://www.ijcai.org/Abstract/16/465"
+    },
+    {
+        "title": "Structural Symmetries for Fully Observable Nondeterministic Planning",
+        "url": "https://www.ijcai.org/Abstract/16/466"
+    },
+    {
+        "title": "Resolving Over-Constrained Conditional Temporal Problems Using Semantically Similar Alternatives",
+        "url": "https://www.ijcai.org/Abstract/16/467"
+    },
+    {
+        "title": "Co-Optimizating Multi-Agent Placement with Task Assignment and Scheduling",
+        "url": "https://www.ijcai.org/Abstract/16/468"
+    },
+    {
+        "title": "Commitment Semantics for Sequential Decision Making under Reward Uncertainty",
+        "url": "https://www.ijcai.org/Abstract/16/469"
+    },
+    {
+        "title": "Action Recognition with Joints-Pooled 3D Deep Convolutional Descriptors",
+        "url": "https://www.ijcai.org/Abstract/16/470"
+    },
+    {
+        "title": "3D Action Recognition Using Multi-Temporal Depth Motion Maps and Fisher Vector",
+        "url": "https://www.ijcai.org/Abstract/16/471"
+    },
+    {
+        "title": "Clustering-Based Joint Feature Selection for Semantic Attribute Prediction",
+        "url": "https://www.ijcai.org/Abstract/16/472"
+    },
+    {
+        "title": "Semi-Supervised Multimodal Deep Learning for RGB-D Object Recognition",
+        "url": "https://www.ijcai.org/Abstract/16/473"
+    },
+    {
+        "title": "Precision Instrument Targeting via Image Registration for the Mars 2020 Rover",
+        "url": "https://www.ijcai.org/Abstract/16/474"
+    },
+    {
+        "title": "Discriminative Log-Euclidean Feature Learning for Sparse Representation-Based Recognition of Faces from Videos",
+        "url": "https://www.ijcai.org/Abstract/16/475"
+    },
+    {
+        "title": "Highly Accurate Gaze Estimation Using a Consumer RGB-D Sensor",
+        "url": "https://www.ijcai.org/Abstract/16/476"
+    },
+    {
+        "title": "Making Robots Proactive through Equilibrium Maintenance",
+        "url": "https://www.ijcai.org/Abstract/16/477"
+    },
+    {
+        "title": "Robust Iterative Quantization for Efficient ℓp-norm Similarity Search",
+        "url": "https://www.ijcai.org/Abstract/16/478"
+    },
+    {
+        "title": "Semantic Analysis for Crowded Scenes Based on Non-Parametric Tracklet Clustering",
+        "url": "https://www.ijcai.org/Abstract/16/479"
+    },
+    {
+        "title": "Online Multi-Object Tracking by Quadratic Pseudo-Boolean Optimization",
+        "url": "https://www.ijcai.org/Abstract/16/480"
+    },
+    {
+        "title": "Robust Joint Discriminative Feature Learning for Visual Tracking",
+        "url": "https://www.ijcai.org/Abstract/16/481"
+    },
+    {
+        "title": "Saliency Transfer: An Example-Based Method for Salient Object Detection",
+        "url": "https://www.ijcai.org/Abstract/16/482"
+    },
+    {
+        "title": "What Is Where: Inferring Containment Relations from Videos",
+        "url": "https://www.ijcai.org/Abstract/16/483"
+    },
+    {
+        "title": "A Stochastic Image Grammar for Fine-Grained 3D Scene Reconstruction",
+        "url": "https://www.ijcai.org/Abstract/16/484"
+    },
+    {
+        "title": "Unsupervised Learning on Neural Network Outputs: With Application in Zero-Shot Learning",
+        "url": "https://www.ijcai.org/Abstract/16/485"
+    },
+    {
+        "title": "Geometric Scene Parsing with Hierarchical LSTM",
+        "url": "https://www.ijcai.org/Abstract/16/486"
+    },
+    {
+        "title": "Incorporating Prototype Theory in Convolutional Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/487"
+    },
+    {
+        "title": "Learning Social Affordance for Human-Robot Interaction",
+        "url": "https://www.ijcai.org/Abstract/16/488"
+    },
+    {
+        "title": "Learning to Order Objects Using Haptic and Proprioceptive Exploratory Behaviors",
+        "url": "https://www.ijcai.org/Abstract/16/489"
+    },
+    {
+        "title": "Crowd Scene Understanding with Coherent Recurrent Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/490"
+    },
+    {
+        "title": "Learning Multi-Modal Grounded Linguistic Semantics by Playing “I Spy”",
+        "url": "https://www.ijcai.org/Abstract/16/491"
+    },
+    {
+        "title": "Beyond Object Recognition: Visual Sentiment Analysis with Deep Coupled Adjective and Noun Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/492"
+    },
+    {
+        "title": "Visual Tracking with Reliable Memories",
+        "url": "https://www.ijcai.org/Abstract/16/493"
+    },
+    {
+        "title": "Object Recognition with Hidden Attributes",
+        "url": "https://www.ijcai.org/Abstract/16/494"
+    },
+    {
+        "title": "Rule-Based Programming of Molecular Robot Swarms for Biomedical Applications",
+        "url": "https://www.ijcai.org/Abstract/16/495"
+    },
+    {
+        "title": "Object-Based World Modeling in Semi-Static Environments with Dependent Dirichlet Process Mixtures",
+        "url": "https://www.ijcai.org/Abstract/16/496"
+    },
+    {
+        "title": "Enforcing Template Representability and Temporal Consistency for Adaptive Sparse Tracking",
+        "url": "https://www.ijcai.org/Abstract/16/497"
+    },
+    {
+        "title": "Synthesizing Robotic Handwriting Motion by Learning from Human Demonstrations",
+        "url": "https://www.ijcai.org/Abstract/16/498"
+    },
+    {
+        "title": "Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self-Paced Curriculum Learning",
+        "url": "https://www.ijcai.org/Abstract/16/499"
+    },
+    {
+        "title": "Semantics-Aware Deep Correspondence Structure Learning for Robust Person Re-Identification",
+        "url": "https://www.ijcai.org/Abstract/16/500"
+    },
+    {
+        "title": "Video-Based Person Re-Identification by Simultaneously Learning Intra-Video and Inter-Video Distance Metrics",
+        "url": "https://www.ijcai.org/Abstract/16/501"
+    },
+    {
+        "title": "Contextual Symmetries in Probabilistic Graphical Models",
+        "url": "https://www.ijcai.org/Abstract/16/502"
+    },
+    {
+        "title": "Algorithmic Improvements in Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Calls",
+        "url": "https://www.ijcai.org/Abstract/16/503"
+    },
+    {
+        "title": "Incorporating Knowledge into Structural Equation Models Using Auxiliary Variables",
+        "url": "https://www.ijcai.org/Abstract/16/504"
+    },
+    {
+        "title": "Solving M-Modes Using Heuristic Search",
+        "url": "https://www.ijcai.org/Abstract/16/505"
+    },
+    {
+        "title": "Probabilistic Inference Modulo Theories",
+        "url": "https://www.ijcai.org/Abstract/16/506"
+    },
+    {
+        "title": "Adaptive Budget Allocation for Maximizing Influence of Advertisements",
+        "url": "https://www.ijcai.org/Abstract/16/507"
+    },
+    {
+        "title": "A Symbolic Closed-Form Solution to Sequential Market Making with Inventory",
+        "url": "https://www.ijcai.org/Abstract/16/508"
+    },
+    {
+        "title": "Approximate Probabilistic Inference with Bounded Error for Hybrid Probabilistic Logic Programming",
+        "url": "https://www.ijcai.org/Abstract/16/509"
+    },
+    {
+        "title": "Group Decision Making via Probabilistic Belief Merging",
+        "url": "https://www.ijcai.org/Abstract/16/510"
+    },
+    {
+        "title": "Probably Approximately Correct Learning in Stochastic Games with Temporal Logic Specifications",
+        "url": "https://www.ijcai.org/Abstract/16/511"
+    },
+    {
+        "title": "Swift: Compiled Inference for Probabilistic Programming Languages",
+        "url": "https://www.ijcai.org/Abstract/16/512"
+    },
+    {
+        "title": "Latent Contextual Bandits and their Application to Personalized Recommendations for New Users",
+        "url": "https://www.ijcai.org/Abstract/16/513"
+    },
+    {
+        "title": "A Generative Model for Recognizing Mixed Group Activities in Still Images",
+        "url": "https://www.ijcai.org/Abstract/16/514"
+    },
+    {
+        "title": "ATUCAPTS: Automated Tests that a User Cannot Pass Twice Simultaneously",
+        "url": "https://www.ijcai.org/Abstract/16/515"
+    },
+    {
+        "title": "Domain Adaptation for Learning from Label Proportions Using Self-Training",
+        "url": "https://www.ijcai.org/Abstract/16/516"
+    },
+    {
+        "title": "Inferring Motif-Based Diffusion Models for Social Networks",
+        "url": "https://www.ijcai.org/Abstract/16/517"
+    },
+    {
+        "title": "Non-Objection Inference for Inconsistency-Tolerant Query Answering",
+        "url": "https://www.ijcai.org/Abstract/16/518"
+    },
+    {
+        "title": "Multi-Source Iterative Adaptation for Cross-Domain Classification",
+        "url": "https://www.ijcai.org/Abstract/16/519"
+    },
+    {
+        "title": "Timeline Summarization from Social Media with Life Cycle Models",
+        "url": "https://www.ijcai.org/Abstract/16/520"
+    },
+    {
+        "title": "HIEDS: A Generic and Efficient Approach to Hierarchical Dataset Summarization",
+        "url": "https://www.ijcai.org/Abstract/16/521"
+    },
+    {
+        "title": "Assessing Translation Ability through Vocabulary Ability Assessment",
+        "url": "https://www.ijcai.org/Abstract/16/522"
+    },
+    {
+        "title": "Weakly-Supervised Deep Learning for Customer Review Sentiment Classification",
+        "url": "https://www.ijcai.org/Abstract/16/523"
+    },
+    {
+        "title": "Questimator: Generating Knowledge Assessments for Arbitrary Topics",
+        "url": "https://www.ijcai.org/Abstract/16/524"
+    },
+    {
+        "title": "Efficient Algorithms for Spanning Tree Centrality",
+        "url": "https://www.ijcai.org/Abstract/16/525"
+    },
+    {
+        "title": "Sherlock: Sparse Hierarchical Embeddings for Visually-Aware One-Class Collaborative Filtering",
+        "url": "https://www.ijcai.org/Abstract/16/526"
+    },
+    {
+        "title": "Ordering Concepts Based on Common Attribute Intensity",
+        "url": "https://www.ijcai.org/Abstract/16/527"
+    },
+    {
+        "title": "Real-Time Web Scale Event Summarization Using Sequential Decision Making",
+        "url": "https://www.ijcai.org/Abstract/16/528"
+    },
+    {
+        "title": "Identifying Key Observers to Find Popular Information in Advance",
+        "url": "https://www.ijcai.org/Abstract/16/529"
+    },
+    {
+        "title": "Matching via Dimensionality Reduction for Estimation of Treatment Effects in Digital Marketing Campaigns",
+        "url": "https://www.ijcai.org/Abstract/16/530"
+    },
+    {
+        "title": "What Does Social Media Say about Your Stress?",
+        "url": "https://www.ijcai.org/Abstract/16/531"
+    },
+    {
+        "title": "Learning to Incentivize: Eliciting Effort via Output Agreement",
+        "url": "https://www.ijcai.org/Abstract/16/532"
+    },
+    {
+        "title": "Pay Me and I’ll Follow You: Detection of Crowdturfing Following Activities in Microblog Environment",
+        "url": "https://www.ijcai.org/Abstract/16/533"
+    },
+    {
+        "title": "Item Recommendation for Emerging Online Businesses",
+        "url": "https://www.ijcai.org/Abstract/16/534"
+    },
+    {
+        "title": "Collaborative Evolution for User Profiling in Recommender Systems",
+        "url": "https://www.ijcai.org/Abstract/16/535"
+    },
+    {
+        "title": "Browsing Regularities in Hedonic Content Systems",
+        "url": "https://www.ijcai.org/Abstract/16/536"
+    },
+    {
+        "title": "Detecting Rumors from Microblogs with Recurrent Neural Networks",
+        "url": "https://www.ijcai.org/Abstract/16/537"
+    },
+    {
+        "title": "Dynamic Task Allocation Algorithm for Hiring Workers that Learn",
+        "url": "https://www.ijcai.org/Abstract/16/538"
+    },
+    {
+        "title": "Learning Deep Intrinsic Video Representation by Exploring Temporal Coherence and Graph Structure",
+        "url": "https://www.ijcai.org/Abstract/16/539"
+    },
+    {
+        "title": "WebGazer: Scalable Webcam Eye Tracking Using User Interactions",
+        "url": "https://www.ijcai.org/Abstract/16/540"
+    },
+    {
+        "title": "Cross-Media Shared Representation by Hierarchical Learning with Multiple Deep Networks",
+        "url": "https://www.ijcai.org/Abstract/16/541"
+    },
+    {
+        "title": "Practical Linear Models for Large-Scale One-Class Collaborative Filtering",
+        "url": "https://www.ijcai.org/Abstract/16/542"
+    },
+    {
+        "title": "Intervention Strategies for Increasing Engagement in Crowdsourcing: Platform, Predictions, and Experiments",
+        "url": "https://www.ijcai.org/Abstract/16/543"
+    },
+    {
+        "title": "A Framework for Recommending Relevant and Diverse Items",
+        "url": "https://www.ijcai.org/Abstract/16/544"
+    },
+    {
+        "title": "Understanding Information Diffusion under Interactions",
+        "url": "https://www.ijcai.org/Abstract/16/545"
+    },
+    {
+        "title": "Progressive Comparison for Ranking Estimation",
+        "url": "https://www.ijcai.org/Abstract/16/546"
+    },
+    {
+        "title": "Max-Margin DeepWalk: Discriminative Learning of Network Representation",
+        "url": "https://www.ijcai.org/Abstract/16/547"
+    },
+    {
+        "title": "KOGNAC: Efficient Encoding of Large Knowledge Graphs",
+        "url": "https://www.ijcai.org/Abstract/16/548"
+    },
+    {
+        "title": "Learning Hostname Preference to Enhance Search Relevance",
+        "url": "https://www.ijcai.org/Abstract/16/549"
+    },
+    {
+        "title": "Bayesian Probabilistic Multi-Topic Matrix Factorization for Rating Prediction",
+        "url": "https://www.ijcai.org/Abstract/16/550"
+    },
+    {
+        "title": "Causality Based Propagation History Ranking in Social Networks",
+        "url": "https://www.ijcai.org/Abstract/16/551"
+    },
+    {
+        "title": "Learning Defining Features for Categories",
+        "url": "https://www.ijcai.org/Abstract/16/552"
+    },
+    {
+        "title": "Deep Semantic-Preserving and Ranking-Based Hashing for Image Retrieval",
+        "url": "https://www.ijcai.org/Abstract/16/553"
+    },
+    {
+        "title": "Modeling the Homophily Effect between Links and Communities for Overlapping Community Detection",
+        "url": "https://www.ijcai.org/Abstract/16/554"
+    },
+    {
+        "title": "Matrix Factorization+ for Movie Recommendation",
+        "url": "https://www.ijcai.org/Abstract/16/555"
+    },
+    {
+        "title": "Content-Driven Detection of Cyberbullying on the Instagram Social Network",
+        "url": "https://www.ijcai.org/Abstract/16/556"
+    },
+    {
+        "title": "Learning Compact Visual Representation with Canonical Views for Robust Mobile Landmark Search",
+        "url": "https://www.ijcai.org/Abstract/16/557"
+    },
+    {
+        "title": "Rational-Based Visual Planning Monitors",
+        "url": "https://www.ijcai.org/Abstract/16/558"
+    },
+    {
+        "title": "Online Fair Division Redux",
+        "url": "https://www.ijcai.org/Abstract/16/559"
+    },
+    {
+        "title": "Lifting Techniques for Sequential Decision Making and Probabilistic Inference (Extended Abstract)",
+        "url": "https://www.ijcai.org/Abstract/16/560"
+    },
+    {
+        "title": "Combining Logic and Probability: P-log Perspective",
+        "url": "https://www.ijcai.org/Abstract/16/561"
+    },
+    {
+        "title": "Planning under Uncertainty and Temporally Extended Goals",
+        "url": "https://www.ijcai.org/Abstract/16/562"
+    },
+    {
+        "title": "Bounded Suboptimal Multi-Agent Path Finding Using Highways",
+        "url": "https://www.ijcai.org/Abstract/16/563"
+    },
+    {
+        "title": "Logic-Based Inductive Synthesis of Efficient Programs",
+        "url": "https://www.ijcai.org/Abstract/16/564"
+    },
+    {
+        "title": "Transfer Learning for Multiagent Reinforcement Learning Systems",
+        "url": "https://www.ijcai.org/Abstract/16/565"
+    },
+    {
+        "title": "An Approach to Cooperation in General-Sum Normal Form Games",
+        "url": "https://www.ijcai.org/Abstract/16/566"
+    },
+    {
+        "title": "Self Monitoring, Goal Driven Autonomy Agents",
+        "url": "https://www.ijcai.org/Abstract/16/567"
+    },
+    {
+        "title": "Fast Motion Prediction for Collaborative Robotics",
+        "url": "https://www.ijcai.org/Abstract/16/568"
+    },
+    {
+        "title": "Location-Based Activity Recognition with Hierarchical Dirichlet Process",
+        "url": "https://www.ijcai.org/Abstract/16/569"
+    },
+    {
+        "title": "Action Selection Methods for Multi-Agent Navigation in Crowded Environments",
+        "url": "https://www.ijcai.org/Abstract/16/570"
+    },
+    {
+        "title": "Proactivity in Robots",
+        "url": "https://www.ijcai.org/Abstract/16/571"
+    },
+    {
+        "title": "Probabilistic Planning with Risk-Sensitive Criterion",
+        "url": "https://www.ijcai.org/Abstract/16/572"
+    },
+    {
+        "title": "Computer-Aided Game Design: Doctoral Consortium Research Abstract",
+        "url": "https://www.ijcai.org/Abstract/16/573"
+    },
+    {
+        "title": "Stochastic Planning in Large Search Spaces",
+        "url": "https://www.ijcai.org/Abstract/16/574"
+    },
+    {
+        "title": "Extractive and Abstractive Event Summarization over Streaming Web Text",
+        "url": "https://www.ijcai.org/Abstract/16/575"
+    },
+    {
+        "title": "Machine Learning for Integer Programming",
+        "url": "https://www.ijcai.org/Abstract/16/576"
+    },
+    {
+        "title": "Toward a Robust and Universal Crowd-Labeling Framework",
+        "url": "https://www.ijcai.org/Abstract/16/577"
+    },
+    {
+        "title": "Active Inference for Dynamic Bayesian Networks",
+        "url": "https://www.ijcai.org/Abstract/16/578"
+    },
+    {
+        "title": "Learning Robust Representations for Data Analytics",
+        "url": "https://www.ijcai.org/Abstract/16/579"
+    },
+    {
+        "title": "Modelling Satisfiability Problems: Theory and Practice",
+        "url": "https://www.ijcai.org/Abstract/16/580"
+    },
+    {
+        "title": "Solving Hard Subgraph Problems in Parallel",
+        "url": "https://www.ijcai.org/Abstract/16/581"
+    },
+    {
+        "title": "Semantic Framework for Industrial Analytics and Diagnostics",
+        "url": "https://www.ijcai.org/Abstract/16/582"
+    },
+    {
+        "title": "Adaptive Sequential Recommendation Using Context Trees",
+        "url": "https://www.ijcai.org/Abstract/16/583"
+    },
+    {
+        "title": "On the Synergy of Network Science and Artificial Intelligence",
+        "url": "https://www.ijcai.org/Abstract/16/584"
+    },
+    {
+        "title": "Are Spiking Neural Networks Useful for Classifying and Early Recognition of Spatio-Temporal Patterns?",
+        "url": "https://www.ijcai.org/Abstract/16/585"
+    },
+    {
+        "title": "Reactive Policy Checking for Action Languages",
+        "url": "https://www.ijcai.org/Abstract/16/586"
+    },
+    {
+        "title": "Towards Understanding Natural Language: Semantic Parsing, Commonsense Knowledge Acquisition and Applications",
+        "url": "https://www.ijcai.org/Abstract/16/587"
+    },
+    {
+        "title": "General Statistical Approaches to Procedural Map Generation",
+        "url": "https://www.ijcai.org/Abstract/16/588"
+    },
+    {
+        "title": "Time Decomposition for Diagnosis of Discrete Event Systems (Extended Abstract)",
+        "url": "https://www.ijcai.org/Abstract/16/589"
+    },
+    {
+        "title": "Integrating Social Network Structure into Online Feature Selection",
+        "url": "https://www.ijcai.org/Abstract/16/590"
+    },
+    {
+        "title": "Conceptual Visualization and Navigation Methods for Polyadic Formal Concept Analysis",
+        "url": "https://www.ijcai.org/Abstract/16/591"
+    },
+    {
+        "title": "Automated Narrative Information Extraction Using Non-Linear Pipelines",
+        "url": "https://www.ijcai.org/Abstract/16/592"
+    },
+    {
+        "title": "Reasoning about Space and Change with Answer Set Programming Modulo Theories",
+        "url": "https://www.ijcai.org/Abstract/16/593"
+    },
+    {
+        "title": "A Framework for Anomaly Reasoning: Interpretation through Concept Formation for Knowledge Transfer and Lifelong Learning",
+        "url": "https://www.ijcai.org/Abstract/16/594"
+    },
+    {
+        "title": "BiPOCL: A Discourse-Driven Story Planner for Procedural Narrative Generation (Extended Abstract)",
+        "url": "https://www.ijcai.org/Abstract/16/595"
+    },
+    {
+        "title": "Quantitative Path-Planning from Qualitative Language Instructions",
+        "url": "https://www.ijcai.org/Abstract/16/596"
+    },
+    {
+        "title": "Towards Intelligent Visual Understanding under Minimal Supervision",
+        "url": "https://www.ijcai.org/Abstract/16/597"
+    },
+    {
+        "title": "On Ranking and Choice Models",
+        "url": "https://www.ijcai.org/Abstract/16/598"
+    },
+    {
+        "title": "Computational Social Choice: Some Current and New Directions",
+        "url": "https://www.ijcai.org/Abstract/16/599"
+    },
+    {
+        "title": "Ontology-Mediated Query Answering: Harnessing Knowledge to Get More from Data",
+        "url": "https://www.ijcai.org/Abstract/16/600"
+    },
+    {
+        "title": "Preference Restrictions in Computational Social Choice: Recent Progress",
+        "url": "https://www.ijcai.org/Abstract/16/601"
+    },
+    {
+        "title": "Boolean Satifiability and Beyond: Algorithms, Analysis, and AI Applications",
+        "url": "https://www.ijcai.org/Abstract/16/602"
+    },
+    {
+        "title": "Directions in Hybrid Intelligence: Complementing AI Systems with Human Intelligence",
+        "url": "https://www.ijcai.org/Abstract/16/603"
+    },
+    {
+        "title": "Open Information Extraction Systems and Downstream Applications",
+        "url": "https://www.ijcai.org/Abstract/16/604"
+    },
+    {
+        "title": "Plausible Reasoning Based on Qualitative Entity Embeddings",
+        "url": "https://www.ijcai.org/Abstract/16/605"
+    },
+    {
+        "title": "A Hard Look at Soft Concepts",
+        "url": "https://www.ijcai.org/Abstract/16/606"
+    },
+    {
+        "title": "First-Order Model Counting in a Nutshell",
+        "url": "https://www.ijcai.org/Abstract/16/607"
+    },
+    {
+        "title": "Sequential Decision Making for Improving Efficiency in Urban Environments",
+        "url": "https://www.ijcai.org/Abstract/16/608"
+    },
+    {
+        "title": "Adversarial AI",
+        "url": "https://www.ijcai.org/Abstract/16/609"
+    },
+    {
+        "title": "From Non-Convex Aggregates to Monotone Aggregates in ASP",
+        "url": "https://www.ijcai.org/Abstract/16/610"
+    },
+    {
+        "title": "On the Properties of GZ-Aggregates in Answer Set Programming",
+        "url": "https://www.ijcai.org/Abstract/16/611"
+    },
+    {
+        "title": "Optimal Prosumer Decision-Making Using Factored MDPs",
+        "url": "https://www.ijcai.org/Abstract/16/612"
+    },
+    {
+        "title": "Hashing-Based Approximate Probabilistic Inference in Hybrid Domains: An Abridged Report",
+        "url": "https://www.ijcai.org/Abstract/16/613"
+    },
+    {
+        "title": "Optimal and Adaptive Algorithms for Online Boosting",
+        "url": "https://www.ijcai.org/Abstract/16/614"
+    },
+    {
+        "title": "Detecting Student Emotions in Computer-Enabled Classrooms",
+        "url": "https://www.ijcai.org/Abstract/16/615"
+    },
+    {
+        "title": "Learning Qualitative Spatial Relations for Robotic Navigation",
+        "url": "https://www.ijcai.org/Abstract/16/616"
+    },
+    {
+        "title": "On Broken Triangles",
+        "url": "https://www.ijcai.org/Abstract/16/617"
+    },
+    {
+        "title": "Sequencing Operator Counts",
+        "url": "https://www.ijcai.org/Abstract/16/618"
+    },
+    {
+        "title": "Tabling as a Library with Delimited Control",
+        "url": "https://www.ijcai.org/Abstract/16/619"
+    },
+    {
+        "title": "Büchi, Lindenbaum, Tarski: A Program Analysis Appetizer",
+        "url": "https://www.ijcai.org/Abstract/16/620"
+    },
+    {
+        "title": "Effective Planning with More Expressive Languages",
+        "url": "https://www.ijcai.org/Abstract/16/621"
+    },
+    {
+        "title": "Domain Model Acquisition in the Presence of Static Relations in the LOP System",
+        "url": "https://www.ijcai.org/Abstract/16/622"
+    },
+    {
+        "title": "A Nearly-Linear Time Framework for Graph-Structured Sparsity",
+        "url": "https://www.ijcai.org/Abstract/16/623"
+    },
+    {
+        "title": "Observability, Identifiability and Sensitivity of Vision-Aided Inertial Navigation",
+        "url": "https://www.ijcai.org/Abstract/16/624"
+    },
+    {
+        "title": "Projection, Inference, and Consistency",
+        "url": "https://www.ijcai.org/Abstract/16/625"
+    },
+    {
+        "title": "The Dependence of Effective Planning Horizon on Model Accuracy",
+        "url": "https://www.ijcai.org/Abstract/16/626"
+    },
+    {
+        "title": "Fleet Design Optimisation from Historical Data Using Constraint Programming and Large Neighbourhood Search",
+        "url": "https://www.ijcai.org/Abstract/16/627"
+    },
+    {
+        "title": "Deep Neural Decision Forests",
+        "url": "https://www.ijcai.org/Abstract/16/628"
+    },
+    {
+        "title": "Proximal Gradient Temporal Difference Learning Algorithms",
+        "url": "https://www.ijcai.org/Abstract/16/629"
+    },
+    {
+        "title": "Generating Tests for Robotized Painting Using Constraint Programming",
+        "url": "https://www.ijcai.org/Abstract/16/630"
+    },
+    {
+        "title": "A Decision Procedure for (Co)datatypes in SMT Solvers",
+        "url": "https://www.ijcai.org/Abstract/16/631"
+    },
+    {
+        "title": "Why Prices Need Algorithms",
+        "url": "https://www.ijcai.org/Abstract/16/632"
+    },
+    {
+        "title": "Online Bellman Residual and Temporal Difference Algorithms with Predictive Error Guarantees",
+        "url": "https://www.ijcai.org/Abstract/16/633"
+    },
+    {
+        "title": "Welfare Effects of Market Making in Continuous Double Auctions: Extended Abstract",
+        "url": "https://www.ijcai.org/Abstract/16/634"
+    },
+    {
+        "title": "Improving Topic Model Stability for Effective Document Exploration",
+        "url": "https://www.ijcai.org/Abstract/16/635"
+    },
+    {
+        "title": "MATHCHECK: A Math Assistant via a Combination of Computer Algebra Systems and SAT Solvers",
+        "url": "https://www.ijcai.org/Abstract/16/636"
+    },
+    {
+        "title": "Repairing General-Purpose ASR Output to Improve Accuracy of Spoken Sentences in Specific Domains Using Artificial Development Approach",
+        "url": "https://www.ijcai.org/Abstract/16/637"
+    },
+    {
+        "title": "Practical 3D Tracking Using Low-Cost Cameras",
+        "url": "https://www.ijcai.org/Abstract/16/638"
+    },
+    {
+        "title": "Baby Tartanian8: Winning Agent from the 2016 Annual Computer Poker Competition",
+        "url": "https://www.ijcai.org/Abstract/16/639"
+    },
+    {
+        "title": "KBQA: An Online Template Based Question Answering System over Freebase",
+        "url": "https://www.ijcai.org/Abstract/16/640"
+    },
+    {
+        "title": "SMACk: An Argumentation Framework for Opinion Mining",
+        "url": "https://www.ijcai.org/Abstract/16/641"
+    },
+    {
+        "title": "A Virtual Assistant to Help Dysphagia Patients Eat Safely at Home",
+        "url": "https://www.ijcai.org/Abstract/16/642"
+    },
+    {
+        "title": "The Malmo Platform for Artificial Intelligence Experimentation",
+        "url": "https://www.ijcai.org/Abstract/16/643"
+    },
+    {
+        "title": "A Demonstration of Interactive Task Learning",
+        "url": "https://www.ijcai.org/Abstract/16/644"
+    },
+    {
+        "title": "Implementation of Learning-Based Dynamic Demand Response on a Campus Micro-Grid",
+        "url": "https://www.ijcai.org/Abstract/16/645"
+    },
+    {
+        "title": "Eddy: A Graphical Editor for OWL 2 Ontologies",
+        "url": "https://www.ijcai.org/Abstract/16/646"
+    },
+    {
+        "title": "A Tag-Based Statistical English Math Word Problem Solver with Understanding, Reasoning and Explanation",
+        "url": "https://www.ijcai.org/Abstract/16/647"
+    },
+    {
+        "title": "An Intelligent System for Taxi Service Monitoring, Analytics and Visualization",
+        "url": "https://www.ijcai.org/Abstract/16/648"
+    },
+    {
+        "title": "An Adaptive Process Management System Implementation Based on Situation Calculus, Indigolog and Classical Planning",
+        "url": "https://www.ijcai.org/Abstract/16/649"
+    },
+    {
+        "title": "Demo: Assisting Visually Impaired People Navigate Indoors",
+        "url": "https://www.ijcai.org/Abstract/16/650"
+    },
+    {
+        "title": "Klint: Assisting Integration of Heterogeneous Knowledge",
+        "url": "https://www.ijcai.org/Abstract/16/651"
+    },
+    {
+        "title": "Thou Shalt ASQFor and Shalt Receive the Semantic Answer",
+        "url": "https://www.ijcai.org/Abstract/16/652"
+    },
+    {
+        "title": "A Tool for Generating Interactive Euler Diagrams",
+        "url": "https://www.ijcai.org/Abstract/16/653"
+    },
+    {
+        "title": "Interactive Planning-Based Hypothesis Generation with LTS++",
+        "url": "https://www.ijcai.org/Abstract/16/654"
+    },
+    {
+        "title": "Data-Based Promotion of Tourist Events with Minimal Operational Impact",
+        "url": "https://www.ijcai.org/Abstract/16/655"
+    },
+    {
+        "title": "PARecommender: A Pattern-Based System for Route Recommendation",
+        "url": "https://www.ijcai.org/Abstract/16/656"
+    },
+    {
+        "title": "VIPR: An Interactive Tool for Meaningful Visualization of High-Dimensional Data",
+        "url": "https://www.ijcai.org/Abstract/16/657"
+    },
+    {
+        "title": "Robot Scavenger Hunt: A Standardized Framework for Evaluating Intelligent Mobile Robots",
+        "url": "https://www.ijcai.org/Abstract/16/658"
+    }
+]
