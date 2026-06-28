@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Top-Tier Conference Paper Explorer</title>
+
+    <!-- 尽早应用主题，减少刷新时的闪烁 -->
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 引入极轻量的撒花特效库 -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
@@ -13,6 +26,7 @@
             darkMode: 'class',
         }
     </script>
+
     <style>
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
@@ -20,16 +34,17 @@
         .dark ::-webkit-scrollbar-thumb { background: #475569; }
         ::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
         .dark ::-webkit-scrollbar-thumb:hover { background: #64748b; }
-        
-        .fade-in { animation: fadeIn 0.4s ease-out forwards; opacity: 0; }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(8px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
+
         .hidden-element { display: none !important; }
+
+        /* 长列表优化：浏览器可跳过屏幕外卡片的部分渲染工作 */
+        .paper-card {
+            content-visibility: auto;
+            contain-intrinsic-size: 118px;
+        }
     </style>
 </head>
+
 <body class="bg-[#f8fafc] dark:bg-slate-900 min-h-screen text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-indigo-100 selection:text-indigo-900 transition-colors duration-300">
 
     <!-- 顶部导航栏 -->
@@ -46,37 +61,54 @@
                     <p class="text-xs text-slate-500 dark:text-slate-400 font-medium" data-i18n="subtitle">AI顶会文献一站式搜索引擎</p>
                 </div>
             </div>
-            
-            <!-- 右上角工具栏：GitHub、语言、深色模式、分享 -->
-            <div class="flex items-center gap-2">
-                <!-- 新增：GitHub 链接图标 -->
+
+            <!-- 右上角工具栏：GitHub、语言、深色模式、分享、访问量 -->
+            <div class="flex flex-wrap items-center gap-2">
                 <a href="https://github.com/Ruichen0424/ai-paper-explorer" target="_blank" rel="noopener noreferrer" class="p-1.5 text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none" aria-label="GitHub Repository">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
                     </svg>
                 </a>
+
                 <button id="langToggle" class="px-2.5 py-1.5 text-xs font-bold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none">
                     EN
                 </button>
+
                 <button id="themeToggle" class="p-1.5 text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 rounded-lg transition-colors focus:outline-none" aria-label="Toggle Dark Mode">
-                    <!-- 月亮图标 (默认隐藏，因为现在默认是深色模式) -->
-                    <svg id="moonIcon" class="w-5 h-5 hidden-element" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
-                    <!-- 太阳图标 (默认显示) -->
-                    <svg id="sunIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg id="moonIcon" class="w-5 h-5 hidden-element" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                    </svg>
+                    <svg id="sunIcon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
                 </button>
+
                 <button id="shareBtn" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 rounded-lg transition-colors focus:outline-none shadow-sm">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+                    </svg>
                     <span id="shareText" data-i18n="shareBtn">分享</span>
                 </button>
+
+                <!-- Hits 访问计数 badge -->
+                <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center h-[27px]" aria-label="Page hits">
+                    <img
+                        class="h-[22px] rounded-md"
+                        alt="hits"
+                        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fruichen0424.github.io%2Fai-paper-explorer&count_bg=%234F46E5&title_bg=%23334155&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"
+                    />
+                </a>
             </div>
         </div>
     </header>
 
-    <!-- 🌟 精美的分享感谢弹窗 (默认隐藏，带上滑淡入动画) -->
+    <!-- 分享感谢弹窗 -->
     <div id="shareToast" class="fixed top-24 left-1/2 transform -translate-x-1/2 z-[100] transition-all duration-500 opacity-0 pointer-events-none -translate-y-10">
         <div class="bg-white dark:bg-slate-800 px-5 py-3.5 rounded-2xl shadow-2xl border border-indigo-100 dark:border-indigo-500/30 flex items-center gap-3.5">
             <div class="bg-indigo-100 dark:bg-indigo-900/50 p-2 rounded-full shrink-0">
-                <svg class="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                <svg class="w-6 h-6 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
             </div>
             <div>
                 <h4 class="text-sm font-bold text-slate-900 dark:text-white" data-i18n="shareToastTitle">链接已复制成功</h4>
@@ -87,17 +119,17 @@
 
     <!-- 主体内容 -->
     <main class="max-w-6xl mx-auto px-5 py-8">
-        
+
         <!-- 集成化控制面板 -->
         <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.04)] border border-slate-100 dark:border-slate-700 p-5 mb-8 transition-colors duration-300">
-            
+
             <!-- 模式切换 Tabs -->
             <div class="flex gap-4 mb-5 border-b border-slate-100 dark:border-slate-700 pb-3">
                 <button id="tabBasic" class="text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors" data-i18n="tabBasic">基础检索</button>
                 <button id="tabAdv" class="text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent" data-i18n="tabAdv">高级检索</button>
             </div>
 
-            <!-- 数据源选择区 1: 基础模式 (默认显示) -->
+            <!-- 数据源选择区 1: 基础模式 -->
             <div id="basicSourcePanel" class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="flex-1 min-w-[150px]">
                     <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="confLabel">会议 (Conference)</label>
@@ -109,14 +141,29 @@
                 </div>
             </div>
 
-            <!-- 数据源选择区 2: 高级模式 (默认隐藏) -->
+            <!-- 数据源选择区 2: 高级模式 -->
             <div id="advSourcePanel" class="hidden-element mb-6 bg-slate-50 dark:bg-slate-900/50 p-4 rounded-xl border border-slate-100 dark:border-slate-700/50">
                 <div class="mb-4">
-                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="advConfLabel">参与检索的会议 (多选)</label>
+                    <div class="flex items-center justify-between gap-3 mb-2">
+                        <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider" data-i18n="advConfLabel">参与检索的会议 (多选)</label>
+                        <div class="flex items-center gap-2">
+                            <button id="advConfSelectAll" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300" data-i18n="selectAll">全选</button>
+                            <span class="text-slate-300 dark:text-slate-600">|</span>
+                            <button id="advConfClear" class="text-xs font-semibold text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200" data-i18n="clearAll">清空</button>
+                        </div>
+                    </div>
                     <div id="advConfCheckboxes" class="flex flex-wrap gap-2"></div>
                 </div>
+
                 <div>
-                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="advYearLabel">参与检索的年份 (多选)</label>
+                    <div class="flex items-center justify-between gap-3 mb-2">
+                        <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider" data-i18n="advYearLabel">参与检索的年份 (多选)</label>
+                        <div class="flex items-center gap-2">
+                            <button id="advYearSelectAll" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300" data-i18n="selectAll">全选</button>
+                            <span class="text-slate-300 dark:text-slate-600">|</span>
+                            <button id="advYearClear" class="text-xs font-semibold text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200" data-i18n="clearAll">清空</button>
+                        </div>
+                    </div>
                     <div id="advYearCheckboxes" class="flex flex-wrap gap-2"></div>
                 </div>
             </div>
@@ -129,22 +176,25 @@
                 <div id="trackSelectContainer" class="flex-1 min-w-[150px] hidden-element mt-1">
                     <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="trackLabel">筛选Track</label>
                     <select id="trackSelect" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm rounded-xl focus:ring-2 focus:ring-indigo-500 p-2.5 outline-none cursor-pointer transition-colors">
-                        <option value="all" data-i18n="allTracks">所有 Track (All)</option>
+                        <option value="all">所有 Track (All)</option>
                     </select>
                 </div>
 
                 <!-- 标题关键字搜索 -->
                 <div class="flex-[2] min-w-[250px] w-full">
                     <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
-                        <span data-i18n="searchLabel">论文题目搜索</span> <span class="text-indigo-500 dark:text-indigo-400 font-normal normal-case ml-1" data-i18n="searchHint">(支持用逗号,表示或，用&表示与)</span>
+                        <span data-i18n="searchLabel">论文题目搜索</span>
+                        <span id="searchHint" class="text-indigo-500 dark:text-indigo-400 font-normal normal-case ml-1">支持用逗号,表示或，用&表示与</span>
                     </label>
                     <div class="relative">
                         <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
-                            <svg class="w-4 h-4 text-slate-400 dark:text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            <svg class="w-4 h-4 text-slate-400 dark:text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
                         </div>
                         <input type="text" id="searchInput" data-i18n-placeholder="searchPlaceholder" class="block w-full p-2.5 pl-10 text-sm text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 rounded-xl bg-slate-50 dark:bg-slate-900 focus:ring-2 focus:ring-indigo-500 outline-none transition-colors" placeholder="例如: LLM & Vision, Transformer...">
                     </div>
-                    <!-- 正则表达式复选框 -->
+
                     <div class="mt-2.5 flex items-center ml-1">
                         <input type="checkbox" id="regexCheckbox" class="w-4 h-4 text-indigo-600 bg-slate-100 border-slate-300 dark:bg-slate-800 dark:border-slate-600 rounded focus:ring-indigo-500 focus:ring-2 cursor-pointer transition-all">
                         <label for="regexCheckbox" class="ml-2 text-xs font-medium text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer select-none" data-i18n="regexLabel">
@@ -155,45 +205,62 @@
             </div>
         </div>
 
-        <!-- 状态/统计提示 & 导出功能区 -->
+        <!-- 状态/统计提示 & 排序/导出功能区 -->
         <div id="statusContainer" class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6 hidden-element">
             <div id="statusMsg" class="text-sm text-slate-600 dark:text-slate-400 font-medium"></div>
-            <!-- 一键保存/导出区 -->
+
             <div id="exportActionArea" class="flex flex-wrap items-center gap-2 hidden-element">
+                <div class="flex items-center gap-2 mr-1">
+                    <label for="sortSelect" class="text-xs font-semibold text-slate-500 dark:text-slate-400" data-i18n="sortLabel">排序</label>
+                    <select id="sortSelect" class="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-xs rounded-lg focus:ring-2 focus:ring-indigo-500 px-2 py-1.5 outline-none cursor-pointer transition-colors">
+                        <option value="yearDesc" data-i18n="sortYearDesc">年份降序</option>
+                        <option value="yearAsc" data-i18n="sortYearAsc">年份升序</option>
+                        <option value="confAsc" data-i18n="sortConfAsc">会议名排序</option>
+                        <option value="titleAsc" data-i18n="sortTitleAsc">标题 A-Z</option>
+                    </select>
+                </div>
+
                 <button id="btnExportMD" class="inline-flex items-center gap-1.5 text-xs font-semibold text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-900/30 hover:bg-sky-100 dark:hover:bg-sky-900/50 border border-sky-200 dark:border-sky-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
                     <span data-i18n="exportMD">保存为 Markdown</span>
                 </button>
+
                 <button id="btnExportCSV" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-900/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 border border-emerald-200 dark:border-emerald-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
                     <span data-i18n="exportCSV">保存为 CSV</span>
                 </button>
+
                 <button id="btnExportJSON" class="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-900/30 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 border border-indigo-200 dark:border-indigo-800 px-3 py-1.5 rounded-lg transition-colors focus:outline-none">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                    </svg>
                     <span data-i18n="exportJSON">保存为 JSON</span>
                 </button>
             </div>
         </div>
 
         <!-- 论文列表渲染区域 -->
-        <div id="paperList" class="space-y-4"></div>
+        <div id="paperList" class="space-y-3"></div>
 
         <!-- 无限滚动探测点 -->
         <div id="scrollAnchor" class="h-10 w-full opacity-0 pointer-events-none mt-8"></div>
 
-        <!-- 🌟 新增：页脚 Author Credit -->
         <footer class="mt-12 mb-6 text-center text-xs text-slate-400 dark:text-slate-500 border-t border-slate-200 dark:border-slate-800 pt-6">
             <span data-i18n="footerText">Made by Ruichen Ma | Open sourced on </span>
             <a href="https://github.com/Ruichen0424/ai-paper-explorer" target="_blank" rel="noopener noreferrer" class="font-semibold text-indigo-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
                 GitHub
             </a>
         </footer>
-
     </main>
 
     <script>
         // ================= 多语言支持 (i18n) =================
-        let currentLang = 'zh'; 
+        let currentLang = localStorage.getItem('lang') || 'zh';
+
         const translations = {
             zh: {
                 subtitle: "AI顶会文献一站式搜索引擎",
@@ -203,9 +270,12 @@
                 yearLabel: "年份 (Year)",
                 advConfLabel: "参与检索的会议 (多选)",
                 advYearLabel: "参与检索的年份 (多选)",
+                selectAll: "全选",
+                clearAll: "清空",
                 trackLabel: "筛选Track",
                 searchLabel: "论文题目搜索",
-                searchHint: "(支持用逗号,表示或，用&表示与)",
+                searchHint: "支持用逗号 , 表示或，用 & 表示与",
+                regexSearchHint: "正则模式：输入内容将作为正则表达式匹配标题",
                 searchPlaceholder: "例如: LLM & Vision, Transformer...",
                 regexLabel: "启用正则表达式检索 (Regex)",
                 shareBtn: "分享",
@@ -214,14 +284,21 @@
                 exportMD: "保存为 Markdown",
                 exportCSV: "保存为 CSV",
                 exportJSON: "保存为 JSON",
+                sortLabel: "排序",
+                sortYearDesc: "年份降序",
+                sortYearAsc: "年份升序",
+                sortConfAsc: "会议名排序",
+                sortTitleAsc: "标题 A-Z",
                 allTracks: "所有 Track (All)",
                 viewPaper: "查看论文",
                 noResult: "没有找到匹配的论文 🤔",
                 foundPapers: "共检索到 <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> 篇文献",
                 configError: "<span class='text-rose-500 font-semibold'>🚨 配置文件 config.json 加载失败</span>，请确保根目录下存在该文件。",
                 fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>正在拉取数据源...</span>",
-                fetchEmpty: "<span class='text-rose-500 font-semibold'>未能加载到任何数据</span>，请检查本地是否存在对应的 JSON 文件。",
-                advEmpty: "<span class='text-rose-500 font-semibold'>请至少选择一个会议和一个年份！</span>"
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>未能加载到任何数据</span>，请检查本地是否存在对应的 JSON 文件，或调整会议/年份选择。",
+                advEmpty: "<span class='text-rose-500 font-semibold'>请至少选择一个会议和一个年份！</span>",
+                regexError: "<span class='text-rose-500 font-semibold'>正则表达式无效</span>，请检查输入内容。",
+                footerText: "Made by Ruichen Ma | Open sourced on "
             },
             en: {
                 subtitle: "A One-Stop Search Engine for Top-Tier AI Literature",
@@ -231,9 +308,12 @@
                 yearLabel: "Year",
                 advConfLabel: "Select Conferences (Multiple)",
                 advYearLabel: "Select Years (Multiple)",
+                selectAll: "Select All",
+                clearAll: "Clear",
                 trackLabel: "Filter Track",
                 searchLabel: "Title Search",
-                searchHint: "(Use comma ',' for OR, '&' for AND)",
+                searchHint: "Use comma ',' for OR, '&' for AND",
+                regexSearchHint: "Regex mode: input will be treated as a regular expression",
                 searchPlaceholder: "e.g.: LLM & Vision, Transformer...",
                 regexLabel: "Enable Regex Search",
                 shareBtn: "Share",
@@ -242,63 +322,92 @@
                 exportMD: "Export Markdown",
                 exportCSV: "Export CSV",
                 exportJSON: "Export JSON",
+                sortLabel: "Sort",
+                sortYearDesc: "Year Desc",
+                sortYearAsc: "Year Asc",
+                sortConfAsc: "Conference",
+                sortTitleAsc: "Title A-Z",
                 allTracks: "All Tracks",
                 viewPaper: "View Paper",
                 noResult: "No matching papers found 🤔",
                 foundPapers: "Found <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> papers",
                 configError: "<span class='text-rose-500 font-semibold'>🚨 Failed to load config.json</span>, ensure it exists.",
                 fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>Loading data sources...</span>",
-                fetchEmpty: "<span class='text-rose-500 font-semibold'>No data loaded</span>, please check JSON files.",
-                advEmpty: "<span class='text-rose-500 font-semibold'>Please select at least one conference and year!</span>"
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>No data loaded</span>, please check JSON files or adjust conference/year selections.",
+                advEmpty: "<span class='text-rose-500 font-semibold'>Please select at least one conference and year!</span>",
+                regexError: "<span class='text-rose-500 font-semibold'>Invalid regular expression</span>. Please check your input.",
+                footerText: "Made by Ruichen Ma | Open sourced on "
             }
         };
 
-        function updateLanguageUI() {
+        function updateSearchHintUI() {
+            const hint = document.getElementById('searchHint');
+            if (!hint) return;
+            hint.textContent = regexCheckbox && regexCheckbox.checked
+                ? translations[currentLang].regexSearchHint
+                : translations[currentLang].searchHint;
+        }
+
+        function updateLanguageUI(options = {}) {
+            const { refreshResults = true } = options;
+
+            document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
+
             document.querySelectorAll('[data-i18n]').forEach(el => {
                 const key = el.getAttribute('data-i18n');
                 if (translations[currentLang][key]) {
-                    el.innerHTML = translations[currentLang][key]; 
+                    el.innerHTML = translations[currentLang][key];
                 }
             });
+
             document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
                 const key = el.getAttribute('data-i18n-placeholder');
                 if (translations[currentLang][key]) {
                     el.setAttribute('placeholder', translations[currentLang][key]);
                 }
             });
-            if (globalConfig.length > 0) {
-                filterPapers(); 
-                extractAndRenderTracks(); 
+
+            const langToggle = document.getElementById('langToggle');
+            if (langToggle) {
+                langToggle.textContent = currentLang === 'zh' ? 'EN' : '中';
+            }
+
+            updateSearchHintUI();
+
+            if (globalConfig.length > 0 && refreshResults) {
+                extractAndRenderTracks();
+                filterPapers();
             }
         }
 
-        document.getElementById('langToggle').addEventListener('click', (e) => {
+        document.getElementById('langToggle').addEventListener('click', () => {
             currentLang = currentLang === 'zh' ? 'en' : 'zh';
-            e.target.textContent = currentLang === 'zh' ? 'EN' : '中';
+            localStorage.setItem('lang', currentLang);
             updateLanguageUI();
         });
 
-        // ================= 深色模式支持 (Dark Mode) =================
+        // ================= 深色模式支持 =================
         const themeToggle = document.getElementById('themeToggle');
         const moonIcon = document.getElementById('moonIcon');
         const sunIcon = document.getElementById('sunIcon');
         const htmlElement = document.documentElement;
 
+        function syncThemeIcon() {
+            const isDark = htmlElement.classList.contains('dark');
+            moonIcon.classList.toggle('hidden-element', isDark);
+            sunIcon.classList.toggle('hidden-element', !isDark);
+        }
+
         themeToggle.addEventListener('click', () => {
-            if (htmlElement.classList.contains('dark')) {
-                htmlElement.classList.remove('dark');
-                moonIcon.classList.remove('hidden-element');
-                sunIcon.classList.add('hidden-element');
-            } else {
-                htmlElement.classList.add('dark');
-                moonIcon.classList.add('hidden-element');
-                sunIcon.classList.remove('hidden-element');
-            }
+            const isDark = htmlElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            syncThemeIcon();
         });
 
-        // ================= 分享功能 (配合礼花弹窗特效) =================
+        // ================= 分享功能 =================
         document.getElementById('shareBtn').addEventListener('click', async () => {
-            const shareTextElem = document.getElementById('shareText');
+            syncStateToUrl();
+
             try {
                 await navigator.clipboard.writeText(window.location.href);
                 triggerShareSuccess();
@@ -314,20 +423,17 @@
         });
 
         function triggerShareSuccess() {
-            // 1. 触发撒花特效 (小花花喷上去)
             confetti({
                 particleCount: 120,
                 spread: 70,
                 origin: { y: 0.5 },
-                colors: ['#4f46e5', '#818cf8', '#c084fc', '#e879f9', '#38bdf8'] // 契合网站色系的紫蓝色调
+                colors: ['#4f46e5', '#818cf8', '#c084fc', '#e879f9', '#38bdf8']
             });
 
-            // 2. 显示精美的 Toast 感谢弹窗
             const toast = document.getElementById('shareToast');
             toast.classList.remove('opacity-0', '-translate-y-10', 'pointer-events-none');
             toast.classList.add('opacity-100', 'translate-y-0');
 
-            // 3秒后自动隐藏
             setTimeout(() => {
                 toast.classList.remove('opacity-100', 'translate-y-0');
                 toast.classList.add('opacity-0', '-translate-y-10', 'pointer-events-none');
@@ -339,110 +445,270 @@
         const tabAdv = document.getElementById('tabAdv');
         const basicSourcePanel = document.getElementById('basicSourcePanel');
         const advSourcePanel = document.getElementById('advSourcePanel');
-        
+
         const confSelect = document.getElementById('confSelect');
         const yearSelect = document.getElementById('yearSelect');
         const advConfCheckboxes = document.getElementById('advConfCheckboxes');
         const advYearCheckboxes = document.getElementById('advYearCheckboxes');
 
+        const advConfSelectAll = document.getElementById('advConfSelectAll');
+        const advConfClear = document.getElementById('advConfClear');
+        const advYearSelectAll = document.getElementById('advYearSelectAll');
+        const advYearClear = document.getElementById('advYearClear');
+
         const trackSelectContainer = document.getElementById('trackSelectContainer');
         const trackSelect = document.getElementById('trackSelect');
         const searchInput = document.getElementById('searchInput');
-        const regexCheckbox = document.getElementById('regexCheckbox'); 
-        
+        const regexCheckbox = document.getElementById('regexCheckbox');
+        const sortSelect = document.getElementById('sortSelect');
+
         const paperList = document.getElementById('paperList');
         const statusContainer = document.getElementById('statusContainer');
         const statusMsg = document.getElementById('statusMsg');
         const exportActionArea = document.getElementById('exportActionArea');
         const scrollAnchor = document.getElementById('scrollAnchor');
 
-        let globalConfig = []; 
-        let currentPapers = [];      
-        let filteredPapers = [];     
-        let renderIndex = 0;         
-        const CHUNK_SIZE = 100;      
-        let currentMode = 'basic';   
+        let globalConfig = [];
+        let currentPapers = [];
+        let filteredPapers = [];
+        let renderIndex = 0;
+
+        const CHUNK_SIZE = 100;
+
+        let currentMode = 'basic';
+        let fetchSeq = 0;
+        let isRestoringState = false;
+        let pendingUrlTrack = null;
+
+        const sourceCache = new Map();
+        const textCollator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true });
 
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
                 renderNextChunk();
             }
-        }, { rootMargin: '800px' }); 
+        }, { rootMargin: '800px' });
 
+        function debounce(fn, delay = 150) {
+            let timer = null;
+            return function (...args) {
+                clearTimeout(timer);
+                timer = setTimeout(() => fn.apply(this, args), delay);
+            };
+        }
+
+        const debouncedFilterPapers = debounce(filterPapers, 150);
+
+        // ================= URL 状态同步与恢复 =================
+        function getSelectedAdvancedConfs() {
+            return Array.from(document.querySelectorAll('.adv-conf-cb:checked')).map(cb => cb.value);
+        }
+
+        function getSelectedAdvancedYears() {
+            return Array.from(document.querySelectorAll('.adv-year-cb:checked')).map(cb => cb.value);
+        }
+
+        function syncStateToUrl() {
+            if (isRestoringState) return;
+
+            const params = new URLSearchParams();
+            params.set('mode', currentMode);
+
+            const query = searchInput.value.trim();
+            if (query) params.set('q', query);
+
+            params.set('regex', regexCheckbox.checked ? '1' : '0');
+            params.set('track', trackSelect.value || 'all');
+            params.set('sort', sortSelect.value || 'yearDesc');
+
+            if (currentMode === 'basic') {
+                if (confSelect.value) params.set('conf', confSelect.value);
+                if (yearSelect.value) params.set('year', yearSelect.value);
+            } else {
+                params.set('confs', getSelectedAdvancedConfs().join(','));
+                params.set('years', getSelectedAdvancedYears().join(','));
+            }
+
+            const newUrl = `${window.location.pathname}?${params.toString()}${window.location.hash || ''}`;
+            window.history.replaceState(null, '', newUrl);
+        }
+
+        function readStateFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            if ([...params.keys()].length === 0) return null;
+
+            return {
+                mode: params.get('mode') || 'basic',
+                conf: params.get('conf'),
+                year: params.get('year'),
+                confs: params.has('confs') ? params.get('confs').split(',').filter(Boolean) : null,
+                years: params.has('years') ? params.get('years').split(',').filter(Boolean) : null,
+                q: params.get('q') || '',
+                regex: params.get('regex') === '1',
+                track: params.get('track') || 'all',
+                sort: params.get('sort') || 'yearDesc'
+            };
+        }
+
+        function optionExists(select, value) {
+            return Array.from(select.options).some(opt => opt.value === String(value));
+        }
+
+        function applyStateFromUrl(state) {
+            if (!state) return;
+
+            isRestoringState = true;
+
+            searchInput.value = state.q || '';
+            regexCheckbox.checked = !!state.regex;
+
+            if (optionExists(sortSelect, state.sort)) {
+                sortSelect.value = state.sort;
+            }
+
+            pendingUrlTrack = state.track || 'all';
+
+            if (state.mode === 'advanced') {
+                setMode('advanced');
+
+                if (Array.isArray(state.confs)) {
+                    const confSet = new Set(state.confs.map(String));
+                    document.querySelectorAll('.adv-conf-cb').forEach(cb => {
+                        cb.checked = confSet.has(cb.value);
+                    });
+                }
+
+                if (Array.isArray(state.years)) {
+                    const yearSet = new Set(state.years.map(String));
+                    document.querySelectorAll('.adv-year-cb').forEach(cb => {
+                        cb.checked = yearSet.has(cb.value);
+                    });
+                }
+            } else {
+                setMode('basic');
+
+                if (state.conf && optionExists(confSelect, state.conf)) {
+                    confSelect.value = state.conf;
+                }
+
+                updateYearSelect();
+
+                if (state.year && optionExists(yearSelect, state.year)) {
+                    yearSelect.value = state.year;
+                }
+            }
+
+            updateSearchHintUI();
+            isRestoringState = false;
+        }
+
+        // ================= 初始化 =================
         async function initApp() {
+            syncThemeIcon();
+            updateLanguageUI({ refreshResults: false });
+
             try {
                 const response = await fetch('config.json');
                 if (!response.ok) throw new Error('config.json missing');
-                
+
                 globalConfig = await response.json();
-                
-                confSelect.innerHTML = '';
-                globalConfig.forEach(conf => {
-                    const opt = document.createElement('option');
-                    opt.value = conf.folder; 
-                    opt.textContent = conf.name;
-                    confSelect.appendChild(opt);
-                });
 
-                let allYearsSet = new Set();
-                globalConfig.forEach(conf => conf.years.forEach(y => allYearsSet.add(y)));
-                const allYears = Array.from(allYearsSet).sort((a, b) => b - a);
+                renderBasicConferenceOptions();
+                renderAdvancedOptions();
 
-                advConfCheckboxes.innerHTML = globalConfig.map(conf => `
-                    <label class="inline-flex items-center cursor-pointer">
-                        <input type="checkbox" value="${conf.folder}" class="peer sr-only adv-conf-cb" checked>
-                        <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
-                            ${conf.name}
-                        </div>
-                    </label>
-                `).join('');
+                const urlState = readStateFromUrl();
+                applyStateFromUrl(urlState);
 
-                advYearCheckboxes.innerHTML = allYears.map((year, index) => `
-                    <label class="inline-flex items-center cursor-pointer">
-                        <input type="checkbox" value="${year}" class="peer sr-only adv-year-cb" ${index < 2 ? 'checked' : ''}>
-                        <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
-                            ${year}
-                        </div>
-                    </label>
-                `).join('');
+                bindAdvancedCheckboxEvents();
 
-                document.querySelectorAll('.adv-conf-cb, .adv-year-cb').forEach(cb => {
-                    cb.addEventListener('change', loadAdvancedData);
-                });
+                if (currentMode === 'advanced') {
+                    await loadAdvancedData();
+                } else {
+                    updateYearSelect();
+                    await loadBasicData();
+                }
 
-                updateYearSelect(); 
-                await loadBasicData(); 
-                
             } catch (error) {
                 statusContainer.classList.remove('hidden-element');
                 statusMsg.innerHTML = translations[currentLang].configError;
             }
         }
 
+        function renderBasicConferenceOptions() {
+            confSelect.innerHTML = '';
+            globalConfig.forEach(conf => {
+                const opt = document.createElement('option');
+                opt.value = conf.folder;
+                opt.textContent = conf.name;
+                confSelect.appendChild(opt);
+            });
+        }
+
+        function renderAdvancedOptions() {
+            const allYearsSet = new Set();
+            globalConfig.forEach(conf => conf.years.forEach(y => allYearsSet.add(String(y))));
+            const allYears = Array.from(allYearsSet).sort((a, b) => Number(b) - Number(a));
+
+            advConfCheckboxes.innerHTML = globalConfig.map(conf => `
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="${conf.folder}" class="peer sr-only adv-conf-cb" checked>
+                    <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
+                        ${conf.name}
+                    </div>
+                </label>
+            `).join('');
+
+            advYearCheckboxes.innerHTML = allYears.map((year, index) => `
+                <label class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="${year}" class="peer sr-only adv-year-cb" ${index < 2 ? 'checked' : ''}>
+                    <div class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 text-xs font-semibold text-slate-500 dark:text-slate-400 peer-checked:bg-indigo-50 dark:peer-checked:bg-indigo-900/30 peer-checked:text-indigo-700 dark:peer-checked:text-indigo-400 peer-checked:border-indigo-200 dark:peer-checked:border-indigo-700 hover:bg-white dark:hover:bg-slate-800 transition-colors shadow-sm select-none">
+                        ${year}
+                    </div>
+                </label>
+            `).join('');
+        }
+
+        function bindAdvancedCheckboxEvents() {
+            document.querySelectorAll('.adv-conf-cb, .adv-year-cb').forEach(cb => {
+                cb.addEventListener('change', loadAdvancedData);
+            });
+        }
+
+        function setMode(mode) {
+            currentMode = mode;
+
+            if (mode === 'basic') {
+                tabBasic.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
+                tabAdv.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
+                basicSourcePanel.classList.remove('hidden-element');
+                advSourcePanel.classList.add('hidden-element');
+            } else {
+                tabAdv.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
+                tabBasic.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
+                advSourcePanel.classList.remove('hidden-element');
+                basicSourcePanel.classList.add('hidden-element');
+            }
+        }
+
         tabBasic.addEventListener('click', () => {
-            currentMode = 'basic';
-            tabBasic.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
-            tabAdv.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
-            basicSourcePanel.classList.remove('hidden-element');
-            advSourcePanel.classList.add('hidden-element');
+            setMode('basic');
+            updateYearSelect();
             loadBasicData();
         });
 
         tabAdv.addEventListener('click', () => {
-            currentMode = 'advanced';
-            tabAdv.className = 'text-sm font-bold text-indigo-600 dark:text-indigo-400 border-b-2 border-indigo-600 dark:border-indigo-400 px-2 py-1 transition-colors';
-            tabBasic.className = 'text-sm font-bold text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 px-2 py-1 transition-colors border-b-2 border-transparent';
-            advSourcePanel.classList.remove('hidden-element');
-            basicSourcePanel.classList.add('hidden-element');
+            setMode('advanced');
             loadAdvancedData();
         });
 
         function updateYearSelect() {
             const selectedFolder = confSelect.value;
             const confData = globalConfig.find(c => c.folder === selectedFolder);
+
             yearSelect.innerHTML = '';
+
             if (confData && confData.years) {
-                const sortedYears = [...confData.years].sort((a, b) => b - a);
+                const sortedYears = [...confData.years].map(String).sort((a, b) => Number(b) - Number(a));
                 sortedYears.forEach(year => {
                     const opt = document.createElement('option');
                     opt.value = year;
@@ -452,142 +718,244 @@
             }
         }
 
-        async function fetchSources(tasks) {
-            statusContainer.classList.remove('hidden-element');
-            exportActionArea.classList.add('hidden-element'); 
-            statusMsg.innerHTML = translations[currentLang].fetchLoading;
-            paperList.innerHTML = ''; 
-            observer.unobserve(scrollAnchor);
-            
-            let allLoadedPapers = [];
-            let successCount = 0;
+        // ================= 数据加载、缓存与竞态保护 =================
+        async function fetchOneSource(task) {
+            const key = `${task.conf}_${task.year}`;
 
-            const promises = tasks.map(async task => {
-                const fileName = `${task.conf}/${task.conf.toLowerCase()}_${task.year}.json`;
-                try {
-                    const response = await fetch(fileName);
-                    if (response.ok) {
-                        const data = await response.json();
-                        const enrichedData = data.map(p => ({...p, _conf: task.conf, _year: task.year}));
-                        allLoadedPapers = allLoadedPapers.concat(enrichedData);
-                        successCount++;
-                    }
-                } catch (e) {
-                    // skip
-                }
-            });
-
-            await Promise.all(promises);
-
-            if (successCount === 0) {
-                statusMsg.innerHTML = translations[currentLang].fetchEmpty;
-                currentPapers = [];
-            } else {
-                currentPapers = allLoadedPapers;
-                extractAndRenderTracks();
-                filterPapers();
+            if (sourceCache.has(key)) {
+                return sourceCache.get(key);
             }
+
+            const fileName = `${task.conf}/${task.conf.toLowerCase()}_${task.year}.json`;
+
+            const promise = fetch(fileName)
+                .then(async response => {
+                    if (!response.ok) return [];
+
+                    const data = await response.json();
+                    if (!Array.isArray(data)) return [];
+
+                    return data.map(p => ({
+                        ...p,
+                        _conf: task.conf,
+                        _year: String(task.year),
+                        _titleLower: String(p.title || '').toLowerCase()
+                    }));
+                })
+                .catch(() => []);
+
+            sourceCache.set(key, promise);
+            return promise;
+        }
+
+        async function fetchSources(tasks) {
+            const seq = ++fetchSeq;
+
+            statusContainer.classList.remove('hidden-element');
+            exportActionArea.classList.add('hidden-element');
+            statusMsg.innerHTML = translations[currentLang].fetchLoading;
+            paperList.innerHTML = '';
+            observer.unobserve(scrollAnchor);
+
+            if (!tasks || tasks.length === 0) {
+                currentPapers = [];
+                filteredPapers = [];
+                extractAndRenderTracks();
+                statusMsg.innerHTML = translations[currentLang].fetchEmpty;
+                syncStateToUrl();
+                return;
+            }
+
+            const results = await Promise.all(tasks.map(fetchOneSource));
+
+            if (seq !== fetchSeq) {
+                return;
+            }
+
+            const allLoadedPapers = results.flat();
+            currentPapers = allLoadedPapers;
+
+            if (currentPapers.length === 0) {
+                filteredPapers = [];
+                paperList.innerHTML = '';
+                extractAndRenderTracks();
+                statusMsg.innerHTML = translations[currentLang].fetchEmpty;
+                exportActionArea.classList.add('hidden-element');
+                syncStateToUrl();
+                return;
+            }
+
+            extractAndRenderTracks();
+            filterPapers();
         }
 
         function loadBasicData() {
-            if(!confSelect.value || !yearSelect.value) return;
-            fetchSources([{ conf: confSelect.value, year: yearSelect.value }]);
+            if (!confSelect.value || !yearSelect.value) return;
+            return fetchSources([{ conf: confSelect.value, year: yearSelect.value }]);
         }
 
         function loadAdvancedData() {
-            const selectedConfs = Array.from(document.querySelectorAll('.adv-conf-cb:checked')).map(cb => cb.value);
-            const selectedYears = Array.from(document.querySelectorAll('.adv-year-cb:checked')).map(cb => cb.value);
-            
-            if(selectedConfs.length === 0 || selectedYears.length === 0) {
+            const selectedConfs = getSelectedAdvancedConfs();
+            const selectedYears = getSelectedAdvancedYears();
+
+            if (selectedConfs.length === 0 || selectedYears.length === 0) {
                 currentPapers = [];
-                filterPapers(); 
+                filteredPapers = [];
+                paperList.innerHTML = '';
+                observer.unobserve(scrollAnchor);
+                extractAndRenderTracks();
+
                 statusContainer.classList.remove('hidden-element');
                 statusMsg.innerHTML = translations[currentLang].advEmpty;
+                exportActionArea.classList.add('hidden-element');
+                syncStateToUrl();
                 return;
             }
 
             const tasks = [];
+
             selectedConfs.forEach(conf => {
+                const confData = globalConfig.find(c => c.folder === conf);
+                const availableYears = new Set((confData?.years || []).map(String));
+
                 selectedYears.forEach(year => {
-                    tasks.push({ conf, year });
+                    if (availableYears.has(String(year))) {
+                        tasks.push({ conf, year });
+                    }
                 });
             });
-            fetchSources(tasks);
+
+            return fetchSources(tasks);
         }
 
+        // ================= Track 提取与渲染 =================
         function extractAndRenderTracks() {
-            if (currentMode === 'advanced') {
-                trackSelectContainer.classList.add('hidden-element');
-                trackSelect.value = 'all';
-                return;
-            }
-
+            const previousTrack = pendingUrlTrack || trackSelect.value || 'all';
             const uniqueTracks = [...new Set(currentPapers.map(p => p.track).filter(Boolean))];
+
+            trackSelect.innerHTML = `<option value="all">${translations[currentLang].allTracks}</option>`;
+
             if (uniqueTracks.length > 0) {
                 trackSelectContainer.classList.remove('hidden-element');
-                trackSelect.innerHTML = `<option value="all">${translations[currentLang].allTracks}</option>`;
-                uniqueTracks.sort().forEach(track => {
+
+                uniqueTracks.sort((a, b) => textCollator.compare(String(a), String(b))).forEach(track => {
                     const opt = document.createElement('option');
                     opt.value = track;
                     opt.textContent = track;
                     trackSelect.appendChild(opt);
                 });
+
+                if (optionExists(trackSelect, previousTrack)) {
+                    trackSelect.value = previousTrack;
+                } else {
+                    trackSelect.value = 'all';
+                }
             } else {
                 trackSelectContainer.classList.add('hidden-element');
-                trackSelect.innerHTML = `<option value="all">${translations[currentLang].allTracks}</option>`;
+                trackSelect.value = 'all';
             }
+
+            pendingUrlTrack = null;
+        }
+
+        // ================= 检索、Regex 与排序 =================
+        function sortFilteredPapers() {
+            const sortType = sortSelect.value || 'yearDesc';
+
+            const cmpTitle = (a, b) => textCollator.compare(String(a.title || ''), String(b.title || ''));
+            const cmpConf = (a, b) => textCollator.compare(String(a._conf || ''), String(b._conf || ''));
+            const cmpYearAsc = (a, b) => Number(a._year || 0) - Number(b._year || 0);
+            const cmpYearDesc = (a, b) => Number(b._year || 0) - Number(a._year || 0);
+
+            filteredPapers.sort((a, b) => {
+                if (sortType === 'yearAsc') {
+                    return cmpYearAsc(a, b) || cmpConf(a, b) || cmpTitle(a, b);
+                }
+
+                if (sortType === 'confAsc') {
+                    return cmpConf(a, b) || cmpYearDesc(a, b) || cmpTitle(a, b);
+                }
+
+                if (sortType === 'titleAsc') {
+                    return cmpTitle(a, b) || cmpYearDesc(a, b) || cmpConf(a, b);
+                }
+
+                return cmpYearDesc(a, b) || cmpConf(a, b) || cmpTitle(a, b);
+            });
         }
 
         function filterPapers() {
             const query = searchInput.value.trim();
-            const selectedTrack = currentMode === 'advanced' ? 'all' : trackSelect.value;
+            const selectedTrack = trackSelect.value || 'all';
             const useRegex = regexCheckbox.checked;
-            
+
+            paperList.innerHTML = '';
+            renderIndex = 0;
+            observer.unobserve(scrollAnchor);
+
+            statusContainer.classList.remove('hidden-element');
+
+            if (currentPapers.length === 0) {
+                filteredPapers = [];
+                statusMsg.innerHTML = translations[currentLang].fetchEmpty;
+                exportActionArea.classList.add('hidden-element');
+                syncStateToUrl();
+                return;
+            }
+
+            let regex = null;
+
+            if (query && useRegex) {
+                try {
+                    regex = new RegExp(query, 'i');
+                } catch (e) {
+                    filteredPapers = [];
+                    statusMsg.innerHTML = translations[currentLang].regexError;
+                    exportActionArea.classList.add('hidden-element');
+                    syncStateToUrl();
+                    return;
+                }
+            }
+
             const orGroups = query.split(',')
-                                  .map(group => group.split('&').map(k => k.trim().toLowerCase()).filter(k => k))
-                                  .filter(group => group.length > 0);
-            
+                .map(group => group.split('&').map(k => k.trim().toLowerCase()).filter(Boolean))
+                .filter(group => group.length > 0);
+
             filteredPapers = currentPapers.filter(paper => {
-                const titleLower = paper.title.toLowerCase();
+                const title = String(paper.title || '');
+                const titleLower = paper._titleLower || title.toLowerCase();
+
                 let matchTitle = false;
 
                 if (!query) {
                     matchTitle = true;
                 } else if (useRegex) {
-                    try {
-                        const regex = new RegExp(query, 'i');
-                        matchTitle = regex.test(paper.title);
-                    } catch (e) {
-                        matchTitle = false;
-                    }
+                    matchTitle = regex.test(title);
                 } else {
-                    matchTitle = orGroups.some(andGroup => 
+                    matchTitle = orGroups.some(andGroup =>
                         andGroup.every(kw => titleLower.includes(kw))
                     );
                 }
 
-                const matchTrack = (selectedTrack === 'all') || (paper.track === selectedTrack);
+                const matchTrack = selectedTrack === 'all' || paper.track === selectedTrack;
                 return matchTitle && matchTrack;
             });
 
-            paperList.innerHTML = '';
-            renderIndex = 0;
-            observer.unobserve(scrollAnchor);
-            
-            statusContainer.classList.remove('hidden-element');
-            if (currentPapers.length === 0) {
-                exportActionArea.classList.add('hidden-element');
-            } else if (filteredPapers.length === 0) {
+            sortFilteredPapers();
+
+            if (filteredPapers.length === 0) {
                 statusMsg.innerHTML = translations[currentLang].noResult;
                 exportActionArea.classList.add('hidden-element');
             } else {
-                const msgTemplate = translations[currentLang].foundPapers;
-                statusMsg.innerHTML = msgTemplate.replace('{count}', filteredPapers.length);
-                exportActionArea.classList.remove('hidden-element'); 
+                statusMsg.innerHTML = translations[currentLang].foundPapers.replace('{count}', filteredPapers.length);
+                exportActionArea.classList.remove('hidden-element');
                 renderNextChunk();
             }
+
+            syncStateToUrl();
         }
 
+        // ================= 论文卡片渲染 =================
         function renderNextChunk() {
             if (renderIndex >= filteredPapers.length) {
                 observer.unobserve(scrollAnchor);
@@ -596,43 +964,45 @@
 
             const end = Math.min(renderIndex + CHUNK_SIZE, filteredPapers.length);
             const chunk = filteredPapers.slice(renderIndex, end);
-            
+
             let htmlChunk = '';
 
             chunk.forEach((paper) => {
                 let tagsHtml = '';
-                
+
                 if (paper.track) {
-                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-semibold text-blue-600 dark:text-blue-400 border border-blue-100 dark:border-blue-800">Track: ${paper.track}</span>`;
+                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-blue-50 dark:bg-blue-950/40 px-2.5 py-0.5 text-[11px] font-semibold text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800/80">Track: ${paper.track}</span>`;
                 }
-                
+
                 if (paper.subtrack) {
-                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-purple-50 dark:bg-purple-900/30 px-2.5 py-0.5 text-xs font-semibold text-purple-600 dark:text-purple-400 border border-purple-100 dark:border-purple-800">Subtrack: ${paper.subtrack}</span>`;
+                    tagsHtml += `<span class="inline-flex items-center rounded-full bg-purple-50 dark:bg-purple-950/40 px-2.5 py-0.5 text-[11px] font-semibold text-purple-700 dark:text-purple-300 border border-purple-100 dark:border-purple-800/80">Subtrack: ${paper.subtrack}</span>`;
                 }
 
                 htmlChunk += `
-                    <div class="group relative bg-white dark:bg-slate-800 p-6 rounded-2xl border border-slate-200/60 dark:border-slate-700 shadow-[0_2px_10px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] dark:hover:shadow-black/40 hover:border-indigo-100 dark:hover:border-indigo-500 transition-all duration-300 fade-in flex flex-col md:flex-row md:items-center justify-between gap-5 overflow-hidden">
-                        
-                        <div class="absolute left-0 top-0 bottom-0 w-1 bg-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <article class="paper-card group bg-white dark:bg-slate-800 rounded-2xl border border-slate-200/80 dark:border-slate-700/90 border-l-4 border-l-indigo-500/70 dark:border-l-indigo-400/80 p-5 shadow-sm hover:border-indigo-200 dark:hover:border-indigo-500/60 hover:bg-indigo-50/30 dark:hover:bg-slate-800/80 transition-colors duration-200">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                            
+                            <div class="flex-1 min-w-0">
+                                <h3 class="text-[15px] md:text-base font-bold text-slate-800 dark:text-slate-100 leading-snug group-hover:text-indigo-700 dark:group-hover:text-indigo-300 transition-colors duration-200 break-words mb-3">
+                                    ${paper.title}
+                                </h3>
 
-                        <div class="flex-1 pl-1">
-                            <h3 class="text-base font-bold text-slate-800 dark:text-slate-100 leading-snug mb-2.5 group-hover:text-indigo-700 dark:group-hover:text-indigo-400 transition-colors duration-200">
-                                ${paper.title}
-                            </h3>
-                            <div class="flex flex-wrap items-center gap-2">
-                                <span class="inline-flex items-center rounded-full bg-indigo-50 dark:bg-indigo-900/30 px-2.5 py-0.5 text-xs font-semibold text-indigo-700 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-800">
-                                    ${paper._conf} ${paper._year}
-                                </span>
-                                ${tagsHtml}
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <span class="inline-flex items-center rounded-full bg-indigo-50 dark:bg-indigo-950/40 px-2.5 py-0.5 text-[11px] font-bold text-indigo-700 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-800/80">
+                                        ${paper._conf} ${paper._year}
+                                    </span>
+                                    ${tagsHtml}
+                                </div>
                             </div>
+
+                            <div class="flex-shrink-0 md:self-center">
+                                <a href="${paper.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
+                                    ${translations[currentLang].viewPaper} <span class="ml-1">→</span>
+                                </a>
+                            </div>
+
                         </div>
-                        <div class="flex-shrink-0 pl-1 pt-2 md:pt-0">
-                            <a href="${paper.url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-slate-900 dark:bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-600 dark:hover:bg-indigo-500 focus:outline-none transition-all duration-200">
-                                ${translations[currentLang].viewPaper}
-                                <svg class="ml-2 -mr-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                            </a>
-                        </div>
-                    </div>
+                    </article>
                 `;
             });
 
@@ -645,42 +1015,66 @@
         }
 
         // ================= 导出功能 =================
+        function getExportRows() {
+            return filteredPapers.map(row => {
+                const { _titleLower, ...rest } = row;
+                return rest;
+            });
+        }
+
+        function downloadText(filename, content, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            URL.revokeObjectURL(url);
+        }
+
         document.getElementById('btnExportMD').addEventListener('click', () => {
-            if(filteredPapers.length === 0) return;
-            
+            if (filteredPapers.length === 0) return;
+
+            const rows = getExportRows();
+
             let mdContent = "# AI Top Conf Papers Export\n\n";
-            mdContent += `> Found ${filteredPapers.length} papers. Exported at: ${new Date().toLocaleString()}\n\n`;
-            
-            filteredPapers.forEach((row, index) => {
+            mdContent += `> Found ${rows.length} papers. Exported at: ${new Date().toLocaleString()}\n\n`;
+
+            rows.forEach((row, index) => {
                 mdContent += `### ${index + 1}. [${row.title}](${row.url})\n`;
                 mdContent += `- **Conference:** ${row._conf} ${row._year}\n`;
                 if (row.track) mdContent += `- **Track:** ${row.track}\n`;
                 if (row.subtrack) mdContent += `- **Subtrack:** ${row.subtrack}\n`;
-                mdContent += `\n`; 
+                mdContent += `\n`;
             });
-            
-            const dataStr = "data:text/markdown;charset=utf-8," + encodeURIComponent(mdContent);
-            const dlAnchorElem = document.createElement('a');
-            dlAnchorElem.setAttribute("href", dataStr);
-            dlAnchorElem.setAttribute("download", `papers_export_${new Date().getTime()}.md`);
-            dlAnchorElem.click();
+
+            downloadText(`papers_export_${Date.now()}.md`, mdContent, 'text/markdown;charset=utf-8');
         });
 
         document.getElementById('btnExportJSON').addEventListener('click', () => {
-            if(filteredPapers.length === 0) return;
-            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(filteredPapers, null, 4));
-            const dlAnchorElem = document.createElement('a');
-            dlAnchorElem.setAttribute("href", dataStr);
-            dlAnchorElem.setAttribute("download", `papers_export_${new Date().getTime()}.json`);
-            dlAnchorElem.click();
+            if (filteredPapers.length === 0) return;
+
+            const rows = getExportRows();
+            downloadText(
+                `papers_export_${Date.now()}.json`,
+                JSON.stringify(rows, null, 4),
+                'application/json;charset=utf-8'
+            );
         });
 
         document.getElementById('btnExportCSV').addEventListener('click', () => {
-            if(filteredPapers.length === 0) return;
-            let csvContent = "data:text/csv;charset=utf-8,\uFEFF";
+            if (filteredPapers.length === 0) return;
+
+            const rows = getExportRows();
+
+            let csvContent = "\uFEFF";
             csvContent += "Conference,Year,Title,URL,Track,Subtrack\n";
-            
-            filteredPapers.forEach(row => {
+
+            rows.forEach(row => {
                 const conf = row._conf || "";
                 const year = row._year || "";
                 const title = `"${(row.title || "").replace(/"/g, '""')}"`;
@@ -689,27 +1083,48 @@
                 const subtrack = `"${row.subtrack || ""}"`;
                 csvContent += `${conf},${year},${title},${url},${track},${subtrack}\n`;
             });
-            
-            const encodedUri = encodeURI(csvContent);
-            const link = document.createElement("a");
-            link.setAttribute("href", encodedUri);
-            link.setAttribute("download", `papers_export_${new Date().getTime()}.csv`);
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+
+            downloadText(`papers_export_${Date.now()}.csv`, csvContent, 'text/csv;charset=utf-8');
         });
 
         // ================= 事件监听绑定 =================
         confSelect.addEventListener('change', () => {
-            updateYearSelect(); 
-            loadBasicData();         
+            updateYearSelect();
+            loadBasicData();
         });
-        
+
         yearSelect.addEventListener('change', loadBasicData);
+
         trackSelect.addEventListener('change', filterPapers);
-        
-        searchInput.addEventListener('input', filterPapers);
-        regexCheckbox.addEventListener('change', filterPapers);
+
+        searchInput.addEventListener('input', debouncedFilterPapers);
+
+        regexCheckbox.addEventListener('change', () => {
+            updateSearchHintUI();
+            filterPapers();
+        });
+
+        sortSelect.addEventListener('change', filterPapers);
+
+        advConfSelectAll.addEventListener('click', () => {
+            document.querySelectorAll('.adv-conf-cb').forEach(cb => cb.checked = true);
+            loadAdvancedData();
+        });
+
+        advConfClear.addEventListener('click', () => {
+            document.querySelectorAll('.adv-conf-cb').forEach(cb => cb.checked = false);
+            loadAdvancedData();
+        });
+
+        advYearSelectAll.addEventListener('click', () => {
+            document.querySelectorAll('.adv-year-cb').forEach(cb => cb.checked = true);
+            loadAdvancedData();
+        });
+
+        advYearClear.addEventListener('click', () => {
+            document.querySelectorAll('.adv-year-cb').forEach(cb => cb.checked = false);
+            loadAdvancedData();
+        });
 
         window.onload = initApp;
     </script>
