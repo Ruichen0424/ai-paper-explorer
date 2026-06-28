@@ -68,7 +68,7 @@ This repository currently includes paper data from the following top-tier confer
 ### 9. IJCAI (International Joint Conference on Artificial Intelligence)
 
 - **📁 Folder:** `IJCAI`
-- **📅 Years Covered:** `2017 - 2025`
+- **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [IJCAI Proceedings](https://www.ijcai.org/all_proceedings)
 
 ### 10. NeurIPS (Neural Information Processing Systems)
