@@ -8,10 +8,7 @@ To facilitate quick retrieval, statistical analysis, and secondary development f
 
 ### 📄 Data Format Specification
 
-Each JSON file represents a collection of papers for a specific conference in a given year. The data is stored in a dictionary (Key-Value) structure for simplicity:
-
-- **Key**: The full title of the paper.
-- **Value**: The corresponding official webpage link.
+Each JSON file represents a collection of papers for a specific conference in a given year. The data is stored in a dictionary (Key-Value) structure for simplicity.
 
 
 ## 📂 Supported Conferences & Data Sources
@@ -23,79 +20,77 @@ This repository currently includes paper data from the following top-tier confer
 - **📁 Folder:** `AAAI`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/issue/archive)
-- **📌 Included Tracks:** `All Main Technical Tracks`
 
 ### 2. ACL (Association for Computational Linguistics)
 
 - **📁 Folder:** `ACL`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [ACL Proceedings](https://aclanthology.org/venues/acl/)
-- **📌 Included Tracks:** `Main Conference (Long/Short Papers)`
 
 ### 3. CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
 
 - **📁 Folder:** `CVPR`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [CVF Open Access](https://openaccess.thecvf.com/menu)
-- **📌 Included Tracks:** `Main Conference`
 
 ### 4. ECCV (European Conference on Computer Vision)
 
 - **📁 Folder:** `ECCV`
 - **📅 Years Covered:** `2018 - 2024 (even years)`
 - **🔗 Official Data Source:** [ECCV Proceedings](https://www.ecva.net/papers.php)
-- **📌 Included Tracks:** `Main Conference`
 
 ### 5. EMNLP (Empirical Methods in Natural Language Processing)
 
 - **📁 Folder:** `EMNLP`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [EMNLP Proceedings](https://aclanthology.org/venues/emnlp/)
-- **📌 Included Tracks:** `Main Conference`
 
 ### 6. ICCV (IEEE/CVF International Conference on Computer Vision)
 
 - **📁 Folder:** `ICCV`
 - **📅 Years Covered:** `2017 - 2025 (odd years)`
 - **🔗 Official Data Source:** [CVF Open Access](https://openaccess.thecvf.com/menu)
-- **📌 Included Tracks:** `Main Conference`
 
-### 7. ICML (International Conference on Machine Learning)
+
+### 7. ICLR (International Conference on Learning Representations)
+
+- **📁 Folder:** `ICLR`
+- **📅 Years Covered:** `2020 - 2026`
+- **🔗 Official Data Source:** [Openreview](https://openreview.net/group?id=ICLR.cc)
+
+
+### 8. ICML (International Conference on Machine Learning)
 
 - **📁 Folder:** `ICML`
-- **📅 Years Covered:** `2016 - 2025`
+- **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [ICML Proceedings](https://proceedings.mlr.press/)
-- **📌 Included Tracks:** `Main Conference`
 
-### 8. IJCAI (International Joint Conference on Artificial Intelligence)
+### 9. IJCAI (International Joint Conference on Artificial Intelligence)
 
 - **📁 Folder:** `IJCAI`
 - **📅 Years Covered:** `2017 - 2025`
 - **🔗 Official Data Source:** [IJCAI Proceedings](https://www.ijcai.org/all_proceedings)
-- **📌 Included Tracks:** `Main Tracks`, `Survey Tracks (if available)`
 
-### 9. NIPS / NeurIPS (Neural Information Processing Systems)
+### 10. NeurIPS (Neural Information Processing Systems)
 
-- **📁 Folder:** `NIPS`
+- **📁 Folder:** `NeurIPS`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [NeurIPS Proceedings](https://proceedings.neurips.cc/)
-- **📌 Included Tracks:** `Main Conference`, `Datasets and Benchmarks (if available)`, `Position Papers (if available)`
 
 ## 🛠️ Quick Start
 
 You can directly download the corresponding JSON files and easily parse them using Python:
 
-```
+``` python
 import json
 
 # Load CVPR 2026 paper data
-with open('CVPR/cvpr_2026.json', 'r', encoding='utf-8') as f:
+with open('./CVPR/cvpr_2026.json', 'r', encoding='utf-8') as f:
     papers = json.load(f)
 
 # Print the first 5 papers
-for title, url in list(papers.items())[:5]:
-    print(f'Title: {title}\nURL: {url}\n')
-
+for paper in papers[:5]:
+    print(f'Title: {paper["title"]}\nURL: {paper["url"]}\n')
 ```
 
 ## 📜 Disclaimer & License
