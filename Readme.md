@@ -16,7 +16,7 @@ Each JSON file represents a collection of papers for a specific conference in a 
 
 ## 📂 Supported Conferences & Data Sources
 
-This repository currently includes paper data from the following top-tier conferences. The specific details for each folder are as follows:
+This repository currently includes paper data from the following top-tier conferences and journals. The specific details for each folder are as follows:
 
 ### Conference
 
@@ -84,13 +84,19 @@ This repository currently includes paper data from the following top-tier confer
 
 ### Journal
 
-#### 1. TIP (IEEE Transactions on Image Processing)
+#### 1. IJCV (International Journal of Computer Vision)
+
+- **📁 Folder:** `IJCV`
+- **📅 Years Covered:** `2016 - 2025`
+- **🔗 Official Data Source:** [Springer Nature Link](https://link.springer.com/journal/11263)
+
+#### 2. TIP (IEEE Transactions on Image Processing)
 
 - **📁 Folder:** `TIP`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [IEEE Xplore](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=83)
 
-#### 2. TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+#### 3. TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)
 
 - **📁 Folder:** `TPAMI`
 - **📅 Years Covered:** `2016 - 2025`
@@ -115,4 +121,4 @@ for paper in papers[:5]:
 
 ## 📜 Disclaimer & License
 
-This project only crawls and organizes publicly available, factual metadata (titles and public links) of academic papers. It does not contain full texts or abstracts protected by copyright. The final interpretation rights of all data belong to the official committees of the respective conferences.
+This project only crawls and organizes publicly available, factual metadata (titles and public links) of academic papers. It does not contain full texts or abstracts protected by copyright. The final interpretation rights of all data belong to the official committees of the respective conferences and journals.

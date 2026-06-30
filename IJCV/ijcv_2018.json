@@ -1,0 +1,310 @@
+[
+    {
+        "title": "Learning to Detect Good 3D Keypoints",
+        "url": "https://doi.org/10.1007/s11263-017-1037-3"
+    },
+    {
+        "title": "Baseline and Triangulation Geometry in a Standard Plenoptic Camera",
+        "url": "https://doi.org/10.1007/s11263-017-1036-4"
+    },
+    {
+        "title": "Graph-Based Slice-to-Volume Deformable Registration",
+        "url": "https://doi.org/10.1007/s11263-017-1040-8"
+    },
+    {
+        "title": "Efficient Label Collection for Image Datasets via Hierarchical Clustering",
+        "url": "https://doi.org/10.1007/s11263-017-1039-1"
+    },
+    {
+        "title": "Attentive Systems: A Survey",
+        "url": "https://doi.org/10.1007/s11263-017-1042-6"
+    },
+    {
+        "title": "On the Beneficial Effect of Noise in Vertex Localization",
+        "url": "https://doi.org/10.1007/s11263-017-1034-6"
+    },
+    {
+        "title": "Looking at People Special Issue",
+        "url": "https://doi.org/10.1007/s11263-017-1058-y"
+    },
+    {
+        "title": "Deep Expectation of Real and Apparent Age from a Single Image Without Facial Landmarks",
+        "url": "https://doi.org/10.1007/s11263-016-0940-3"
+    },
+    {
+        "title": "Real-Time Accurate 3D Head Tracking and Pose Estimation with Consumer RGB-D Cameras",
+        "url": "https://doi.org/10.1007/s11263-017-0988-8"
+    },
+    {
+        "title": "Toward Personalized Modeling: Incremental and Ensemble Alignment for Sequential Faces in the Wild",
+        "url": "https://doi.org/10.1007/s11263-017-0996-8"
+    },
+    {
+        "title": "A Comprehensive Performance Evaluation of Deformable Face Tracking \"In-the-Wild\"",
+        "url": "https://doi.org/10.1007/s11263-017-0999-5"
+    },
+    {
+        "title": "Large Scale 3D Morphable Models",
+        "url": "https://doi.org/10.1007/s11263-017-1009-7"
+    },
+    {
+        "title": "Confidence-Weighted Local Expression Predictions for Occlusion Handling in Expression Recognition and Action Unit Detection",
+        "url": "https://doi.org/10.1007/s11263-017-1010-1"
+    },
+    {
+        "title": "Unconstrained Still/Video-Based Face Verification with Deep Convolutional Neural Networks",
+        "url": "https://doi.org/10.1007/s11263-017-1029-3"
+    },
+    {
+        "title": "Subjects and Their Objects: Localizing Interactees for a Person-Centric View of Importance",
+        "url": "https://doi.org/10.1007/s11263-016-0958-6"
+    },
+    {
+        "title": "Space-Time Tree Ensemble for Action Recognition and Localization",
+        "url": "https://doi.org/10.1007/s11263-016-0980-8"
+    },
+    {
+        "title": "Dynamic Behavior Analysis via Structured Rank Minimization",
+        "url": "https://doi.org/10.1007/s11263-016-0985-3"
+    },
+    {
+        "title": "Prediction of Manipulation Actions",
+        "url": "https://doi.org/10.1007/s11263-017-0992-z"
+    },
+    {
+        "title": "Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos",
+        "url": "https://doi.org/10.1007/s11263-017-1013-y"
+    },
+    {
+        "title": "Transferring Deep Object and Scene Representations for Event Recognition in Still Images",
+        "url": "https://doi.org/10.1007/s11263-017-1043-5"
+    },
+    {
+        "title": "Joint Estimation of Human Pose and Conversational Groups from Social Scenes",
+        "url": "https://doi.org/10.1007/s11263-017-1026-6"
+    },
+    {
+        "title": "Beyond Temporal Pooling: Recurrence and Temporal Convolutions for Gesture Recognition in Video",
+        "url": "https://doi.org/10.1007/s11263-016-0957-7"
+    },
+    {
+        "title": "Deep Multimodal Fusion: A Hybrid Approach",
+        "url": "https://doi.org/10.1007/s11263-017-0997-7"
+    },
+    {
+        "title": "Appreciation to IJCV Reviewers of 2017",
+        "url": "https://doi.org/10.1007/s11263-018-1068-4"
+    },
+    {
+        "title": "Dense Reconstruction of Transparent Objects by Altering Incident Light Paths Through Refraction",
+        "url": "https://doi.org/10.1007/s11263-017-1045-3"
+    },
+    {
+        "title": "Do Semantic Parts Emerge in Convolutional Neural Networks?",
+        "url": "https://doi.org/10.1007/s11263-017-1048-0"
+    },
+    {
+        "title": "Classification of Multi-class Daily Human Motion using Discriminative Body Parts and Sentence Descriptions",
+        "url": "https://doi.org/10.1007/s11263-017-1053-3"
+    },
+    {
+        "title": "Visual Tracking via Subspace Learning: A Discriminative Approach",
+        "url": "https://doi.org/10.1007/s11263-017-1049-z"
+    },
+    {
+        "title": "No-Reference Image Quality Assessment for Image Auto-Denoising",
+        "url": "https://doi.org/10.1007/s11263-017-1054-2"
+    },
+    {
+        "title": "From Facial Expression Recognition to Interpersonal Relation Prediction",
+        "url": "https://doi.org/10.1007/s11263-017-1055-1"
+    },
+    {
+        "title": "Defining the Pose of Any 3D Rigid Object and an Associated Distance",
+        "url": "https://doi.org/10.1007/s11263-017-1052-4"
+    },
+    {
+        "title": "Hallucinating Compressed Face Images",
+        "url": "https://doi.org/10.1007/s11263-017-1044-4"
+    },
+    {
+        "title": "SDF-2-SDF Registration for Real-Time 3D Reconstruction from RGB-D Data",
+        "url": "https://doi.org/10.1007/s11263-017-1057-z"
+    },
+    {
+        "title": "RAW Image Reconstruction Using a Self-contained sRGB-JPEG Image with Small Memory Overhead",
+        "url": "https://doi.org/10.1007/s11263-017-1056-0"
+    },
+    {
+        "title": "Separable Anisotropic Diffusion",
+        "url": "https://doi.org/10.1007/s11263-017-1060-4"
+    },
+    {
+        "title": "Discriminative Correlation Filter Tracker with Channel and Spatial Reliability",
+        "url": "https://doi.org/10.1007/s11263-017-1061-3"
+    },
+    {
+        "title": "Label Propagation with Ensemble of Pairwise Geometric Relations: Towards Robust Large-Scale Retrieval of Object Instances",
+        "url": "https://doi.org/10.1007/s11263-018-1063-9"
+    },
+    {
+        "title": "Predicting Foreground Object Ambiguity and Efficiently Crowdsourcing the Segmentation(s)",
+        "url": "https://doi.org/10.1007/s11263-018-1065-7"
+    },
+    {
+        "title": "Scale-Free Registrations in 3D: 7 Degrees of Freedom with Fourier Mellin SOFT Transforms",
+        "url": "https://doi.org/10.1007/s11263-018-1067-5"
+    },
+    {
+        "title": "Hierarchical Cellular Automata for Visual Saliency",
+        "url": "https://doi.org/10.1007/s11263-017-1062-2"
+    },
+    {
+        "title": "Adaptive Correlation Filters with Long-Term and Short-Term Memory for Object Tracking",
+        "url": "https://doi.org/10.1007/s11263-018-1076-4"
+    },
+    {
+        "title": "Cluster Sparsity Field: An Internal Hyperspectral Imagery Prior for Reconstruction",
+        "url": "https://doi.org/10.1007/s11263-018-1080-8"
+    },
+    {
+        "title": "Robust Detection and Affine Rectification of Planar Homogeneous Texture for Scene Understanding",
+        "url": "https://doi.org/10.1007/s11263-018-1078-2"
+    },
+    {
+        "title": "Semi-supervised Region Metric Learning for Person Re-identification",
+        "url": "https://doi.org/10.1007/s11263-018-1075-5"
+    },
+    {
+        "title": "Multi-label Learning with Missing Labels Using Mixed Dependency Graphs",
+        "url": "https://doi.org/10.1007/s11263-018-1085-3"
+    },
+    {
+        "title": "Correction to: Lie-X: Depth Image Based Articulated Object Pose Estimation, Tracking, and Action Recognition on Lie Groups",
+        "url": "https://doi.org/10.1007/s11263-018-1069-3"
+    },
+    {
+        "title": "The Reasonable Effectiveness of Synthetic Visual Data",
+        "url": "https://doi.org/10.1007/s11263-018-1108-0"
+    },
+    {
+        "title": "Sim4CV: A Photo-Realistic Simulator for Computer Vision Applications",
+        "url": "https://doi.org/10.1007/s11263-018-1073-7"
+    },
+    {
+        "title": "Configurable 3D Scene Synthesis and 2D Image Rendering with Per-pixel Ground Truth Using Stochastic Grammars",
+        "url": "https://doi.org/10.1007/s11263-018-1103-5"
+    },
+    {
+        "title": "What Makes Good Synthetic Training Data for Learning Disparity and Optical Flow Estimation?",
+        "url": "https://doi.org/10.1007/s11263-018-1082-6"
+    },
+    {
+        "title": "Augmented Reality Meets Computer Vision: Efficient Data Generation for Urban Driving Scenes",
+        "url": "https://doi.org/10.1007/s11263-018-1070-x"
+    },
+    {
+        "title": "Semantic Foggy Scene Understanding with Synthetic Data",
+        "url": "https://doi.org/10.1007/s11263-018-1072-8"
+    },
+    {
+        "title": "Image-Based Synthesis for Deep 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-018-1071-9"
+    },
+    {
+        "title": "3D Interpreter Networks for Viewer-Centered Wireframe Modeling",
+        "url": "https://doi.org/10.1007/s11263-018-1074-6"
+    },
+    {
+        "title": "Synthesizing a Scene-Specific Pedestrian Detector and Pose Estimator for Static Video Surveillance - Can We Learn Pedestrian Detectors and Pose Estimators Without Real Data?",
+        "url": "https://doi.org/10.1007/s11263-018-1077-3"
+    },
+    {
+        "title": "Virtual Training for a Real Application: Accurate Object-Robot Relative Localization Without Calibration",
+        "url": "https://doi.org/10.1007/s11263-018-1102-6"
+    },
+    {
+        "title": "Editor's Note: Special Issue on Novel Representations and Learning Methods in Computer Vision",
+        "url": "https://doi.org/10.1007/s11263-018-1107-1"
+    },
+    {
+        "title": "Focal Flow: Velocity and Depth from Differential Defocus Through Motion",
+        "url": "https://doi.org/10.1007/s11263-017-1051-5"
+    },
+    {
+        "title": "Top-Down Neural Attention by Excitation Backprop",
+        "url": "https://doi.org/10.1007/s11263-017-1059-x"
+    },
+    {
+        "title": "RED-Net: A Recurrent Encoder-Decoder Network for Video-Based Face Alignment",
+        "url": "https://doi.org/10.1007/s11263-018-1095-1"
+    },
+    {
+        "title": "Learning Sight from Sound: Ambient Sound Provides Supervision for Visual Learning",
+        "url": "https://doi.org/10.1007/s11263-018-1083-5"
+    },
+    {
+        "title": "Subspace Learning by ℓ0-Induced Sparsity",
+        "url": "https://doi.org/10.1007/s11263-018-1092-4"
+    },
+    {
+        "title": "On Unifying Multi-view Self-Representations for Clustering by Tensor Multi-rank Minimization",
+        "url": "https://doi.org/10.1007/s11263-018-1086-2"
+    },
+    {
+        "title": "Depth-Based Hand Pose Estimation: Methods, Data, and Challenges",
+        "url": "https://doi.org/10.1007/s11263-018-1081-7"
+    },
+    {
+        "title": "Artistic Style Transfer for Videos and Spherical Images",
+        "url": "https://doi.org/10.1007/s11263-018-1089-z"
+    },
+    {
+        "title": "Elastic Alignment of Triangular Surface Meshes",
+        "url": "https://doi.org/10.1007/s11263-018-1084-4"
+    },
+    {
+        "title": "Joint Contour Filtering",
+        "url": "https://doi.org/10.1007/s11263-018-1091-5"
+    },
+    {
+        "title": "Editorial: Special Issue on Machine Vision",
+        "url": "https://doi.org/10.1007/s11263-018-1128-9"
+    },
+    {
+        "title": "Occlusion-Aware 3D Morphable Models and an Illumination Prior for Face Image Analysis",
+        "url": "https://doi.org/10.1007/s11263-018-1064-8"
+    },
+    {
+        "title": "Person Re-identification in Identity Regression Space",
+        "url": "https://doi.org/10.1007/s11263-018-1105-3"
+    },
+    {
+        "title": "Deep Sign: Enabling Robust Statistical Continuous Sign Language Recognition via Hybrid CNN-HMMs",
+        "url": "https://doi.org/10.1007/s11263-018-1121-3"
+    },
+    {
+        "title": "Learning Latent Representations of 3D Human Pose with Deep Neural Networks",
+        "url": "https://doi.org/10.1007/s11263-018-1066-6"
+    },
+    {
+        "title": "Combining Shape from Shading and Stereo: A Joint Variational Method for Estimating Depth, Illumination and Albedo",
+        "url": "https://doi.org/10.1007/s11263-018-1079-1"
+    },
+    {
+        "title": "Feedback and Surround Modulated Boundary Detection",
+        "url": "https://doi.org/10.1007/s11263-017-1035-5"
+    },
+    {
+        "title": "Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation",
+        "url": "https://doi.org/10.1007/s11263-018-1106-2"
+    },
+    {
+        "title": "EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time",
+        "url": "https://doi.org/10.1007/s11263-017-1050-6"
+    },
+    {
+        "title": "Describing Upper-Body Motions Based on Labanotation for Learning-from-Observation Robots",
+        "url": "https://doi.org/10.1007/s11263-018-1123-1"
+    }
+]

@@ -1,0 +1,418 @@
+[
+    {
+        "title": "Appreciation to IJCV Reviewers of 2016",
+        "url": "https://doi.org/10.1007/s11263-016-0973-7"
+    },
+    {
+        "title": "Spatially Coherent Interpretations of Videos Using Pattern Theory",
+        "url": "https://doi.org/10.1007/s11263-016-0913-6"
+    },
+    {
+        "title": "A Unified Framework for Compositional Fitting of Active Appearance Models",
+        "url": "https://doi.org/10.1007/s11263-016-0916-3"
+    },
+    {
+        "title": "Learning a Distance Metric from Relative Comparisons between Quadruplets of Images",
+        "url": "https://doi.org/10.1007/s11263-016-0923-4"
+    },
+    {
+        "title": "Hollywood 3D: What are the Best 3D Features for Action Recognition?",
+        "url": "https://doi.org/10.1007/s11263-016-0917-2"
+    },
+    {
+        "title": "Fast-Match: Fast Affine Template Matching",
+        "url": "https://doi.org/10.1007/s11263-016-0926-1"
+    },
+    {
+        "title": "Image Annotation by Propagating Labels from Semantic Neighbourhoods",
+        "url": "https://doi.org/10.1007/s11263-016-0927-0"
+    },
+    {
+        "title": "Convolutional Patch Representations for Image Retrieval: An Unsupervised Approach",
+        "url": "https://doi.org/10.1007/s11263-016-0924-3"
+    },
+    {
+        "title": "A Discrete MRF Framework for Integrated Multi-Atlas Registration and Segmentation",
+        "url": "https://doi.org/10.1007/s11263-016-0925-2"
+    },
+    {
+        "title": "Weighted Nuclear Norm Minimization and Its Applications to Low Level Vision",
+        "url": "https://doi.org/10.1007/s11263-016-0930-5"
+    },
+    {
+        "title": "Minimal Basis Subspace Representation: A Unified Framework for Rigid and Non-rigid Motion Segmentation",
+        "url": "https://doi.org/10.1007/s11263-016-0928-z"
+    },
+    {
+        "title": "MultiCol Bundle Adjustment: A Generic Method for Pose Estimation, Simultaneous Self-Calibration and Reconstruction for Arbitrary Multi-Camera Systems",
+        "url": "https://doi.org/10.1007/s11263-016-0935-0"
+    },
+    {
+        "title": "Large-Scale Gaussian Process Inference with Generalized Histogram Intersection Kernels for Visual Recognition Tasks",
+        "url": "https://doi.org/10.1007/s11263-016-0929-y"
+    },
+    {
+        "title": "A Portable Bio-Inspired Architecture for Efficient Robotic Vergence Control",
+        "url": "https://doi.org/10.1007/s11263-016-0936-z"
+    },
+    {
+        "title": "Behavior Discovery and Alignment of Articulated Object Classes from Unstructured Video",
+        "url": "https://doi.org/10.1007/s11263-016-0939-9"
+    },
+    {
+        "title": "Subspace Procrustes Analysis",
+        "url": "https://doi.org/10.1007/s11263-016-0938-x"
+    },
+    {
+        "title": "Mining Mid-level Visual Patterns with Deep CNN Activations",
+        "url": "https://doi.org/10.1007/s11263-016-0945-y"
+    },
+    {
+        "title": "GRMA: Generalized Range Move Algorithms for the Efficient Optimization of MRFs",
+        "url": "https://doi.org/10.1007/s11263-016-0944-z"
+    },
+    {
+        "title": "2D Sub-pixel Point Spread Function Measurement Using a Virtual Point-Like Source",
+        "url": "https://doi.org/10.1007/s11263-016-0948-8"
+    },
+    {
+        "title": "On the Existence of Epipolar Matrices",
+        "url": "https://doi.org/10.1007/s11263-016-0949-7"
+    },
+    {
+        "title": "Refining Geometry from Depth Sensors using IR Shading Images",
+        "url": "https://doi.org/10.1007/s11263-016-0937-y"
+    },
+    {
+        "title": "Fast Algorithms for Fitting Active Appearance Models to Unconstrained Images",
+        "url": "https://doi.org/10.1007/s11263-016-0950-1"
+    },
+    {
+        "title": "Active Rectification of Curved Document Images Using Structured Beams",
+        "url": "https://doi.org/10.1007/s11263-016-0952-z"
+    },
+    {
+        "title": "Generalizing the Prediction Sum of Squares Statistic and Formula, Application to Linear Fractional Image Warp and Surface Fitting",
+        "url": "https://doi.org/10.1007/s11263-016-0954-x"
+    },
+    {
+        "title": "Semantic Decomposition and Recognition of Long and Complex Manipulation Action Sequences",
+        "url": "https://doi.org/10.1007/s11263-016-0956-8"
+    },
+    {
+        "title": "Partially Camouflaged Object Tracking using Modified Probabilistic Neural Network and Fuzzy Energy based Active Contour",
+        "url": "https://doi.org/10.1007/s11263-016-0959-5"
+    },
+    {
+        "title": "Maximum-Margin Structured Learning with Deep Networks for 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-016-0962-x"
+    },
+    {
+        "title": "Free-Hand Sketch Synthesis with Deformable Stroke Models",
+        "url": "https://doi.org/10.1007/s11263-016-0963-9"
+    },
+    {
+        "title": "Guest Editorial: Machine Vision Applications",
+        "url": "https://doi.org/10.1007/s11263-017-0990-1"
+    },
+    {
+        "title": "Domain Adaptation for Automatic OLED Panel Defect Detection Using Adaptive Support Vector Data Description",
+        "url": "https://doi.org/10.1007/s11263-016-0953-y"
+    },
+    {
+        "title": "Automatic Sleep System Recommendation by Multi-modal RBG-Depth-Pressure Anthropometric Analysis",
+        "url": "https://doi.org/10.1007/s11263-016-0919-0"
+    },
+    {
+        "title": "Adaptive Spatial-Spectral Dictionary Learning for Hyperspectral Image Restoration",
+        "url": "https://doi.org/10.1007/s11263-016-0921-6"
+    },
+    {
+        "title": "A Practical and Highly Optimized Convolutional Neural Network for Classifying Traffic Signs in Real-Time",
+        "url": "https://doi.org/10.1007/s11263-016-0955-9"
+    },
+    {
+        "title": "Robust Statistical Frontalization of Human and Animal Faces",
+        "url": "https://doi.org/10.1007/s11263-016-0920-7"
+    },
+    {
+        "title": "Growing Regression Tree Forests by Classification for Continuous Object Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-016-0942-1"
+    },
+    {
+        "title": "Multi-Camera Multi-Target Tracking with Space-Time-View Hyper-graph",
+        "url": "https://doi.org/10.1007/s11263-016-0943-0"
+    },
+    {
+        "title": "Complex Activity Recognition Via Attribute Dynamics",
+        "url": "https://doi.org/10.1007/s11263-016-0918-1"
+    },
+    {
+        "title": "Combining Local-Physical and Global-Statistical Models for Sequential Deformable Shape from Motion",
+        "url": "https://doi.org/10.1007/s11263-016-0972-8"
+    },
+    {
+        "title": "3D Human Pose Tracking Priors using Geodesic Mixture Models",
+        "url": "https://doi.org/10.1007/s11263-016-0941-2"
+    },
+    {
+        "title": "Recognition, Tracking, and Optimisation",
+        "url": "https://doi.org/10.1007/s11263-017-1008-8"
+    },
+    {
+        "title": "Sketch-a-Net: A Deep Neural Network that Beats Humans",
+        "url": "https://doi.org/10.1007/s11263-016-0932-3"
+    },
+    {
+        "title": "Deep Perceptual Mapping for Cross-Modal Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-016-0933-2"
+    },
+    {
+        "title": "Latent Structure Preserving Hashing",
+        "url": "https://doi.org/10.1007/s11263-016-0931-4"
+    },
+    {
+        "title": "Global Minimum for a Finsler Elastica Minimal Path Approach",
+        "url": "https://doi.org/10.1007/s11263-016-0975-5"
+    },
+    {
+        "title": "Learning Optimal Parameters for Multi-target Tracking with Contextual Interactions",
+        "url": "https://doi.org/10.1007/s11263-016-0960-z"
+    },
+    {
+        "title": "Spatiotemporal Deformable Prototypes for Motion Anomaly Detection",
+        "url": "https://doi.org/10.1007/s11263-016-0934-1"
+    },
+    {
+        "title": "Applying Detection Proposals to Visual Tracking for Scale and Aspect Ratio Adaptability",
+        "url": "https://doi.org/10.1007/s11263-016-0974-6"
+    },
+    {
+        "title": "Automated Visual Fin Identification of Individual Great White Sharks",
+        "url": "https://doi.org/10.1007/s11263-016-0961-y"
+    },
+    {
+        "title": "Guest Editorial: Image and Language Understanding",
+        "url": "https://doi.org/10.1007/s11263-017-0993-y"
+    },
+    {
+        "title": "VQA: Visual Question Answering - www.visualqa.org",
+        "url": "https://doi.org/10.1007/s11263-016-0966-6"
+    },
+    {
+        "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+        "url": "https://doi.org/10.1007/s11263-016-0981-7"
+    },
+    {
+        "title": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models",
+        "url": "https://doi.org/10.1007/s11263-016-0965-7"
+    },
+    {
+        "title": "Movie Description",
+        "url": "https://doi.org/10.1007/s11263-016-0987-1"
+    },
+    {
+        "title": "A Comprehensive and Versatile Camera Model for Cameras with Tilt Lenses",
+        "url": "https://doi.org/10.1007/s11263-016-0964-8"
+    },
+    {
+        "title": "Markov Chain Monte Carlo for Automated Face Image Analysis",
+        "url": "https://doi.org/10.1007/s11263-016-0967-5"
+    },
+    {
+        "title": "Particle-SfT: A Provably-Convergent, Fast Shape-from-Template Algorithm",
+        "url": "https://doi.org/10.1007/s11263-016-0968-4"
+    },
+    {
+        "title": "Parametric Surface Representation with Bump Image for Dense 3D Modeling Using an RBG-D Camera",
+        "url": "https://doi.org/10.1007/s11263-016-0969-3"
+    },
+    {
+        "title": "Towards Reversal-Invariant Image Representation",
+        "url": "https://doi.org/10.1007/s11263-016-0970-x"
+    },
+    {
+        "title": "Salient Object Detection: A Discriminative Regional Feature Integration Approach",
+        "url": "https://doi.org/10.1007/s11263-016-0977-3"
+    },
+    {
+        "title": "Generating Fluttering Patterns with Low Autocorrelation for Coded Exposure Imaging",
+        "url": "https://doi.org/10.1007/s11263-016-0976-4"
+    },
+    {
+        "title": "Structured Learning of Binary Codes with Column Generation for Optimizing Ranking Measures",
+        "url": "https://doi.org/10.1007/s11263-016-0984-4"
+    },
+    {
+        "title": "Transductive Zero-Shot Action Recognition by Word-Vector Embedding",
+        "url": "https://doi.org/10.1007/s11263-016-0983-5"
+    },
+    {
+        "title": "Visual Object Detection Using Cascades of Binary and One-Class Classifiers",
+        "url": "https://doi.org/10.1007/s11263-016-0986-2"
+    },
+    {
+        "title": "Max-Margin Heterogeneous Information Machine for RGB-D Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-016-0982-6"
+    },
+    {
+        "title": "A Branch-and-Bound Framework for Unsupervised Common Event Discovery",
+        "url": "https://doi.org/10.1007/s11263-017-0989-7"
+    },
+    {
+        "title": "Exemplar-Guided Similarity Learning on Polynomial Kernel Feature Map for Person Re-identification",
+        "url": "https://doi.org/10.1007/s11263-017-0991-0"
+    },
+    {
+        "title": "Directed Acyclic Graph Continuous Max-Flow Image Segmentation for Unconstrained Label Orderings",
+        "url": "https://doi.org/10.1007/s11263-017-0994-x"
+    },
+    {
+        "title": "Iterative Multiplicative Filters for Data Labeling",
+        "url": "https://doi.org/10.1007/s11263-017-0995-9"
+    },
+    {
+        "title": "Lie-X: Depth Image Based Articulated Object Pose Estimation, Tracking, and Action Recognition on Lie Groups",
+        "url": "https://doi.org/10.1007/s11263-017-0998-6"
+    },
+    {
+        "title": "Empowering Simple Binary Classifiers for Image Set Based Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-017-1000-3"
+    },
+    {
+        "title": "Crowd Behavior Analysis via Curl and Divergence of Motion Trajectories",
+        "url": "https://doi.org/10.1007/s11263-017-1005-y"
+    },
+    {
+        "title": "Editorial Note",
+        "url": "https://doi.org/10.1007/s11263-017-1028-4"
+    },
+    {
+        "title": "A TV Prior for High-Quality Scalable Multi-View Stereo Reconstruction",
+        "url": "https://doi.org/10.1007/s11263-016-0946-x"
+    },
+    {
+        "title": "Colour Helmholtz Stereopsis for Reconstruction of Dynamic Scenes with Arbitrary Unknown Reflectance",
+        "url": "https://doi.org/10.1007/s11263-016-0951-0"
+    },
+    {
+        "title": "Trajectory-Based Place-Recognition for Efficient Large Scale Localization",
+        "url": "https://doi.org/10.1007/s11263-016-0947-9"
+    },
+    {
+        "title": "Structure from Motion with Line Segments Under Relaxed Endpoint Constraints",
+        "url": "https://doi.org/10.1007/s11263-016-0971-9"
+    },
+    {
+        "title": "Real-Time Tracking of Single and Multiple Objects from Depth-Colour Imagery Using 3D Signed Distance Functions",
+        "url": "https://doi.org/10.1007/s11263-016-0978-2"
+    },
+    {
+        "title": "Multi-view Performance Capture of Surface Details",
+        "url": "https://doi.org/10.1007/s11263-016-0979-1"
+    },
+    {
+        "title": "DeepProposals: Hunting Objects and Actions by Cascading Deep Convolutional Layers",
+        "url": "https://doi.org/10.1007/s11263-017-1006-x"
+    },
+    {
+        "title": "LRA: Local Rigid Averaging of Stretchable Non-rigid Shapes",
+        "url": "https://doi.org/10.1007/s11263-017-1002-1"
+    },
+    {
+        "title": "SDE: A Novel Selective, Discriminative and Equalizing Feature Representation for Visual Recognition",
+        "url": "https://doi.org/10.1007/s11263-017-1007-9"
+    },
+    {
+        "title": "Salient Object Subitizing",
+        "url": "https://doi.org/10.1007/s11263-017-1011-0"
+    },
+    {
+        "title": "Pose-Invariant Face Alignment via CNN-Based Dense 3D Model Fitting",
+        "url": "https://doi.org/10.1007/s11263-017-1012-z"
+    },
+    {
+        "title": "Joint Image Denoising and Disparity Estimation via Stereo Structure PCA and Noise-Tolerant Cost",
+        "url": "https://doi.org/10.1007/s11263-017-1015-9"
+    },
+    {
+        "title": "Auto-Calibrated Gaze Estimation Using Human Gaze Patterns",
+        "url": "https://doi.org/10.1007/s11263-017-1014-x"
+    },
+    {
+        "title": "End-to-End Learning of Deep Visual Representations for Image Retrieval",
+        "url": "https://doi.org/10.1007/s11263-017-1016-8"
+    },
+    {
+        "title": "Modeling Multi-object Configurations via Medial/Skeletal Linking Structures",
+        "url": "https://doi.org/10.1007/s11263-017-1019-5"
+    },
+    {
+        "title": "A Closed-Form Focus Profile Model for Conventional Digital Cameras",
+        "url": "https://doi.org/10.1007/s11263-017-1024-8"
+    },
+    {
+        "title": "Tubelets: Unsupervised Action Proposals from Spatiotemporal Super-Voxels",
+        "url": "https://doi.org/10.1007/s11263-017-1023-9"
+    },
+    {
+        "title": "Sentence Directed Video Object Codiscovery",
+        "url": "https://doi.org/10.1007/s11263-017-1018-6"
+    },
+    {
+        "title": "Discriminatively Learned Hierarchical Rank Pooling Networks",
+        "url": "https://doi.org/10.1007/s11263-017-1030-x"
+    },
+    {
+        "title": "Zero-Shot Visual Recognition via Bidirectional Latent Embedding",
+        "url": "https://doi.org/10.1007/s11263-017-1027-5"
+    },
+    {
+        "title": "The TPS Direct Transport: A New Method for Transporting Deformations in the Size-and-Shape Space",
+        "url": "https://doi.org/10.1007/s11263-017-1031-9"
+    },
+    {
+        "title": "Uncovering the Temporal Context for Video Question Answering",
+        "url": "https://doi.org/10.1007/s11263-017-1033-7"
+    },
+    {
+        "title": "Guest Editorial: Best Papers from ICCV 2015",
+        "url": "https://doi.org/10.1007/s11263-017-1046-2"
+    },
+    {
+        "title": "Holistically-Nested Edge Detection",
+        "url": "https://doi.org/10.1007/s11263-017-1004-z"
+    },
+    {
+        "title": "Mutual-Structure for Joint Filtering",
+        "url": "https://doi.org/10.1007/s11263-017-1021-y"
+    },
+    {
+        "title": "Depth Sensing Using Geometrically Constrained Polarization Normals",
+        "url": "https://doi.org/10.1007/s11263-017-1025-7"
+    },
+    {
+        "title": "3D Time-Lapse Reconstruction from Internet Photos",
+        "url": "https://doi.org/10.1007/s11263-017-1003-0"
+    },
+    {
+        "title": "Automatic Registration of Images to Untextured Geometry Using Average Shading Gradients",
+        "url": "https://doi.org/10.1007/s11263-017-1022-x"
+    },
+    {
+        "title": "Global, Dense Multiscale Reconstruction for a Billion Points",
+        "url": "https://doi.org/10.1007/s11263-017-1017-7"
+    },
+    {
+        "title": "How Good Is My Test Data? Introducing Safety Analysis for Computer Vision",
+        "url": "https://doi.org/10.1007/s11263-017-1020-z"
+    },
+    {
+        "title": "Ask Your Neurons: A Deep Learning Approach to Visual Question Answering",
+        "url": "https://doi.org/10.1007/s11263-017-1038-2"
+    },
+    {
+        "title": "Learning Image Representations Tied to Egomotion from Unlabeled Video",
+        "url": "https://doi.org/10.1007/s11263-017-1001-2"
+    }
+]

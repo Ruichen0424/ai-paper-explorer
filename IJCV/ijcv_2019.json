@@ -1,0 +1,378 @@
+[
+    {
+        "title": "Structural Constraint Data Association for Online Multi-object Tracking",
+        "url": "https://doi.org/10.1007/s11263-018-1087-1"
+    },
+    {
+        "title": "An Approximate Shading Model with Detail Decomposition for Object Relighting",
+        "url": "https://doi.org/10.1007/s11263-018-1090-6"
+    },
+    {
+        "title": "Combining Multiple Cues for Visual Madlibs Question Answering",
+        "url": "https://doi.org/10.1007/s11263-018-1096-0"
+    },
+    {
+        "title": "Fast Diffeomorphic Image Registration via Fourier-Approximated Lie Algebras",
+        "url": "https://doi.org/10.1007/s11263-018-1099-x"
+    },
+    {
+        "title": "From BoW to CNN: Two Decades of Texture Representation for Texture Classification",
+        "url": "https://doi.org/10.1007/s11263-018-1125-z"
+    },
+    {
+        "title": "Appreciation to IJCV Reviewers of 2018",
+        "url": "https://doi.org/10.1007/s11263-019-01153-9"
+    },
+    {
+        "title": "Facial Landmark Detection: A Literature Survey",
+        "url": "https://doi.org/10.1007/s11263-018-1097-z"
+    },
+    {
+        "title": "Complete 3D Scene Parsing from an RGBD Image",
+        "url": "https://doi.org/10.1007/s11263-018-1133-z"
+    },
+    {
+        "title": "Equivalent Constraints for Two-View Geometry: Pose Solution/Pure Rotation Identification and 3D Reconstruction",
+        "url": "https://doi.org/10.1007/s11263-018-1136-9"
+    },
+    {
+        "title": "Group Collaborative Representation for Image Set Classification",
+        "url": "https://doi.org/10.1007/s11263-018-1088-0"
+    },
+    {
+        "title": "Efficiently Annotating Object Images with Absolute Size Information Using Mobile Devices",
+        "url": "https://doi.org/10.1007/s11263-018-1093-3"
+    },
+    {
+        "title": "Zoom Out-and-In Network with Map Attention Decision for Region Proposal and Object Detection",
+        "url": "https://doi.org/10.1007/s11263-018-1101-7"
+    },
+    {
+        "title": "Context-Based Path Prediction for Targets with Switching Dynamics",
+        "url": "https://doi.org/10.1007/s11263-018-1104-4"
+    },
+    {
+        "title": "Pointly-Supervised Action Localization",
+        "url": "https://doi.org/10.1007/s11263-018-1120-4"
+    },
+    {
+        "title": "Learning to Segment Moving Objects",
+        "url": "https://doi.org/10.1007/s11263-018-1122-2"
+    },
+    {
+        "title": "Semantic Understanding of Scenes Through the ADE20K Dataset",
+        "url": "https://doi.org/10.1007/s11263-018-1140-0"
+    },
+    {
+        "title": "Superpixel-Guided Two-View Deterministic Geometric Model Fitting",
+        "url": "https://doi.org/10.1007/s11263-018-1100-8"
+    },
+    {
+        "title": "Second-order Temporal Pooling for Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-018-1111-5"
+    },
+    {
+        "title": "Leveraging Prior-Knowledge for Weakly Supervised Object Detection Under a Collaborative Self-Paced Curriculum Learning Framework",
+        "url": "https://doi.org/10.1007/s11263-018-1112-4"
+    },
+    {
+        "title": "Fusing Visual and Inertial Sensors with Semantics for 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-018-1118-y"
+    },
+    {
+        "title": "Making the V in VQA Matter: Elevating the Role of Image Understanding in Visual Question Answering",
+        "url": "https://doi.org/10.1007/s11263-018-1116-0"
+    },
+    {
+        "title": "Robust and Optimal Registration of Image Sets and Structured Scenes via Sum-of-Squares Polynomials",
+        "url": "https://doi.org/10.1007/s11263-018-1114-2"
+    },
+    {
+        "title": "Deep Appearance Models: A Deep Boltzmann Machine Approach for Face Modeling",
+        "url": "https://doi.org/10.1007/s11263-018-1113-3"
+    },
+    {
+        "title": "Understanding Image Representations by Measuring Their Equivariance and Equivalence",
+        "url": "https://doi.org/10.1007/s11263-018-1098-y"
+    },
+    {
+        "title": "Kernel Cuts: Kernel and Spectral Clustering Meet Regularization",
+        "url": "https://doi.org/10.1007/s11263-018-1115-1"
+    },
+    {
+        "title": "Locality Preserving Matching",
+        "url": "https://doi.org/10.1007/s11263-018-1117-z"
+    },
+    {
+        "title": "Editorial: Special Issue on Deep Learning for Face Analysis",
+        "url": "https://doi.org/10.1007/s11263-019-01179-z"
+    },
+    {
+        "title": "Single-Shot Scale-Aware Network for Real-Time Face Detection",
+        "url": "https://doi.org/10.1007/s11263-019-01159-3"
+    },
+    {
+        "title": "Hierarchical Attention for Part-Aware Face Detection",
+        "url": "https://doi.org/10.1007/s11263-019-01157-5"
+    },
+    {
+        "title": "Real-Time 3D Head Pose Tracking Through 2.5D Constrained Local Models with Local Neural Fields",
+        "url": "https://doi.org/10.1007/s11263-019-01152-w"
+    },
+    {
+        "title": "The Menpo Benchmark for Multi-pose 2D and 3D Facial Landmark Localisation and Tracking",
+        "url": "https://doi.org/10.1007/s11263-018-1134-y"
+    },
+    {
+        "title": "Face Mask Extraction in Video Sequence",
+        "url": "https://doi.org/10.1007/s11263-018-1130-2"
+    },
+    {
+        "title": "Face-Specific Data Augmentation for Unconstrained Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-019-01178-0"
+    },
+    {
+        "title": "A Comprehensive Study on Center Loss for Deep Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-018-01142-4"
+    },
+    {
+        "title": "Large-Scale Bisample Learning on ID Versus Spot Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-019-01162-8"
+    },
+    {
+        "title": "Learning Discriminative Aggregation Network for Video-Based Face Recognition and Person Re-identification",
+        "url": "https://doi.org/10.1007/s11263-018-1135-x"
+    },
+    {
+        "title": "Detecting and Mitigating Adversarial Perturbations for Robust Face Recognition",
+        "url": "https://doi.org/10.1007/s11263-019-01160-w"
+    },
+    {
+        "title": "An Adversarial Neuro-Tensorial Approach for Learning Disentangled Representations",
+        "url": "https://doi.org/10.1007/s11263-019-01163-7"
+    },
+    {
+        "title": "Wavelet Domain Generative Adversarial Network for Multi-scale Face Hallucination",
+        "url": "https://doi.org/10.1007/s11263-019-01154-8"
+    },
+    {
+        "title": "Joint Face Hallucination and Deblurring via Structure Generation and Detail Enhancement",
+        "url": "https://doi.org/10.1007/s11263-019-01148-6"
+    },
+    {
+        "title": "Motion Deblurring of Faces",
+        "url": "https://doi.org/10.1007/s11263-018-1138-7"
+    },
+    {
+        "title": "Disentangling Geometry and Appearance with Regularised Geometry-Aware Generative Adversarial Networks",
+        "url": "https://doi.org/10.1007/s11263-019-01155-7"
+    },
+    {
+        "title": "Synthesis of High-Quality Visible Faces from Polarimetric Thermal Faces using Generative Adversarial Networks",
+        "url": "https://doi.org/10.1007/s11263-019-01175-3"
+    },
+    {
+        "title": "Identity-Preserving Face Recovery from Stylized Portraits",
+        "url": "https://doi.org/10.1007/s11263-019-01169-1"
+    },
+    {
+        "title": "Blended Emotion in-the-Wild: Multi-label Facial Expression Recognition Using Crowdsourced Annotations and Deep Locality Feature Learning",
+        "url": "https://doi.org/10.1007/s11263-018-1131-1"
+    },
+    {
+        "title": "Deep Affect Prediction in-the-Wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond",
+        "url": "https://doi.org/10.1007/s11263-019-01158-4"
+    },
+    {
+        "title": "Deep, Landmark-Free FAME: Face Alignment, Modeling, and Expression Estimation",
+        "url": "https://doi.org/10.1007/s11263-019-01151-x"
+    },
+    {
+        "title": "Learning from Longitudinal Face Demonstration - Where Tractable Deep Modeling Meets Inverse Reinforcement Learning",
+        "url": "https://doi.org/10.1007/s11263-019-01165-5"
+    },
+    {
+        "title": "A Robust Monocular 3D Object Tracking Method Combining Statistical and Photometric Constraints",
+        "url": "https://doi.org/10.1007/s11263-018-1119-x"
+    },
+    {
+        "title": "Fast Abnormal Event Detection",
+        "url": "https://doi.org/10.1007/s11263-018-1129-8"
+    },
+    {
+        "title": "An Exact Robust Method to Localize a Known Sphere by Means of One Image",
+        "url": "https://doi.org/10.1007/s11263-018-1139-6"
+    },
+    {
+        "title": "Blind Image Deblurring via Deep Discriminative Priors",
+        "url": "https://doi.org/10.1007/s11263-018-01146-0"
+    },
+    {
+        "title": "Online Mutual Foreground Segmentation for Multispectral Stereo Videos",
+        "url": "https://doi.org/10.1007/s11263-018-01141-5"
+    },
+    {
+        "title": "Rank-1 Tensor Approximation for High-Order Association in Multi-target Tracking",
+        "url": "https://doi.org/10.1007/s11263-018-01147-z"
+    },
+    {
+        "title": "Exploiting the Anisotropy of Correlation Filter Learning for Visual Tracking",
+        "url": "https://doi.org/10.1007/s11263-019-01156-6"
+    },
+    {
+        "title": "Video Enhancement with Task-Oriented Flow",
+        "url": "https://doi.org/10.1007/s11263-018-01144-2"
+    },
+    {
+        "title": "One-Day Outdoor Photometric Stereo Using Skylight Estimation",
+        "url": "https://doi.org/10.1007/s11263-018-01145-1"
+    },
+    {
+        "title": "Correction to: One-Day Outdoor Photometric Stereo Using Skylight Estimation",
+        "url": "https://doi.org/10.1007/s11263-019-01167-3"
+    },
+    {
+        "title": "Contrast Invariant SNR and Isotonic Regressions",
+        "url": "https://doi.org/10.1007/s11263-019-01161-9"
+    },
+    {
+        "title": "Visibility Enhancement by Integrating Refocusing and Direct-Global Separation with Contact Imaging",
+        "url": "https://doi.org/10.1007/s11263-019-01173-5"
+    },
+    {
+        "title": "Lucid Data Dreaming for Video Object Segmentation",
+        "url": "https://doi.org/10.1007/s11263-019-01164-6"
+    },
+    {
+        "title": "Predicting How to Distribute Work Between Algorithms and Humans to Segment an Image Batch",
+        "url": "https://doi.org/10.1007/s11263-019-01172-6"
+    },
+    {
+        "title": "Deep Supervised Hashing for Fast Image Retrieval",
+        "url": "https://doi.org/10.1007/s11263-019-01174-4"
+    },
+    {
+        "title": "Which and How Many Regions to Gaze: Focus Discriminative Regions for Fine-Grained Visual Categorization",
+        "url": "https://doi.org/10.1007/s11263-019-01176-2"
+    },
+    {
+        "title": "Deep Learning Approach in Aerial Imagery for Supporting Land Search and Rescue Missions",
+        "url": "https://doi.org/10.1007/s11263-019-01177-1"
+    },
+    {
+        "title": "Unsupervised Learning of Foreground Object Segmentation",
+        "url": "https://doi.org/10.1007/s11263-019-01183-3"
+    },
+    {
+        "title": "Multi-target Tracking in Multiple Non-overlapping Cameras Using Fast-Constrained Dominant Sets",
+        "url": "https://doi.org/10.1007/s11263-019-01180-6"
+    },
+    {
+        "title": "Click Carving: Interactive Object Segmentation in Images and Videos with Point Clicks",
+        "url": "https://doi.org/10.1007/s11263-019-01184-2"
+    },
+    {
+        "title": "Efficient Feature Matching via Nonnegative Orthogonal Relaxation",
+        "url": "https://doi.org/10.1007/s11263-019-01185-1"
+    },
+    {
+        "title": "Repetition Estimation",
+        "url": "https://doi.org/10.1007/s11263-019-01194-0"
+    },
+    {
+        "title": "Video Question Answering with Spatio-Temporal Reasoning",
+        "url": "https://doi.org/10.1007/s11263-019-01189-x"
+    },
+    {
+        "title": "A Spatiotemporal Convolutional Neural Network for Automatic Pain Intensity Estimation from Facial Dynamics",
+        "url": "https://doi.org/10.1007/s11263-019-01191-3"
+    },
+    {
+        "title": "Joint Estimation of Camera Orientation and Vanishing Points from an Image Sequence in a Non-Manhattan World",
+        "url": "https://doi.org/10.1007/s11263-019-01196-y"
+    },
+    {
+        "title": "CU-Net: Component Unmixing Network for Textile Fiber Identification",
+        "url": "https://doi.org/10.1007/s11263-019-01199-9"
+    },
+    {
+        "title": "What Does 2D Geometric Information Really Tell Us About 3D Face Shape?",
+        "url": "https://doi.org/10.1007/s11263-019-01197-x"
+    },
+    {
+        "title": "Motion-Compensated Spatio-Temporal Filtering for Multi-Image and Multimodal Super-Resolution",
+        "url": "https://doi.org/10.1007/s11263-019-01200-5"
+    },
+    {
+        "title": "Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and/or Multiple Images",
+        "url": "https://doi.org/10.1007/s11263-019-01195-z"
+    },
+    {
+        "title": "Learning Transparent Object Matting",
+        "url": "https://doi.org/10.1007/s11263-019-01202-3"
+    },
+    {
+        "title": "Learning Human Pose Models from Synthesized Data for Robust RGB-D Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-019-01192-2"
+    },
+    {
+        "title": "Tensor Decomposition and Non-linear Manifold Modeling for 3D Head Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-019-01208-x"
+    },
+    {
+        "title": "LCEval: Learned Composite Metric for Caption Evaluation",
+        "url": "https://doi.org/10.1007/s11263-019-01206-z"
+    },
+    {
+        "title": "Special Issue on Machine Vision",
+        "url": "https://doi.org/10.1007/s11263-019-01201-4"
+    },
+    {
+        "title": "Unsupervised Binary Representation Learning with Deep Variational Networks",
+        "url": "https://doi.org/10.1007/s11263-019-01166-4"
+    },
+    {
+        "title": "Stochastic Quantization for Learning Accurate Low-Bit Deep Neural Networks",
+        "url": "https://doi.org/10.1007/s11263-019-01168-2"
+    },
+    {
+        "title": "Slanted Stixels: A Way to Represent Steep Streets",
+        "url": "https://doi.org/10.1007/s11263-019-01226-9"
+    },
+    {
+        "title": "End-to-End Learning of Latent Deformable Part-Based Representations for Object Detection",
+        "url": "https://doi.org/10.1007/s11263-018-1109-z"
+    },
+    {
+        "title": "A Differential Approach to Shape from Polarisation: A Level-Set Characterisation",
+        "url": "https://doi.org/10.1007/s11263-018-1127-x"
+    },
+    {
+        "title": "The Devil is in the Decoder: Classification, Regression and GANs",
+        "url": "https://doi.org/10.1007/s11263-019-01170-8"
+    },
+    {
+        "title": "Reflectance and Shape Estimation with a Light Field Camera Under Natural Illumination",
+        "url": "https://doi.org/10.1007/s11263-019-01149-5"
+    },
+    {
+        "title": "Understanding and Improving Kernel Local Descriptors",
+        "url": "https://doi.org/10.1007/s11263-018-1137-8"
+    },
+    {
+        "title": "Cross-Domain Image Matching with Deep Feature Maps",
+        "url": "https://doi.org/10.1007/s11263-018-01143-3"
+    },
+    {
+        "title": "Which is the Better Inpainted Image?Training Data Generation Without Any Manual Operations",
+        "url": "https://doi.org/10.1007/s11263-018-1132-0"
+    },
+    {
+        "title": "You Said That?: Synthesising Talking Faces from Audio",
+        "url": "https://doi.org/10.1007/s11263-019-01150-y"
+    },
+    {
+        "title": "Learning to Predict 3D Surfaces of Sculptures from Single and Multiple Views",
+        "url": "https://doi.org/10.1007/s11263-018-1124-0"
+    }
+]

@@ -1,0 +1,698 @@
+[
+    {
+        "title": "Population-Based Evolutionary Gaming for Unsupervised Person Re-identification",
+        "url": "https://doi.org/10.1007/s11263-022-01693-7"
+    },
+    {
+        "title": "Distribution-Sensitive Information Retention for Accurate Binary Neural Network",
+        "url": "https://doi.org/10.1007/s11263-022-01687-5"
+    },
+    {
+        "title": "Low-light Image Enhancement via Breaking Down the Darkness",
+        "url": "https://doi.org/10.1007/s11263-022-01667-9"
+    },
+    {
+        "title": "Delving Deeper into Anti-Aliasing in ConvNets",
+        "url": "https://doi.org/10.1007/s11263-022-01672-y"
+    },
+    {
+        "title": "Learning to Collocate Visual-Linguistic Neural Modules for Image Captioning",
+        "url": "https://doi.org/10.1007/s11263-022-01692-8"
+    },
+    {
+        "title": "A CNN Based Approach for the Point-Light Photometric Stereo Problem",
+        "url": "https://doi.org/10.1007/s11263-022-01689-3"
+    },
+    {
+        "title": "Common Pole-Polar Properties of Central Catadioptric Sphere and Line Images Used for Camera Calibration",
+        "url": "https://doi.org/10.1007/s11263-022-01696-4"
+    },
+    {
+        "title": "Invertible Rescaling Network and Its Extensions",
+        "url": "https://doi.org/10.1007/s11263-022-01688-4"
+    },
+    {
+        "title": "Minimally Distorted Structured Adversarial Attacks",
+        "url": "https://doi.org/10.1007/s11263-022-01701-w"
+    },
+    {
+        "title": "Distance Based Image Classification: A solution to generative classification's conundrum?",
+        "url": "https://doi.org/10.1007/s11263-022-01675-9"
+    },
+    {
+        "title": "Vis-MVSNet: Visibility-Aware Multi-view Stereo Network",
+        "url": "https://doi.org/10.1007/s11263-022-01697-3"
+    },
+    {
+        "title": "Memory-Augmented Deep Unfolding Network for Guided Image Super-resolution",
+        "url": "https://doi.org/10.1007/s11263-022-01699-1"
+    },
+    {
+        "title": "OpenMonkeyChallenge: Dataset and Benchmark Challenges for Pose Estimation of Non-human Primates",
+        "url": "https://doi.org/10.1007/s11263-022-01698-2"
+    },
+    {
+        "title": "Visual Object Tracking in First Person Vision",
+        "url": "https://doi.org/10.1007/s11263-022-01694-6"
+    },
+    {
+        "title": "Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurrent Neural Network",
+        "url": "https://doi.org/10.1007/s11263-022-01705-6"
+    },
+    {
+        "title": "AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation",
+        "url": "https://doi.org/10.1007/s11263-022-01702-9"
+    },
+    {
+        "title": "Minimal Solvers for Relative Pose Estimation of Multi-Camera Systems using Affine Correspondences",
+        "url": "https://doi.org/10.1007/s11263-022-01690-w"
+    },
+    {
+        "title": "A Cutting-Plane Method for Sublabel-Accurate Relaxation of Problems with Product Label Spaces",
+        "url": "https://doi.org/10.1007/s11263-022-01704-7"
+    },
+    {
+        "title": "LIP: Local Importance-Based Pooling",
+        "url": "https://doi.org/10.1007/s11263-022-01707-4"
+    },
+    {
+        "title": "Few-Shot Learning with Complex-Valued Neural Networks and Dependable Learning",
+        "url": "https://doi.org/10.1007/s11263-022-01700-x"
+    },
+    {
+        "title": "Guest Editorial: Special Issue on Computer Vision from 2D to 3D",
+        "url": "https://doi.org/10.1007/s11263-022-01724-3"
+    },
+    {
+        "title": "Guest Editorial: Special Issue on Advances in Computer Vision and Applications (ACCV 2020)",
+        "url": "https://doi.org/10.1007/s11263-022-01717-2"
+    },
+    {
+        "title": "Robots Understanding Contextual Information in Human-Centered Environments Using Weakly Supervised Mask Data Distillation",
+        "url": "https://doi.org/10.1007/s11263-022-01706-5"
+    },
+    {
+        "title": "An Efficient Model for a Camera Behind a Parallel Refractive Slab",
+        "url": "https://doi.org/10.1007/s11263-022-01691-9"
+    },
+    {
+        "title": "Event-guided Multi-patch Network with Self-supervision for Non-uniform Motion Deblurring",
+        "url": "https://doi.org/10.1007/s11263-022-01708-3"
+    },
+    {
+        "title": "Recurrent Graph Neural Networks for Video Instance Segmentation",
+        "url": "https://doi.org/10.1007/s11263-022-01703-8"
+    },
+    {
+        "title": "AnimalTrack: A Benchmark for Multi-Animal Tracking in the Wild",
+        "url": "https://doi.org/10.1007/s11263-022-01711-8"
+    },
+    {
+        "title": "Animal Pose Tracking: 3D Multimodal Dataset and Token-based Pose Optimization",
+        "url": "https://doi.org/10.1007/s11263-022-01714-5"
+    },
+    {
+        "title": "PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection",
+        "url": "https://doi.org/10.1007/s11263-022-01710-9"
+    },
+    {
+        "title": "Domain-Specific Bias Filtering for Single Labeled Domain Generalization",
+        "url": "https://doi.org/10.1007/s11263-022-01712-7"
+    },
+    {
+        "title": "Going Deeper than Tracking: A Survey of Computer-Vision Based Recognition of Animal Pain and Emotions",
+        "url": "https://doi.org/10.1007/s11263-022-01716-3"
+    },
+    {
+        "title": "Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+        "url": "https://doi.org/10.1007/s11263-022-01715-4"
+    },
+    {
+        "title": "Active Perception for Visual-Language Navigation",
+        "url": "https://doi.org/10.1007/s11263-022-01721-6"
+    },
+    {
+        "title": "Revisiting Consistency Regularization for Semi-Supervised Learning",
+        "url": "https://doi.org/10.1007/s11263-022-01723-4"
+    },
+    {
+        "title": "Bipartite Graph Reasoning GANs for Person Pose and Facial Image Synthesis",
+        "url": "https://doi.org/10.1007/s11263-022-01722-5"
+    },
+    {
+        "title": "Automatic Modelling for Interactive Action Assessment",
+        "url": "https://doi.org/10.1007/s11263-022-01695-5"
+    },
+    {
+        "title": "Multi-adversarial Faster-RCNN with Paradigm Teacher for Unrestricted Object Detection",
+        "url": "https://doi.org/10.1007/s11263-022-01728-z"
+    },
+    {
+        "title": "SegMix: Co-occurrence Driven Mixup for Semantic Segmentation and Adversarial Robustness",
+        "url": "https://doi.org/10.1007/s11263-022-01720-7"
+    },
+    {
+        "title": "Video Region Annotation with Sparse Bounding Boxes",
+        "url": "https://doi.org/10.1007/s11263-022-01719-0"
+    },
+    {
+        "title": "Shuffled Linear Regression with Outliers in Both Covariates and Responses",
+        "url": "https://doi.org/10.1007/s11263-022-01709-2"
+    },
+    {
+        "title": "DESC: Domain Adaptation for Depth Estimation via Semantic Consistency",
+        "url": "https://doi.org/10.1007/s11263-022-01718-1"
+    },
+    {
+        "title": "A Closer Look at Few-Shot 3D Point Cloud Classification",
+        "url": "https://doi.org/10.1007/s11263-022-01731-4"
+    },
+    {
+        "title": "Project to Adapt: Domain Adaptation for Depth Completion from Noisy and Sparse Sensor Data",
+        "url": "https://doi.org/10.1007/s11263-022-01726-1"
+    },
+    {
+        "title": "Overcoming the Domain Gap in Neural Action Representations",
+        "url": "https://doi.org/10.1007/s11263-022-01713-6"
+    },
+    {
+        "title": "U-Turn: Crafting Adversarial Queries with Opposite-Direction Features",
+        "url": "https://doi.org/10.1007/s11263-022-01737-y"
+    },
+    {
+        "title": "Delving into Calibrated Depth for Accurate RGB-D Salient Object Detection",
+        "url": "https://doi.org/10.1007/s11263-022-01734-1"
+    },
+    {
+        "title": "Theory and Closed-Form Solutions for Three- and n-Layer Flat Refractive Geometry",
+        "url": "https://doi.org/10.1007/s11263-022-01729-y"
+    },
+    {
+        "title": "WATB: Wild Animal Tracking Benchmark",
+        "url": "https://doi.org/10.1007/s11263-022-01732-3"
+    },
+    {
+        "title": "SHARP: Shape-Aware Reconstruction of People in Loose Clothing",
+        "url": "https://doi.org/10.1007/s11263-022-01736-z"
+    },
+    {
+        "title": "RM3D: Robust Data-Efficient 3D Scene Parsing via Traditional and Learnt 3D Descriptors-Based Semantic Region Merging",
+        "url": "https://doi.org/10.1007/s11263-022-01740-3"
+    },
+    {
+        "title": "Depth Descent Synchronization in ${{\\,\\mathrm{\\text {SO}}\\,}}(D)$",
+        "url": "https://doi.org/10.1007/s11263-022-01686-6"
+    },
+    {
+        "title": "Semi-Supervised and Long-Tailed Object Detection with CascadeMatch",
+        "url": "https://doi.org/10.1007/s11263-022-01738-x"
+    },
+    {
+        "title": "Free-view Face Relighting Using a Hybrid Parametric Neural Model on a SMALL-OLAT Dataset",
+        "url": "https://doi.org/10.1007/s11263-022-01730-5"
+    },
+    {
+        "title": "Learning to Adapt to Light",
+        "url": "https://doi.org/10.1007/s11263-022-01745-y"
+    },
+    {
+        "title": "An Efficient Recurrent Adversarial Framework for Unsupervised Real-Time Video Enhancement",
+        "url": "https://doi.org/10.1007/s11263-022-01735-0"
+    },
+    {
+        "title": "Spatio-Temporal Outdoor Lighting Aggregation on Image Sequences Using Transformer Networks",
+        "url": "https://doi.org/10.1007/s11263-022-01725-2"
+    },
+    {
+        "title": "Sentimental Visual Captioning using Multimodal Transformer",
+        "url": "https://doi.org/10.1007/s11263-023-01752-7"
+    },
+    {
+        "title": "Deeply Explain CNN Via Hierarchical Decomposition",
+        "url": "https://doi.org/10.1007/s11263-022-01746-x"
+    },
+    {
+        "title": "Relating View Directions of Complementary-View Mobile Cameras via the Human Shadow",
+        "url": "https://doi.org/10.1007/s11263-022-01744-z"
+    },
+    {
+        "title": "Expression-Preserving Face Frontalization Improves Visually Assisted Speech Processing",
+        "url": "https://doi.org/10.1007/s11263-022-01742-1"
+    },
+    {
+        "title": "ViTAEv2: Vision Transformer Advanced by Exploring Inductive Bias for Image Recognition and Beyond",
+        "url": "https://doi.org/10.1007/s11263-022-01739-w"
+    },
+    {
+        "title": "Dynamic Curriculum Learning for Great Ape Detection in the Wild",
+        "url": "https://doi.org/10.1007/s11263-023-01748-3"
+    },
+    {
+        "title": "Editor's Note: Special Issue on 3D Computer Vision",
+        "url": "https://doi.org/10.1007/s11263-023-01751-8"
+    },
+    {
+        "title": "Elastic Shape Analysis of Surfaces with Second-Order Sobolev Metrics: A Comprehensive Numerical Framework",
+        "url": "https://doi.org/10.1007/s11263-022-01743-0"
+    },
+    {
+        "title": "Preface to the Special Issue on Pattern Recognition (DAGM GCPR 2021)",
+        "url": "https://doi.org/10.1007/s11263-023-01757-2"
+    },
+    {
+        "title": "Meta Attention-Generation Network for Cross-Granularity Few-Shot Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01760-7"
+    },
+    {
+        "title": "DDPNAS: Efficient Neural Architecture Search via Dynamic Distribution Pruning",
+        "url": "https://doi.org/10.1007/s11263-023-01753-6"
+    },
+    {
+        "title": "Lifting 2D Human Pose to 3D with Domain Adapted 3D Body Concept",
+        "url": "https://doi.org/10.1007/s11263-023-01749-2"
+    },
+    {
+        "title": "Virtual Restoration of Ancient Wooden Ships Through Non-rigid 3D Shape Assembly with Ruled-Surface FFD",
+        "url": "https://doi.org/10.1007/s11263-023-01759-0"
+    },
+    {
+        "title": "Deblurring Low-Light Images with Events",
+        "url": "https://doi.org/10.1007/s11263-023-01754-5"
+    },
+    {
+        "title": "Editor's Note: Special Issue on Computer Vision and Cultural Heritage Preservation",
+        "url": "https://doi.org/10.1007/s11263-023-01769-y"
+    },
+    {
+        "title": "Correction: Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination",
+        "url": "https://doi.org/10.1007/s11263-022-01741-2"
+    },
+    {
+        "title": "Correction: Spatio-Temporal Outdoor Lighting Aggregation on Image Sequences Using Transformer Networks",
+        "url": "https://doi.org/10.1007/s11263-022-01747-w"
+    },
+    {
+        "title": "PhysFormer++: Facial Video-Based Physiological Measurement with SlowFast Temporal Difference Transformer",
+        "url": "https://doi.org/10.1007/s11263-023-01758-1"
+    },
+    {
+        "title": "Semantics-Guided Intra-Category Knowledge Transfer for Generalized Zero-Shot Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01767-0"
+    },
+    {
+        "title": "SMG: A Micro-gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis",
+        "url": "https://doi.org/10.1007/s11263-023-01761-6"
+    },
+    {
+        "title": "Context-Driven Detection of Invertebrate Species in Deep-Sea Video",
+        "url": "https://doi.org/10.1007/s11263-023-01755-4"
+    },
+    {
+        "title": "Improved 3D Markerless Mouse Pose Estimation Using Temporal Semi-supervision",
+        "url": "https://doi.org/10.1007/s11263-023-01756-3"
+    },
+    {
+        "title": "Semi-supervised Visual Tracking of Marine Animals Using Autonomous Underwater Vehicles",
+        "url": "https://doi.org/10.1007/s11263-023-01762-5"
+    },
+    {
+        "title": "A Minimal Solution for Image-Based Sphere Estimation",
+        "url": "https://doi.org/10.1007/s11263-023-01766-1"
+    },
+    {
+        "title": "Refractive Pose Refinement",
+        "url": "https://doi.org/10.1007/s11263-023-01763-4"
+    },
+    {
+        "title": "Deep Memory-Augmented Proximal Unrolling Network for Compressive Sensing",
+        "url": "https://doi.org/10.1007/s11263-023-01765-2"
+    },
+    {
+        "title": "Through Hawks' Eyes: Synthetically Reconstructing the Visual Field of a Bird in Flight",
+        "url": "https://doi.org/10.1007/s11263-022-01733-2"
+    },
+    {
+        "title": "Multi-view Tracking, Re-ID, and Social Network Analysis of a Flock of Visually Similar Birds in an Outdoor Aviary",
+        "url": "https://doi.org/10.1007/s11263-023-01768-z"
+    },
+    {
+        "title": "Extreme Low-Resolution Action Recognition with Confident Spatial-Temporal Attention Transfer",
+        "url": "https://doi.org/10.1007/s11263-023-01771-4"
+    },
+    {
+        "title": "Learning Enriched Hop-Aware Correlation for Robust 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-023-01770-5"
+    },
+    {
+        "title": "RELAX: Representation Learning Explainability",
+        "url": "https://doi.org/10.1007/s11263-023-01773-2"
+    },
+    {
+        "title": "Disentangling Geometric Deformation Spaces in Generative Latent Shape Models",
+        "url": "https://doi.org/10.1007/s11263-023-01750-9"
+    },
+    {
+        "title": "Efficient Person Search: An Anchor-Free Approach",
+        "url": "https://doi.org/10.1007/s11263-023-01772-3"
+    },
+    {
+        "title": "Adaptive Deep PnP Algorithm for Video Snapshot Compressive Imaging",
+        "url": "https://doi.org/10.1007/s11263-023-01777-y"
+    },
+    {
+        "title": "Adversarial Learning Domain-Invariant Conditional Features for Robust Face Anti-spoofing",
+        "url": "https://doi.org/10.1007/s11263-023-01778-x"
+    },
+    {
+        "title": "Bi-calibration Networks for Weakly-Supervised Video Representation Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01779-w"
+    },
+    {
+        "title": "From Open Set to Closed Set: Supervised Spatial Divide-and-Conquer for Object Counting",
+        "url": "https://doi.org/10.1007/s11263-023-01782-1"
+    },
+    {
+        "title": "Disassembling Convolutional Segmentation Network",
+        "url": "https://doi.org/10.1007/s11263-023-01776-z"
+    },
+    {
+        "title": "Learning Accurate Performance Predictors for Ultrafast Automated Model Compression",
+        "url": "https://doi.org/10.1007/s11263-023-01783-0"
+    },
+    {
+        "title": "Neural Architecture Search for Dense Prediction Tasks in Computer Vision",
+        "url": "https://doi.org/10.1007/s11263-023-01785-y"
+    },
+    {
+        "title": "Advanced Binary Neural Network for Single Image Super Resolution",
+        "url": "https://doi.org/10.1007/s11263-023-01789-8"
+    },
+    {
+        "title": "Trust-Region Adaptive Frequency for Online Continual Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01775-0"
+    },
+    {
+        "title": "Memory Based Temporal Fusion Network for Video Deblurring",
+        "url": "https://doi.org/10.1007/s11263-023-01793-y"
+    },
+    {
+        "title": "Multi-target Knowledge Distillation via Student Self-reflection",
+        "url": "https://doi.org/10.1007/s11263-023-01792-z"
+    },
+    {
+        "title": "Correction to: Learning to Adapt to Light",
+        "url": "https://doi.org/10.1007/s11263-023-01764-3"
+    },
+    {
+        "title": "Geometric and Statistical Models for Analysis of Two-Object Complexes",
+        "url": "https://doi.org/10.1007/s11263-023-01800-2"
+    },
+    {
+        "title": "Credible Dual-Expert Learning for Weakly Supervised Semantic Segmentation",
+        "url": "https://doi.org/10.1007/s11263-023-01796-9"
+    },
+    {
+        "title": "3D Object Detection for Autonomous Driving: A Comprehensive Survey",
+        "url": "https://doi.org/10.1007/s11263-023-01790-1"
+    },
+    {
+        "title": "BARC: Breed-Augmented Regression Using Classification for 3D Dog Reconstruction from Images",
+        "url": "https://doi.org/10.1007/s11263-023-01780-3"
+    },
+    {
+        "title": "Self-supervised Secondary Landmark Detection via 3D Representation Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01804-y"
+    },
+    {
+        "title": "AutoEncoder-Driven Multimodal Collaborative Learning for Medical Image Synthesis",
+        "url": "https://doi.org/10.1007/s11263-023-01791-0"
+    },
+    {
+        "title": "View Birdification in the Crowd: Ground-Plane Localization from Perceived Movements",
+        "url": "https://doi.org/10.1007/s11263-023-01788-9"
+    },
+    {
+        "title": "Single-View View Synthesis with Self-rectified Pseudo-Stereo",
+        "url": "https://doi.org/10.1007/s11263-023-01803-z"
+    },
+    {
+        "title": "Fast and Accurate 3D Registration from Line Intersection Constraints",
+        "url": "https://doi.org/10.1007/s11263-023-01774-1"
+    },
+    {
+        "title": "Improving Semi-Supervised and Domain-Adaptive Semantic Segmentation with Self-Supervised Depth Estimation",
+        "url": "https://doi.org/10.1007/s11263-023-01799-6"
+    },
+    {
+        "title": "SPL-Net: Spatial-Semantic Patch Learning Network for Facial Attribute Recognition with Limited Labeled Data",
+        "url": "https://doi.org/10.1007/s11263-023-01787-w"
+    },
+    {
+        "title": "Multi-Modal 3D Object Detection in Autonomous Driving: A Survey",
+        "url": "https://doi.org/10.1007/s11263-023-01784-z"
+    },
+    {
+        "title": "Lightweight and Progressively-Scalable Networks for Semantic Segmentation",
+        "url": "https://doi.org/10.1007/s11263-023-01801-1"
+    },
+    {
+        "title": "Rethinking Portrait Matting with Privacy Preserving",
+        "url": "https://doi.org/10.1007/s11263-023-01797-8"
+    },
+    {
+        "title": "Instance Segmentation in the Dark",
+        "url": "https://doi.org/10.1007/s11263-023-01808-8"
+    },
+    {
+        "title": "Multi-view Consistent Generative Adversarial Networks for Compositional 3D-Aware Image Synthesis",
+        "url": "https://doi.org/10.1007/s11263-023-01805-x"
+    },
+    {
+        "title": "A Family of Approaches for Full 3D Reconstruction of Objects with Complex Surface Reflectance",
+        "url": "https://doi.org/10.1007/s11263-023-01795-w"
+    },
+    {
+        "title": "Towards Automated Ethogramming: Cognitively-Inspired Event Segmentation for Streaming Wildlife Video Monitoring",
+        "url": "https://doi.org/10.1007/s11263-023-01781-2"
+    },
+    {
+        "title": "Blur Invariants for Image Recognition",
+        "url": "https://doi.org/10.1007/s11263-023-01798-7"
+    },
+    {
+        "title": "On Making SIFT Features Affine Covariant",
+        "url": "https://doi.org/10.1007/s11263-023-01802-0"
+    },
+    {
+        "title": "Semantic-Aware Visual Decomposition for Image Coding",
+        "url": "https://doi.org/10.1007/s11263-023-01809-7"
+    },
+    {
+        "title": "Towards Fine-Grained Optimal 3D Face Dense Registration: An Iterative Dividing and Diffusing Method",
+        "url": "https://doi.org/10.1007/s11263-023-01825-7"
+    },
+    {
+        "title": "Semi-Supervised Domain Generalization with Stochastic StyleMatch",
+        "url": "https://doi.org/10.1007/s11263-023-01821-x"
+    },
+    {
+        "title": "Making the Invisible Visible: Toward High-Quality Terahertz Tomographic Imaging via Physics-Guided Restoration",
+        "url": "https://doi.org/10.1007/s11263-023-01812-y"
+    },
+    {
+        "title": "Skeletonizing Caenorhabditis elegans Based on U-Net Architectures Trained with a Multi-worm Low-Resolution Synthetic Dataset",
+        "url": "https://doi.org/10.1007/s11263-023-01818-6"
+    },
+    {
+        "title": "Learning Geometric Transformation for Point Cloud Completion",
+        "url": "https://doi.org/10.1007/s11263-023-01820-y"
+    },
+    {
+        "title": "Perspective-1-Ellipsoid: Formulation, Analysis and Solutions of the Camera Pose Estimation Problem from One Ellipse-Ellipsoid Correspondence",
+        "url": "https://doi.org/10.1007/s11263-023-01794-x"
+    },
+    {
+        "title": "Learning to Remove Shadows from a Single Image",
+        "url": "https://doi.org/10.1007/s11263-023-01823-9"
+    },
+    {
+        "title": "Importance First: Generating Scene Graph of Human Interest",
+        "url": "https://doi.org/10.1007/s11263-023-01817-7"
+    },
+    {
+        "title": "What Limits the Performance of Local Self-attention?",
+        "url": "https://doi.org/10.1007/s11263-023-01813-x"
+    },
+    {
+        "title": "When Multi-Focus Image Fusion Networks Meet Traditional Edge-Preservation Technology",
+        "url": "https://doi.org/10.1007/s11263-023-01806-w"
+    },
+    {
+        "title": "A Survey of Methods for Automated Quality Control Based on Images",
+        "url": "https://doi.org/10.1007/s11263-023-01822-w"
+    },
+    {
+        "title": "A2B: Anchor to Barycentric Coordinate for Robust Correspondence",
+        "url": "https://doi.org/10.1007/s11263-023-01827-5"
+    },
+    {
+        "title": "Full-Spectrum Out-of-Distribution Detection",
+        "url": "https://doi.org/10.1007/s11263-023-01811-z"
+    },
+    {
+        "title": "DOVE: Learning Deformable 3D Objects by Watching Videos",
+        "url": "https://doi.org/10.1007/s11263-023-01819-5"
+    },
+    {
+        "title": "Don't Be So Dense: Sparse-to-Sparse GAN Training Without Sacrificing Performance",
+        "url": "https://doi.org/10.1007/s11263-023-01824-8"
+    },
+    {
+        "title": "Pyramid NeRF: Frequency Guided Fast Radiance Field Optimization",
+        "url": "https://doi.org/10.1007/s11263-023-01829-3"
+    },
+    {
+        "title": "InstaBoost++: Visual Coherence Principles for Unified 2D/3D Instance Level Data Augmentation",
+        "url": "https://doi.org/10.1007/s11263-023-01807-9"
+    },
+    {
+        "title": "Anti-Bandit for Neural Architecture Search",
+        "url": "https://doi.org/10.1007/s11263-023-01826-6"
+    },
+    {
+        "title": "Conditional Temporal Variational AutoEncoder for Action Video Prediction",
+        "url": "https://doi.org/10.1007/s11263-023-01832-8"
+    },
+    {
+        "title": "Visually-Guided Audio Spatialization in Video with Geometry-Aware Multi-task Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01816-8"
+    },
+    {
+        "title": "Transformer-Based Context Condensation for Boosting Feature Pyramids in Object Detection",
+        "url": "https://doi.org/10.1007/s11263-023-01830-w"
+    },
+    {
+        "title": "RAFT-MSF: Self-Supervised Monocular Scene Flow Using Recurrent Optimizer",
+        "url": "https://doi.org/10.1007/s11263-023-01828-4"
+    },
+    {
+        "title": "Poincaré Kernels for Hyperbolic Representations",
+        "url": "https://doi.org/10.1007/s11263-023-01834-6"
+    },
+    {
+        "title": "DCP-NAS: Discrepant Child-Parent Neural Architecture Search for 1-bit CNNs",
+        "url": "https://doi.org/10.1007/s11263-023-01836-4"
+    },
+    {
+        "title": "Automatic Generation of 3D Scene Animation Based on Dynamic Knowledge Graphs and Contextual Encoding",
+        "url": "https://doi.org/10.1007/s11263-023-01839-1"
+    },
+    {
+        "title": "An Optimal Transport View of Class-Imbalanced Visual Recognition",
+        "url": "https://doi.org/10.1007/s11263-023-01831-9"
+    },
+    {
+        "title": "Deep Physics-Guided Unrolling Generalization for Compressed Sensing",
+        "url": "https://doi.org/10.1007/s11263-023-01814-w"
+    },
+    {
+        "title": "Improving Domain Adaptation Through Class Aware Frequency Transformation",
+        "url": "https://doi.org/10.1007/s11263-023-01810-0"
+    },
+    {
+        "title": "Deep Corner",
+        "url": "https://doi.org/10.1007/s11263-023-01837-3"
+    },
+    {
+        "title": "Deep Unfolding for Snapshot Compressive Imaging",
+        "url": "https://doi.org/10.1007/s11263-023-01844-4"
+    },
+    {
+        "title": "Attribute-Image Person Re-identification via Modal-Consistent Metric Learning",
+        "url": "https://doi.org/10.1007/s11263-023-01841-7"
+    },
+    {
+        "title": "A Dynamic Feature Interaction Framework for Multi-task Visual Perception",
+        "url": "https://doi.org/10.1007/s11263-023-01835-5"
+    },
+    {
+        "title": "HiEve: A Large-Scale Benchmark for Human-Centric Video Analysis in Complex Events",
+        "url": "https://doi.org/10.1007/s11263-023-01842-6"
+    },
+    {
+        "title": "Camouflaged Object Segmentation with Omni Perception",
+        "url": "https://doi.org/10.1007/s11263-023-01838-2"
+    },
+    {
+        "title": "GenKL: An Iterative Framework for Resolving Label Ambiguity and Label Non-conformity in Web Images Via a New Generalized KL Divergence",
+        "url": "https://doi.org/10.1007/s11263-023-01815-9"
+    },
+    {
+        "title": "Universal Prototype Transport for Zero-Shot Action Recognition and Localization",
+        "url": "https://doi.org/10.1007/s11263-023-01846-2"
+    },
+    {
+        "title": "Hierarchical Curriculum Learning for No-Reference Image Quality Assessment",
+        "url": "https://doi.org/10.1007/s11263-023-01851-5"
+    },
+    {
+        "title": "Performing Melanoma Diagnosis by an Effective Multi-view Convolutional Network Architecture",
+        "url": "https://doi.org/10.1007/s11263-023-01848-0"
+    },
+    {
+        "title": "Correction: Towards Automated Ethogramming: Cognitively-Inspired Event Segmentation for Streaming Wildlife Video Monitoring",
+        "url": "https://doi.org/10.1007/s11263-023-01847-1"
+    },
+    {
+        "title": "Correction to: Learning Enriched Hop-Aware Correlation for Robust 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1007/s11263-023-01786-x"
+    },
+    {
+        "title": "Generalized Gradient Flow Based Saliency for Pruning Deep Convolutional Neural Networks",
+        "url": "https://doi.org/10.1007/s11263-023-01854-2"
+    },
+    {
+        "title": "Super Vision Transformer",
+        "url": "https://doi.org/10.1007/s11263-023-01861-3"
+    },
+    {
+        "title": "End-to-End Alternating Optimization for Real-World Blind Super Resolution",
+        "url": "https://doi.org/10.1007/s11263-023-01833-7"
+    },
+    {
+        "title": "PIDray: A Large-Scale X-ray Benchmark for Real-World Prohibited Item Detection",
+        "url": "https://doi.org/10.1007/s11263-023-01855-1"
+    },
+    {
+        "title": "Efficient Annotation and Learning for 3D Hand Pose Estimation: A Survey",
+        "url": "https://doi.org/10.1007/s11263-023-01856-0"
+    },
+    {
+        "title": "Pyramid Attention Network for Image Restoration",
+        "url": "https://doi.org/10.1007/s11263-023-01843-5"
+    },
+    {
+        "title": "STP-SOM: Scale-Transfer Learning for Pansharpening via Estimating Spectral Observation Model",
+        "url": "https://doi.org/10.1007/s11263-023-01840-8"
+    },
+    {
+        "title": "Toward Practical Weakly Supervised Semantic Segmentation via Point-Level Supervision",
+        "url": "https://doi.org/10.1007/s11263-023-01862-2"
+    },
+    {
+        "title": "Dynamic Context Removal: A General Training Strategy for Robust Models on Video Action Predictive Tasks",
+        "url": "https://doi.org/10.1007/s11263-023-01850-6"
+    },
+    {
+        "title": "Semantic Contrastive Bootstrapping for Single-Positive Multi-label Recognition",
+        "url": "https://doi.org/10.1007/s11263-023-01849-z"
+    },
+    {
+        "title": "Adversarial Coreset Selection for Efficient Robust Training",
+        "url": "https://doi.org/10.1007/s11263-023-01860-4"
+    },
+    {
+        "title": "GLENet: Boosting 3D Object Detectors with Generative Label Uncertainty Estimation",
+        "url": "https://doi.org/10.1007/s11263-023-01869-9"
+    }
+]

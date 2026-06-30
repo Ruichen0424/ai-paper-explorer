@@ -1,0 +1,358 @@
+[
+    {
+        "title": "Reading Text in the Wild with Convolutional Neural Networks",
+        "url": "https://doi.org/10.1007/s11263-015-0823-z"
+    },
+    {
+        "title": "Estimate Hand Poses Efficiently from Single Depth Images",
+        "url": "https://doi.org/10.1007/s11263-015-0826-9"
+    },
+    {
+        "title": "When the a contrario approach becomes generative",
+        "url": "https://doi.org/10.1007/s11263-015-0825-x"
+    },
+    {
+        "title": "A Comprehensive Performance Evaluation of 3D Local Feature Descriptors",
+        "url": "https://doi.org/10.1007/s11263-015-0824-y"
+    },
+    {
+        "title": "Unsupervised Feature Learning for Dense Correspondences Across Scenes",
+        "url": "https://doi.org/10.1007/s11263-015-0829-6"
+    },
+    {
+        "title": "A Bayesian Approach to Multi-view 4D Modeling",
+        "url": "https://doi.org/10.1007/s11263-015-0832-y"
+    },
+    {
+        "title": "A Joint Gaussian Process Model for Active Visual Recognition with Expertise Estimation in Crowdsourcing",
+        "url": "https://doi.org/10.1007/s11263-015-0834-9"
+    },
+    {
+        "title": "Geometry-Based Symbolic Approximation for Fast Sequence Matching on Manifolds",
+        "url": "https://doi.org/10.1007/s11263-015-0835-8"
+    },
+    {
+        "title": "Ray Saliency: Bottom-Up Visual Saliency for a Rotating and Zooming Camera",
+        "url": "https://doi.org/10.1007/s11263-015-0842-9"
+    },
+    {
+        "title": "Covariant Image Representation with Applications to Classification Problems in Medical Imaging",
+        "url": "https://doi.org/10.1007/s11263-015-0841-x"
+    },
+    {
+        "title": "Guest Editorial: Large Scale Visual Media Geo-Localization",
+        "url": "https://doi.org/10.1007/s11263-015-0870-5"
+    },
+    {
+        "title": "Image Based Geo-localization in the Alps",
+        "url": "https://doi.org/10.1007/s11263-015-0830-0"
+    },
+    {
+        "title": "Geo-localization using Volumetric Representations of Overhead Imagery",
+        "url": "https://doi.org/10.1007/s11263-015-0850-9"
+    },
+    {
+        "title": "Image Search with Selective Match Kernels: Aggregation Across Single and Multiple Images",
+        "url": "https://doi.org/10.1007/s11263-015-0810-4"
+    },
+    {
+        "title": "Erratum to: Image Search with Selective Match Kernels: Aggregation Across Single and Multiple Images",
+        "url": "https://doi.org/10.1007/s11263-015-0837-6"
+    },
+    {
+        "title": "Automatic Geolocation Correction of Satellite Imagery",
+        "url": "https://doi.org/10.1007/s11263-015-0852-7"
+    },
+    {
+        "title": "Integrating Geometrical Context for Semantic Labeling of Indoor Scenes using RGBD Images",
+        "url": "https://doi.org/10.1007/s11263-015-0843-8"
+    },
+    {
+        "title": "Multi-Cue Illumination Estimation via a Tree-Structured Group Joint Sparse Representation",
+        "url": "https://doi.org/10.1007/s11263-015-0844-7"
+    },
+    {
+        "title": "Online Approximate Model Representation Based on Scale-Normalized and Fronto-Parallel Appearance",
+        "url": "https://doi.org/10.1007/s11263-015-0848-3"
+    },
+    {
+        "title": "Hierarchical Geodesic Models in Diffeomorphisms",
+        "url": "https://doi.org/10.1007/s11263-015-0849-2"
+    },
+    {
+        "title": "Visual Saliency Detection Using Group Lasso Regularization in Videos of Natural Scenes",
+        "url": "https://doi.org/10.1007/s11263-015-0853-6"
+    },
+    {
+        "title": "Vanishing Point Estimation and Line Classification in a Manhattan World with a Unifying Camera Model",
+        "url": "https://doi.org/10.1007/s11263-015-0854-5"
+    },
+    {
+        "title": "Local Variation as a Statistical Hypothesis Test",
+        "url": "https://doi.org/10.1007/s11263-015-0855-4"
+    },
+    {
+        "title": "Data-Dependent Higher-Order Clique Selection for Artery-Vein Segmentation by Energy Minimization",
+        "url": "https://doi.org/10.1007/s11263-015-0856-3"
+    },
+    {
+        "title": "A Logarithmic Image Prior for Blind Deconvolution",
+        "url": "https://doi.org/10.1007/s11263-015-0857-2"
+    },
+    {
+        "title": "ROML: A Robust Feature Correspondence Approach for Matching Objects in A Set of Images",
+        "url": "https://doi.org/10.1007/s11263-015-0858-1"
+    },
+    {
+        "title": "Midrange Geometric Interactions for Semantic Segmentation - Constraints for Continuous Multi-label Optimization",
+        "url": "https://doi.org/10.1007/s11263-015-0828-7"
+    },
+    {
+        "title": "Complex Non-rigid 3D Shape Recovery Using a Procrustean Normal Distribution Mixture Model",
+        "url": "https://doi.org/10.1007/s11263-015-0860-7"
+    },
+    {
+        "title": "Learning from Multiple Sources for Video Summarisation",
+        "url": "https://doi.org/10.1007/s11263-015-0864-3"
+    },
+    {
+        "title": "Efficient Semidefinite Branch-and-Cut for MAP-MRF Inference",
+        "url": "https://doi.org/10.1007/s11263-015-0865-2"
+    },
+    {
+        "title": "Learning Grammars for Architecture-Specific Facade Parsing",
+        "url": "https://doi.org/10.1007/s11263-016-0887-4"
+    },
+    {
+        "title": "Caliber: Camera Localization and Calibration Using Rigidity Constraints",
+        "url": "https://doi.org/10.1007/s11263-015-0866-1"
+    },
+    {
+        "title": "ATLAS: A Three-Layered Approach to Facade Parsing",
+        "url": "https://doi.org/10.1007/s11263-015-0868-z"
+    },
+    {
+        "title": "Poselet-Based Contextual Rescoring for Human Pose Estimation via Pictorial Structures",
+        "url": "https://doi.org/10.1007/s11263-015-0869-y"
+    },
+    {
+        "title": "Deep Filter Banks for Texture Recognition, Description, and Segmentation",
+        "url": "https://doi.org/10.1007/s11263-015-0872-3"
+    },
+    {
+        "title": "2D-3D Pose Estimation of Heterogeneous Objects Using a Region Based Approach",
+        "url": "https://doi.org/10.1007/s11263-015-0873-2"
+    },
+    {
+        "title": "Guest Editorial: Human Activity Understanding from 2D and 3D Data",
+        "url": "https://doi.org/10.1007/s11263-016-0915-4"
+    },
+    {
+        "title": "Kernelized Multiview Projection for Robust Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0861-6"
+    },
+    {
+        "title": "Exploiting Privileged Information from Web Data for Action and Event Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0862-5"
+    },
+    {
+        "title": "Fusing ℝ Features and Local Features with Context-Aware Kernels for Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0867-0"
+    },
+    {
+        "title": "Capturing Hands in Action Using Discriminative Salient Points and Physics Simulation",
+        "url": "https://doi.org/10.1007/s11263-016-0895-4"
+    },
+    {
+        "title": "Gaze Estimation in the 3D Space Using RGB-D Sensors - Towards Head-Pose and User Invariance",
+        "url": "https://doi.org/10.1007/s11263-015-0863-4"
+    },
+    {
+        "title": "Multi-modal RGB-Depth-Thermal Human Body Segmentation",
+        "url": "https://doi.org/10.1007/s11263-016-0901-x"
+    },
+    {
+        "title": "A Hierarchical Video Description for Complex Activity Understanding",
+        "url": "https://doi.org/10.1007/s11263-016-0897-2"
+    },
+    {
+        "title": "A Deep Structured Model with Radius-Margin Bound for 3D Human Activity Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0876-z"
+    },
+    {
+        "title": "Cyclic Schemes for PDE-Based Image Analysis",
+        "url": "https://doi.org/10.1007/s11263-015-0874-1"
+    },
+    {
+        "title": "Correctness Prediction, Accuracy Improvement and Generalization of Stereo Matching Using Supervised Learning",
+        "url": "https://doi.org/10.1007/s11263-015-0877-y"
+    },
+    {
+        "title": "Learning and Calibrating Per-Location Classifiers for Visual Place Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0878-x"
+    },
+    {
+        "title": "Similarity Fusion for Visual Tracking",
+        "url": "https://doi.org/10.1007/s11263-015-0879-9"
+    },
+    {
+        "title": "Bounding Multiple Gaussians Uncertainty with Application to Object Tracking",
+        "url": "https://doi.org/10.1007/s11263-016-0880-y"
+    },
+    {
+        "title": "Spectral Generalized Multi-dimensional Scaling",
+        "url": "https://doi.org/10.1007/s11263-016-0883-8"
+    },
+    {
+        "title": "Guest Editorial: Big Data",
+        "url": "https://doi.org/10.1007/s11263-016-0914-5"
+    },
+    {
+        "title": "SUN Database: Exploring a Large Collection of Scene Categories",
+        "url": "https://doi.org/10.1007/s11263-014-0748-y"
+    },
+    {
+        "title": "Joint Inference in Weakly-Annotated Image Datasets via Dense Correspondence",
+        "url": "https://doi.org/10.1007/s11263-016-0894-5"
+    },
+    {
+        "title": "Large Scale Retrieval and Generation of Image Descriptions",
+        "url": "https://doi.org/10.1007/s11263-015-0840-y"
+    },
+    {
+        "title": "Sparse Output Coding for Scalable Visual Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0839-4"
+    },
+    {
+        "title": "Do We Need More Training Data?",
+        "url": "https://doi.org/10.1007/s11263-015-0812-2"
+    },
+    {
+        "title": "Schwarps: Locally Projective Image Warps Based on 2D Schwarzian Derivatives",
+        "url": "https://doi.org/10.1007/s11263-016-0882-9"
+    },
+    {
+        "title": "Robust Tracking via Locally Structured Representation",
+        "url": "https://doi.org/10.1007/s11263-016-0881-x"
+    },
+    {
+        "title": "Visualizing Object Detection Features",
+        "url": "https://doi.org/10.1007/s11263-016-0884-7"
+    },
+    {
+        "title": "Hierarchical Adaptive Structural SVM for Domain Adaptation",
+        "url": "https://doi.org/10.1007/s11263-016-0885-6"
+    },
+    {
+        "title": "Linear Time Illumination Invariant Stereo Matching",
+        "url": "https://doi.org/10.1007/s11263-016-0886-5"
+    },
+    {
+        "title": "Pictorial Human Spaces: A Computational Study on the Human Perception of 3D Articulated Poses",
+        "url": "https://doi.org/10.1007/s11263-016-0888-3"
+    },
+    {
+        "title": "Guest Editorial: Video Recognition",
+        "url": "https://doi.org/10.1007/s11263-016-0922-5"
+    },
+    {
+        "title": "A Robust and Efficient Video Representation for Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0846-5"
+    },
+    {
+        "title": "EXMOVES: Mid-level Features for Efficient Action Recognition and Video Analysis",
+        "url": "https://doi.org/10.1007/s11263-016-0905-6"
+    },
+    {
+        "title": "MoFAP: A Multi-level Representation for Action Recognition",
+        "url": "https://doi.org/10.1007/s11263-015-0859-0"
+    },
+    {
+        "title": "LIBSVX: A Supervoxel Library and Benchmark for Early Video Processing",
+        "url": "https://doi.org/10.1007/s11263-016-0906-5"
+    },
+    {
+        "title": "Circulant Temporal Encoding for Video Retrieval and Temporal Alignment",
+        "url": "https://doi.org/10.1007/s11263-015-0875-0"
+    },
+    {
+        "title": "First-Person Activity Recognition: Feature, Temporal Structure, and Prediction",
+        "url": "https://doi.org/10.1007/s11263-015-0847-4"
+    },
+    {
+        "title": "Learning Relevance Restricted Boltzmann Machine for Unstructured Group Activity and Event Understanding",
+        "url": "https://doi.org/10.1007/s11263-016-0896-3"
+    },
+    {
+        "title": "Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data",
+        "url": "https://doi.org/10.1007/s11263-015-0851-8"
+    },
+    {
+        "title": "Accurate Image Search with Multi-Scale Contextual Evidences",
+        "url": "https://doi.org/10.1007/s11263-016-0889-2"
+    },
+    {
+        "title": "Learning Mutual Visibility Relationship for Pedestrian Detection with a Deep Model",
+        "url": "https://doi.org/10.1007/s11263-016-0890-9"
+    },
+    {
+        "title": "Multiple Granularity Modeling: A Coarse-to-Fine Framework for Fine-grained Action Analysis",
+        "url": "https://doi.org/10.1007/s11263-016-0891-8"
+    },
+    {
+        "title": "Measuring Visual Surprise Jointly from Intrinsic and Extrinsic Contexts for Image Saliency Estimation",
+        "url": "https://doi.org/10.1007/s11263-016-0892-7"
+    },
+    {
+        "title": "Recognizing an Action Using Its Name: A Knowledge-Based Approach",
+        "url": "https://doi.org/10.1007/s11263-016-0893-6"
+    },
+    {
+        "title": "Foveated Nonlocal Self-Similarity",
+        "url": "https://doi.org/10.1007/s11263-016-0898-1"
+    },
+    {
+        "title": "Learning Dictionary of Discriminative Part Detectors for Image Categorization and Cosegmentation",
+        "url": "https://doi.org/10.1007/s11263-016-0899-0"
+    },
+    {
+        "title": "Trinocular Geometry Revisited",
+        "url": "https://doi.org/10.1007/s11263-016-0900-y"
+    },
+    {
+        "title": "Large-Scale Data for Multiple-View Stereopsis",
+        "url": "https://doi.org/10.1007/s11263-016-0902-9"
+    },
+    {
+        "title": "Shape Retrieval of Non-rigid 3D Human Models",
+        "url": "https://doi.org/10.1007/s11263-016-0903-8"
+    },
+    {
+        "title": "Convex Low Rank Approximation",
+        "url": "https://doi.org/10.1007/s11263-016-0904-7"
+    },
+    {
+        "title": "Detection of Co-salient Objects by Looking Deep and Wide",
+        "url": "https://doi.org/10.1007/s11263-016-0907-4"
+    },
+    {
+        "title": "Visualizing Deep Convolutional Neural Networks Using Natural Pre-images",
+        "url": "https://doi.org/10.1007/s11263-016-0911-8"
+    },
+    {
+        "title": "Occlusion-Aware Stereo Matching",
+        "url": "https://doi.org/10.1007/s11263-016-0910-9"
+    },
+    {
+        "title": "A Riemannian Bayesian Framework for Estimating Diffusion Tensor Images",
+        "url": "https://doi.org/10.1007/s11263-016-0909-2"
+    },
+    {
+        "title": "DeepMatching: Hierarchical Deformable Dense Matching",
+        "url": "https://doi.org/10.1007/s11263-016-0908-3"
+    },
+    {
+        "title": "Multiview Differential Geometry of Curves",
+        "url": "https://doi.org/10.1007/s11263-016-0912-7"
+    }
+]
