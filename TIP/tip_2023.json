@@ -1,0 +1,1918 @@
+[
+    {
+        "title": "Fuzzy Semantics for Arbitrary-Shaped Scene Text Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3201467"
+    },
+    {
+        "title": "Sequential Order-Aware Coding-Based Robust Subspace Clustering for Human Action Recognition in Untrimmed Videos",
+        "url": "https://doi.org/10.1109/TIP.2022.3224877"
+    },
+    {
+        "title": "Rethinking Sampling Strategies for Unsupervised Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2022.3224325"
+    },
+    {
+        "title": "State-Aware Compositional Learning Toward Unbiased Training for Scene Graph Generation",
+        "url": "https://doi.org/10.1109/TIP.2022.3224872"
+    },
+    {
+        "title": "Transition Is a Process: Pair-to-Video Change Detection Networks for Very High Resolution Remote Sensing Images",
+        "url": "https://doi.org/10.1109/TIP.2022.3226418"
+    },
+    {
+        "title": "Probability-Based Graph Embedding Cross-Domain and Class Discriminative Feature Learning for Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2022.3226405"
+    },
+    {
+        "title": "Lossless Recompression of JPEG Images Using Transform Domain Intra Prediction",
+        "url": "https://doi.org/10.1109/TIP.2022.3226409"
+    },
+    {
+        "title": "Tensor Cascaded-Rank Minimization in Subspace: A Unified Regime for Hyperspectral Image Low-Level Vision",
+        "url": "https://doi.org/10.1109/TIP.2022.3226406"
+    },
+    {
+        "title": "Learning Privacy-Preserving Student Networks via Discriminative-Generative Distillation",
+        "url": "https://doi.org/10.1109/TIP.2022.3226416"
+    },
+    {
+        "title": "Blind VQA on 360° Video via Progressively Learning From Pixels, Frames, and Video",
+        "url": "https://doi.org/10.1109/TIP.2022.3226417"
+    },
+    {
+        "title": "CMOS-GAN: Semi-Supervised Generative Adversarial Model for Cross-Modality Face Image Synthesis",
+        "url": "https://doi.org/10.1109/TIP.2022.3226413"
+    },
+    {
+        "title": "Self-Supervised Learning for RGB-Guided Depth Enhancement by Exploiting the Dependency Between RGB and Depth",
+        "url": "https://doi.org/10.1109/TIP.2022.3226419"
+    },
+    {
+        "title": "NIM-Nets: Noise-Aware Incomplete Multi-View Learning Networks",
+        "url": "https://doi.org/10.1109/TIP.2022.3226408"
+    },
+    {
+        "title": "One-Stage Visual Relationship Referring With Transformers and Adaptive Message Passing",
+        "url": "https://doi.org/10.1109/TIP.2022.3226624"
+    },
+    {
+        "title": "Task-Agnostic Vision Transformer for Distributed Learning of Image Processing",
+        "url": "https://doi.org/10.1109/TIP.2022.3226892"
+    },
+    {
+        "title": "Joint Decision Tree and Visual Feature Rate Control Optimization for VVC UHD Coding",
+        "url": "https://doi.org/10.1109/TIP.2022.3224876"
+    },
+    {
+        "title": "Contrastive-ACE: Domain Generalization Through Alignment of Causal Mechanisms",
+        "url": "https://doi.org/10.1109/TIP.2022.3227457"
+    },
+    {
+        "title": "AdaPool: Exponential Adaptive Pooling for Information-Retaining Downsampling",
+        "url": "https://doi.org/10.1109/TIP.2022.3227503"
+    },
+    {
+        "title": "A Closer Look at the Joint Training of Object Detection and Re-Identification in Multi-Object Tracking",
+        "url": "https://doi.org/10.1109/TIP.2022.3227814"
+    },
+    {
+        "title": "Physics-Informed Compressed Sensing for PC-MRI: An Inverse Navier-Stokes Problem",
+        "url": "https://doi.org/10.1109/TIP.2022.3228172"
+    },
+    {
+        "title": "Pose-Appearance Relational Modeling for Video Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2022.3228156"
+    },
+    {
+        "title": "Structure-Guided Cross-Attention Network for Cross-Domain OCT Fluid Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2022.3228163"
+    },
+    {
+        "title": "Efficient Few-Shot Object Detection via Knowledge Inheritance",
+        "url": "https://doi.org/10.1109/TIP.2022.3228162"
+    },
+    {
+        "title": "Spike-Based Motion Estimation for Object Tracking Through Bio-Inspired Unsupervised Learning",
+        "url": "https://doi.org/10.1109/TIP.2022.3228168"
+    },
+    {
+        "title": "Time-Division Multiplexing Light Field Display With Learned Coded Aperture",
+        "url": "https://doi.org/10.1109/TIP.2022.3203210"
+    },
+    {
+        "title": "UIU-Net: U-Net in U-Net for Infrared Small Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3228497"
+    },
+    {
+        "title": "mmWave Networking and Edge Computing for Scalable 360° Video Multi-User Virtual Reality",
+        "url": "https://doi.org/10.1109/TIP.2022.3228521"
+    },
+    {
+        "title": "SMAM: Self and Mutual Adaptive Matching for Skeleton-Based Few-Shot Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2022.3226410"
+    },
+    {
+        "title": "Perceptually Optimizing Color Look-up Tables",
+        "url": "https://doi.org/10.1109/TIP.2022.3228498"
+    },
+    {
+        "title": "A Kalman Variational Autoencoder Model Assisted by Odometric Clustering for Video Frame Prediction and Anomaly Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3229620"
+    },
+    {
+        "title": "Unrolled Variational Bayesian Algorithm for Image Blind Deconvolution",
+        "url": "https://doi.org/10.1109/TIP.2022.3224322"
+    },
+    {
+        "title": "Quaternion Scalar and Vector Norm Decomposition: Quaternion PCA for Color Face Recognition",
+        "url": "https://doi.org/10.1109/TIP.2022.3229616"
+    },
+    {
+        "title": "Human Co-Parsing Guided Alignment for Occluded Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2022.3229639"
+    },
+    {
+        "title": "Adaptive Latent Graph Representation Learning for Image-Text Matching",
+        "url": "https://doi.org/10.1109/TIP.2022.3229631"
+    },
+    {
+        "title": "An Efficient Transformer Based on Global and Local Self-Attention for Face Photo-Sketch Synthesis",
+        "url": "https://doi.org/10.1109/TIP.2022.3229614"
+    },
+    {
+        "title": "Multilevel Spatial-Temporal Excited Graph Network for Skeleton-Based Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2022.3230249"
+    },
+    {
+        "title": "Learning Domain Invariant Representations for Generalizable Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2022.3229621"
+    },
+    {
+        "title": "Human Motion Segmentation via Velocity-Sensitive Dual-Side Auto-Encoder",
+        "url": "https://doi.org/10.1109/TIP.2022.3217720"
+    },
+    {
+        "title": "Super-Resolution Phase Retrieval Network for Single-Pattern Structured Light 3D Imaging",
+        "url": "https://doi.org/10.1109/TIP.2022.3230245"
+    },
+    {
+        "title": "Fuzzy Cluster-Based Group-Wise Point Set Registration With Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2022.3231132"
+    },
+    {
+        "title": "Lightweight Deep Neural Networks for Ship Target Detection in SAR Imagery",
+        "url": "https://doi.org/10.1109/TIP.2022.3231126"
+    },
+    {
+        "title": "Progressive Context-Dependent Inference for Object Detection in Remote Sensing Imagery",
+        "url": "https://doi.org/10.1109/TIP.2022.3231058"
+    },
+    {
+        "title": "ReDFeat: Recoupling Detection and Description for Multimodal Feature Learning",
+        "url": "https://doi.org/10.1109/TIP.2022.3231135"
+    },
+    {
+        "title": "Consensus Sparsity: Multi-Context Sparse Image Representation via L∞-Induced Matrix Variate",
+        "url": "https://doi.org/10.1109/TIP.2022.3231083"
+    },
+    {
+        "title": "Self-Supervised Learning of Perceptually Optimized Block Motion Estimates for Video Compression",
+        "url": "https://doi.org/10.1109/TIP.2022.3231082"
+    },
+    {
+        "title": "Self-Parameter Distillation Dehazing",
+        "url": "https://doi.org/10.1109/TIP.2022.3231122"
+    },
+    {
+        "title": "Missing Recovery: Single Image Reflection Removal Based on Auxiliary Prior Learning",
+        "url": "https://doi.org/10.1109/TIP.2022.3230544"
+    },
+    {
+        "title": "Complementary Calibration: Boosting General Continual Learning With Collaborative Distillation and Self-Supervision",
+        "url": "https://doi.org/10.1109/TIP.2022.3230457"
+    },
+    {
+        "title": "Searching Efficient Model-Guided Deep Network for Image Denoising",
+        "url": "https://doi.org/10.1109/TIP.2022.3231741"
+    },
+    {
+        "title": "Selecting High-Quality Proposals for Weakly Supervised Object Detection With Bottom-Up Aggregated Attention and Phase-Aware Loss",
+        "url": "https://doi.org/10.1109/TIP.2022.3231744"
+    },
+    {
+        "title": "Doing More With Moiré Pattern Detection in Digital Photos",
+        "url": "https://doi.org/10.1109/TIP.2022.3232232"
+    },
+    {
+        "title": "DeflickerCycleGAN: Learning to Detect and Remove Flickers in a Single Image",
+        "url": "https://doi.org/10.1109/TIP.2022.3231748"
+    },
+    {
+        "title": "TRNR: Task-Driven Image Rain and Noise Removal With a Few Images Based on Patch Analysis",
+        "url": "https://doi.org/10.1109/TIP.2022.3232943"
+    },
+    {
+        "title": "Fast Guided Median Filter",
+        "url": "https://doi.org/10.1109/TIP.2022.3232916"
+    },
+    {
+        "title": "Part-Aware Framework for Robust Object Tracking",
+        "url": "https://doi.org/10.1109/TIP.2022.3232941"
+    },
+    {
+        "title": "Instance Motion Tendency Learning for Video Panoptic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2022.3226414"
+    },
+    {
+        "title": "Region-Based Template Matching Prediction for Intra Coding",
+        "url": "https://doi.org/10.1109/TIP.2022.3233184"
+    },
+    {
+        "title": "Binary Change Guided Hyperspectral Multiclass Change Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3233187"
+    },
+    {
+        "title": "Efficient Anomaly Detection Using Self-Supervised Multi-Cue Tasks",
+        "url": "https://doi.org/10.1109/TIP.2022.3231532"
+    },
+    {
+        "title": "Degraded Reference Image Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2023.3234498"
+    },
+    {
+        "title": "Unsupervised Adaptive Feature Selection With Binary Hashing",
+        "url": "https://doi.org/10.1109/TIP.2023.3234497"
+    },
+    {
+        "title": "Rethinking and Improving Feature Pyramids for One-Stage Referring Expression Comprehension",
+        "url": "https://doi.org/10.1109/TIP.2022.3227466"
+    },
+    {
+        "title": "SIR: Self-Supervised Image Rectification via Seeing the Same Scene From Multiple Different Lenses",
+        "url": "https://doi.org/10.1109/TIP.2022.3231087"
+    },
+    {
+        "title": "Vine Spread for Superpixel Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3234700"
+    },
+    {
+        "title": "CAVER: Cross-Modal View-Mixed Transformer for Bi-Modal Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3234702"
+    },
+    {
+        "title": "Guided Colorization Using Mono-Color Image Pairs",
+        "url": "https://doi.org/10.1109/TIP.2023.3235536"
+    },
+    {
+        "title": "Rain Removal From Light Field Images With 4D Convolution and Multi-Scale Gaussian Process",
+        "url": "https://doi.org/10.1109/TIP.2023.3234692"
+    },
+    {
+        "title": "Memorizing Complementation Network for Few-Shot Class-Incremental Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3236160"
+    },
+    {
+        "title": "Exploring High-Order Spatio-Temporal Correlations From Skeleton for Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3236144"
+    },
+    {
+        "title": "ERNet: An Efficient and Reliable Human-Object Interaction Detection Network",
+        "url": "https://doi.org/10.1109/TIP.2022.3231528"
+    },
+    {
+        "title": "CPP-Net: Context-Aware Polygon Proposal Network for Nucleus Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3237013"
+    },
+    {
+        "title": "Edge Devices Clustering for Federated Visual Classification: A Feature Norm Based Framework",
+        "url": "https://doi.org/10.1109/TIP.2023.3237014"
+    },
+    {
+        "title": "SAGN: Semantic-Aware Graph Network for Remote Sensing Scene Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3238310"
+    },
+    {
+        "title": "Boosting Broader Receptive Fields for Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3232209"
+    },
+    {
+        "title": "GiT: Graph Interactive Transformer for Vehicle Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3238642"
+    },
+    {
+        "title": "RSSFormer: Foreground Saliency Enhancement for Remote Sensing Land-Cover Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3238648"
+    },
+    {
+        "title": "Simultaneous Destriping and Image Denoising Using a Nonparametric Model With the EM Algorithm",
+        "url": "https://doi.org/10.1109/TIP.2023.3239193"
+    },
+    {
+        "title": "Interpretable Multi-Modal Image Registration Network Based on Disentangled Convolutional Sparse Coding",
+        "url": "https://doi.org/10.1109/TIP.2023.3240024"
+    },
+    {
+        "title": "Category Knowledge-Guided Parameter Calibration for Few-Shot Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3239197"
+    },
+    {
+        "title": "PolarPose: Single-Stage Multi-Person Pose Estimation in Polar Coordinates",
+        "url": "https://doi.org/10.1109/TIP.2023.3239192"
+    },
+    {
+        "title": "Joint-Confidence-Guided Multi-Task Learning for 3D Reconstruction and Understanding From Monocular Camera",
+        "url": "https://doi.org/10.1109/TIP.2023.3240834"
+    },
+    {
+        "title": "Deformable Density Estimation via Adaptive Representation",
+        "url": "https://doi.org/10.1109/TIP.2023.3240839"
+    },
+    {
+        "title": "Deep Face Video Inpainting via UV Mapping",
+        "url": "https://doi.org/10.1109/TIP.2023.3240835"
+    },
+    {
+        "title": "From Global to Local: Multi-Patch and Multi-Scale Contrastive Similarity Learning for Unsupervised Defocus Blur Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3240856"
+    },
+    {
+        "title": "Graph Embedding Contrastive Multi-Modal Representation Learning for Clustering",
+        "url": "https://doi.org/10.1109/TIP.2023.3240863"
+    },
+    {
+        "title": "Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3240845"
+    },
+    {
+        "title": "Progressive Contextual Aggregation Empowered by Pixel-Wise Confidence Scoring for Image Inpainting",
+        "url": "https://doi.org/10.1109/TIP.2023.3238317"
+    },
+    {
+        "title": "Ray-Space Motion Compensation for Lenslet Plenoptic Video Coding",
+        "url": "https://doi.org/10.1109/TIP.2022.3232216"
+    },
+    {
+        "title": "Adaptive Hierarchical Similarity Metric Learning With Noisy Labels",
+        "url": "https://doi.org/10.1109/TIP.2023.3242148"
+    },
+    {
+        "title": "Spectral Clustering Super-Resolution Imaging Based on Multispectral Camera Array",
+        "url": "https://doi.org/10.1109/TIP.2023.3242589"
+    },
+    {
+        "title": "TUSR-Net: Triple Unfolding Single Image Dehazing With Self-Regularization and Dual Feature to Pixel Attention",
+        "url": "https://doi.org/10.1109/TIP.2023.3234701"
+    },
+    {
+        "title": "Toward Adversarial Robustness in Unlabeled Target Domains",
+        "url": "https://doi.org/10.1109/TIP.2023.3242141"
+    },
+    {
+        "title": "Toward Effective Domain Adaptive Retrieval",
+        "url": "https://doi.org/10.1109/TIP.2023.3242777"
+    },
+    {
+        "title": "CLSA: A Contrastive Learning Framework With Selective Aggregation for Video Rescaling",
+        "url": "https://doi.org/10.1109/TIP.2023.3242774"
+    },
+    {
+        "title": "RGB-Guided Depth Map Recovery by Two-Stage Coarse-to-Fine Dense CRF Models",
+        "url": "https://doi.org/10.1109/TIP.2023.3242144"
+    },
+    {
+        "title": "LSNet: Lightweight Spatial Boosting Network for Detecting Salient Objects in RGB-Thermal Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3242775"
+    },
+    {
+        "title": "Text Prior Guided Scene Text Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3237002"
+    },
+    {
+        "title": "Adaptive Feature Projection With Distribution Alignment for Deep Incomplete Multi-View Clustering",
+        "url": "https://doi.org/10.1109/TIP.2023.3243521"
+    },
+    {
+        "title": "PGFNet: Preference-Guided Filtering Network for Two-View Correspondence Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3242598"
+    },
+    {
+        "title": "StochasticFormer: Stochastic Modeling for Weakly Supervised Temporal Action Localization",
+        "url": "https://doi.org/10.1109/TIP.2023.3244411"
+    },
+    {
+        "title": "INFWIDE: Image and Feature Space Wiener Deconvolution Network for Non-Blind Image Deblurring in Low-Light Conditions",
+        "url": "https://doi.org/10.1109/TIP.2023.3244417"
+    },
+    {
+        "title": "Sequence as a Whole: A Unified Framework for Video Action Localization With Long-Range Text Query",
+        "url": "https://doi.org/10.1109/TIP.2023.3243525"
+    },
+    {
+        "title": "Discriminative Radial Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3235583"
+    },
+    {
+        "title": "Temporal Phase Unwrapping Based on Unequal Phase-Shifting Code",
+        "url": "https://doi.org/10.1109/TIP.2023.3244650"
+    },
+    {
+        "title": "Domain Adaptation for Underwater Image Enhancement",
+        "url": "https://doi.org/10.1109/TIP.2023.3244647"
+    },
+    {
+        "title": "Full-Reference Image Quality Expression via Genetic Programming",
+        "url": "https://doi.org/10.1109/TIP.2023.3244662"
+    },
+    {
+        "title": "Multimodal Remote Sensing Image Segmentation With Intuition-Inspired Hypergraph Modeling",
+        "url": "https://doi.org/10.1109/TIP.2023.3245324"
+    },
+    {
+        "title": "X-View: Non-Egocentric Multi-View 3D Object Detector",
+        "url": "https://doi.org/10.1109/TIP.2023.3245337"
+    },
+    {
+        "title": "Single-Source Domain Expansion Network for Cross-Scene Hyperspectral Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3243853"
+    },
+    {
+        "title": "Connections Between Deep Equilibrium and Sparse Representation Models With Application to Hyperspectral Image Denoising",
+        "url": "https://doi.org/10.1109/TIP.2023.3245323"
+    },
+    {
+        "title": "Multi-Exposure Image Fusion via Deformable Self-Attention",
+        "url": "https://doi.org/10.1109/TIP.2023.3242824"
+    },
+    {
+        "title": "Toward Robust Visual Object Tracking With Independent Target-Agnostic Detection and Effective Siamese Cross-Task Interaction",
+        "url": "https://doi.org/10.1109/TIP.2023.3246800"
+    },
+    {
+        "title": "Self-Supervised Information Bottleneck for Deep Multi-View Subspace Clustering",
+        "url": "https://doi.org/10.1109/TIP.2023.3246802"
+    },
+    {
+        "title": "Reasoning and Tuning: Graph Attention Network for Occluded Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3247159"
+    },
+    {
+        "title": "Dynamic Slimmable Denoising Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3246792"
+    },
+    {
+        "title": "Fine-Grained Feature Generation for Generalized Zero-Shot Video Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3247167"
+    },
+    {
+        "title": "Unsupervised Visual Representation Learning via Multi-Dimensional Relationship Alignment",
+        "url": "https://doi.org/10.1109/TIP.2023.3246801"
+    },
+    {
+        "title": "Semi-Sparsity for Smoothing Filters",
+        "url": "https://doi.org/10.1109/TIP.2023.3247181"
+    },
+    {
+        "title": "LRTCFPan: Low-Rank Tensor Completion Based Framework for Pansharpening",
+        "url": "https://doi.org/10.1109/TIP.2023.3247165"
+    },
+    {
+        "title": "A Multiscale Approach to Deep Blind Image Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2023.3245991"
+    },
+    {
+        "title": "Learning Patch-Channel Correspondence for Interpretable Face Forgery Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3246793"
+    },
+    {
+        "title": "KSS-ICP: Point Cloud Registration Based on Kendall Shape Space",
+        "url": "https://doi.org/10.1109/TIP.2023.3251021"
+    },
+    {
+        "title": "Generative Inference Network for Imbalanced Domain Generalization",
+        "url": "https://doi.org/10.1109/TIP.2023.3251103"
+    },
+    {
+        "title": "Joint Correlation and Attention Based Feature Fusion Network for Accurate Visual Tracking",
+        "url": "https://doi.org/10.1109/TIP.2023.3251027"
+    },
+    {
+        "title": "Fast Multi-Grid Methods for Minimizing Curvature Energies",
+        "url": "https://doi.org/10.1109/TIP.2023.3251024"
+    },
+    {
+        "title": "Hierarchical Hashing Learning for Image Set Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3251025"
+    },
+    {
+        "title": "Dense Nested Attention Network for Infrared Small Target Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3199107"
+    },
+    {
+        "title": "Multi-Label Hashing for Dependency Relations Among Multiple Objectives",
+        "url": "https://doi.org/10.1109/TIP.2023.3251028"
+    },
+    {
+        "title": "SDANet: Semantic-Embedded Density Adaptive Network for Moving Vehicle Detection in Satellite Videos",
+        "url": "https://doi.org/10.1109/TIP.2023.3251026"
+    },
+    {
+        "title": "Crowd Localization From Gaussian Mixture Scoped Knowledge and Scoped Teacher",
+        "url": "https://doi.org/10.1109/TIP.2023.3251727"
+    },
+    {
+        "title": "Bitstream-Based Perceptual Quality Assessment of Compressed 3D Point Clouds",
+        "url": "https://doi.org/10.1109/TIP.2023.3253252"
+    },
+    {
+        "title": "Event-Based Semantic Segmentation With Posterior Attention",
+        "url": "https://doi.org/10.1109/TIP.2023.3249579"
+    },
+    {
+        "title": "One-Class Classification Using ℓp-Norm Multiple Kernel Fisher Null Approach",
+        "url": "https://doi.org/10.1109/TIP.2023.3255102"
+    },
+    {
+        "title": "Integrated Multiscale Domain Adaptive YOLO",
+        "url": "https://doi.org/10.1109/TIP.2023.3255106"
+    },
+    {
+        "title": "Equilibrium Image Denoising With Implicit Differentiation",
+        "url": "https://doi.org/10.1109/TIP.2023.3255104"
+    },
+    {
+        "title": "Attention-Guided Neural Networks for Full-Reference and No-Reference Audio-Visual Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2023.3251695"
+    },
+    {
+        "title": "MGL: Mutual Graph Learning for Camouflaged Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2022.3223216"
+    },
+    {
+        "title": "Glass Segmentation With RGB-Thermal Image Pairs",
+        "url": "https://doi.org/10.1109/TIP.2023.3256762"
+    },
+    {
+        "title": "Vision Transformers for Single Image Dehazing",
+        "url": "https://doi.org/10.1109/TIP.2023.3256763"
+    },
+    {
+        "title": "Taylor Neural Network for Real-World Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3255107"
+    },
+    {
+        "title": "Polarization Guided HDR Reconstruction via Pixel-Wise Depolarization",
+        "url": "https://doi.org/10.1109/TIP.2023.3251023"
+    },
+    {
+        "title": "Multi-Objective Unsupervised Band Selection Method for Hyperspectral Images Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3258739"
+    },
+    {
+        "title": "Precise Facial Landmark Detection by Reference Heatmap Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3261749"
+    },
+    {
+        "title": "CTCNet: A CNN-Transformer Cooperation Network for Face Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3261747"
+    },
+    {
+        "title": "Cyclic Self-Training With Proposal Weight Modulation for Cross-Supervised Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3261752"
+    },
+    {
+        "title": "Pedestrian Detection by Exemplar-Guided Contrastive Learning",
+        "url": "https://doi.org/10.1109/TIP.2022.3189803"
+    },
+    {
+        "title": "Guided Discrimination and Correlation Subspace Learning for Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3261758"
+    },
+    {
+        "title": "Uncertainty-Induced Transferability Representation for Source-Free Unsupervised Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3258753"
+    },
+    {
+        "title": "CBANet: Toward Complexity and Bitrate Adaptive Deep Image Compression Using a Single Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3251020"
+    },
+    {
+        "title": "Learned Image Compression With Gaussian-Laplacian-Logistic Mixture Model and Concatenated Residual Modules",
+        "url": "https://doi.org/10.1109/TIP.2023.3263099"
+    },
+    {
+        "title": "AFT: Adaptive Fusion Transformer for Visible and Infrared Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3263113"
+    },
+    {
+        "title": "Knowledge Amalgamation for Object Detection With Transformers",
+        "url": "https://doi.org/10.1109/TIP.2023.3263105"
+    },
+    {
+        "title": "Style Uncertainty Based Self-Paced Meta Learning for Generalizable Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3263112"
+    },
+    {
+        "title": "Pansharpening With Spatial Hessian Non-Convex Sparse and Spectral Gradient Low Rank Priors",
+        "url": "https://doi.org/10.1109/TIP.2023.3263103"
+    },
+    {
+        "title": "Fuzzy Sparse Subspace Clustering for Infrared Image Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3263102"
+    },
+    {
+        "title": "Inference-Domain Network Evolution: A New Perspective for One-Shot Multi-Object Tracking",
+        "url": "https://doi.org/10.1109/TIP.2023.3263104"
+    },
+    {
+        "title": "HiDAnet: RGB-D Salient Object Detection via Hierarchical Depth Awareness",
+        "url": "https://doi.org/10.1109/TIP.2023.3263111"
+    },
+    {
+        "title": "Contrast Optimization for Size Invariant Visual Cryptography Scheme",
+        "url": "https://doi.org/10.1109/TIP.2023.3263101"
+    },
+    {
+        "title": "Cross-Modality Pyramid Alignment for Visual Intention Understanding",
+        "url": "https://doi.org/10.1109/TIP.2023.3261743"
+    },
+    {
+        "title": "Dynamic Path-Controllable Deep Unfolding Network for Compressive Sensing",
+        "url": "https://doi.org/10.1109/TIP.2023.3263100"
+    },
+    {
+        "title": "Neighbor-Guided Consistent and Contrastive Learning for Semi-Supervised Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3265261"
+    },
+    {
+        "title": "Self-Supervised Learning by Estimating Twin Class Distribution",
+        "url": "https://doi.org/10.1109/TIP.2023.3266169"
+    },
+    {
+        "title": "Partition Map Prediction for Fast Block Partitioning in VVC Intra-Frame Coding",
+        "url": "https://doi.org/10.1109/TIP.2023.3266165"
+    },
+    {
+        "title": "FS-BAN: Born-Again Networks for Domain Generalization Few-Shot Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3266172"
+    },
+    {
+        "title": "FSNet: Focus Scanning Network for Camouflaged Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3266659"
+    },
+    {
+        "title": "Dynamical Hyperspectral Unmixing With Variational Recurrent Neural Networks",
+        "url": "https://doi.org/10.1109/TIP.2023.3266660"
+    },
+    {
+        "title": "Multi-Branch and Progressive Network for Low-Light Image Enhancement",
+        "url": "https://doi.org/10.1109/TIP.2023.3266171"
+    },
+    {
+        "title": "A Real-Time Memory Updating Strategy for Unsupervised Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3266166"
+    },
+    {
+        "title": "Plug-and-Play Regulators for Image-Text Matching",
+        "url": "https://doi.org/10.1109/TIP.2023.3266887"
+    },
+    {
+        "title": "Uncertainty-Aware Gaze Tracking for Assisted Living Environments",
+        "url": "https://doi.org/10.1109/TIP.2023.3253253"
+    },
+    {
+        "title": "Hierarchical Co-Attention Propagation Network for Zero-Shot Video Object Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3267244"
+    },
+    {
+        "title": "Can Spectral Information Work While Extracting Spatial Distribution? - An Online Spectral Information Compensation Network for HSI Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3244414"
+    },
+    {
+        "title": "Instance-Level Few-Shot Learning With Class Hierarchy Mining",
+        "url": "https://doi.org/10.1109/TIP.2023.3267621"
+    },
+    {
+        "title": "Boosting Night-Time Scene Parsing With Learnable Frequency",
+        "url": "https://doi.org/10.1109/TIP.2023.3267044"
+    },
+    {
+        "title": "Revisiting Multi-Codebook Quantization",
+        "url": "https://doi.org/10.1109/TIP.2023.3261755"
+    },
+    {
+        "title": "Differentiable RandAugment: Learning Selecting Weights and Magnitude Distributions of Image Transformations",
+        "url": "https://doi.org/10.1109/TIP.2023.3265266"
+    },
+    {
+        "title": "Motion-Compensated Predictive RAHT for Dynamic Point Clouds",
+        "url": "https://doi.org/10.1109/TIP.2023.3265264"
+    },
+    {
+        "title": "MBFQuant: A Multiplier-Bitwidth-Fixed, Mixed-Precision Quantization Method for Mobile CNN-Based Applications",
+        "url": "https://doi.org/10.1109/TIP.2023.3268562"
+    },
+    {
+        "title": "Neural Attention-Driven Non-Maximum Suppression for Person Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3268561"
+    },
+    {
+        "title": "Cognition Guided Human-Object Relationship Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3270040"
+    },
+    {
+        "title": "Describe, Spot and Explain: Interpretable Representation Learning for Discriminative Visual Reasoning",
+        "url": "https://doi.org/10.1109/TIP.2023.3268001"
+    },
+    {
+        "title": "Self-Supervised Video-Based Action Recognition With Disturbances",
+        "url": "https://doi.org/10.1109/TIP.2023.3269228"
+    },
+    {
+        "title": "Co-Learning Meets Stitch-Up for Noisy Multi-Label Visual Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3270103"
+    },
+    {
+        "title": "Robust Ellipse Fitting Based on Maximum Correntropy Criterion With Variable Center",
+        "url": "https://doi.org/10.1109/TIP.2023.3270026"
+    },
+    {
+        "title": "DCN-T: Dual Context Network With Transformer for Hyperspectral Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3270104"
+    },
+    {
+        "title": "Perspectively Equivariant Keypoint Learning for Omnidirectional Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3270032"
+    },
+    {
+        "title": "Characteristic Mapping for Ellipse Detection Acceleration",
+        "url": "https://doi.org/10.1109/TIP.2023.3268563"
+    },
+    {
+        "title": "Learning Weak Semantics by Feature Graph for Attribute-Based Person Search",
+        "url": "https://doi.org/10.1109/TIP.2023.3270741"
+    },
+    {
+        "title": "Position-Aware Relation Learning for RGB-Thermal Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3270801"
+    },
+    {
+        "title": "Multi-Object Navigation Using Potential Target Position Policy Function",
+        "url": "https://doi.org/10.1109/TIP.2023.3263110"
+    },
+    {
+        "title": "Viewpoint-Adaptive Representation Disentanglement Network for Change Captioning",
+        "url": "https://doi.org/10.1109/TIP.2023.3268004"
+    },
+    {
+        "title": "Panel-Page-Aware Comic Genre Understanding",
+        "url": "https://doi.org/10.1109/TIP.2023.3270105"
+    },
+    {
+        "title": "NR-MVSNet: Learning Multi-View Stereo Based on Normal Consistency and Depth Refinement",
+        "url": "https://doi.org/10.1109/TIP.2023.3272170"
+    },
+    {
+        "title": "Macroscopic-and-Microscopic Rain Streaks Disentanglement Network for Single-Image Deraining",
+        "url": "https://doi.org/10.1109/TIP.2023.3272173"
+    },
+    {
+        "title": "Tripartite Feature Enhanced Pyramid Network for Dense Prediction",
+        "url": "https://doi.org/10.1109/TIP.2023.3272826"
+    },
+    {
+        "title": "Study of Spatio-Temporal Modeling in Video Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2023.3272480"
+    },
+    {
+        "title": "Fast Learning Radiance Fields by Shooting Much Fewer Rays",
+        "url": "https://doi.org/10.1109/TIP.2023.3267049"
+    },
+    {
+        "title": "Dual-Recommendation Disentanglement Network for View Fuzz in Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3273459"
+    },
+    {
+        "title": "Hierarchical Shape-Consistent Transformer for Unsupervised Point Cloud Shape Correspondence",
+        "url": "https://doi.org/10.1109/TIP.2023.3272821"
+    },
+    {
+        "title": "Stereoscopic Vision Recalling Memory for Monocular 3D Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3274479"
+    },
+    {
+        "title": "Versatile Denoising-Based Approximate Message Passing for Compressive Sensing",
+        "url": "https://doi.org/10.1109/TIP.2023.3274967"
+    },
+    {
+        "title": "A Detector-Oblivious Multi-Arm Network for Keypoint Matching",
+        "url": "https://doi.org/10.1109/TIP.2023.3274482"
+    },
+    {
+        "title": "Fast ACE (FACE): An Error-Bounded Approximation of Automatic Color Equalization",
+        "url": "https://doi.org/10.1109/TIP.2023.3270770"
+    },
+    {
+        "title": "Optimized Modulation and Coding for Dual Modulated QR Codes",
+        "url": "https://doi.org/10.1109/TIP.2023.3272468"
+    },
+    {
+        "title": "Rank Flow Embedding for Unsupervised and Semi-Supervised Manifold Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3268868"
+    },
+    {
+        "title": "CSformer: Bridging Convolution and Transformer for Compressive Sensing",
+        "url": "https://doi.org/10.1109/TIP.2023.3274988"
+    },
+    {
+        "title": "ADMM-SRNet: Alternating Direction Method of Multipliers Based Sparse Representation Network for One-Class Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3274488"
+    },
+    {
+        "title": "SharpFormer: Learning Local Feature Preserving Global Representations for Image Deblurring",
+        "url": "https://doi.org/10.1109/TIP.2023.3251029"
+    },
+    {
+        "title": "Capsule-Based Regression Tracking via Background Inpainting",
+        "url": "https://doi.org/10.1109/TIP.2023.3269229"
+    },
+    {
+        "title": "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking",
+        "url": "https://doi.org/10.1109/TIP.2023.3263109"
+    },
+    {
+        "title": "A Convolutional Neural Network-Based Conditional Random Field Model for Structured Multi-Focus Image Fusion Robust to Noise",
+        "url": "https://doi.org/10.1109/TIP.2023.3276330"
+    },
+    {
+        "title": "Image Separation With Side Information: A Connected Auto-Encoders Based Approach",
+        "url": "https://doi.org/10.1109/TIP.2023.3275872"
+    },
+    {
+        "title": "TransWeaver: Weave Image Pairs for Class Agnostic Common Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3275870"
+    },
+    {
+        "title": "Multi-Granularity Denoising and Bidirectional Alignment for Weakly Supervised Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3275913"
+    },
+    {
+        "title": "On Single-Model Transferable Targeted Attacks: A Closer Look at Decision-Level Optimization",
+        "url": "https://doi.org/10.1109/TIP.2023.3276331"
+    },
+    {
+        "title": "Win-Win by Competition: Auxiliary-Free Cloth-Changing Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3277389"
+    },
+    {
+        "title": "Spatial Context-Aware Object-Attentional Network for Multi-Label Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3266161"
+    },
+    {
+        "title": "Video Summarization With Spatiotemporal Vision Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3275069"
+    },
+    {
+        "title": "WaveNet: Wavelet Network With Knowledge Distillation for RGB-T Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3275538"
+    },
+    {
+        "title": "Deep Rotation Correction Without Angle Prior",
+        "url": "https://doi.org/10.1109/TIP.2023.3275869"
+    },
+    {
+        "title": "Nested Architecture Search for Point Cloud Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2022.3147983"
+    },
+    {
+        "title": "Event-Aware Video Deraining via Multi-Patch Progressive Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3272283"
+    },
+    {
+        "title": "Multi-Modal Mutual Attention and Iterative Interaction for Referring Image Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3277791"
+    },
+    {
+        "title": "U-Shape Transformer for Underwater Image Enhancement",
+        "url": "https://doi.org/10.1109/TIP.2023.3276332"
+    },
+    {
+        "title": "Toward 3D Face Reconstruction in Perspective Projection: Estimating 6DoF Face Pose From Monocular Image",
+        "url": "https://doi.org/10.1109/TIP.2023.3275535"
+    },
+    {
+        "title": "JPEG 2000 Extensions for Scalable Coding of Discontinuous Media",
+        "url": "https://doi.org/10.1109/TIP.2023.3276569"
+    },
+    {
+        "title": "Nowhere to Disguise: Spot Camouflaged Objects via Saliency Attribute Transfer",
+        "url": "https://doi.org/10.1109/TIP.2023.3277793"
+    },
+    {
+        "title": "Noise Prior Knowledge Informed Bayesian Inference Network for Hyperspectral Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3278080"
+    },
+    {
+        "title": "Fine-Grained Video Retrieval With Scene Sketches",
+        "url": "https://doi.org/10.1109/TIP.2023.3278474"
+    },
+    {
+        "title": "LineDL: Processing Images Line-by-Line With Deep Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3277394"
+    },
+    {
+        "title": "Multi-Granularity Context Network for Efficient Video Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3269982"
+    },
+    {
+        "title": "OTP-NMS: Toward Optimal Threshold Prediction of NMS for Crowded Pedestrian Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3273853"
+    },
+    {
+        "title": "Learned Video Compression With Efficient Temporal Context Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3276333"
+    },
+    {
+        "title": "Prototype Adaption and Projection for Few- and Zero-Shot 3D Point Cloud Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3279660"
+    },
+    {
+        "title": "Contrastive Learning of Person-Independent Representations for Facial Action Unit Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3279978"
+    },
+    {
+        "title": "HIPA: Hierarchical Patch Transformer for Single Image Super Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3279977"
+    },
+    {
+        "title": "Single Image Dehazing Using Saturation Line Prior",
+        "url": "https://doi.org/10.1109/TIP.2023.3279980"
+    },
+    {
+        "title": "Magi-Net: Meta Negative Network for Early Activity Prediction",
+        "url": "https://doi.org/10.1109/TIP.2023.3279991"
+    },
+    {
+        "title": "Local Orthogonal Moments for Local Features",
+        "url": "https://doi.org/10.1109/TIP.2023.3279525"
+    },
+    {
+        "title": "Retrieving Object Motions From Coded Shutter Snapshot in Dark Environment",
+        "url": "https://doi.org/10.1109/TIP.2023.3280010"
+    },
+    {
+        "title": "Study of Subjective and Objective Quality Assessment of Mobile Cloud Gaming Videos",
+        "url": "https://doi.org/10.1109/TIP.2023.3281170"
+    },
+    {
+        "title": "Prediction Calibration for Generalized Few-Shot Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3282070"
+    },
+    {
+        "title": "HENC: Hierarchical Embedding Network With Center Calibration for Few-Shot Fine-Grained SAR Target Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3283065"
+    },
+    {
+        "title": "Learning to Purification for Unsupervised Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3278860"
+    },
+    {
+        "title": "Facial Action Unit Detection via Adaptive Attention and Relation",
+        "url": "https://doi.org/10.1109/TIP.2023.3277794"
+    },
+    {
+        "title": "Weakly-Supervised 3D Spatial Reasoning for Text-Based Visual Question Answering",
+        "url": "https://doi.org/10.1109/TIP.2023.3276570"
+    },
+    {
+        "title": "Meta-Learning-Based Degradation Representation for Blind Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3283922"
+    },
+    {
+        "title": "Multiplex Transformed Tensor Decomposition for Multidimensional Image Recovery",
+        "url": "https://doi.org/10.1109/TIP.2023.3284673"
+    },
+    {
+        "title": "Tensor Recovery Based on a Novel Non-Convex Function Minimax Logarithmic Concave Penalty Function",
+        "url": "https://doi.org/10.1109/TIP.2023.3282072"
+    },
+    {
+        "title": "Improving Inconspicuous Attributes Modeling for Person Search by Language",
+        "url": "https://doi.org/10.1109/TIP.2023.3285426"
+    },
+    {
+        "title": "Learning the Relation Between Similarity Loss and Clustering Loss in Self-Supervised Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3276708"
+    },
+    {
+        "title": "Learning Shadow Removal From Unpaired Samples via Reciprocal Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3285439"
+    },
+    {
+        "title": "Image Patch-Matching With Graph-Based Learning in Street Scenes",
+        "url": "https://doi.org/10.1109/TIP.2023.3281171"
+    },
+    {
+        "title": "A Multi-Purpose Realistic Haze Benchmark With Quantifiable Haze Levels and Ground Truth",
+        "url": "https://doi.org/10.1109/TIP.2023.3245994"
+    },
+    {
+        "title": "Tree-Structured Data Clustering-Driven Neural Network for Intra Prediction in Video Coding",
+        "url": "https://doi.org/10.1109/TIP.2023.3286256"
+    },
+    {
+        "title": "DTCM: Joint Optimization of Dark Enhancement and Action Recognition in Videos",
+        "url": "https://doi.org/10.1109/TIP.2023.3286254"
+    },
+    {
+        "title": "Efficient 3D Scene Semantic Segmentation via Active Learning on Rendered 2D Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3286708"
+    },
+    {
+        "title": "Sparse-to-Local-Dense Matching for Geometry-Guided Correspondence Estimation",
+        "url": "https://doi.org/10.1109/TIP.2023.3287500"
+    },
+    {
+        "title": "A New Language-Independent Deep CNN for Scene Text Detection and Style Transfer in Social Media Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3287038"
+    },
+    {
+        "title": "Learning Cross-Scale Weighted Prediction for Efficient Neural Video Compression",
+        "url": "https://doi.org/10.1109/TIP.2023.3287495"
+    },
+    {
+        "title": "Predictive Uncertainty Estimation for Camouflaged Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3287137"
+    },
+    {
+        "title": "Universal Demosaicking for Interpolation-Friendly RGBW Color Filter Arrays",
+        "url": "https://doi.org/10.1109/TIP.2023.3286253"
+    },
+    {
+        "title": "Hyperspectral Image Classification With Multi-Attention Transformer and Adaptive Superpixel Segmentation-Based Active Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3287738"
+    },
+    {
+        "title": "Efficient Token-Guided Image-Text Retrieval With Consistent Multimodal Contrastive Training",
+        "url": "https://doi.org/10.1109/TIP.2023.3286710"
+    },
+    {
+        "title": "Multispectral Filter Array Design by Optimal Sphere Packing",
+        "url": "https://doi.org/10.1109/TIP.2023.3288414"
+    },
+    {
+        "title": "An Algorithm for Learning Orthonormal Matrix Codebooks for Adaptive Transform Coding",
+        "url": "https://doi.org/10.1109/TIP.2023.3289064"
+    },
+    {
+        "title": "Redesigning Multi-Scale Neural Network for Crowd Counting",
+        "url": "https://doi.org/10.1109/TIP.2023.3289290"
+    },
+    {
+        "title": "TSDN: Two-Stage Raw Denoising in the Dark",
+        "url": "https://doi.org/10.1109/TIP.2023.3289049"
+    },
+    {
+        "title": "Monocular Road Planar Parallax Estimation",
+        "url": "https://doi.org/10.1109/TIP.2023.3289323"
+    },
+    {
+        "title": "Incomplete Multi-View Learning Under Label Shift",
+        "url": "https://doi.org/10.1109/TIP.2023.3290527"
+    },
+    {
+        "title": "Conditional Boundary Loss for Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3290519"
+    },
+    {
+        "title": "Facial Expression Recognition on the High Aggregation Subgraphs",
+        "url": "https://doi.org/10.1109/TIP.2023.3290520"
+    },
+    {
+        "title": "Single-View 3D Mesh Reconstruction for Seen and Unseen Categories",
+        "url": "https://doi.org/10.1109/TIP.2023.3279661"
+    },
+    {
+        "title": "Discrepancy-Aware Meta-Learning for Zero-Shot Face Manipulation Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3289321"
+    },
+    {
+        "title": "Additivity Constrained Linearisation of Camera Calibration Data",
+        "url": "https://doi.org/10.1109/TIP.2023.3287735"
+    },
+    {
+        "title": "Hyperpixels: Flexible 4D Over-Segmentation for Dense and Sparse Light Fields",
+        "url": "https://doi.org/10.1109/TIP.2023.3290523"
+    },
+    {
+        "title": "Cross-Camera Trajectories Help Person Retrieval in a Camera Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3290515"
+    },
+    {
+        "title": "Interactive Learning of Intrinsic and Extrinsic Properties for All-Day Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3290469"
+    },
+    {
+        "title": "Joint Answering and Explanation for Visual Commonsense Reasoning",
+        "url": "https://doi.org/10.1109/TIP.2023.3286259"
+    },
+    {
+        "title": "Subjective and Objective Audio-Visual Quality Assessment for User Generated Content",
+        "url": "https://doi.org/10.1109/TIP.2023.3290528"
+    },
+    {
+        "title": "Toward Intrinsic Adversarial Robustness Through Probabilistic Training",
+        "url": "https://doi.org/10.1109/TIP.2023.3290532"
+    },
+    {
+        "title": "Helping Visually Impaired People Take Better Quality Pictures",
+        "url": "https://doi.org/10.1109/TIP.2023.3282067"
+    },
+    {
+        "title": "ABC-Norm Regularization for Fine-Grained and Long-Tailed Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3273455"
+    },
+    {
+        "title": "Ink Drop Displacement Model-Based Direct Binary Search",
+        "url": "https://doi.org/10.1109/TIP.2023.3283924"
+    },
+    {
+        "title": "REAF: Remembering Enhancement and Entropy-Based Asymptotic Forgetting for Filter Pruning",
+        "url": "https://doi.org/10.1109/TIP.2023.3288986"
+    },
+    {
+        "title": "Efficient and Robust Video Object Segmentation Through Isogenous Memory Sampling and Frame Relation Mining",
+        "url": "https://doi.org/10.1109/TIP.2023.3280389"
+    },
+    {
+        "title": "Learning Structure Aware Deep Spectral Embedding",
+        "url": "https://doi.org/10.1109/TIP.2023.3282074"
+    },
+    {
+        "title": "Frequency-Based Motion Representation for Video Generative Adversarial Networks",
+        "url": "https://doi.org/10.1109/TIP.2023.3293767"
+    },
+    {
+        "title": "Efficient Robust Watermarking Based on Structure-Preserving Quaternion Singular Value Decomposition",
+        "url": "https://doi.org/10.1109/TIP.2023.3293773"
+    },
+    {
+        "title": "Correntropy-Induced Wasserstein GCN: Learning Graph Embedding via Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3293774"
+    },
+    {
+        "title": "Revisiting the Regularizers in Blind Image Deblurring With a New One",
+        "url": "https://doi.org/10.1109/TIP.2023.3280358"
+    },
+    {
+        "title": "Knowledge Conditioned Variational Learning for One-Class Facial Expression Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3293775"
+    },
+    {
+        "title": "Semantic Consistent Embedding for Domain Adaptive Zero-Shot Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3293769"
+    },
+    {
+        "title": "nnFormer: Volumetric Medical Image Segmentation via a 3D Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3293771"
+    },
+    {
+        "title": "Skeleton-CutMix: Mixing Up Skeleton With Probabilistic Bone Exchange for Supervised Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3293766"
+    },
+    {
+        "title": "Bi-Nuclear Tensor Schatten-p Norm Minimization for Multi-View Subspace Clustering",
+        "url": "https://doi.org/10.1109/TIP.2023.3293764"
+    },
+    {
+        "title": "MemBridge: Video-Language Pre-Training With Memory-Augmented Inter-Modality Bridge",
+        "url": "https://doi.org/10.1109/TIP.2023.3283916"
+    },
+    {
+        "title": "Suspicious Object Detection for Millimeter-Wave Images With Multi-View Fusion Siamese Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3270765"
+    },
+    {
+        "title": "Toward Projected Clustering With Aggregated Mapping",
+        "url": "https://doi.org/10.1109/TIP.2023.3274989"
+    },
+    {
+        "title": "Unsupervised Deep Exemplar Colorization via Pyramid Dual Non-Local Attention",
+        "url": "https://doi.org/10.1109/TIP.2023.3293777"
+    },
+    {
+        "title": "DGRNet: A Dual-Level Graph Relation Network for Video Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3285136"
+    },
+    {
+        "title": "HGR-Net: Hierarchical Graph Reasoning Network for Arbitrary Shape Scene Text Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3294822"
+    },
+    {
+        "title": "Efficient Vision Transformer via Token Merger",
+        "url": "https://doi.org/10.1109/TIP.2023.3293763"
+    },
+    {
+        "title": "Semantic Representation and Attention Alignment for Graph Information Bottleneck in Video Summarization",
+        "url": "https://doi.org/10.1109/TIP.2023.3293762"
+    },
+    {
+        "title": "Rebalanced Zero-Shot Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3295738"
+    },
+    {
+        "title": "Adaptive Domain Generalization Via Online Disagreement Minimization",
+        "url": "https://doi.org/10.1109/TIP.2023.3295739"
+    },
+    {
+        "title": "Regular Splitting Graph Network for 3D Human Pose Estimation",
+        "url": "https://doi.org/10.1109/TIP.2023.3275914"
+    },
+    {
+        "title": "Content-Adaptive Auto-Occlusion Network for Occluded Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3290525"
+    },
+    {
+        "title": "Collaborative Content-Dependent Modeling: A Return to the Roots of Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3293759"
+    },
+    {
+        "title": "Scale-Arbitrary Invertible Image Downscaling",
+        "url": "https://doi.org/10.1109/TIP.2023.3296891"
+    },
+    {
+        "title": "Universum-Inspired Supervised Contrastive Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3290514"
+    },
+    {
+        "title": "Frequency Information Disentanglement Network for Video-Based Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3296901"
+    },
+    {
+        "title": "Multi-View Clustering via Triplex Information Maximization",
+        "url": "https://doi.org/10.1109/TIP.2023.3297410"
+    },
+    {
+        "title": "LRT: An Efficient Low-Light Restoration Transformer for Dark Light Field Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3297412"
+    },
+    {
+        "title": "Omni-Frequency Channel-Selection Representations for Unsupervised Anomaly Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3293772"
+    },
+    {
+        "title": "Centralized Feature Pyramid for Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3297408"
+    },
+    {
+        "title": "Rotational Convolution: Rethinking Convolution for Downside Fisheye Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3298475"
+    },
+    {
+        "title": "Balancing Biases and Preserving Privacy on Balanced Faces in the Wild",
+        "url": "https://doi.org/10.1109/TIP.2023.3282837"
+    },
+    {
+        "title": "Decode-MOT: How Can We Hurdle Frames to Go Beyond Tracking-by-Detection?",
+        "url": "https://doi.org/10.1109/TIP.2023.3298538"
+    },
+    {
+        "title": "Prediction With Visual Evidence: Sketch Classification Explanation via Stroke-Level Attributions",
+        "url": "https://doi.org/10.1109/TIP.2023.3297404"
+    },
+    {
+        "title": "MuTrans: Multiple Transformers for Fusing Feature Pyramid on 2D and 3D Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3299190"
+    },
+    {
+        "title": "Spatially Varying Prior Learning for Blind Hyperspectral Image Fusion",
+        "url": "https://doi.org/10.1109/TIP.2023.3299189"
+    },
+    {
+        "title": "Hierarchical Belief Propagation on Image Segmentation Pyramid",
+        "url": "https://doi.org/10.1109/TIP.2023.3299192"
+    },
+    {
+        "title": "SVCNet: Scribble-Based Video Colorization Network With Temporal Aggregation",
+        "url": "https://doi.org/10.1109/TIP.2023.3298537"
+    },
+    {
+        "title": "Adversarial Dense Contrastive Learning for Semi-Supervised Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3299196"
+    },
+    {
+        "title": "PUGAN: Physical Model-Guided Underwater Image Enhancement Using GAN With Dual-Discriminators",
+        "url": "https://doi.org/10.1109/TIP.2023.3286263"
+    },
+    {
+        "title": "VTAE: Variational Transformer Autoencoder With Manifolds Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3299495"
+    },
+    {
+        "title": "Doppler and Pair-Wise Optical Flow Constrained 3D Motion Compensation for 3D Ultrasound Imaging",
+        "url": "https://doi.org/10.1109/TIP.2023.3300591"
+    },
+    {
+        "title": "Wavelet-Guided Promotion-Suppression Transformer for Surface-Defect Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3293770"
+    },
+    {
+        "title": "Generative Reasoning Integrated Label Noise Robust Deep Image Representation Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3293776"
+    },
+    {
+        "title": "Composed Image Retrieval via Cross Relation Network With Hierarchical Aggregation Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3299791"
+    },
+    {
+        "title": "Multi-Biometric Unified Network for Cloth-Changing Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3279673"
+    },
+    {
+        "title": "Hyperspectral Image Super-Resolution via Knowledge-Driven Deep Unrolling and Transformer Embedded Convolutional Recurrent Neural Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3293768"
+    },
+    {
+        "title": "Sketch-Segformer: Transformer-Based Segmentation for Figurative and Creative Sketches",
+        "url": "https://doi.org/10.1109/TIP.2023.3302521"
+    },
+    {
+        "title": "Multi-View Diffusion Process for Spectral Clustering and Image Retrieval",
+        "url": "https://doi.org/10.1109/TIP.2023.3302517"
+    },
+    {
+        "title": "Reducing Vision-Answer Biases for Multiple-Choice VQA",
+        "url": "https://doi.org/10.1109/TIP.2023.3302162"
+    },
+    {
+        "title": "Secure Outsourced SIFT: Accurate and Efficient Privacy-Preserving Image SIFT Feature Extraction",
+        "url": "https://doi.org/10.1109/TIP.2023.3295741"
+    },
+    {
+        "title": "Entropic Descent Archetypal Analysis for Blind Hyperspectral Unmixing",
+        "url": "https://doi.org/10.1109/TIP.2023.3301769"
+    },
+    {
+        "title": "Uncertainty-Aware Source-Free Domain Adaptive Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3295929"
+    },
+    {
+        "title": "Acquiring 360° Light Field by a Moving Dual-Fisheye Camera",
+        "url": "https://doi.org/10.1109/TIP.2023.3299444"
+    },
+    {
+        "title": "Efficient Layer Compression Without Pruning",
+        "url": "https://doi.org/10.1109/TIP.2023.3302519"
+    },
+    {
+        "title": "Unsupervised Low-Light Video Enhancement With Spatial-Temporal Co-Attention Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3301332"
+    },
+    {
+        "title": "MagConv: Mask-Guided Convolution for Image Inpainting",
+        "url": "https://doi.org/10.1109/TIP.2023.3298536"
+    },
+    {
+        "title": "What is the Real Need for Scene Text Removal? Exploring the Background Integrity and Erasure Exhaustivity Properties",
+        "url": "https://doi.org/10.1109/TIP.2023.3290517"
+    },
+    {
+        "title": "TTVFI: Learning Trajectory-Aware Transformer for Video Frame Interpolation",
+        "url": "https://doi.org/10.1109/TIP.2023.3302990"
+    },
+    {
+        "title": "4D LUT: Learnable Context-Aware 4D Lookup Table for Image Enhancement",
+        "url": "https://doi.org/10.1109/TIP.2023.3290849"
+    },
+    {
+        "title": "FsaNet: Frequency Self-Attention for Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3305090"
+    },
+    {
+        "title": "Condition-Adaptive Graph Convolution Learning for Skeleton-Based Gait Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3305822"
+    },
+    {
+        "title": "Space-Time Super-Resolution for Light Field Videos",
+        "url": "https://doi.org/10.1109/TIP.2023.3300121"
+    },
+    {
+        "title": "Learning Resolution-Adaptive Representations for Cross-Resolution Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3305817"
+    },
+    {
+        "title": "DisAVR: Disentangled Adaptive Visual Reasoning Network for Diagram Question Answering",
+        "url": "https://doi.org/10.1109/TIP.2023.3306910"
+    },
+    {
+        "title": "Erosion Attack: Harnessing Corruption To Improve Adversarial Examples",
+        "url": "https://doi.org/10.1109/TIP.2023.3251719"
+    },
+    {
+        "title": "MDF-Net: A Multi-Scale Dynamic Fusion Network for Breast Tumor Segmentation of Ultrasound Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3304518"
+    },
+    {
+        "title": "Unmixing Guided Unsupervised Network for RGB Spectral Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3299197"
+    },
+    {
+        "title": "Randomized Spectrum Transformations for Adapting Object Detector in Unseen Domains",
+        "url": "https://doi.org/10.1109/TIP.2023.3306915"
+    },
+    {
+        "title": "Automated Learning for Deformable Medical Image Registration by Jointly Optimizing Network Architectures and Objective Functions",
+        "url": "https://doi.org/10.1109/TIP.2023.3307215"
+    },
+    {
+        "title": "A Two-Step Discrete Cosine Basis Oriented Motion Modeling Approach for Enhanced Motion Compensation",
+        "url": "https://doi.org/10.1109/TIP.2023.3288980"
+    },
+    {
+        "title": "Masked Embedding Modeling With Rapid Domain Adjustment for Few-Shot Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3306916"
+    },
+    {
+        "title": "BLPSeg: Balance the Label Preference in Scribble-Supervised Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3301342"
+    },
+    {
+        "title": "Rethinking Cross-Domain Pedestrian Detection: A Background-Focused Distribution Alignment Framework for Instance-Free One-Stage Detectors",
+        "url": "https://doi.org/10.1109/TIP.2023.3307222"
+    },
+    {
+        "title": "Collaborative Contrastive Refining for Weakly Supervised Person Search",
+        "url": "https://doi.org/10.1109/TIP.2023.3308393"
+    },
+    {
+        "title": "Brain Network Analysis of Schizophrenia Patients Based on Hypergraph Signal Processing",
+        "url": "https://doi.org/10.1109/TIP.2023.3307975"
+    },
+    {
+        "title": "Test-Time Adaptation for Optical Flow Estimation Using Motion Vectors",
+        "url": "https://doi.org/10.1109/TIP.2023.3309108"
+    },
+    {
+        "title": "B2C-AFM: Bi-Directional Co-Temporal and Cross-Spatial Attention Fusion Model for Human Action Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3308750"
+    },
+    {
+        "title": "HybrUR: A Hybrid Physical-Neural Solution for Unsupervised Underwater Image Restoration",
+        "url": "https://doi.org/10.1109/TIP.2023.3309408"
+    },
+    {
+        "title": "End-to-End Pre-Training With Hierarchical Matching and Momentum Contrast for Text-Video Retrieval",
+        "url": "https://doi.org/10.1109/TIP.2023.3275071"
+    },
+    {
+        "title": "Learning Shape-Invariant Representation for Generalizable Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3287506"
+    },
+    {
+        "title": "Deep-Based Film Grain Removal and Synthesis",
+        "url": "https://doi.org/10.1109/TIP.2023.3308726"
+    },
+    {
+        "title": "Exploring Sparse Spatial Relation in Graph Inference for Text-Based VQA",
+        "url": "https://doi.org/10.1109/TIP.2023.3310332"
+    },
+    {
+        "title": "Dual Level Adaptive Weighting for Cloth-Changing Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3310307"
+    },
+    {
+        "title": "Experts Collaboration Learning for Continual Multi-Modal Reasoning",
+        "url": "https://doi.org/10.1109/TIP.2023.3310336"
+    },
+    {
+        "title": "Translation, Association and Augmentation: Learning Cross-Modality Re-Identification From Single-Modality Annotation",
+        "url": "https://doi.org/10.1109/TIP.2023.3310338"
+    },
+    {
+        "title": "Double Auto-Weighted Tensor Robust Principal Component Analysis",
+        "url": "https://doi.org/10.1109/TIP.2023.3310331"
+    },
+    {
+        "title": "Zero-Shot Camouflaged Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3308295"
+    },
+    {
+        "title": "CONVIQT: Contrastive Video Quality Estimator",
+        "url": "https://doi.org/10.1109/TIP.2023.3310344"
+    },
+    {
+        "title": "Multiview Clustering by Consensus Spectral Rotation Fusion",
+        "url": "https://doi.org/10.1109/TIP.2023.3310339"
+    },
+    {
+        "title": "Cycle-Consistent Weakly Supervised Visual Grounding With Individual and Contextual Representations",
+        "url": "https://doi.org/10.1109/TIP.2023.3311917"
+    },
+    {
+        "title": "Hyperspectral Meets Optical Flow: Spectral Flow Extraction for Hyperspectral Image Classification",
+        "url": "https://doi.org/10.1109/TIP.2023.3312928"
+    },
+    {
+        "title": "Improving Embedding Generalization in Few-Shot Learning With Instance Neighbor Constraints",
+        "url": "https://doi.org/10.1109/TIP.2023.3310329"
+    },
+    {
+        "title": "ICE: Implicit Coordinate Encoder for Multiple Image Neural Representation",
+        "url": "https://doi.org/10.1109/TIP.2023.3299501"
+    },
+    {
+        "title": "Semi-Supervised Crowd Counting via Multiple Representation Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3313490"
+    },
+    {
+        "title": "Robust Cross-Domain Pseudo-Labeling and Contrastive Learning for Unsupervised Domain Adaptation NIR-VIS Face Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3309110"
+    },
+    {
+        "title": "Efficient Human Vision Inspired Action Recognition Using Adaptive Spatiotemporal Sampling",
+        "url": "https://doi.org/10.1109/TIP.2023.3310661"
+    },
+    {
+        "title": "Salient Object Detection in Optical Remote Sensing Images Driven by Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3314285"
+    },
+    {
+        "title": "Broad Spectrum Image Deblurring via an Adaptive Super-Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3312912"
+    },
+    {
+        "title": "JNMR: Joint Non-Linear Motion Regression for Video Frame Interpolation",
+        "url": "https://doi.org/10.1109/TIP.2023.3315122"
+    },
+    {
+        "title": "Dynamic Frame Interpolation in Wavelet Domain",
+        "url": "https://doi.org/10.1109/TIP.2023.3315151"
+    },
+    {
+        "title": "Deep Multi-Exposure Image Fusion for Dynamic Scenes",
+        "url": "https://doi.org/10.1109/TIP.2023.3315123"
+    },
+    {
+        "title": "Plug-and-Play Priors for Multi-Shot Compressive Hyperspectral Imaging",
+        "url": "https://doi.org/10.1109/TIP.2023.3315141"
+    },
+    {
+        "title": "Depth Injection Framework for RGBD Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3315511"
+    },
+    {
+        "title": "Retain and Recover: Delving Into Information Loss for Few-Shot Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3315555"
+    },
+    {
+        "title": "Concept-Aware Video Captioning: Describing Videos With Effective Prior Information",
+        "url": "https://doi.org/10.1109/TIP.2023.3307969"
+    },
+    {
+        "title": "E2FIF: Push the Limit of Binarized Deep Imagery Super-Resolution Using End-to-End Full-Precision Information Flow",
+        "url": "https://doi.org/10.1109/TIP.2023.3315540"
+    },
+    {
+        "title": "Exploring the Robustness of Human Parsers Toward Common Corruptions",
+        "url": "https://doi.org/10.1109/TIP.2023.3313493"
+    },
+    {
+        "title": "Density-Guided Incremental Dominant Instance Exploration for Two-View Geometric Model Fitting",
+        "url": "https://doi.org/10.1109/TIP.2023.3318945"
+    },
+    {
+        "title": "Deep Hypersphere Feature Regularization for Weakly Supervised RGB-D Salient Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3318953"
+    },
+    {
+        "title": "Cross-Domain Facial Expression Recognition via Contrastive Warm up and Complexity-Aware Self-Training",
+        "url": "https://doi.org/10.1109/TIP.2023.3318955"
+    },
+    {
+        "title": "SUR-Driven Video Coding Rate Control for Jointly Optimizing Perceptual Quality and Buffer Control",
+        "url": "https://doi.org/10.1109/TIP.2023.3312919"
+    },
+    {
+        "title": "Learned Image Compression Using Cross-Component Attention Mechanism",
+        "url": "https://doi.org/10.1109/TIP.2023.3319275"
+    },
+    {
+        "title": "Efficient Halftoning via Deep Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3318937"
+    },
+    {
+        "title": "Ingredient Prediction via Context Learning Network With Class-Adaptive Asymmetric Loss",
+        "url": "https://doi.org/10.1109/TIP.2023.3318958"
+    },
+    {
+        "title": "Improving Lightweight AdderNet via Distillation From ℓ2to ℓ1-norm",
+        "url": "https://doi.org/10.1109/TIP.2023.3318940"
+    },
+    {
+        "title": "Semantic-Aware Modular Capsule Routing for Visual Question Answering",
+        "url": "https://doi.org/10.1109/TIP.2023.3318949"
+    },
+    {
+        "title": "Feature Interaction Learning Network for Cross-Spectral Image Patch Matching",
+        "url": "https://doi.org/10.1109/TIP.2023.3313488"
+    },
+    {
+        "title": "Adaptive Betweenness Clustering for Semi-Supervised Domain Adaptation",
+        "url": "https://doi.org/10.1109/TIP.2023.3319274"
+    },
+    {
+        "title": "Image Deblurring With Image Blurring",
+        "url": "https://doi.org/10.1109/TIP.2023.3321515"
+    },
+    {
+        "title": "Learning a Locally Unified 3D Point Cloud for View Synthesis",
+        "url": "https://doi.org/10.1109/TIP.2023.3321458"
+    },
+    {
+        "title": "Prototypical Matching Networks for Video Object Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3321462"
+    },
+    {
+        "title": "Generalized Tensor Summation Compressive Sensing Network (GTSNET): An Easy to Learn Compressive Sensing Operation",
+        "url": "https://doi.org/10.1109/TIP.2023.3318946"
+    },
+    {
+        "title": "A Symmetrical Siamese Network Framework With Contrastive Learning for Pose-Robust Face Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3322593"
+    },
+    {
+        "title": "Rethinking Lightweight Salient Object Detection via Network Depth-Width Tradeoff",
+        "url": "https://doi.org/10.1109/TIP.2023.3318959"
+    },
+    {
+        "title": "Composite Object Relation Modeling for Few-Shot Scene Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3321475"
+    },
+    {
+        "title": "Guided Deep Generative Model-Based Spatial Regularization for Multiband Imaging Inverse Problems",
+        "url": "https://doi.org/10.1109/TIP.2023.3321460"
+    },
+    {
+        "title": "Context and Spatial Feature Calibration for Real-Time Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3318967"
+    },
+    {
+        "title": "Dif-Fusion: Toward High Color Fidelity in Infrared and Visible Image Fusion With Diffusion Models",
+        "url": "https://doi.org/10.1109/TIP.2023.3322046"
+    },
+    {
+        "title": "Inverse Image Frequency for Long-Tailed Image Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3321461"
+    },
+    {
+        "title": "Txt2Img-MHN: Remote Sensing Image Generation From Text Using Modern Hopfield Networks",
+        "url": "https://doi.org/10.1109/TIP.2023.3323799"
+    },
+    {
+        "title": "Latent Feature Disentanglement for Visual Domain Generalization",
+        "url": "https://doi.org/10.1109/TIP.2023.3321511"
+    },
+    {
+        "title": "Model-Aware Pre-Training for Radial Distortion Rectification",
+        "url": "https://doi.org/10.1109/TIP.2023.3321459"
+    },
+    {
+        "title": "SPA2Net: Structure-Preserved Attention Activated Network for Weakly Supervised Object Localization",
+        "url": "https://doi.org/10.1109/TIP.2023.3323793"
+    },
+    {
+        "title": "Toward Fine-Grained Talking Face Generation",
+        "url": "https://doi.org/10.1109/TIP.2023.3323452"
+    },
+    {
+        "title": "Coarse Mask Guided Interactive Object Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3322564"
+    },
+    {
+        "title": "Delving Into Crispness: Guided Label Refinement for Crisp Edge Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3289296"
+    },
+    {
+        "title": "RobustMat: Neural Diffusion for Street Landmark Patch Matching Under Challenging Environments",
+        "url": "https://doi.org/10.1109/TIP.2023.3318963"
+    },
+    {
+        "title": "Structure-Informed Shadow Removal Networks",
+        "url": "https://doi.org/10.1109/TIP.2023.3323814"
+    },
+    {
+        "title": "A Scene-Text Synthesis Engine Achieved Through Learning From Decomposed Real-World Data",
+        "url": "https://doi.org/10.1109/TIP.2023.3326685"
+    },
+    {
+        "title": "DO-SA&R: Distant Object Augmented Set Abstraction and Regression for Point-Based 3D Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3326394"
+    },
+    {
+        "title": "HiFiSketch: High Fidelity Face Photo-Sketch Synthesis and Manipulation",
+        "url": "https://doi.org/10.1109/TIP.2023.3326680"
+    },
+    {
+        "title": "Bayesian Nonlocal Patch Tensor Factorization for Hyperspectral Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3326687"
+    },
+    {
+        "title": "MaskFaceGAN: High-Resolution Face Editing With Masked GAN Latent Code Optimization",
+        "url": "https://doi.org/10.1109/TIP.2023.3326675"
+    },
+    {
+        "title": "Hierarchical Graph Pattern Understanding for Zero-Shot Video Object Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3326395"
+    },
+    {
+        "title": "Infrared Small and Dim Target Detection With Transformer Under Complex Backgrounds",
+        "url": "https://doi.org/10.1109/TIP.2023.3326396"
+    },
+    {
+        "title": "Perceptually Weighted Rate Distortion Optimization for Video-Based Point Cloud Compression",
+        "url": "https://doi.org/10.1109/TIP.2023.3327003"
+    },
+    {
+        "title": "Multi-Query Vehicle Re-Identification: Viewpoint-Conditioned Network, Unified Dataset and New Metric",
+        "url": "https://doi.org/10.1109/TIP.2023.3326691"
+    },
+    {
+        "title": "Joint Denoising-Demosaicking Network for Long-Wave Infrared Division-of-Focal-Plane Polarization Images With Mixed Noise Level Estimation",
+        "url": "https://doi.org/10.1109/TIP.2023.3327590"
+    },
+    {
+        "title": "SpVOS: Efficient Video Object Segmentation With Triple Sparse Convolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3327588"
+    },
+    {
+        "title": "Contrastive Transformer Hashing for Compact Video Representation",
+        "url": "https://doi.org/10.1109/TIP.2023.3326994"
+    },
+    {
+        "title": "BVI-VFI: A Video Quality Database for Video Frame Interpolation",
+        "url": "https://doi.org/10.1109/TIP.2023.3327912"
+    },
+    {
+        "title": "Toward the Achievable Rate-Distortion Bound of VVC Intra Coding: A Beam Search-Based Joint Optimization Scheme",
+        "url": "https://doi.org/10.1109/TIP.2023.3327917"
+    },
+    {
+        "title": "CLIP-Driven Fine-Grained Text-Image Person Re-Identification",
+        "url": "https://doi.org/10.1109/TIP.2023.3327924"
+    },
+    {
+        "title": "Changes to Captions: An Attentive Network for Remote Sensing Change Captioning",
+        "url": "https://doi.org/10.1109/TIP.2023.3328224"
+    },
+    {
+        "title": "Self-Supervised 3D Behavior Representation Learning Based on Homotopic Hyperbolic Embedding",
+        "url": "https://doi.org/10.1109/TIP.2023.3328230"
+    },
+    {
+        "title": "Optimization-Inspired Learning With Architecture Augmentations and Control Mechanisms for Low-Level Vision",
+        "url": "https://doi.org/10.1109/TIP.2023.3328486"
+    },
+    {
+        "title": "Multi-Level Content-Aware Boundary Detection for Temporal Action Proposal Generation",
+        "url": "https://doi.org/10.1109/TIP.2023.3328471"
+    },
+    {
+        "title": "From Global to Local: Multi-Scale Out-of-Distribution Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3328478"
+    },
+    {
+        "title": "Distractor-Aware Event-Based Tracking",
+        "url": "https://doi.org/10.1109/TIP.2023.3326683"
+    },
+    {
+        "title": "Region Assisted Sketch Colorization",
+        "url": "https://doi.org/10.1109/TIP.2023.3326682"
+    },
+    {
+        "title": "Fast Adversarial Training With Adaptive Step Size",
+        "url": "https://doi.org/10.1109/TIP.2023.3326398"
+    },
+    {
+        "title": "General vs. Long-Tailed Age Estimation: An Approach to Kill Two Birds With One Stone",
+        "url": "https://doi.org/10.1109/TIP.2023.3327540"
+    },
+    {
+        "title": "NCSiam: Reliable Matching via Neighborhood Consensus for Siamese-Based Object Tracking",
+        "url": "https://doi.org/10.1109/TIP.2023.3329669"
+    },
+    {
+        "title": "Conservative-Progressive Collaborative Learning for Semi-Supervised Semantic Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3242819"
+    },
+    {
+        "title": "Evolving Into a Transformer: From a Training-Free Retrieval-Based Method for Anomaly Obstacle Segmentation",
+        "url": "https://doi.org/10.1109/TIP.2023.3312910"
+    },
+    {
+        "title": "POCE: Pose-Controllable Expression Editing",
+        "url": "https://doi.org/10.1109/TIP.2023.3329358"
+    },
+    {
+        "title": "High-Frequency Normalizing Flow for Image Rescaling",
+        "url": "https://doi.org/10.1109/TIP.2022.3188158"
+    },
+    {
+        "title": "FABNet: Frequency-Aware Binarized Network for Single Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TIP.2023.3328565"
+    },
+    {
+        "title": "PLGAN: Generative Adversarial Networks for Power-Line Segmentation in Aerial Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3321465"
+    },
+    {
+        "title": "Windowed Two-Dimensional Fourier Transform Concentration and Its Application to ISAR Imaging",
+        "url": "https://doi.org/10.1109/TIP.2023.3330603"
+    },
+    {
+        "title": "Toward a Unified Transformer-Based Framework for Scene Graph Generation and Human-Object Interaction Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3330304"
+    },
+    {
+        "title": "Orientation Cues-Aware Facial Relationship Representation for Head Pose Estimation via Transformer",
+        "url": "https://doi.org/10.1109/TIP.2023.3331309"
+    },
+    {
+        "title": "GQE-Net: A Graph-Based Quality Enhancement Network for Point Cloud Color Attribute",
+        "url": "https://doi.org/10.1109/TIP.2023.3330086"
+    },
+    {
+        "title": "Adaptive Chroma Prediction Based on Luma Difference for H.266/VVC",
+        "url": "https://doi.org/10.1109/TIP.2023.3330607"
+    },
+    {
+        "title": "Context Adaptive Network for Image Inpainting",
+        "url": "https://doi.org/10.1109/TIP.2023.3298560"
+    },
+    {
+        "title": "Towards Transferable Adversarial Attacks on Image and Video Transformers",
+        "url": "https://doi.org/10.1109/TIP.2023.3331582"
+    },
+    {
+        "title": "Tolerating Annotation Displacement in Dense Object Counting via Point Annotation Probability Map",
+        "url": "https://doi.org/10.1109/TIP.2023.3331908"
+    },
+    {
+        "title": "Fine-Grained Spatio-Temporal Parsing Network for Action Quality Assessment",
+        "url": ""
+    },
+    {
+        "title": "Geometric Boundary Guided Feature Fusion and Spatial-Semantic Context Aggregation for Semantic Segmentation of Remote Sensing Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3326400"
+    },
+    {
+        "title": "SPS: Accurate and Real-Time Semantic Positioning System Based on Low-Cost DEM Maps",
+        "url": "https://doi.org/10.1109/TIP.2023.3332212"
+    },
+    {
+        "title": "Sampling Equivariant Self-Attention Networks for Object Detection in Aerial Images",
+        "url": "https://doi.org/10.1109/TIP.2023.3327586"
+    },
+    {
+        "title": "EDDMF: An Efficient Deep Discrepancy Measuring Framework for Full-Reference Light Field Image Quality Assessment",
+        "url": "https://doi.org/10.1109/TIP.2023.3329663"
+    },
+    {
+        "title": "MCSfM: Multi-Camera-Based Incremental Structure-From-Motion",
+        "url": "https://doi.org/10.1109/TIP.2023.3333547"
+    },
+    {
+        "title": "EGRC-Net: Embedding-Induced Graph Refinement Clustering Network",
+        "url": "https://doi.org/10.1109/TIP.2023.3333557"
+    },
+    {
+        "title": "Point-Based Learnable Query Generator for Human-Object Interaction Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3334100"
+    },
+    {
+        "title": "Spherical Centralized Quantization for Fast Image Retrieval",
+        "url": "https://doi.org/10.1109/TIP.2023.3265262"
+    },
+    {
+        "title": "APP-Net: Auxiliary-Point-Based Push and Pull Operations for Efficient Point Cloud Recognition",
+        "url": "https://doi.org/10.1109/TIP.2023.3333191"
+    },
+    {
+        "title": "Fast Self-Guided Multi-View Subspace Clustering",
+        "url": "https://doi.org/10.1109/TIP.2023.3261746"
+    },
+    {
+        "title": "Point-NAS: A Novel Neural Architecture Search Framework for Point Cloud Analysis",
+        "url": "https://doi.org/10.1109/TIP.2023.3331223"
+    },
+    {
+        "title": "Reformulating Graph Kernels for Self-Supervised Space-Time Correspondence Learning",
+        "url": "https://doi.org/10.1109/TIP.2023.3328485"
+    },
+    {
+        "title": "PFONet: A Progressive Feedback Optimization Network for Lightweight Single Image Dehazing",
+        "url": "https://doi.org/10.1109/TIP.2023.3333564"
+    },
+    {
+        "title": "OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection",
+        "url": "https://doi.org/10.1109/TIP.2023.3333225"
+    }
+]

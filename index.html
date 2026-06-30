@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Top-Tier Conference Paper Explorer</title>
+    <title>AI Top-Tier Conference & Journal Paper Explorer</title>
 
     <!-- 尽早应用主题，减少刷新时的闪烁 -->
     <script>
@@ -57,7 +57,7 @@
                     </svg>
                 </div>
                 <div>
-                    <h1 class="text-xl font-bold text-slate-900 dark:text-white tracking-tight">AI Top-Tier Conference Paper Explorer</h1>
+                    <h1 class="text-xl font-bold text-slate-900 dark:text-white tracking-tight">AI Top-Tier Conference & Journal Paper Explorer</h1>
                     <p class="text-xs text-slate-500 dark:text-slate-400 font-medium" data-i18n="subtitle">AI顶会文献一站式搜索引擎</p>
                 </div>
             </div>
@@ -133,7 +133,7 @@
             <!-- 数据源选择区 1: 基础模式 -->
             <div id="basicSourcePanel" class="flex flex-col md:flex-row gap-4 mb-6">
                 <div class="flex-1 min-w-[150px]">
-                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="confLabel">会议 (Conference)</label>
+                    <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2" data-i18n="confLabel">会议/期刊 (Conference/Journal)</label>
                     <select id="confSelect" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm rounded-xl focus:ring-2 focus:ring-indigo-500 p-2.5 outline-none cursor-pointer transition-colors"></select>
                 </div>
                 <div class="flex-1 min-w-[120px]">
@@ -146,7 +146,7 @@
             <div id="advSourcePanel" class="hidden-element mb-6 bg-slate-50 dark:bg-slate-900/50 p-4 rounded-xl border border-slate-100 dark:border-slate-700/50">
                 <div class="mb-4">
                     <div class="flex items-center justify-between gap-3 mb-2">
-                        <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider" data-i18n="advConfLabel">参与检索的会议 (多选)</label>
+                        <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider" data-i18n="advConfLabel">参与检索的会议/期刊 (多选)</label>
                         <div class="flex items-center gap-2">
                             <button id="advConfSelectAll" class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300" data-i18n="selectAll">全选</button>
                             <span class="text-slate-300 dark:text-slate-600">|</span>
@@ -216,7 +216,7 @@
                     <select id="sortSelect" class="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-xs rounded-lg focus:ring-2 focus:ring-indigo-500 px-2 py-1.5 outline-none cursor-pointer transition-colors">
                         <option value="yearDesc" data-i18n="sortYearDesc">年份降序</option>
                         <option value="yearAsc" data-i18n="sortYearAsc">年份升序</option>
-                        <option value="confAsc" data-i18n="sortConfAsc">会议名排序</option>
+                        <option value="confAsc" data-i18n="sortConfAsc">会议/期刊名排序</option>
                         <option value="titleAsc" data-i18n="sortTitleAsc">标题 A-Z</option>
                     </select>
                 </div>
@@ -264,16 +264,16 @@
 
         const translations = {
             zh: {
-                subtitle: "AI顶会文献一站式搜索引擎",
+                subtitle: "AI顶会顶刊文献一站式搜索引擎",
                 tabBasic: "基础检索",
                 tabAdv: "高级检索",
-                confLabel: "会议 (Conference)",
-                yearLabel: "年份 (Year)",
-                advConfLabel: "参与检索的会议 (多选)",
+                confLabel: "会议 / 期刊",
+                yearLabel: "年份",
+                advConfLabel: "参与检索的会议/期刊 (多选)",
                 advYearLabel: "参与检索的年份 (多选)",
                 selectAll: "全选",
                 clearAll: "清空",
-                trackLabel: "筛选Track",
+                trackLabel: "筛选 Track",
                 searchLabel: "论文题目搜索",
                 searchHint: "支持用逗号 , 表示或，用 & 表示与",
                 regexSearchHint: "正则模式：输入内容将作为正则表达式匹配标题",
@@ -288,7 +288,7 @@
                 sortLabel: "排序",
                 sortYearDesc: "年份降序",
                 sortYearAsc: "年份升序",
-                sortConfAsc: "会议名排序",
+                sortConfAsc: "会议/期刊名排序",
                 sortTitleAsc: "标题 A-Z",
                 allTracks: "所有 Track (All)",
                 viewPaper: "查看论文",
@@ -296,8 +296,8 @@
                 foundPapers: "共检索到 <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> 篇文献",
                 configError: "<span class='text-rose-500 font-semibold'>🚨 配置文件 config.json 加载失败</span>，请确保根目录下存在该文件。",
                 fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>正在拉取数据源...</span>",
-                fetchEmpty: "<span class='text-rose-500 font-semibold'>未能加载到任何数据</span>，请检查本地是否存在对应的 JSON 文件，或调整会议/年份选择。",
-                advEmpty: "<span class='text-rose-500 font-semibold'>请至少选择一个会议和一个年份！</span>",
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>未能加载到任何数据</span>，请检查本地是否存在对应的 JSON 文件，或调整会议/期刊与年份选择。",
+                advEmpty: "<span class='text-rose-500 font-semibold'>请至少选择一个会议/期刊和一个年份！</span>",
                 regexError: "<span class='text-rose-500 font-semibold'>正则表达式无效</span>，请检查输入内容。",
                 footerText: "Made by Ruichen Ma | Open sourced on "
             },
@@ -305,9 +305,9 @@
                 subtitle: "A One-Stop Search Engine for Top-Tier AI Literature",
                 tabBasic: "Basic Search",
                 tabAdv: "Advanced Search",
-                confLabel: "Conference",
+                confLabel: "Conference / Journal",
                 yearLabel: "Year",
-                advConfLabel: "Select Conferences (Multiple)",
+                advConfLabel: "Select Conferences / Journals (Multiple)",
                 advYearLabel: "Select Years (Multiple)",
                 selectAll: "Select All",
                 clearAll: "Clear",
@@ -334,7 +334,7 @@
                 foundPapers: "Found <span class='font-bold text-indigo-600 dark:text-indigo-400'>{count}</span> papers",
                 configError: "<span class='text-rose-500 font-semibold'>🚨 Failed to load config.json</span>, ensure it exists.",
                 fetchLoading: "<span class='text-indigo-600 dark:text-indigo-400 font-bold'>Loading data sources...</span>",
-                fetchEmpty: "<span class='text-rose-500 font-semibold'>No data loaded</span>, please check JSON files or adjust conference/year selections.",
+                fetchEmpty: "<span class='text-rose-500 font-semibold'>No data loaded</span>, please check JSON files or adjust conference or journal and year selections.",
                 advEmpty: "<span class='text-rose-500 font-semibold'>Please select at least one conference and year!</span>",
                 regexError: "<span class='text-rose-500 font-semibold'>Invalid regular expression</span>. Please check your input.",
                 footerText: "Made by Ruichen Ma | Open sourced on "

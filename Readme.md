@@ -18,67 +18,84 @@ Each JSON file represents a collection of papers for a specific conference in a 
 
 This repository currently includes paper data from the following top-tier conferences. The specific details for each folder are as follows:
 
-### 1. AAAI (Association for the Advancement of Artificial Intelligence)
+### Conference
+
+#### 1. AAAI (Association for the Advancement of Artificial Intelligence)
 
 - **📁 Folder:** `AAAI`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/issue/archive)
 
-### 2. ACL (Association for Computational Linguistics)
+#### 2. ACL (Association for Computational Linguistics)
 
 - **📁 Folder:** `ACL`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [ACL Proceedings](https://aclanthology.org/venues/acl/)
 
-### 3. CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+#### 3. CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
 
 - **📁 Folder:** `CVPR`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [CVF Open Access](https://openaccess.thecvf.com/menu)
 
-### 4. ECCV (European Conference on Computer Vision)
+#### 4. ECCV (European Conference on Computer Vision)
 
 - **📁 Folder:** `ECCV`
 - **📅 Years Covered:** `2018 - 2024 (even years)`
 - **🔗 Official Data Source:** [ECCV Proceedings](https://www.ecva.net/papers.php)
 
-### 5. EMNLP (Empirical Methods in Natural Language Processing)
+#### 5. EMNLP (Empirical Methods in Natural Language Processing)
 
 - **📁 Folder:** `EMNLP`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [EMNLP Proceedings](https://aclanthology.org/venues/emnlp/)
 
-### 6. ICCV (IEEE/CVF International Conference on Computer Vision)
+#### 6. ICCV (IEEE/CVF International Conference on Computer Vision)
 
 - **📁 Folder:** `ICCV`
 - **📅 Years Covered:** `2017 - 2025 (odd years)`
 - **🔗 Official Data Source:** [CVF Open Access](https://openaccess.thecvf.com/menu)
 
 
-### 7. ICLR (International Conference on Learning Representations)
+#### 7. ICLR (International Conference on Learning Representations)
 
 - **📁 Folder:** `ICLR`
 - **📅 Years Covered:** `2020 - 2026`
 - **🔗 Official Data Source:** [Openreview](https://openreview.net/group?id=ICLR.cc)
 
 
-### 8. ICML (International Conference on Machine Learning)
+#### 8. ICML (International Conference on Machine Learning)
 
 - **📁 Folder:** `ICML`
 - **📅 Years Covered:** `2016 - 2026`
 - **🔗 Official Data Source:** [ICML Proceedings](https://proceedings.mlr.press/)
 
-### 9. IJCAI (International Joint Conference on Artificial Intelligence)
+#### 9. IJCAI (International Joint Conference on Artificial Intelligence)
 
 - **📁 Folder:** `IJCAI`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [IJCAI Proceedings](https://www.ijcai.org/all_proceedings)
 
-### 10. NeurIPS (Neural Information Processing Systems)
+#### 10. NeurIPS (Neural Information Processing Systems)
 
 - **📁 Folder:** `NeurIPS`
 - **📅 Years Covered:** `2016 - 2025`
 - **🔗 Official Data Source:** [NeurIPS Proceedings](https://proceedings.neurips.cc/)
+
+### Journal
+
+#### 1. TIP (IEEE Transactions on Image Processing)
+
+- **📁 Folder:** `TIP`
+- **📅 Years Covered:** `2016 - 2025`
+- **🔗 Official Data Source:** [IEEE Xplore](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=83)
+
+#### 2. TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+
+- **📁 Folder:** `TPAMI`
+- **📅 Years Covered:** `2016 - 2025`
+- **🔗 Official Data Source:** [IEEE Xplore](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+
 
 ## 🛠️ Quick Start
 

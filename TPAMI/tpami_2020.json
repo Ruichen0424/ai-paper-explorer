@@ -1,0 +1,918 @@
+[
+    {
+        "title": "A Novel Geometric Framework on Gram Matrix Trajectories for Human Behavior Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2872564"
+    },
+    {
+        "title": "Approximate Fisher Information Matrix to Characterize the Training of Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2876413"
+    },
+    {
+        "title": "Cooperative Training of Descriptor and Generator Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2879081"
+    },
+    {
+        "title": "Detecting Coherent Groups in Crowd Scenes by Multiview Clustering",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2875002"
+    },
+    {
+        "title": "Discrete-Continuous Transformation Matching for Dense Semantic Correspondence",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2878240"
+    },
+    {
+        "title": "Efficient Inter-Geodesic Distance Computation and Fast Classical Scaling",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2877961"
+    },
+    {
+        "title": "Generalized Latent Multi-View Subspace Clustering",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2877660"
+    },
+    {
+        "title": "Hyperspectral Recovery from RGB Images using Gaussian Processes",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2873729"
+    },
+    {
+        "title": "iDeLog: Iterative Dual Spatial and Kinematic Extraction of Sigma-Lognormal Parameters",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2879312"
+    },
+    {
+        "title": "Learning Compact Features for Human Activity Recognition Via Probabilistic First-Take-All",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2874455"
+    },
+    {
+        "title": "Motion Segmentation & Multiple Object Tracking by Correlation Co-Clustering",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2876253"
+    },
+    {
+        "title": "Neural Machine Translation with Deep Attention",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2876404"
+    },
+    {
+        "title": "Numerical Quadrature for Probabilistic Policy Search",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2879335"
+    },
+    {
+        "title": "PCL: Proposal Cluster Learning for Weakly Supervised Object Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2876304"
+    },
+    {
+        "title": "Persistence Paths and Signature Features in Topological Data Analysis",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885516"
+    },
+    {
+        "title": "Person Recognition in Personal Photo Collections",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2877588"
+    },
+    {
+        "title": "Pictionary-Style Word Guessing on Hand-Drawn Object Sketches: Dataset, Analysis and Deep Network Models",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2877996"
+    },
+    {
+        "title": "Semi-Calibrated Photometric Stereo",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2873295"
+    },
+    {
+        "title": "Bayesian Neural Networks with Weight Sharing Using Dirichlet Processes",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2884905"
+    },
+    {
+        "title": "State of the Journal Editorial",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2958194"
+    },
+    {
+        "title": "Capturing the Geometry of Object Categories from Video Supervision",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2871117"
+    },
+    {
+        "title": "Deep Metric Learning with BIER: Boosting Independent Embeddings Robustly",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2848925"
+    },
+    {
+        "title": "Distributed Very Large Scale Bundle Adjustment by Global Camera Consensus",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2840719"
+    },
+    {
+        "title": "First-Person Activity Forecasting from Video with Online Inverse Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2873794"
+    },
+    {
+        "title": "Focal Loss for Dense Object Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2858826"
+    },
+    {
+        "title": "Globally-Optimal Inlier Set Maximisation for Camera Pose and Correspondence Estimation",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2848650"
+    },
+    {
+        "title": "Hierarchical Binary CNNs for Landmark Localization with Limited Resources",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2866051"
+    },
+    {
+        "title": "High-Fidelity Monocular Face Reconstruction Based on an Unsupervised Model-Based Face Autoencoder",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2876842"
+    },
+    {
+        "title": "Leader-Based Multi-Scale Attention Deep Architecture for Person Re-Identification",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2928294"
+    },
+    {
+        "title": "Mask R-CNN",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2844175"
+    },
+    {
+        "title": "Object Detection from Scratch with Deep Supervision",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2922181"
+    },
+    {
+        "title": "Open Set Domain Adaptation for Image and Action Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2880750"
+    },
+    {
+        "title": "Revisiting Projective Structure from Motion: A Robust and Efficient Incremental Solution",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2849973"
+    },
+    {
+        "title": "Unsupervised Generation of Free-Form and Parameterized Avatars",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2863282"
+    },
+    {
+        "title": "Inverse Visual Question Answering: A New Benchmark and VQA Diagnosis Tool",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2880185"
+    },
+    {
+        "title": "SPFTN: A Joint Learning Framework for Localizing and Segmenting Objects in Weakly Labeled Videos",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2881114"
+    },
+    {
+        "title": "Approximate Sparse Multinomial Logistic Regression for Classification",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2904062"
+    },
+    {
+        "title": "Feature Boosting Network For 3D Pose Estimation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2894422"
+    },
+    {
+        "title": "Moments in Time Dataset: One Million Videos for Event Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901464"
+    },
+    {
+        "title": "A Comprehensive Database for Benchmarking Imaging Systems",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2884458"
+    },
+    {
+        "title": "ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2883941"
+    },
+    {
+        "title": "Adversarial Action Prediction Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2882805"
+    },
+    {
+        "title": "Context-Aware Query Selection for Active Learning in Event Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2878696"
+    },
+    {
+        "title": "Deep Neural Network Compression by In-Parallel Pruning-Quantization",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2886192"
+    },
+    {
+        "title": "Deep Variational and Structural Hashing",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2882816"
+    },
+    {
+        "title": "Face-from-Depth for Head Pose Estimation on Depth Images",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885472"
+    },
+    {
+        "title": "Flexible High-Dimensional Unsupervised Learning with Missing Data",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885760"
+    },
+    {
+        "title": "Force from Motion: Decoding Control Force of Activity in a First-Person Video",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2883327"
+    },
+    {
+        "title": "Image and Sentence Matching via Semantic Concepts and Order Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2883466"
+    },
+    {
+        "title": "Incremental Learning Through Deep Adaptation",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2884462"
+    },
+    {
+        "title": "Joint Face Alignment and 3D Face Reconstruction with Application to Face Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885995"
+    },
+    {
+        "title": "Learning Reasoning-Decision Networks for Robust Face Alignment",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885298"
+    },
+    {
+        "title": "Mutually Guided Image Filtering",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2883553"
+    },
+    {
+        "title": "Photometric Stereo in Participating Media Using an Analytical Solution for Shape-Dependent Forward Scatter",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889088"
+    },
+    {
+        "title": "Single Image Dehazing Using Haze-Lines",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2882478"
+    },
+    {
+        "title": "The Lovász Hinge: A Novel Convex Surrogate for Submodular Losses",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2883039"
+    },
+    {
+        "title": "The Whole Is More Than Its Parts? From Explicit to Implicit Pose Normalization",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2885764"
+    },
+    {
+        "title": "A Hybrid RNN-HMM Approach for Weakly Supervised Temporal Action Segmentation",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2884469"
+    },
+    {
+        "title": "Automated Video Face Labelling for Films and TV Material",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889831"
+    },
+    {
+        "title": "Baselines Extraction from Curved Document Images via Slope Fields Recovery",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2886900"
+    },
+    {
+        "title": "Deep Self-Evolution Clustering",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889949"
+    },
+    {
+        "title": "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889473"
+    },
+    {
+        "title": "Extracting Geometric Structures in Images with Delaunay Point Processes",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2890586"
+    },
+    {
+        "title": "Group Maximum Differentiation Competition: Model Comparison with Few Samples",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889948"
+    },
+    {
+        "title": "Hierarchical Bayesian Inverse Lighting of Portraits with a Virtual Light Stage",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2891638"
+    },
+    {
+        "title": "Hierarchical Fully Convolutional Network for Joint Atrophy Localization and Alzheimer's Disease Diagnosis Using Structural MRI",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889096"
+    },
+    {
+        "title": "On Detection of Faint Edges in Noisy Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892134"
+    },
+    {
+        "title": "Perspective-Adaptive Convolutions for Scene Parsing",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2890637"
+    },
+    {
+        "title": "Tensor Robust Principal Component Analysis with a New Tensor Nuclear Norm",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2891760"
+    },
+    {
+        "title": "Tracking-by-Fusion via Gaussian Process Regression Extended to Transfer Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2889070"
+    },
+    {
+        "title": "Unsupervised Person Re-Identification by Deep Asymmetric Metric Embedding",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2886878"
+    },
+    {
+        "title": "Visibility Graphs for Image Processing",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2891742"
+    },
+    {
+        "title": "Weighted Manifold Alignment using Wave Kernel Signatures for Aligning Medical Image Datasets",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2891600"
+    },
+    {
+        "title": "Denoising Autoencoders for Overgeneralization in Neural Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2909876"
+    },
+    {
+        "title": "Efficient Graph Cut Optimization for Full CRFs with Quantized Edges",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2906204"
+    },
+    {
+        "title": "Learning Raw Image Reconstruction-Aware Deep Image Compressors",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903062"
+    },
+    {
+        "title": "Guest Editorial: Image and Video Inpainting and Denoising",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2971291"
+    },
+    {
+        "title": "Adversarial Cross-Spectral Face Completion for NIR-VIS Face Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2961900"
+    },
+    {
+        "title": "Recurrent Temporal Aggregation Framework for Deep Video Inpainting",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2958083"
+    },
+    {
+        "title": "A Temporally-Aware Interpolation Network for Video Frame Inpainting",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2951667"
+    },
+    {
+        "title": "3D Human Pose Machines with Self-Supervised Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892452"
+    },
+    {
+        "title": "Fast Cross-Validation for Kernel-Based Algorithms",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892371"
+    },
+    {
+        "title": "Heterogeneous Recommendation via Deep Low-Rank Sparse Collective Factorization",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2894137"
+    },
+    {
+        "title": "Hierarchical LSTMs with Adaptive Attention for Visual Captioning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2894139"
+    },
+    {
+        "title": "Large-Scale Urban Reconstruction with Tensor Clustering and Global Boundary Refinement",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893671"
+    },
+    {
+        "title": "LCR-Net++: Multi-Person 2D and 3D Pose Detection in Natural Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892985"
+    },
+    {
+        "title": "Light Field Super-Resolution Using a Low-Rank Prior and Deep Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893666"
+    },
+    {
+        "title": "Minimal Case Relative Pose Computation Using Ray-Point-Ray Features",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892372"
+    },
+    {
+        "title": "Multiple Kernel $k$k-Means with Incomplete Kernels",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2892416"
+    },
+    {
+        "title": "Online Meta Adaptation for Fast Video Object Segmentation",
+        "url": "https://doi.org/10.1109/TPAMI.2018.2890659"
+    },
+    {
+        "title": "Pixel Transposed Convolutional Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893965"
+    },
+    {
+        "title": "RefineNet: Multi-Path Refinement Networks for Dense Prediction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893630"
+    },
+    {
+        "title": "Shared Multi-View Data Representation for Multi-Domain Event Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893953"
+    },
+    {
+        "title": "Structured Label Inference for Visual Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2893215"
+    },
+    {
+        "title": "Object Detection in Videos by High Quality Object Linking",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2910529"
+    },
+    {
+        "title": "Significance of Softmax-Based Features in Comparison to Distance Metric Learning-Based Features",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2911075"
+    },
+    {
+        "title": "Providing a Single Ground-Truth for Illuminant Estimation for the ColorChecker Dataset",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919824"
+    },
+    {
+        "title": "A Disocclusion Inpainting Framework for Depth-Based View Synthesis",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2899837"
+    },
+    {
+        "title": "Absent Multiple Kernel Learning Algorithms",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2895608"
+    },
+    {
+        "title": "End-to-End Active Object Tracking and Its Real-World Deployment via Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2899570"
+    },
+    {
+        "title": "Generic Primitive Detection in Point Clouds Using Novel Minimal Quadric Fits",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2900309"
+    },
+    {
+        "title": "Hierarchical Surface Prediction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2896296"
+    },
+    {
+        "title": "Hyperbolic Wasserstein Distance for Shape Indexing",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2898400"
+    },
+    {
+        "title": "Joint Rain Detection and Removal from a Single Image with Contextualized Deep Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2895793"
+    },
+    {
+        "title": "Measuring Shapes with Desired Convex Polygons",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2898830"
+    },
+    {
+        "title": "Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2894353"
+    },
+    {
+        "title": "Progressive Representation Adaptation for Weakly Supervised Object Localization",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2899839"
+    },
+    {
+        "title": "Rolling Shutter Camera Absolute Pose",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2894395"
+    },
+    {
+        "title": "Skeleton-Based Online Action Prediction Using Scale Selection Network",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2898954"
+    },
+    {
+        "title": "Structured Low-Rank Matrix Factorization: Global Optimality, Algorithms, and Applications",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2900306"
+    },
+    {
+        "title": "Training Faster by Separating Modes of Variation in Batch-Normalized Models",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2895781"
+    },
+    {
+        "title": "Unsupervised Video Matting via Sparse and Low-Rank Representation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2895331"
+    },
+    {
+        "title": "Joint Segmentation and Path Classification of Curvilinear Structures",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921327"
+    },
+    {
+        "title": "Learning Local Metrics and Influential Regions for Classification",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914899"
+    },
+    {
+        "title": "Multilabel Deep Visual-Semantic Embedding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2911065"
+    },
+    {
+        "title": "Subspace Clustering via Good Neighbors",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2913863"
+    },
+    {
+        "title": "Guest Editors' Introduction to the Special Section on Computational Photography",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2993888"
+    },
+    {
+        "title": "Distance Surface for Event-Based Optical Flow",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986748"
+    },
+    {
+        "title": "Deep Slow Motion Video Reconstruction With Hybrid Imaging System",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2987316"
+    },
+    {
+        "title": "Neural Opacity Point Cloud",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986777"
+    },
+    {
+        "title": "Differential 3D Facial Recognition: Adding 3D to Your State-of-the-Art 2D Method",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986951"
+    },
+    {
+        "title": "Shape and Reflectance Reconstruction Using Concentric Multi-Spectral Light Field",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986764"
+    },
+    {
+        "title": "SweepCam - Depth-Aware Lensless Imaging Using Programmable Masks",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986784"
+    },
+    {
+        "title": "PhlatCam: Designed Phase-Mask Based Thin Lensless Camera",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2987489"
+    },
+    {
+        "title": "One-Bit Time-Resolved Imaging",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986950"
+    },
+    {
+        "title": "Neural Sensors: Learning Pixel Exposures for HDR Imaging and Video Compressive Sensing With Programmable Sensors",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2986944"
+    },
+    {
+        "title": "Adversarial Learning of Structure-Aware Fully Convolutional Networks for Landmark Localization",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901875"
+    },
+    {
+        "title": "Ambiguity-Free Radiometric Calibration for Internet Photo Collections",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901458"
+    },
+    {
+        "title": "Hiding Images within Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901877"
+    },
+    {
+        "title": "Learning Multiple Local Metrics: Global Consideration Helps",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901675"
+    },
+    {
+        "title": "Logistic Regression Confined by Cardinality-Constrained Sample and Feature Selection",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2901688"
+    },
+    {
+        "title": "Online Nearest Neighbor Search Using Hamming Weight Trees",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2902391"
+    },
+    {
+        "title": "Optimal Transport in Reproducing Kernel Hilbert Spaces: Theory and Applications",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903050"
+    },
+    {
+        "title": "Synthesizing Supervision for Learning Deep Saliency Network without Human Annotation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2900649"
+    },
+    {
+        "title": "Unsupervised Tracklet Person Re-Identification",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903058"
+    },
+    {
+        "title": "Asymmetric Mapping Quantization for Nearest Neighbor Search",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2925347"
+    },
+    {
+        "title": "Border-Peeling Clustering",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2924953"
+    },
+    {
+        "title": "Ranking-Preserving Cross-Source Learning for Image Retargeting Quality Assessment",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2923998"
+    },
+    {
+        "title": "A Continuation Method for Graph Matching Based Feature Correspondence",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903483"
+    },
+    {
+        "title": "A Curriculum Domain Adaptation Approach to the Semantic Segmentation of Urban Scenes",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903401"
+    },
+    {
+        "title": "A Simple and Fast Algorithm for L1-Norm Kernel PCA",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903505"
+    },
+    {
+        "title": "Back to the Future: Radial Basis Function Network Revisited",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2906594"
+    },
+    {
+        "title": "Contactless Biometric Identification Using 3D Finger Knuckle Patterns",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2904232"
+    },
+    {
+        "title": "Defocus Blur Detection via Multi-Stream Bottom-Top-Bottom Network",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2906588"
+    },
+    {
+        "title": "Generalized Feedback Loop for Joint Hand-Object Pose Estimation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2907951"
+    },
+    {
+        "title": "Inferring Salient Objects from Human Fixations",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2905607"
+    },
+    {
+        "title": "Learning of Gaussian Processes in Distributed and Communication Limited Systems",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2906207"
+    },
+    {
+        "title": "Learning to Index for Nearest Neighbor Search",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2907086"
+    },
+    {
+        "title": "Motion-Guided Cascaded Refinement Network for Video Object Segmentation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2906175"
+    },
+    {
+        "title": "On Multi-Layer Basis Pursuit, Efficient Algorithms and Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2904255"
+    },
+    {
+        "title": "Recognizing Material Properties from Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2907850"
+    },
+    {
+        "title": "ROAM: A Rich Object Appearance Model with Application to Rotoscoping",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2904963"
+    },
+    {
+        "title": "Squeeze-and-Excitation Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2913372"
+    },
+    {
+        "title": "Tensor Graphical Model: Non-Convex Optimization and Statistical Inference",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2907679"
+    },
+    {
+        "title": "Towards Efficient U-Nets: A Coupled and Quantized Approach",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2907634"
+    },
+    {
+        "title": "Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2903179"
+    },
+    {
+        "title": "A Comprehensive Analysis of Deep Regression",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2910523"
+    },
+    {
+        "title": "A Novel Dynamic Model Capturing Spatial and Temporal Patterns for Facial Expression Analysis",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2911937"
+    },
+    {
+        "title": "Absolute Cluster Validity",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2912970"
+    },
+    {
+        "title": "Age from Faces in the Deep Learning Revolution",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2910522"
+    },
+    {
+        "title": "Aggregated Wasserstein Distance and State Registration for Hidden Markov Models",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2908635"
+    },
+    {
+        "title": "Can We See More? Joint Frontalization and Hallucination of Unaligned Tiny Faces",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914039"
+    },
+    {
+        "title": "Defining Image Memorability Using the Visual Memory Schema",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914392"
+    },
+    {
+        "title": "Hierarchical Gaussian Descriptors with Application to Person Re-Identification",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914686"
+    },
+    {
+        "title": "Learning Complexity-Aware Cascades for Pedestrian Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2910514"
+    },
+    {
+        "title": "Learning More Universal Representations for Transfer-Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2913857"
+    },
+    {
+        "title": "Learning Representations for Neural Network-Based Classification Using the Information Bottleneck Principle",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2909031"
+    },
+    {
+        "title": "Multi-Source Causal Feature Selection",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2908373"
+    },
+    {
+        "title": "On Perfect Clustering of High Dimension, Low Sample Size Data",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2912599"
+    },
+    {
+        "title": "Properties of Mean Shift",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2913640"
+    },
+    {
+        "title": "The Gap of Semantic Parsing: A Survey on Automatic Math Word Problem Solvers",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914054"
+    },
+    {
+        "title": "Weakly Supervised Learning with Multi-Stream CNN-LSTM-HMMs to Discover Sequential Parallelism in Sign Language Videos",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2911077"
+    },
+    {
+        "title": "Bound and Conquer: Improving Triangulation by Enforcing Consistency",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2939530"
+    },
+    {
+        "title": "Guest Editors' Introduction to the Special Issue on RGB-D Vision: Methods and Applications",
+        "url": "https://doi.org/10.1109/TPAMI.2020.2976227"
+    },
+    {
+        "title": "Intel® RealSense™ SR300 Coded Light Depth Camera",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915841"
+    },
+    {
+        "title": "Snapshot Compressive ToF+Spectral Imaging via Optimized Color-Coded Apertures",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2912961"
+    },
+    {
+        "title": "Learning Depth with Convolutional Spatial Propagation Network",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2947374"
+    },
+    {
+        "title": "Progressive Fusion for Unsupervised Binocular Depth Estimation Using Cycled Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2942928"
+    },
+    {
+        "title": "Unsupervised Domain Adaptation for Depth Prediction from Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2940948"
+    },
+    {
+        "title": "Semi-Supervised Adversarial Monocular Depth Estimation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2936024"
+    },
+    {
+        "title": "Confidence Propagation through CNNs for Guided Sparse Depth Regression",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2929170"
+    },
+    {
+        "title": "Learned Dynamic Guidance for Depth Image Reconstruction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2961672"
+    },
+    {
+        "title": "Photometric Depth Super-Resolution",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2923621"
+    },
+    {
+        "title": "Real-Time RGB-D Camera Pose Estimation in Novel Scenes Using a Relocalisation Cascade",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915068"
+    },
+    {
+        "title": "Unsupervised Deep Visual-Inertial Odometry with Online Error Correction for RGB-D Imagery",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2909895"
+    },
+    {
+        "title": "SurfelMeshing: Online Surfel-Based Mesh Reconstruction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2947048"
+    },
+    {
+        "title": "UnstructuredFusion: Realtime 4D Geometry and Texture Reconstruction Using Commercial RGBD Cameras",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915229"
+    },
+    {
+        "title": "DoubleFusion: Real-Time Capture of Human Performances with Inner Body Shapes from a Single Depth Sensor",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2928296"
+    },
+    {
+        "title": "Learning and Tracking the 3D Body Shape of Freely Moving Infants from RGB-D sequences",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2917908"
+    },
+    {
+        "title": "Robust RGB-D Face Recognition Using Attribute-Aware Loss",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919284"
+    },
+    {
+        "title": "Local-LDA: Open-Ended Learning of Latent Topics for 3D Object Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2926459"
+    },
+    {
+        "title": "Learning with Privileged Information via Adversarial Discriminative Modality Distillation",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2929038"
+    },
+    {
+        "title": "Sparse Coding of Shape Trajectories for Facial Expression and Action Recognition",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2932979"
+    },
+    {
+        "title": "Joint Task-Recursive Learning for RGB-D Scene Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2926728"
+    },
+    {
+        "title": "Every Pixel Counts ++: Joint Learning of Geometry and Motion with 3D Holistic Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2930258"
+    },
+    {
+        "title": "Zig-Zag Network for Semantic Segmentation of RGB-D Images",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2923513"
+    },
+    {
+        "title": "Globally Optimal Inlier Set Maximization for Atlanta World Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2909863"
+    },
+    {
+        "title": "Clouds of Oriented Gradients for 3D Detection of Objects, Surfaces, and Indoor Scene Layouts",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2923201"
+    },
+    {
+        "title": "NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2916873"
+    },
+    {
+        "title": "The ApolloScape Open Dataset for Autonomous Driving and Its Application",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2926463"
+    },
+    {
+        "title": "Detailed Surface Geometry and Albedo Recovery from RGB-D Video under Natural Illumination",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2955459"
+    },
+    {
+        "title": "A Functional Representation for Graph Matching",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919308"
+    },
+    {
+        "title": "Context Based Emotion Recognition Using EMOTIC Dataset",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2916866"
+    },
+    {
+        "title": "DART: Distribution Aware Retinal Transform for Event-Based Cameras",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919301"
+    },
+    {
+        "title": "Deep Imbalanced Learning for Face Recognition and Attribute Prediction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914680"
+    },
+    {
+        "title": "Direction-Aware Spatial Context Features for Shadow Detection and Removal",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919616"
+    },
+    {
+        "title": "Face Hallucination by Attentive Sequence Optimization with Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915301"
+    },
+    {
+        "title": "$\\mathbb {H}$H-Patches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915233"
+    },
+    {
+        "title": "Learning Low-Dimensional Temporal Representations with Latent Alignments",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919303"
+    },
+    {
+        "title": "Learning Visual Instance Retrieval from Failure: Efficient Online Local Metric Adaptation from Negative Samples",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2918208"
+    },
+    {
+        "title": "Local-Aggregation Graph Networks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2915591"
+    },
+    {
+        "title": "Matched Filters for Noisy Induced Subgraph Detection",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2914651"
+    },
+    {
+        "title": "MOSES: A Streaming Algorithm for Linear Dimensionality Reduction",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919597"
+    },
+    {
+        "title": "Recomputation of the Dense Layers for Performance Improvement of DCNN",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2917685"
+    },
+    {
+        "title": "Semantic Face Hallucination: Super-Resolving Very Low-Resolution Face Images with Supplementary Attributes",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2916881"
+    },
+    {
+        "title": "Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Resolution on Real Data",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2917037"
+    },
+    {
+        "title": "Multivariate Extension of Matrix-Based Rényi's $\\alpha$α-Order Entropy Functional",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2932976"
+    },
+    {
+        "title": "CoRRN: Cooperative Reflection Removal Network",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921574"
+    },
+    {
+        "title": "Gravitational Laws of Focus of Attention",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2920636"
+    },
+    {
+        "title": "Guided Attention Inference Network",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921543"
+    },
+    {
+        "title": "Local Deformable 3D Reconstruction with Cartan's Connections",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2920821"
+    },
+    {
+        "title": "On the Convergence of Learning-Based Iterative Methods for Nonconvex Inverse Problems",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2920591"
+    },
+    {
+        "title": "On the Robustness of Semantic Segmentation Models to Adversarial Attacks",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2919707"
+    },
+    {
+        "title": "One Shot Segmentation: Unifying Rigid Detection and Non-Rigid Segmentation Using Elastic Regularization",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2922959"
+    },
+    {
+        "title": "Real-World Image Denoising with Deep Boosting",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921548"
+    },
+    {
+        "title": "Reconstruct and Represent Video Contents for Captioning via Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2920899"
+    },
+    {
+        "title": "Semantic Fisher Scores for Task Transfer: Using Objects to Classify Scenes",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921960"
+    },
+    {
+        "title": "Trace Quotient with Sparsity Priors for Learning Low Dimensional Image Representations",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2921031"
+    },
+    {
+        "title": "Vocabulary-Informed Zero-Shot and Open-Set Learning",
+        "url": "https://doi.org/10.1109/TPAMI.2019.2922175"
+    }
+]
