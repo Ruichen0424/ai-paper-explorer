@@ -14,33 +14,34 @@ To facilitate quick retrieval, statistical analysis, and secondary development f
 Each JSON file represents a collection of papers for a specific conference in a given year. The data is stored in a dictionary (Key-Value) structure for simplicity.
 
 
-## 📂 Supported Conferences & Data Sources
+## 📂 Supported Conferences and Journals
 
 This repository currently includes paper data from the following top-tier conferences and journals. The specific details for each folder are as follows:
 
 ### Conference
 
-| No. | Name | Folder | Years Covered | Official Data Source |
-|---|---|---|---|---|
-| 1 | AAAI (Association for the Advancement of Artificial Intelligence) | AAAI | 2016 - 2026 | [AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/issue/archive) |
-| 2 | ACL (Association for Computational Linguistics) | ACL | 2016 - 2026 | [ACL Proceedings](https://aclanthology.org/venues/acl/) |
-| 3 | CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | CVPR | 2016 - 2026 | [CVF Open Access](https://openaccess.thecvf.com/menu) |
-| 4 | ECCV (European Conference on Computer Vision) | ECCV | 2018 - 2024 (even years) | [ECCV Proceedings](https://www.ecva.net/papers.php) |
-| 5 | EMNLP (Empirical Methods in Natural Language Processing) | EMNLP | 2016 - 2025 | [EMNLP Proceedings](https://aclanthology.org/venues/emnlp/) |
-| 6 | ICCV (IEEE/CVF International Conference on Computer Vision) | ICCV | 2017 - 2025 (odd years) | [CVF Open Access](https://openaccess.thecvf.com/menu) |
-| 7 | ICLR (International Conference on Learning Representations) | ICLR | 2020 - 2026 | [OpenReview](https://openreview.net/group?id=ICLR.cc) |
-| 8 | ICML (International Conference on Machine Learning) | ICML | 2016 - 2026 | [ICML Proceedings](https://proceedings.mlr.press/) |
-| 9 | IJCAI (International Joint Conference on Artificial Intelligence) | IJCAI | 2016 - 2025 | [IJCAI Proceedings](https://www.ijcai.org/all_proceedings) |
-| 10 | NeurIPS (Neural Information Processing Systems) | NeurIPS | 2016 - 2025 | [NeurIPS Proceedings](https://proceedings.neurips.cc/) |
+| No. | Name | Folder | Years Covered | Official Data Source | H5-index (Rank) |
+|---|---|---|---|---|---|
+| 1 | AAAI (AAAI Conference on Artificial Intelligence) | AAAI | 2016 - 2026 | [AAAI Proceedings](https://ojs.aaai.org/index.php/AAAI/issue/archive) | 232 (36) |
+| 2 | ACL (Meeting of the Association for Computational Linguistics) | ACL | 2016 - 2026 | [ACL Proceedings](https://aclanthology.org/venues/acl/) | 236 (34) |
+| 3 | CVPR (IEEE/CVF Conference on Computer Vision and Pattern Recognition) | CVPR | 2016 - 2026 | [CVF Open Access](https://openaccess.thecvf.com/menu) | 450 (2) |
+| 4 | ECCV (European Conference on Computer Vision) | ECCV | 2018 - 2024 (even years) | [ECCV Proceedings](https://www.ecva.net/papers.php) | 262 (22) |
+| 5 | EMNLP (Empirical Methods in Natural Language Processing) | EMNLP | 2016 - 2025 | [EMNLP Proceedings](https://aclanthology.org/venues/emnlp/) | 218 (45) |
+| 6 | ICCV (IEEE/CVF International Conference on Computer Vision) | ICCV | 2017 - 2025 (odd years) | [CVF Open Access](https://openaccess.thecvf.com/menu) | 256 (25) |
+| 7 | ICLR (International Conference on Learning Representations) | ICLR | 2020 - 2026 | [OpenReview](https://openreview.net/group?id=ICLR.cc) | 362 (8) |
+| 8 | ICML (International Conference on Machine Learning) | ICML | 2016 - 2026 | [ICML Proceedings](https://proceedings.mlr.press/) | 272 (19) |
+| 9 | IJCAI (International Joint Conference on Artificial Intelligence) | IJCAI | 2016 - 2025 | [IJCAI Proceedings](https://www.ijcai.org/all_proceedings) | 136 (-) |
+| 10 | NeurIPS (Neural Information Processing Systems) | NeurIPS | 2016 - 2025 | [NeurIPS Proceedings](https://proceedings.neurips.cc/) | 371 (7) |
 
 
 ### Journal
 
-| No. | Name | Folder | Years Covered | Official Data Source |
-|---|---|---|---|---|
-| 1 | IJCV (International Journal of Computer Vision) | IJCV | 2016 - 2025 | [Springer Nature Link](https://link.springer.com/journal/11263) |
-| 2 | TIP (IEEE Transactions on Image Processing) | TIP | 2016 - 2025 | [IEEE Xplore](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=83) |
-| 3 | TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | TPAMI | 2016 - 2025 | [IEEE Xplore](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) |
+| No. | Name | Folder | Years Covered | Official Data Source | H5-index (Rank) |
+|---|---|---|---|---|---|
+| 1 | IJCV (International Journal of Computer Vision) | IJCV | 2016 - 2025 | [Springer Nature Link](https://link.springer.com/journal/11263) | 109 (-) |
+| 2 | TIP (IEEE Transactions on Image Processing) | TIP | 2016 - 2025 | [IEEE Xplore](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=83) | 165 (-) |
+| 3 | TNNLS (IEEE Transactions on Neural Networks and Learning Systems) | TNNLS | 2016 - 2025 | [IEEE Xplore](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) | 165 (-) |
+| 4 | TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | TPAMI | 2016 - 2025 | [IEEE Xplore](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) | 217 (46) |
 
 
 ## 🛠️ Quick Start

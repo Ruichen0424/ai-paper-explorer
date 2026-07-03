@@ -1,0 +1,1850 @@
+[
+    {
+        "title": "Editorial: Another Successful Year and Looking Forward to 2020",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957621"
+    },
+    {
+        "title": "Neuromemristive Circuits for Edge Computing: A Review",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899262"
+    },
+    {
+        "title": "Spatially Arranged Sparse Recurrent Neural Networks for Energy Efficient Associative Memory",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899344"
+    },
+    {
+        "title": "A Unified Entropy-Based Distance Metric for Ordinal-and-Nominal-Attribute Data Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899381"
+    },
+    {
+        "title": "GeCo: Classification Restricted Boltzmann Machine Hardware for On-Chip Semisupervised Learning and Bayesian Inference",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899386"
+    },
+    {
+        "title": "Adaptive Neural Network Learning Controller Design for a Class of Nonlinear Systems With Time-Varying State Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899589"
+    },
+    {
+        "title": "Event-Triggered Optimal Control With Performance Guarantees Using Adaptive Dynamic Programming",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899594"
+    },
+    {
+        "title": "3-D Learning-Enhanced Adaptive ILC for Iteration-Varying Formation Tasks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899632"
+    },
+    {
+        "title": "Reservoir Computing Universality With Stochastic Inputs",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899649"
+    },
+    {
+        "title": "Automatic Sleep Staging Employing Convolutional Neural Networks and Cortical Connectivity Images",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899781"
+    },
+    {
+        "title": "Cell-Coupled Long Short-Term Memory With L-Skip Fusion Mechanism for Mood Disorder Detection Through Elicited Audiovisual Features",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899884"
+    },
+    {
+        "title": "Self-Tuning Neural Predictive Control Scheme for Ultrabattery to Emulate a Virtual Synchronous Machine in Autonomous Power Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899904"
+    },
+    {
+        "title": "Scalable Digital Neuromorphic Architecture for Large-Scale Biophysically Meaningful Neural Network With Multi-Compartment Neurons",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899936"
+    },
+    {
+        "title": "Set-Membership Estimation for Complex Networks Subject to Linear and Nonlinear Bounded Attacks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900045"
+    },
+    {
+        "title": "A New Timing Error Cost Function for Binary Time Series Prediction",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900046"
+    },
+    {
+        "title": "Leveraging Coupled Interaction for Multimodal Alzheimer's Disease Diagnosis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900077"
+    },
+    {
+        "title": "The Forbidden Region Self-Organizing Map Neural Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900091"
+    },
+    {
+        "title": "HONN-Based Adaptive ILC for Pure-Feedback Nonaffine Discrete-Time Systems With Unknown Control Directions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900278"
+    },
+    {
+        "title": "Further Results on Adaptive Stabilization of High-Order Stochastic Nonlinear Systems Subject to Uncertainties",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900339"
+    },
+    {
+        "title": "Attack Detection and Approximation in Nonlinear Networked Control Systems Using Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900430"
+    },
+    {
+        "title": "Multiple Instance Learning for Multiple Diverse Hyperspectral Target Characterizations",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900465"
+    },
+    {
+        "title": "Learning-Based Robust Tracking Control of Quadrotor With Time-Varying and Coupling Uncertainties",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900510"
+    },
+    {
+        "title": "A Time Wave Neural Network Framework for Solving Time-Dependent Project Scheduling Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900544"
+    },
+    {
+        "title": "A Conclusive Analysis of the Finite-Time Behavior of the Discretized Pursuit Learning Automaton",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900639"
+    },
+    {
+        "title": "Semisupervised Text Classification by Variational Autoencoder",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900734"
+    },
+    {
+        "title": "A Novel Concept Drift Detection Method for Incremental Learning in Nonstationary Environments",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2900956"
+    },
+    {
+        "title": "Attribute-Guided Network for Cross-Modal Zero-Shot Hashing",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904991"
+    },
+    {
+        "title": "Associative Memories With Synaptic Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921143"
+    },
+    {
+        "title": "Augmenting Recurrent Neural Networks Resilience by Dropout",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899744"
+    },
+    {
+        "title": "Noise Robust Projection Rule for Hyperbolic Hopfield Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899914"
+    },
+    {
+        "title": "Selection and Optimization of Temporal Spike Encoding Methods for Spiking Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906158"
+    },
+    {
+        "title": "A White-Box Equivalent Neural Network Circuit Model for SoC Estimation of Electrochemical Cells",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2901062"
+    },
+    {
+        "title": "Deep Decision Tree Transfer Boosting",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2901273"
+    },
+    {
+        "title": "H∞Static Output-Feedback Control Design for Discrete-Time Systems Using Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2901889"
+    },
+    {
+        "title": "Neural Network-Based Distributed Cooperative Learning Control for Multiagent Systems via Event-Triggered Communication",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904253"
+    },
+    {
+        "title": "Distributed Fault-Tolerant Control of Multiagent Systems: An Adaptive Learning Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904277"
+    },
+    {
+        "title": "Joint Principal Component and Discriminant Analysis for Dimensionality Reduction",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904701"
+    },
+    {
+        "title": "Term Selection for a Class of Separable Nonlinear Models",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904952"
+    },
+    {
+        "title": "Local Synchronization of Interconnected Boolean Networks With Stochastic Disturbances",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2904978"
+    },
+    {
+        "title": "Information Transmitted From Bioinspired Neuron-Astrocyte Network Improves Cortical Spiking Network's Pattern Recognition Performance",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905003"
+    },
+    {
+        "title": "Flow Adversarial Networks: Flowrate Prediction for Gas-Liquid Multiphase Flows Across Different Domains",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905082"
+    },
+    {
+        "title": "PCNN Mechanism and its Parameter Settings",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905113"
+    },
+    {
+        "title": "Hidden Bursting Firings and Bifurcation Mechanisms in Memristive Neuron Model With Threshold Electromagnetic Induction",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905137"
+    },
+    {
+        "title": "The Hierarchical Continuous Pursuit Learning Automation: A Novel Scheme for Environments With Large Numbers of Actions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905162"
+    },
+    {
+        "title": "Greedy Projected Gradient-Newton Method for Sparse Logistic Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905261"
+    },
+    {
+        "title": "Metacognitive Octonion-Valued Neural Networks as They Relate to Time Series Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905643"
+    },
+    {
+        "title": "Adaptive Optimal Control for a Class of Nonlinear Systems: The Online Policy Iteration Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2905715"
+    },
+    {
+        "title": "Joint and Direct Optimization for Dictionary Learning in Convolutional Sparse Representation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906074"
+    },
+    {
+        "title": "Toward Compact ConvNets via Structure-Sparsity Regularized Filter Pruning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906563"
+    },
+    {
+        "title": "Eliminating the Permutation Ambiguity of Convolutive Blind Source Separation by Using Coupled Frequency Bins",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906833"
+    },
+    {
+        "title": "Marginalized Multiview Ensemble Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906867"
+    },
+    {
+        "title": "Distribution-Free Probability Density Forecast Through Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2907305"
+    },
+    {
+        "title": "Fast Semisupervised Learning With Bipartite Graph for Large-Scale Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2908504"
+    },
+    {
+        "title": "Passivity Analysis for Quaternion-Valued Memristor-Based Neural Networks With Time-Varying Delay",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2908755"
+    },
+    {
+        "title": "Probabilistic Neural Network With Complex Exponential Activation Functions in Image Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2908973"
+    },
+    {
+        "title": "Spatial Pyramid-Enhanced NetVLAD With Weighted Triplet Loss for Place Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2908982"
+    },
+    {
+        "title": "Stability Analysis for Delayed Neural Networks With an Improved General Free-Matrix-Based Integral Inequality",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909350"
+    },
+    {
+        "title": "G-Softmax: Improving Intraclass Compactness and Interclass Separability of Features",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909737"
+    },
+    {
+        "title": "Stabilization of Second-Order Memristive Neural Networks With Mixed Time Delays via Nonreduced Order",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910125"
+    },
+    {
+        "title": "Heterogeneous Multilayer Generalized Operational Perceptron",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2914082"
+    },
+    {
+        "title": "LABIN: Balanced Min Cut for Large-Scale Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909425"
+    },
+    {
+        "title": "Adaptive Deep Modeling of Users and Items Using Side Information for Recommendation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909432"
+    },
+    {
+        "title": "Exactly Robust Kernel Principal Component Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909686"
+    },
+    {
+        "title": "Distributed Dissipative State Estimation for Markov Jump Genetic Regulatory Networks Subject to Round-Robin Scheduling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2909747"
+    },
+    {
+        "title": "Compact and Computationally Efficient Representation of Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910073"
+    },
+    {
+        "title": "Discriminative Fisher Embedding Dictionary Learning Algorithm for Object Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910146"
+    },
+    {
+        "title": "Stability-Based Generalization Analysis of Distributed Learning Algorithms for Big Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910188"
+    },
+    {
+        "title": "Recurrent Neural Networks With External Addressable Long-Term and Working Memory for Learning Long-Term Dependences",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910302"
+    },
+    {
+        "title": "Log-Sum-Exp Neural Networks and Posynomial Models for Convex and Log-Log-Convex Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910417"
+    },
+    {
+        "title": "A Robust Visual System for Small Target Motion Detection Against Cluttered Moving Backgrounds",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910418"
+    },
+    {
+        "title": "Trajectory Tracking on Uncertain Complex Networks via NN-Based Inverse Optimal Pinning Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910504"
+    },
+    {
+        "title": "Nonsynaptic Error Backpropagation in Long-Term Cognitive Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910555"
+    },
+    {
+        "title": "Bipartite Differential Neural Network for Unsupervised Image Change Detection",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910571"
+    },
+    {
+        "title": "A Switched Operation Approach to Sampled-Data Control Stabilization of Fuzzy Memristive Neural Networks With Time-Varying Delay",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910574"
+    },
+    {
+        "title": "Neural Network-Based Adaptive Antiswing Control of an Underactuated Ship-Mounted Crane With Roll Motions and Input Dead Zones",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910580"
+    },
+    {
+        "title": "Robust and Sparse Linear Discriminant Analysis via an Alternating Direction Method of Multipliers",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910991"
+    },
+    {
+        "title": "From Whole to Part: Reference-Based Representation for Clustering Categorical Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2911118"
+    },
+    {
+        "title": "Cognitive Action Laws: The Case of Visual Features",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2911174"
+    },
+    {
+        "title": "Convolutional Neural Networks as Asymmetric Volterra Models Based on Generalized Orthonormal Basis Functions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2911603"
+    },
+    {
+        "title": "Synchronization of the Networked System With Continuous and Impulsive Hybrid Communications",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2911926"
+    },
+    {
+        "title": "Adaptive Neural Output-Feedback Decentralized Control for Large-Scale Nonlinear Systems With Stochastic Disturbances",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2912082"
+    },
+    {
+        "title": "Heterogeneous Domain Adaptation via Nonlinear Matrix Factorization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2913723"
+    },
+    {
+        "title": "Global Stabilization of Fractional-Order Memristor-Based Neural Networks With Time Delay",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2915353"
+    },
+    {
+        "title": "Neural Networks-Based Distributed Adaptive Control of Nonlinear Multiagent Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2915376"
+    },
+    {
+        "title": "Constrained Quaternion-Variable Convex Optimization: A Quaternion-Valued Recurrent Neural Network Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2916597"
+    },
+    {
+        "title": "Consensus Tracking Control of Switched Stochastic Nonlinear Multiagent Systems via Event-Triggered Strategy",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917137"
+    },
+    {
+        "title": "The Robustness of Outputs With Respect to Disturbances for Boolean Control Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2910193"
+    },
+    {
+        "title": "Composite Learning Enhanced Robot Impedance Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2912212"
+    },
+    {
+        "title": "Robust Event-Triggered Control Invariance of Probabilistic Boolean Control Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917753"
+    },
+    {
+        "title": "Comments on \"Fractional Extreme Value Adaptive Training Method: Fractional Steepest Descent Approach\"",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899219"
+    },
+    {
+        "title": "Robust Multiview Subspace Learning With Nonindependently and Nonidentically Distributed Complex Noise",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917328"
+    },
+    {
+        "title": "Where Computation and Dynamics Meet: Heteroclinic Network-Based Controllers in Evolutionary Robotics",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917471"
+    },
+    {
+        "title": "Learning Low-Dimensional Latent Graph Structures: A Density Estimation Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917696"
+    },
+    {
+        "title": "A Probabilistic Synapse With Strained MTJs for Spiking Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917819"
+    },
+    {
+        "title": "Continuously Constructive Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2918225"
+    },
+    {
+        "title": "Performance Evaluation of Probabilistic Methods Based on Bootstrap and Quantile Regression to Quantify PV Power Point Forecast Uncertainty",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2918795"
+    },
+    {
+        "title": "Task Assignment for Multivehicle Systems Based on Collaborative Neurodynamic Optimization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2918984"
+    },
+    {
+        "title": "An Improved N-Step Value Gradient Learning Adaptive Dynamic Programming Algorithm for Online Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919338"
+    },
+    {
+        "title": "RBFNN-Based Data-Driven Predictive Iterative Learning Control for Nonaffine Nonlinear Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919441"
+    },
+    {
+        "title": "Error Bounds for Piecewise Smooth and Switching Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919444"
+    },
+    {
+        "title": "Performance Enhancement of Learning Tracking Systems Over Fading Channels With Multiplicative and Additive Randomness",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919510"
+    },
+    {
+        "title": "Projective Synchronization of Delayed Neural Networks With Mismatched Parameters and Impulsive Effects",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919560"
+    },
+    {
+        "title": "Direct Adaptive Preassigned Finite-Time Control With Time-Delay and Quantized Input Using Neural Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919577"
+    },
+    {
+        "title": "Event-Based Dissipative Analysis for Discrete Time-Delay Singular Jump Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919585"
+    },
+    {
+        "title": "Completely Automated CNN Architecture Design Based on Blocks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919608"
+    },
+    {
+        "title": "Online Model-Free n-Step HDP With Stability Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919614"
+    },
+    {
+        "title": "Event-Triggered Neural Control of Nonlinear Systems With Rate-Dependent Hysteresis Input Based on a New Filter",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919641"
+    },
+    {
+        "title": "Training Spiking Neural Networks for Cognitive Tasks: A Versatile Framework Compatible With Various Temporal Codes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919662"
+    },
+    {
+        "title": "Adaptive Global Sliding-Mode Control for Dynamic Systems Using Double Hidden Layer Recurrent Neural Network Structure",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919676"
+    },
+    {
+        "title": "Multi-Objective Evolutionary Federated Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919699"
+    },
+    {
+        "title": "Redundancy and Attention in Convolutional LSTM for Gesture Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919764"
+    },
+    {
+        "title": "Multilinear Multitask Learning by Rank-Product Regularization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919774"
+    },
+    {
+        "title": "Multiple Kernel Clustering With Neighbor-Kernel Subspace Segmentation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919900"
+    },
+    {
+        "title": "Evolving Local Plasticity Rules for Synergistic Learning in Echo State Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919903"
+    },
+    {
+        "title": "Composite Neural Learning-Based Nonsingular Terminal Sliding Mode Control of MEMS Gyroscopes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919931"
+    },
+    {
+        "title": "Hybrid Classifier Ensemble for Imbalanced Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920246"
+    },
+    {
+        "title": "Adaptive Decentralized Neural Network Tracking Control for Uncertain Interconnected Nonlinear Systems With Input Quantization and Time Delay",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919697"
+    },
+    {
+        "title": "Riemannian Curvature of Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919705"
+    },
+    {
+        "title": "Dual Adversarial Autoencoders for Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2919948"
+    },
+    {
+        "title": "Online Incremental Classification Resonance Network and Its Application to Human-Robot Interaction",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920158"
+    },
+    {
+        "title": "Multimodal Deep Network Embedding With Integrated Structure and Attribute Information",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920267"
+    },
+    {
+        "title": "Finite-Horizon $H_{\\infty}$ State Estimation for Periodic Neural Networks Over Fading Channels",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920368"
+    },
+    {
+        "title": "Skip-Connected Covariance Network for Remote Sensing Scene Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920374"
+    },
+    {
+        "title": "A Novel Neural Network for Solving Nonsmooth Nonconvex Optimization Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920408"
+    },
+    {
+        "title": "Estimation of Domain of Attraction for Aperiodic Sampled-Data Switched Delayed Neural Networks Subject to Actuator Saturation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920665"
+    },
+    {
+        "title": "New Criteria for Stability of Neutral-Type Neural Networks With Multiple Time Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920672"
+    },
+    {
+        "title": "Deep Inception-Residual Laplacian Pyramid Networks for Accurate Single-Image Super-Resolution",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920852"
+    },
+    {
+        "title": "Hyperspectral Pansharpening With Deep Priors",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920857"
+    },
+    {
+        "title": "A Training Data Set Cleaning Method by Classification Ability Ranking for the $k$ -Nearest Neighbor Classifier",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920864"
+    },
+    {
+        "title": "Neural Network-Based Information Transfer for Dynamic Optimization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920887"
+    },
+    {
+        "title": "Distributed Synchronization Control of Nonaffine Multiagent Systems With Guaranteed Performance",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920892"
+    },
+    {
+        "title": "Fault Diagnosis of Complex Processes Using Sparse Kernel Local Fisher Discriminant Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920903"
+    },
+    {
+        "title": "Person Reidentification via Multi-Feature Fusion With Adaptive Graph Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920905"
+    },
+    {
+        "title": "Multidimensional Gains for Stochastic Approximation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920930"
+    },
+    {
+        "title": "Stabilization of Mode-Dependent Impulsive Hybrid Systems Driven by DFA With Mixed-Mode Effects",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921020"
+    },
+    {
+        "title": "Minimization of Fraction Function Penalty in Compressed Sensing",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921404"
+    },
+    {
+        "title": "Cascade Superpixel Regularized Gabor Feature Fusion for Hyperspectral Image Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921564"
+    },
+    {
+        "title": "Knowledge-Driven Deep Unrolling for Robust Image Layer Separation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921597"
+    },
+    {
+        "title": "An Efficient Entropy-Based Causal Discovery Method for Linear Structural Equation Models With IID Noise Variables",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921613"
+    },
+    {
+        "title": "Deep Class-Wise Hashing: Semantics-Preserving Hashing via Class-Wise Loss",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921805"
+    },
+    {
+        "title": "Energy Disaggregation via Deep Temporal Dictionary Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921952"
+    },
+    {
+        "title": "SVRG-MKL: A Fast and Scalable Multiple Kernel Learning Solution for Features Combination in Multi-Class Classification Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2922123"
+    },
+    {
+        "title": "Cooperative Adaptive Output Regulation for Lower Triangular Nonlinear Multi-Agent Systems Subject to Jointly Connected Switching Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2922174"
+    },
+    {
+        "title": "Disturbance Observer-Based Neural Network Control of Cooperative Multiple Manipulators With Input Saturation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2923241"
+    },
+    {
+        "title": "A Semisupervised Recurrent Convolutional Attention Model for Human Activity Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927224"
+    },
+    {
+        "title": "Finite-Time Consensus of Second-Order Switched Nonlinear Multi-Agent Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920880"
+    },
+    {
+        "title": "Direct Error-Driven Learning for Deep Neural Networks With Applications to Big Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2920964"
+    },
+    {
+        "title": "Distributed Training for Multi-Layer Neural Networks by Consensus",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921926"
+    },
+    {
+        "title": "A Taxonomy for Neural Memory Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2926466"
+    },
+    {
+        "title": "Lightweight Pyramid Networks for Image Deraining",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2926481"
+    },
+    {
+        "title": "Design of State-Dependent Switching Laws for Stability of Switched Stochastic Neural Networks With Time-Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927161"
+    },
+    {
+        "title": "Approximate Policy-Based Accelerated Deep Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927227"
+    },
+    {
+        "title": "Graphical Nash Equilibria and Replicator Dynamics on Complex Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927233"
+    },
+    {
+        "title": "Deep Spiking Neural Network for Video-Based Disguise Face Recognition Based on Dynamic Facial Movements",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927274"
+    },
+    {
+        "title": "Change Detection in Graph Streams by Learning Graph Embeddings on Constant-Curvature Manifolds",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927301"
+    },
+    {
+        "title": "Incremental Reinforcement Learning in Continuous Spaces via Policy Relaxation and Importance Weighting",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927320"
+    },
+    {
+        "title": "Generative Memory for Lifelong Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927369"
+    },
+    {
+        "title": "A Maximally Split and Relaxed ADMM for Regularized Extreme Learning Machines",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927385"
+    },
+    {
+        "title": "Multistability of Almost Periodic Solution for Memristive Cohen-Grossberg Neural Networks With Mixed Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927506"
+    },
+    {
+        "title": "Adaptive Neural Quantized Control for a Class of MIMO Switched Nonlinear Systems With Asymmetric Actuator Dead-Zone",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927507"
+    },
+    {
+        "title": "Optimal Power Management Based on Q-Learning and Neuro-Dynamic Programming for Plug-in Hybrid Electric Vehicles",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927531"
+    },
+    {
+        "title": "Variance-Constrained Recursive State Estimation for Time-Varying Complex Networks With Quantized Measurements and Uncertain Inner Coupling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927554"
+    },
+    {
+        "title": "Event-Based Adaptive Neural Tracking Control for Discrete-Time Stochastic Nonlinear Systems: A Triggering Threshold Compensation Strategy",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927595"
+    },
+    {
+        "title": "Stubborn State Estimation for Delayed Neural Networks Using Saturating Output Errors",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927610"
+    },
+    {
+        "title": "Impulsive Consensus of Nonlinear Multi-Agent Systems via Edge Event-Triggered Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927623"
+    },
+    {
+        "title": "Learning Markov Blankets From Multiple Interventional Data Sets",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927636"
+    },
+    {
+        "title": "Two Projection Neural Networks With Reduced Model Complexity for Nonlinear Programming",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927639"
+    },
+    {
+        "title": "Precise Measurement of Position and Attitude Based on Convolutional Neural Network and Visual Correspondence Relationship",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927719"
+    },
+    {
+        "title": "Error-Based Learning Mechanism for Fast Online Adaptation in Robot Motor Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927737"
+    },
+    {
+        "title": "Discrete Deep Hashing With Ranking Optimization for Image Retrieval",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927868"
+    },
+    {
+        "title": "Deep Reinforcement Learning-Based Automatic Exploration for Navigation in Unknown Environment",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927869"
+    },
+    {
+        "title": "Distributed Finite-Time Fault-Tolerant Containment Control for Multiple Unmanned Aerial Vehicles",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927887"
+    },
+    {
+        "title": "Pinning Synchronization of Directed Coupled Reaction-Diffusion Neural Networks With Sampled-Data Communications",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2928039"
+    },
+    {
+        "title": "Distributed Optimization for Disturbed Second-Order Multiagent Systems Based on Active Antidisturbance Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951790"
+    },
+    {
+        "title": "Contrastive Hebbian Feedforward Learning for Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927957"
+    },
+    {
+        "title": "Output Feedback Control for Set Stabilization of Boolean Control Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2928028"
+    },
+    {
+        "title": "Adaptive Neural Network Prescribed Performance Bounded- $H_{\\infty}$ Tracking Control for a Class of Stochastic Nonlinear Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2928594"
+    },
+    {
+        "title": "Adaptive Weighted Sparse Principal Component Analysis for Robust Unsupervised Feature Selection",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2928755"
+    },
+    {
+        "title": "Real-Time Object Detection With Reduced Region Proposal Network via Multi-Feature Concatenation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929059"
+    },
+    {
+        "title": "Tensor Networks for Latent Variable Analysis: Higher Order Canonical Polyadic Decomposition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929063"
+    },
+    {
+        "title": "Two-Stream Deep Hashing With Class-Specific Centers for Supervised Image Search",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929068"
+    },
+    {
+        "title": "On Optimal Time-Varying Feedback Controllability for Probabilistic Boolean Control Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927241"
+    },
+    {
+        "title": "Improved Sliding Mode Control for Finite-Time Synchronization of Nonidentical Delayed Recurrent Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927249"
+    },
+    {
+        "title": "A Projection Neural Network for the Generalized Lasso",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927282"
+    },
+    {
+        "title": "Stress-Testing Memcomputing on Hard Combinatorial Optimization Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927480"
+    },
+    {
+        "title": "A Limitation of Gradient Descent Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927689"
+    },
+    {
+        "title": "Guest Editorial Special Issue on Structured Multi-Output Learning: Modeling, Algorithm, Theory, and Applications",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2981981"
+    },
+    {
+        "title": "Insights Into Multiple/Single Lower Bound Approximation for Extended Variational Inference in Non-Gaussian Structured Data Modeling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899613"
+    },
+    {
+        "title": "Multioutput Convolution Spectral Mixture for Gaussian Processes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946082"
+    },
+    {
+        "title": "Learning With Interpretable Structure From Gated RNN",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967051"
+    },
+    {
+        "title": "Distributed Selection of Continuous Features in Multilabel Classification Using Mutual Information",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944298"
+    },
+    {
+        "title": "Reconstruction Regularized Deep Metric Learning for Multi-Label Image Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2924023"
+    },
+    {
+        "title": "RoSeq: Robust Sequence Labeling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2911236"
+    },
+    {
+        "title": "Does Tail Label Help for Large-Scale Multi-Label Learning?",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935143"
+    },
+    {
+        "title": "GANE: A Generative Adversarial Network Embedding",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2921841"
+    },
+    {
+        "title": "Dynamically Spatiotemporal Regularized Correlation Tracking",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929407"
+    },
+    {
+        "title": "Exploiting Web Images for Multi-Output Classification: From Category to Subcategories",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966644"
+    },
+    {
+        "title": "A Probabilistic Zero-Shot Learning Method via Latent Nonnegative Prototype Synthesis of Unseen Classes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955157"
+    },
+    {
+        "title": "Adaptive Kernel Value Caching for SVM Training",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944562"
+    },
+    {
+        "title": "Domain Adaptation With Neural Embedding Matching",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935608"
+    },
+    {
+        "title": "Robust Deep Co-Saliency Detection With Group Semantic and Pyramid Attention",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967471"
+    },
+    {
+        "title": "Survey on Multi-Output Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945133"
+    },
+    {
+        "title": "Label-less Learning for Emotion Cognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929071"
+    },
+    {
+        "title": "Effective Data-Aware Covariance Estimator From Compressed Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929106"
+    },
+    {
+        "title": "Robust Student Network Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929114"
+    },
+    {
+        "title": "Deep Reinforcement Learning for Sequence-to-Sequence Models",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929141"
+    },
+    {
+        "title": "A Generic Improvement to Deep Residual Networks Based on Gradient Flow",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929198"
+    },
+    {
+        "title": "Learning Semisupervised Multilabel Fully Convolutional Network for Hierarchical Object Parsing",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2931183"
+    },
+    {
+        "title": "Semi-Supervised Non-Negative Matrix Factorization With Dissimilarity and Similarity Regularization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933223"
+    },
+    {
+        "title": "Benchmarking Neural Networks For Quantum Computations",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933394"
+    },
+    {
+        "title": "Adaptive Neural Network Finite-Time Control for Multi-Input and Multi-Output Nonlinear Systems With Positive Powers of Odd Rational Numbers",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933409"
+    },
+    {
+        "title": "Pay Attention to Them: Deep Reinforcement Learning-Based Cascade Object Detection",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933451"
+    },
+    {
+        "title": "The Strength of Nesterov's Extrapolation in the Individual Convergence of Nonsmooth Optimization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933452"
+    },
+    {
+        "title": "Debiasing and Distributed Estimation for High-Dimensional Quantile Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933467"
+    },
+    {
+        "title": "Adversarial Examples: Opportunities and Challenges",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933524"
+    },
+    {
+        "title": "Large Margin Partial Label Machine",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933530"
+    },
+    {
+        "title": "A Deep One-Class Neural Network for Anomalous Event Detection in Complex Scenes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933554"
+    },
+    {
+        "title": "Neural Probabilistic Graphical Model for Face Sketch Synthesis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933590"
+    },
+    {
+        "title": "Backpropagation With $N$ -D Vector-Valued Neurons Using Arbitrary Bilinear Products",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933882"
+    },
+    {
+        "title": "Mask Dynamic Routing to Combined Model of Deep Capsule Network and U-Net",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2984686"
+    },
+    {
+        "title": "Deep Model Compression and Inference Speedup of Sum-Product Networks on Tensor Trains",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2928379"
+    },
+    {
+        "title": "Exploring Duality in Visual Question-Driven Top-Down Saliency",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933439"
+    },
+    {
+        "title": "Optimizing for Measure of Performance in Max-Margin Parsing",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934225"
+    },
+    {
+        "title": "Guest Editorial Special Issue on Recent Advances in Theory, Methodology, and Applications of Imbalanced Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2020.3003494"
+    },
+    {
+        "title": "Learning Deep Landmarks for Imbalanced Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2927647"
+    },
+    {
+        "title": "Learning Multi-Level Density Maps for Crowd Counting",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933920"
+    },
+    {
+        "title": "Objective Video Quality Assessment Combining Transfer Learning With CNN",
+        "url": "https://doi.org/10.1109/TNNLS.2018.2890310"
+    },
+    {
+        "title": "RecSys-DAN: Discriminative Adversarial Networks for Cross-Domain Recommender Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2907430"
+    },
+    {
+        "title": "Siamese Neural Networks for User Identity Linkage Through Web Browsing",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2929575"
+    },
+    {
+        "title": "Deep Least Squares Fisher Discriminant Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2906302"
+    },
+    {
+        "title": "Adaptive Chunk-Based Dynamic Weighted Majority for Imbalanced Data Streams With Concept Drift",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951814"
+    },
+    {
+        "title": "Discriminative Fast Hierarchical Learning for Multiclass Image Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2948881"
+    },
+    {
+        "title": "Fast Matrix Factorization With Nonuniform Weights on Missing Data",
+        "url": "https://doi.org/10.1109/TNNLS.2018.2890117"
+    },
+    {
+        "title": "Iterative Privileged Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2018.2889906"
+    },
+    {
+        "title": "Radial-Based Oversampling for Multiclass Imbalanced Data Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2913673"
+    },
+    {
+        "title": "Self-Paced Balance Learning for Clinical Skin Disease Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2917524"
+    },
+    {
+        "title": "Sparse Supervised Representation-Based Classifier for Uncontrolled and Imbalanced Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2018.2884444"
+    },
+    {
+        "title": "Deep Neural Architectures for Highly Imbalanced Data in Bioinformatics",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2914471"
+    },
+    {
+        "title": "On the Dynamics of Classification Measures for Imbalanced and Streaming Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2899061"
+    },
+    {
+        "title": "Nonpooling Convolutional Neural Network Forecasting for Seasonal Time Series With Trends",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934110"
+    },
+    {
+        "title": "SRGC-Nets: Sparse Repeated Group Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933665"
+    },
+    {
+        "title": "Homophily Preserving Community Detection",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933850"
+    },
+    {
+        "title": "Evolutionary Compression of Deep Neural Networks for Biomedical Image Segmentation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2933879"
+    },
+    {
+        "title": "Scalable Distributed Filtering for a Class of Discrete-Time Complex Networks Over Time-Varying Topology",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934131"
+    },
+    {
+        "title": "Barrier Function-Based Adaptive Control for Uncertain Strict-Feedback Systems Within Predefined Neural Network Approximation Sets",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934403"
+    },
+    {
+        "title": "Synchronization and Consensus in Networks of Linear Fractional-Order Multi-Agent Systems via Sampled-Data Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934648"
+    },
+    {
+        "title": "A Double-Variational Bayesian Framework in Random Fourier Features for Indefinite Kernels",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934729"
+    },
+    {
+        "title": "New Varying-Parameter ZNN Models With Finite-Time Convergence and Noise Suppression for Time-Varying Matrix Moore-Penrose Inversion",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934734"
+    },
+    {
+        "title": "A Semismooth Newton Algorithm for High-Dimensional Nonconvex Sparse Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935001"
+    },
+    {
+        "title": "Sparse Manifold-Regularized Neural Networks for Polarimetric SAR Terrain Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935027"
+    },
+    {
+        "title": "Weighted Broad Learning System and Its Application in Nonlinear Industrial Process Modeling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935033"
+    },
+    {
+        "title": "Siamese Dilated Inception Hashing With Intra-Group Correlation Enhancement for Image Retrieval",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935118"
+    },
+    {
+        "title": "Graph Edge Convolutional Neural Networks for Skeleton-Based Action Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935173"
+    },
+    {
+        "title": "Multi-Atlas Segmentation of Anatomical Brain Structures Using Hierarchical Hypergraph Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935184"
+    },
+    {
+        "title": "Unsupervised Domain Adaptation With Adversarial Residual Transform Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935384"
+    },
+    {
+        "title": "Efficient Implementation of Second-Order Stochastic Approximation Algorithms in High-Dimensional Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935455"
+    },
+    {
+        "title": "Probability Density Rank-Based Quantization for Convex Universal Learning Machines",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935502"
+    },
+    {
+        "title": "Energy-Efficient LSTM Networks for Online Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935796"
+    },
+    {
+        "title": "Unsupervised Anomaly Detection With LSTM Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2935975"
+    },
+    {
+        "title": "Cross-Batch Reference Learning for Deep Retrieval",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2936876"
+    },
+    {
+        "title": "Memory Augmented Deep Recurrent Neural Network for Video Question Answering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938015"
+    },
+    {
+        "title": "Exponential State Estimation for Stochastically Disturbed Discrete-Time Memristive Neural Networks: Multiobjective Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938774"
+    },
+    {
+        "title": "Harnessing Side Information for Classification Under Label Noise",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938782"
+    },
+    {
+        "title": "Modeling and Clustering Positive Vectors via Nonparametric Mixture Models of Liouville Distributions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938830"
+    },
+    {
+        "title": "General 7-Instant DCZNN Model Solving Future Different-Level System of Nonlinear Inequality and Linear Equation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938866"
+    },
+    {
+        "title": "Automatically Design Convolutional Neural Networks by Optimization With Submodularity and Supermodularity",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2939157"
+    },
+    {
+        "title": "A Robust Distance Measure for Similarity-Based Classification on the SPD Manifold",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2939177"
+    },
+    {
+        "title": "Semi-Supervised Graph Regularized Deep NMF With Bi-Orthogonal Constraints for Data Representation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2939637"
+    },
+    {
+        "title": "Exact Passive-Aggressive Algorithms for Ordinal Regression Using Interval Labels",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2939861"
+    },
+    {
+        "title": "Supervised Dimensionality Reduction Methods via Recursive Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2940088"
+    },
+    {
+        "title": "Region Stabilization of Switched Neural Networks With Multiple Modes and Multiple Equilibria: A Pole Assignment Method",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2940466"
+    },
+    {
+        "title": "On the Working Principle of the Hopfield Neural Networks and its Equivalence to the GADIA in Optimization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2940920"
+    },
+    {
+        "title": "Parameter Optimization and Learning in a Spiking Neural Network for UAV Obstacle Avoidance Targeting Neuromorphic Processors",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2941506"
+    },
+    {
+        "title": "AlphaSeq: Sequence Discovery With Deep Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2942951"
+    },
+    {
+        "title": "Secure Communication Based on Quantized Synchronization of Chaotic Neural Networks Under an Event-Triggered Strategy",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2943548"
+    },
+    {
+        "title": "Adaptive Control of Noncanonical Neural-Network Nonlinear Systems With Unknown Input Dead-Zone Characteristics",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2943637"
+    },
+    {
+        "title": "Projected Neural Network for a Class of Non-Lipschitz Optimization Problems With Linear Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944388"
+    },
+    {
+        "title": "Guide Subspace Learning for Unsupervised Domain Adaptation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944455"
+    },
+    {
+        "title": "Neuroadaptive Control Design for Pure-Feedback Nonlinear Systems: A One-Step Design Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944459"
+    },
+    {
+        "title": "Robust and Communication-Efficient Federated Learning From Non-i.i.d. Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944481"
+    },
+    {
+        "title": "An Exponential-Type Anti-Noise Varying-Gain Network for Solving Disturbed Time-Varying Inversion Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944485"
+    },
+    {
+        "title": "Self-Weighted Clustering With Adaptive Neighbors",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944565"
+    },
+    {
+        "title": "Multiview Uncorrelated Locality Preserving Projection",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944664"
+    },
+    {
+        "title": "Extracting Relational Explanations From Deep Neural Networks: A Survey From a Neural-Symbolic Perspective",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944672"
+    },
+    {
+        "title": "Adaptive Neural Quantized Control of MIMO Nonlinear Systems Under Actuation Faults and Time-Varying Output Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944690"
+    },
+    {
+        "title": "MVStream: Multiview Data Stream Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944851"
+    },
+    {
+        "title": "Adaptive Neural Output Feedback Compensation Control for Intermittent Actuator Faults Using Command-Filtered Backstepping",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944897"
+    },
+    {
+        "title": "Sketch Kernel Ridge Regression Using Circulant Matrix: Algorithm and Theory",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944959"
+    },
+    {
+        "title": "Bayes Imbalance Impact Index: A Measure of Class Imbalanced Data Set for Classification Problem",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944962"
+    },
+    {
+        "title": "Collocating Clothes With Generative Adversarial Networks Cosupervised by Categories and Attributes: A Multidiscriminator Framework",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944979"
+    },
+    {
+        "title": "Complex-Valued Discrete-Time Neural Dynamics for Perturbed Time-Dependent Complex Quadratic Programming With Applications",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944992"
+    },
+    {
+        "title": "Reinforcement Learning Tracking Control for Robotic Manipulator With Kernel-Based Dynamic Model",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945019"
+    },
+    {
+        "title": "Geometric Matrix Completion With Deep Conditional Random Fields",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945111"
+    },
+    {
+        "title": "Singular Values for ReLU Layers",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945113"
+    },
+    {
+        "title": "Development and Analysis of Neural Networks Realized in the Presence of Granular Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945307"
+    },
+    {
+        "title": "Laplacian-Uniform Mixture-Driven Iterative Robust Coding With Applications to Face Recognition Against Dense Errors",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945372"
+    },
+    {
+        "title": "Cross-Media Semantic Correlation Learning Based on Deep Hash Network and Semantic Expansion for Social Network Cross-Media Search",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945567"
+    },
+    {
+        "title": "An Event-Driven Categorization Model for AER Image Sensors Using Multispike Encoding and Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945630"
+    },
+    {
+        "title": "Design Principles for Central Pattern Generators With Preset Rhythms",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945637"
+    },
+    {
+        "title": "Nonstationary Discrete Convolution Kernel for Multimodal Process Monitoring",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945847"
+    },
+    {
+        "title": "MLNE: Multi-Label Network Embedding",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945869"
+    },
+    {
+        "title": "Neural Network-Based Adaptive Control for Spacecraft Under Actuator Failures and Input Saturations",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945920"
+    },
+    {
+        "title": "XFlow: Cross-Modal Deep Neural Networks for Audiovisual Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945992"
+    },
+    {
+        "title": "A Wide-Deep-Sequence Model-Based Quality Prediction Method in Industrial Process Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2020.3001602"
+    },
+    {
+        "title": "Teacher-Student Curriculum Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2934906"
+    },
+    {
+        "title": "Implementing Any Nonlinear Quantum Neuron",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2938899"
+    },
+    {
+        "title": "Partial-Neurons-Based Passivity-Guaranteed State Estimation for Neural Networks With Randomly Occurring Time Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944552"
+    },
+    {
+        "title": "Adaptive Robust Low-Rank 2-D Reconstruction With Steerable Sparsity",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944650"
+    },
+    {
+        "title": "Deep Adaptive Input Normalization for Time Series Forecasting",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2944933"
+    },
+    {
+        "title": "Ensemble Pruning Based on Objection Maximization With a General Distributed Framework",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2945116"
+    },
+    {
+        "title": "Observer-Based Impulsive Synchronization for Neural Networks With Uncertain Exchanging Information",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946151"
+    },
+    {
+        "title": "State-Saturated Recursive Filter Design for Stochastic Time-Varying Nonlinear Complex Networks Under Deception Attacks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946290"
+    },
+    {
+        "title": "Structured Optimal Graph-Based Clustering With Flexible Embedding",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946329"
+    },
+    {
+        "title": "Deep Learning Method Based on Gated Recurrent Unit and Variational Mode Decomposition for Short-Term Wind Power Interval Prediction",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946414"
+    },
+    {
+        "title": "Compressing Deep Neural Networks With Sparse Matrix Factorization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946636"
+    },
+    {
+        "title": "Subject-Independent Brain-Computer Interfaces Based on Deep Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946869"
+    },
+    {
+        "title": "A Self-Learning Immune Co-Evolutionary Network for Multiple Escaping Targets Search With Random Observable Conditions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946913"
+    },
+    {
+        "title": "A Novel Separating Hyperplane Classification Framework to Unify Nearest-Class-Model Methods for High-Dimensional Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2946967"
+    },
+    {
+        "title": "Maximum Correntropy Criterion-Based Robust Semisupervised Concept Factorization for Image Representation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947156"
+    },
+    {
+        "title": "Automatic Analysis of Facial Expressions Based on Deep Covariance Trajectories",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947244"
+    },
+    {
+        "title": "Multiclass Probabilistic Classification Vector Machine",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947309"
+    },
+    {
+        "title": "Pulsewidth Modulation-Based Algorithm for Spike Phase Encoding and Decoding of Time-Dependent Analog Data",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947380"
+    },
+    {
+        "title": "Major-Minor Long Short-Term Memory for Word-Level Language Model",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947563"
+    },
+    {
+        "title": "Online Topology Learning by a Gaussian Membership-Based Self-Organizing Incremental Neural Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947658"
+    },
+    {
+        "title": "Sample Balancing for Deep Learning-Based Visual Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947789"
+    },
+    {
+        "title": "GrAMME: Semisupervised Learning Using Multilayered Graph Attention Models",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2948797"
+    },
+    {
+        "title": "Property-Constrained Dual Learning for Video Summarization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951680"
+    },
+    {
+        "title": "Model-Based Event-Triggered Tracking Control of Underactuated Surface Vessels With Minimum Learning Parameters",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951709"
+    },
+    {
+        "title": "Neural-Network-Based Adaptive Event-triggered Control for Spacecraft Attitude Tracking",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951732"
+    },
+    {
+        "title": "Convergence Analysis of Saturated Iterative Learning Control Systems With Locally Lipschitz Nonlinearities",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951752"
+    },
+    {
+        "title": "Realizing Data Features by Deep Nets",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951788"
+    },
+    {
+        "title": "A Network Framework for Small-Sample Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951803"
+    },
+    {
+        "title": "Quasi-Synchronization and Bifurcation Results on Fractional-Order Quaternion-Valued Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951846"
+    },
+    {
+        "title": "Information Losses in Neural Classifiers From Sampling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952029"
+    },
+    {
+        "title": "Adaptive Neural Output-Feedback Controller Design of Switched Nonlower Triangular Nonlinear Systems With Time Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952108"
+    },
+    {
+        "title": "An Active Repetitive Learning Control Method for Lateral Suspension Systems of High-Speed Trains",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952175"
+    },
+    {
+        "title": "Event-Triggered Exponential Synchronization for Complex-Valued Memristive Neural Networks With Time-Varying Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952186"
+    },
+    {
+        "title": "Conditional Generative Denoising Autoencoder",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952203"
+    },
+    {
+        "title": "Mixed $H_2/H_\\infty$ State Estimation for Discrete-Time Switched Complex Networks With Random Coupling Strengths Through Redundant Channels",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952249"
+    },
+    {
+        "title": "CHIP: Channel-Wise Disentangled Interpretation of Deep Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952322"
+    },
+    {
+        "title": "Relaxed Stability Criteria for Neural Networks With Time-Varying Delay Using Extended Secondary Delay Partitioning and Equivalent Reciprocal Convex Combination Techniques",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952410"
+    },
+    {
+        "title": "Accurate Tensor Completion via Adaptive Low-Rank Representation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952427"
+    },
+    {
+        "title": "Leader-Follower Bipartite Output Synchronization on Signed Digraphs Under Adversarial Factors via Data-Based Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952611"
+    },
+    {
+        "title": "Event-Triggered Adaptive Neural Network Control for Nonstrict-Feedback Nonlinear Time-Delay Systems With Unknown Control Directions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952709"
+    },
+    {
+        "title": "A Model for $R(t)$ Elements and $R(t)$ -Based Spike-Timing-Dependent Plasticity With Basic Circuit Examples",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952768"
+    },
+    {
+        "title": "An Adaptive Deep Belief Network With Sparse Restricted Boltzmann Machines",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952864"
+    },
+    {
+        "title": "Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953131"
+    },
+    {
+        "title": "The Cubic Dynamic Uncertain Causality Graph: A Methodology for Temporal Process Modeling and Diagnostic Logic Inference",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953177"
+    },
+    {
+        "title": "Decentralized Event-Triggered Adaptive Control of Discrete-Time Nonzero-Sum Games Over Wireless Sensor-Actuator Networks With Input Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953613"
+    },
+    {
+        "title": "Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953622"
+    },
+    {
+        "title": "An Event-Triggering Approach to Recursive Filtering for Complex Networks With State Saturations and Random Coupling Strengths",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953649"
+    },
+    {
+        "title": "SRSC: Selective, Robust, and Supervised Constrained Feature Representation for Image Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953675"
+    },
+    {
+        "title": "Discriminative Local Sparse Representation by Robust Adaptive Dictionary Pair Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2954545"
+    },
+    {
+        "title": "Adaptive Hashing With Sparse Matrix Factorization",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2954856"
+    },
+    {
+        "title": "Reinforcement Learning-Based Optimal Stabilization for Unknown Nonlinear Systems Subject to Inputs With Uncertain Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2954983"
+    },
+    {
+        "title": "Neural-Network-Based Adaptive Resilient Dynamic Surface Control Against Unknown Deception Attacks of Uncertain Nonlinear Time-Delay Cyberphysical Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955132"
+    },
+    {
+        "title": "A Deterministic Annealing Neural Network Algorithm for the Minimum Concave Cost Transportation Problem",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955137"
+    },
+    {
+        "title": "Asynchronous Distributed Learning From Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2947740"
+    },
+    {
+        "title": "Qualitative Measurements of Policy Discrepancy for Return-Based Deep Q-Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2948892"
+    },
+    {
+        "title": "A Dynamic Event-Triggered Approach to Recursive Filtering for Complex Networks With Switching Topologies Subject to Random Sensor Failures",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2951948"
+    },
+    {
+        "title": "LS-SVR as a Bayesian RBF Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952000"
+    },
+    {
+        "title": "Stochastic Gradient Descent for Nonconvex Learning Without Bounded Gradient Assumptions",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2952219"
+    },
+    {
+        "title": "When Gaussian Process Meets Big Data: A Review of Scalable GPs",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957109"
+    },
+    {
+        "title": "Robust Structured Graph Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955209"
+    },
+    {
+        "title": "Event-Triggered Synchronization for Neutral-Type Semi-Markovian Neural Networks With Partial Mode-Dependent Time-Varying Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955287"
+    },
+    {
+        "title": "Adaptive Neural Networks Finite-Time Optimal Control for a Class of Nonlinear Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955438"
+    },
+    {
+        "title": "An Efficient Group Recommendation Model With Multiattention-Based Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955567"
+    },
+    {
+        "title": "Learning in Text Streams: Discovery and Disambiguation of Entity and Relation Instances",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955597"
+    },
+    {
+        "title": "A Path-Integral-Based Reinforcement Learning Algorithm for Path Following of an Autoassembly Mobile Robot",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955699"
+    },
+    {
+        "title": "diffGrad: An Optimization Method for Convolutional Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955777"
+    },
+    {
+        "title": "A Learning-Based Solution for an Adversarial Repeated Game in Cyber-Physical Power Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955857"
+    },
+    {
+        "title": "Asymptotical Feedback Set Stabilization of Probabilistic Boolean Control Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955974"
+    },
+    {
+        "title": "Robust Triple-Matrix-Recovery-Based Auto-Weighted Label Propagation for Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956015"
+    },
+    {
+        "title": "Walk-Steered Convolution for Graph Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956095"
+    },
+    {
+        "title": "Enhanced Sparsity Prior Model for Low-Rank Tensor Completion",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956153"
+    },
+    {
+        "title": "A Survey of Computational Intelligence Techniques for Wind Power Uncertainty Quantification in Smart Grids",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956195"
+    },
+    {
+        "title": "Parameter Distribution Balanced CNNs",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956390"
+    },
+    {
+        "title": "Robust Cumulative Crowdsourcing Framework Using New Incentive Payment Function and Joint Aggregation Model",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956523"
+    },
+    {
+        "title": "Tensor Networks for Latent Variable Analysis: Novel Algorithms for Tensor Train Approximation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956926"
+    },
+    {
+        "title": "Stroke Sequence-Dependent Deep Convolutional Neural Network for Online Handwritten Chinese Character Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2956965"
+    },
+    {
+        "title": "Accelerating Minibatch Stochastic Gradient Descent Using Typicality Sampling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957003"
+    },
+    {
+        "title": "Few-Shot Learning With Geometric Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957187"
+    },
+    {
+        "title": "LogDet Metric-Based Domain Adaptation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957229"
+    },
+    {
+        "title": "Neural Machine Translation With GRU-Gated Attention Model",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957276"
+    },
+    {
+        "title": "Coupled Attribute Learning for Heterogeneous Face Recognition",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957285"
+    },
+    {
+        "title": "Reinforcement Learning-Based Nearly Optimal Control for Constrained-Input Partially Unknown Systems Using Differentiator",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957287"
+    },
+    {
+        "title": "State-Feedback Filtering for Delayed Discrete-Time Complex-Valued Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957304"
+    },
+    {
+        "title": "A Deep Supervised Learning Framework for Data-Driven Soft Sensor Modeling of Industrial Processes",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957366"
+    },
+    {
+        "title": "Hyperspectral Images Super-Resolution via Learning High-Order Coupled Tensor Ring Representation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957527"
+    },
+    {
+        "title": "Neural Networks Multiobjective Learning With Spherical Representation of Weights",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957730"
+    },
+    {
+        "title": "A Stochastic Quasi-Newton Method for Large-Scale Nonconvex Optimization With Applications",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957843"
+    },
+    {
+        "title": "Relaxed Asymmetric Deep Hashing Learning: Point-to-Angle Matching",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958061"
+    },
+    {
+        "title": "Sequence Classification Restricted Boltzmann Machines With Gated Units",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958103"
+    },
+    {
+        "title": "Adaptive Bipartite Event-Triggered Output Consensus of Heterogeneous Linear Multiagent Systems Under Fixed and Switching Topologies",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958107"
+    },
+    {
+        "title": "Cooperative Fault-Tolerant Output Regulation for Multiagent Systems by Distributed Learning Control Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958151"
+    },
+    {
+        "title": "Discriminative Transfer Feature and Label Consistency for Cross-Domain Image Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958152"
+    },
+    {
+        "title": "Deep Clustering With Sample-Assignment Invariance Prior",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958324"
+    },
+    {
+        "title": "Hopfield Neural Network Flow: A Geometric Viewpoint",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958556"
+    },
+    {
+        "title": "Approximate Kernel Selection via Matrix Approximation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958922"
+    },
+    {
+        "title": "Two-Level Game-Based Distributed Optimal Fault-Tolerant Control for Nonlinear Interconnected Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2958948"
+    },
+    {
+        "title": "Decentralized Event-Triggered Online Adaptive Control of Unknown Large-Scale Systems Over Wireless Communication Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2959005"
+    },
+    {
+        "title": "Finite-Time Tracking Control for a Class of Uncertain Strict-Feedback Nonlinear Systems With State Constraints: A Smooth Control Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2959016"
+    },
+    {
+        "title": "Reducing Estimation Bias via Triplet-Average Deep Deterministic Policy Gradient",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2959129"
+    },
+    {
+        "title": "Semiglobal Consensus of a Class of Heterogeneous Multi-Agent Systems With Saturation",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2959804"
+    },
+    {
+        "title": "Asymptotic and Finite-Time Cluster Synchronization of Coupled Fractional-Order Neural Networks With Time Delay",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2962006"
+    },
+    {
+        "title": "A New Concept of Multiple Neural Networks Structure Using Convex Combination",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2962020"
+    },
+    {
+        "title": "Nonfragile Finite-Time Synchronization for Coupled Neural Networks With Impulsive Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2020.3001196"
+    },
+    {
+        "title": "An Exact Reformulation of Feature-Vector-Based Radial-Basis-Function Networks for Graph-Based Observations",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2953919"
+    },
+    {
+        "title": "Neural Cryptography Based on Complex-Valued Neural Network",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955165"
+    },
+    {
+        "title": "Six-DOF Spacecraft Optimal Trajectory Planning and Real-Time Attitude Control: A Deep Neural Network-Based Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955400"
+    },
+    {
+        "title": "Enhancing Graph-Based Semisupervised Learning via Knowledge-Aware Data Embedding",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955565"
+    },
+    {
+        "title": "Multiagent Containment Control With Nonconvex States Constraints, Nonuniform Time Delays, and Switching Directed Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2955678"
+    },
+    {
+        "title": "Fixed-Time Leader-Follower Consensus of Networked Nonlinear Systems via Event/Self-Triggered Control",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2957069"
+    },
+    {
+        "title": "Weakly Supervised Complets Ranking for Deep Image Quality Modeling",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2962548"
+    },
+    {
+        "title": "DACH: Domain Adaptation Without Domain Information",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2962817"
+    },
+    {
+        "title": "Learning Multiple Parameters for Kernel Collaborative Representation Classification",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2962878"
+    },
+    {
+        "title": "PID Controller-Based Stochastic Optimization Acceleration for Deep Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2963066"
+    },
+    {
+        "title": "Synchronization of Delayed Neural Networks via Integral-Based Event-Triggered Scheme",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2963146"
+    },
+    {
+        "title": "MASK-RL: Multiagent Video Object Segmentation Framework Through Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2019.2963282"
+    },
+    {
+        "title": "RNN for Perturbed Manipulability Optimization of Manipulators Based on a Distributed Scheme: A Game-Theoretic Perspective",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2963998"
+    },
+    {
+        "title": "A Novel Connectivity-Preserving Control Design for Rendezvous Problem of Networked Uncertain Nonlinear Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964017"
+    },
+    {
+        "title": "Monostability and Multistability for Almost-Periodic Solutions of Fractional-Order Neural Networks With Unsaturating Piecewise Linear Activation Functions",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964030"
+    },
+    {
+        "title": "Bi-Stream Pose-Guided Region Ensemble Network for Fingertip Localization From Stereo Images",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964037"
+    },
+    {
+        "title": "Adaptive Neural Network Backstepping Control of Fractional-Order Nonlinear Systems With Actuator Faults",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964044"
+    },
+    {
+        "title": "Entropy and Confidence-Based Undersampling Boosting Random Forests for Imbalanced Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964585"
+    },
+    {
+        "title": "Multiclass Oblique Random Forests With Dual-Incremental Learning Capacity",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964737"
+    },
+    {
+        "title": "Subspace Distribution Adaptation Frameworks for Domain Adaptation",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964790"
+    },
+    {
+        "title": "Learning Salient and Discriminative Descriptor for Palmprint Feature Extraction and Identification",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964799"
+    },
+    {
+        "title": "Recent Advances on Dynamical Behaviors of Coupled Neural Networks With and Without Reaction-Diffusion Terms",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964843"
+    },
+    {
+        "title": "Optimal Elevator Group Control via Deep Asynchronous Actor-Critic Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2965208"
+    },
+    {
+        "title": "A Brain-Inspired Framework for Evolutionary Artificial General Intelligence",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2965567"
+    },
+    {
+        "title": "An Accelerated Finite-Time Convergent Neural Network for Visual Servoing of a Flexible Surgical Endoscope With Physical and RCM Constraints",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2965553"
+    },
+    {
+        "title": "Circular Complex-Valued GMDH-Type Neural Network for Real-Valued Classification Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966031"
+    },
+    {
+        "title": "Unsupervised AER Object Recognition Based on Multiscale Spatio-Temporal Features and Spiking Neurons",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966058"
+    },
+    {
+        "title": "Distributed Complementary Binary Quantization for Joint Hash Table Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2965992"
+    },
+    {
+        "title": "Hybrid Deep Learning-Gaussian Process Network for Pedestrian Lane Detection in Unstructured Scenes",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966246"
+    },
+    {
+        "title": "Design and Comprehensive Analysis of a Noise-Tolerant ZNN Model With Limited-Time Convergence for Time-Dependent Nonlinear Minimization",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966294"
+    },
+    {
+        "title": "Why ResNet Works? Residuals Generalize",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966319"
+    },
+    {
+        "title": "Multiple Convolutional Recurrent Neural Networks for Fault Identification and Performance Degradation Evaluation of High-Speed Train Bogie",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966744"
+    },
+    {
+        "title": "Beyond Expectation: Deep Joint Mean and Quantile Regression for Spatiotemporal Problems",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966745"
+    },
+    {
+        "title": "Adaptive Tracking Control of State Constraint Systems Based on Differential Neural Networks: A Barrier Lyapunov Function Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966914"
+    },
+    {
+        "title": "Low-Rank Tensor Train Coefficient Array Estimation for Tensor-on-Tensor Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967022"
+    },
+    {
+        "title": "Cross-Modal Attention With Semantic Consistence for Image-Text Matching",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967597"
+    },
+    {
+        "title": "Ensemble Stochastic Configuration Networks for Estimating Prediction Intervals: A Simultaneous Robust Training Algorithm and Its Application",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967816"
+    },
+    {
+        "title": "Safe Intermittent Reinforcement Learning With Static and Dynamic Event Generators",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967871"
+    },
+    {
+        "title": "Stochastic Finite-Time H∞State Estimation for Discrete-Time Semi-Markovian Jump Neural Networks With Time-Varying Delays",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2968074"
+    },
+    {
+        "title": "Learning Deep Gradient Descent Optimization for Image Deconvolution",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2968289"
+    },
+    {
+        "title": "Synchronization of Coupled Time-Delay Neural Networks With Mode-Dependent Average Dwell Time Switching",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2968342"
+    },
+    {
+        "title": "A Hybrid-Learning Algorithm for Online Dynamic State Estimation in Multimachine Power Systems",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2968486"
+    },
+    {
+        "title": "Deep Subspace Clustering",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2968848"
+    },
+    {
+        "title": "Adaptive Optimal Control for Stochastic Multiplayer Differential Games Using On-Policy and Off-Policy Reinforcement Learning",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2969215"
+    },
+    {
+        "title": "An Online Event-Triggered Near-Optimal Controller for Nash Solution in Interconnected System",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2969249"
+    },
+    {
+        "title": "From Discriminant to Complete: Reinforcement Searching-Agent Learning for Weakly Supervised Object Detection",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2969483"
+    },
+    {
+        "title": "MBA: Mini-Batch AUC Optimization",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2969527"
+    },
+    {
+        "title": "Pairwise Constraint Propagation With Dual Adversarial Manifold Regularization",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2970195"
+    },
+    {
+        "title": "Heterogeneous Domain Adaptation: An Unsupervised Approach",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2973293"
+    },
+    {
+        "title": "A Universal Approximation Result for Difference of Log-Sum-Exp Neural Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2975051"
+    },
+    {
+        "title": "Generalized Convolution Spectral Mixture for Multitask Gaussian Processes",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2980779"
+    },
+    {
+        "title": "Revisiting L2, 1-Norm Robustness With Vector Outlier Regularization",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2964297"
+    },
+    {
+        "title": "Transferable Linear Discriminant Analysis",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2966746"
+    },
+    {
+        "title": "Parameter Selection for Linear Support Vector Regression",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2967637"
+    },
+    {
+        "title": "Image-Based Model Parameter Optimization Using Model-Assisted Generative Adversarial Networks",
+        "url": "https://doi.org/10.1109/TNNLS.2020.2969327"
+    }
+]
