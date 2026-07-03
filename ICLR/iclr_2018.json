@@ -1,0 +1,1682 @@
+[
+    {
+        "title": "On the Convergence of Adam and Beyond",
+        "url": "https://openreview.net/forum?id=ryQu7f-RZ",
+        "award": "Oral"
+    },
+    {
+        "title": "Synthetic and Natural Noise Both Break Neural Machine Translation",
+        "url": "https://openreview.net/forum?id=BJ8vJebC-",
+        "award": "Oral"
+    },
+    {
+        "title": "Multi-Scale Dense Networks for Resource Efficient Image Classification",
+        "url": "https://openreview.net/forum?id=Hk2aImxAb",
+        "award": "Oral"
+    },
+    {
+        "title": "Training and Inference with Integers in Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=HJGXzmspb",
+        "award": "Oral"
+    },
+    {
+        "title": "Emergence of Linguistic Communication from Referential Games with Symbolic and Pixel Input",
+        "url": "https://openreview.net/forum?id=HJGv1Z-AW",
+        "award": "Oral"
+    },
+    {
+        "title": "Spherical CNNs",
+        "url": "https://openreview.net/forum?id=Hkbd5xZRb",
+        "award": "Oral"
+    },
+    {
+        "title": "Ask the Right Questions: Active Question Reformulation with Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=S1CChZ-CZ",
+        "award": "Oral"
+    },
+    {
+        "title": "On the insufficiency of existing momentum schemes for Stochastic Optimization",
+        "url": "https://openreview.net/forum?id=rJTutzbA-",
+        "award": "Oral"
+    },
+    {
+        "title": "Certifying Some Distributional Robustness with Principled Adversarial Training",
+        "url": "https://openreview.net/forum?id=Hk6kPgZA-",
+        "award": "Oral"
+    },
+    {
+        "title": "Learning Deep Mean Field Games for Modeling Large Population Behavior",
+        "url": "https://openreview.net/forum?id=HktK4BeCZ",
+        "award": "Oral"
+    },
+    {
+        "title": "Wasserstein Auto-Encoders",
+        "url": "https://openreview.net/forum?id=HkL7n1-0b",
+        "award": "Oral"
+    },
+    {
+        "title": "Spectral Normalization for Generative Adversarial Networks",
+        "url": "https://openreview.net/forum?id=B1QRgziT-",
+        "award": "Oral"
+    },
+    {
+        "title": "Learning to Represent Programs with Graphs",
+        "url": "https://openreview.net/forum?id=BJOFETxR-",
+        "award": "Oral"
+    },
+    {
+        "title": "Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality",
+        "url": "https://openreview.net/forum?id=B1gJ1L2aW",
+        "award": "Oral"
+    },
+    {
+        "title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+        "url": "https://openreview.net/forum?id=HkwZSG-CZ",
+        "award": "Oral"
+    },
+    {
+        "title": "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments",
+        "url": "https://openreview.net/forum?id=Sk2u1g-0-",
+        "award": "Oral"
+    },
+    {
+        "title": "Boosting Dilated Convolutional Networks with Mixed Tensor Decompositions",
+        "url": "https://openreview.net/forum?id=S1JHhv6TW",
+        "award": "Oral"
+    },
+    {
+        "title": "Neural Sketch Learning for Conditional Program Generation",
+        "url": "https://openreview.net/forum?id=HkfXMz-Ab",
+        "award": "Oral"
+    },
+    {
+        "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+        "url": "https://openreview.net/forum?id=Hk99zCeAb",
+        "award": "Oral"
+    },
+    {
+        "title": "Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines",
+        "url": "https://openreview.net/forum?id=H1tSsb-AW",
+        "award": "Oral"
+    },
+    {
+        "title": "Zero-Shot Visual Imitation",
+        "url": "https://openreview.net/forum?id=BkisuzWRW",
+        "award": "Oral"
+    },
+    {
+        "title": "Beyond Word Importance: Contextual Decomposition to Extract Interactions from LSTMs",
+        "url": "https://openreview.net/forum?id=rkRwGg-0Z",
+        "award": "Oral"
+    },
+    {
+        "title": "AmbientGAN: Generative models from lossy measurements",
+        "url": "https://openreview.net/forum?id=Hy7fDog0b",
+        "award": "Oral"
+    },
+    {
+        "title": "Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation",
+        "url": "https://openreview.net/forum?id=rJWechg0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Large Scale Optimal Transport and Mapping Estimation",
+        "url": "https://openreview.net/forum?id=B1zlp1bRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Truncated horizon Policy Search: Combining Reinforcement Learning & Imitation Learning",
+        "url": "https://openreview.net/forum?id=ryUlhzWCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Model-Ensemble Trust-Region Policy Optimization",
+        "url": "https://openreview.net/forum?id=SJJinbWRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "A Neural Representation of Sketch Drawings",
+        "url": "https://openreview.net/forum?id=Hy6GHpkCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Learning with Logged Bandit Feedback",
+        "url": "https://openreview.net/forum?id=SJaP_-xAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Latent Permutations with Gumbel-Sinkhorn Networks",
+        "url": "https://openreview.net/forum?id=Byt3oJ-0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning an Embedding Space for Transferable Robot Skills",
+        "url": "https://openreview.net/forum?id=rk07ZXZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+        "url": "https://openreview.net/forum?id=S1DWPP1A-",
+        "award": "Poster"
+    },
+    {
+        "title": "Multi-View Data Generation Without View Supervision",
+        "url": "https://openreview.net/forum?id=ryRh0bb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Bayesian Bandits Showdown: An Empirical Comparison of Bayesian Deep Networks for Thompson Sampling",
+        "url": "https://openreview.net/forum?id=SyYe6k-CW",
+        "award": "Poster"
+    },
+    {
+        "title": "Semantic Interpolation in Implicit Models",
+        "url": "https://openreview.net/forum?id=H15odZ-C-",
+        "award": "Poster"
+    },
+    {
+        "title": "Fidelity-Weighted Learning",
+        "url": "https://openreview.net/forum?id=B1X0mzZCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Latent Space Oddity: on the Curvature of Deep Generative Models",
+        "url": "https://openreview.net/forum?id=SJzRZ-WCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Imitation Learning from Visual Data with Multiple Intentions",
+        "url": "https://openreview.net/forum?id=Hk3ddfWRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Hyperparameter optimization: a spectral approach",
+        "url": "https://openreview.net/forum?id=H1zriGeCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis",
+        "url": "https://openreview.net/forum?id=H1Xw62kRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Efficient Sparse-Winograd Convolutional Neural Networks",
+        "url": "https://openreview.net/forum?id=HJzgZ3JCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Espresso: Efficient Forward Propagation for Binary Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=Sk6fD5yCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Auto-Conditioned Recurrent Networks for Extended Complex Human Motion Synthesis",
+        "url": "https://openreview.net/forum?id=r11Q2SlRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Decoupling the Layers in Residual Networks",
+        "url": "https://openreview.net/forum?id=SyMvJrdaW",
+        "award": "Poster"
+    },
+    {
+        "title": "Polar Transformer Networks",
+        "url": "https://openreview.net/forum?id=HktRlUlAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+        "url": "https://openreview.net/forum?id=H1VGkIxRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Stabilizing Adversarial Nets with Prediction Methods",
+        "url": "https://openreview.net/forum?id=Skj8Kag0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Graph Attention Networks",
+        "url": "https://openreview.net/forum?id=rJXMpikCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Minimax Curriculum Learning: Machine Teaching with Desirable Difficulties and Scheduled Diversity",
+        "url": "https://openreview.net/forum?id=BywyFQlAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Generalizing Hamiltonian Monte Carlo with Neural Networks",
+        "url": "https://openreview.net/forum?id=B1n8LexRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "An Online Learning Approach to Generative Adversarial Networks",
+        "url": "https://openreview.net/forum?id=H1Yp-j1Cb",
+        "award": "Poster"
+    },
+    {
+        "title": "Improving GANs Using Optimal Transport",
+        "url": "https://openreview.net/forum?id=rkQkBnJAb",
+        "award": "Poster"
+    },
+    {
+        "title": "The Kanerva Machine: A Generative Distributed Memory",
+        "url": "https://openreview.net/forum?id=S1HlA-ZAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Mixed Precision Training",
+        "url": "https://openreview.net/forum?id=r1gs9JgRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Latent Constraints: Learning to Generate Conditionally from Unconditional Generative Models",
+        "url": "https://openreview.net/forum?id=Sy8XvGb0-",
+        "award": "Poster"
+    },
+    {
+        "title": "MaskGAN: Better Text Generation via Filling in the _______",
+        "url": "https://openreview.net/forum?id=ByOExmWAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Divide and Conquer Networks",
+        "url": "https://openreview.net/forum?id=B1jscMbAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm",
+        "url": "https://openreview.net/forum?id=HyjC5yWCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Maximum a Posteriori Policy Optimisation",
+        "url": "https://openreview.net/forum?id=S1ANxQW0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Meta Learning Shared Hierarchies",
+        "url": "https://openreview.net/forum?id=SyX0IeWAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Neural Networks as Gaussian Processes",
+        "url": "https://openreview.net/forum?id=B1EA-M-0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Syntax-Directed Variational Autoencoder for Structured Data",
+        "url": "https://openreview.net/forum?id=SyqShMZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples",
+        "url": "https://openreview.net/forum?id=rywDjg-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "Evidence Aggregation for Answer Re-Ranking in Open-Domain Question Answering",
+        "url": "https://openreview.net/forum?id=rJl3yM-Ab",
+        "award": "Poster"
+    },
+    {
+        "title": "WRPN: Wide Reduced-Precision Networks",
+        "url": "https://openreview.net/forum?id=B1ZvaaeAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "MGAN: Training Generative Adversarial Nets with Multiple Generators",
+        "url": "https://openreview.net/forum?id=rkmu5b0a-",
+        "award": "Poster"
+    },
+    {
+        "title": "The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=rkHVZWZAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "SEARNN: Training RNNs with global-local losses",
+        "url": "https://openreview.net/forum?id=HkUR_y-RZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Distributed Distributional Deterministic Policy Gradients",
+        "url": "https://openreview.net/forum?id=SyZipzbCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Hierarchical Subtask Discovery with Non-Negative Matrix Factorization",
+        "url": "https://openreview.net/forum?id=ry80wMW0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Parametrized Hierarchical Procedures for Neural Programming",
+        "url": "https://openreview.net/forum?id=rJl63fZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Viterbi-based Pruning for Sparse Matrix with Fixed and High Index Compression Ratio",
+        "url": "https://openreview.net/forum?id=S1D8MPxA-",
+        "award": "Poster"
+    },
+    {
+        "title": "cGANs with Projection Discriminator",
+        "url": "https://openreview.net/forum?id=ByS1VpgRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Representation Learning by Predicting Image Rotations",
+        "url": "https://openreview.net/forum?id=S1v4N2l0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Emergent Communication in a Multi-Modal, Multi-Step Referential Game",
+        "url": "https://openreview.net/forum?id=rJGZq6g0-",
+        "award": "Poster"
+    },
+    {
+        "title": "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling",
+        "url": "https://openreview.net/forum?id=rytstxWAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Emergent Translation in Multi-Agent Communication",
+        "url": "https://openreview.net/forum?id=H1vEXaxA-",
+        "award": "Poster"
+    },
+    {
+        "title": "An efficient framework for learning sentence representations",
+        "url": "https://openreview.net/forum?id=rJvJXZb0W",
+        "award": "Poster"
+    },
+    {
+        "title": "NerveNet: Learning Structured Policy with Graph Neural Networks",
+        "url": "https://openreview.net/forum?id=S1sqHMZCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Latent Representations in Neural Networks for Clustering through Pseudo Supervision and Graph-based Activity Regularization",
+        "url": "https://openreview.net/forum?id=HkMvEOlAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Adversarial Dropout Regularization",
+        "url": "https://openreview.net/forum?id=HJIoJWZCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Demystifying MMD GANs",
+        "url": "https://openreview.net/forum?id=r1lUOzWCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Smooth Loss Functions for Deep Top-k Classification",
+        "url": "https://openreview.net/forum?id=Hk5elxbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Learning as a Mixed Convex-Combinatorial Optimization Problem",
+        "url": "https://openreview.net/forum?id=B1Lc-Gb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Approximate Inference Networks for Structured Prediction",
+        "url": "https://openreview.net/forum?id=H1WgVz-AZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to Share: simultaneous parameter tying and Sparsification in Deep Learning",
+        "url": "https://openreview.net/forum?id=rypT3fb0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Model compression via distillation and quantization",
+        "url": "https://openreview.net/forum?id=S1XolQbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational Message Passing with Structured Inference Networks",
+        "url": "https://openreview.net/forum?id=HyH9lbZAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Action-dependent Control Variates for Policy Optimization via Stein Identity",
+        "url": "https://openreview.net/forum?id=H1mCp-ZRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational image compression with a scale hyperprior",
+        "url": "https://openreview.net/forum?id=rkcQFMZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational Inference of Disentangled Latent Concepts from Unlabeled Observations",
+        "url": "https://openreview.net/forum?id=H1kG7GZAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Flipout: Efficient Pseudo-Independent Weight Perturbations on Mini-Batches",
+        "url": "https://openreview.net/forum?id=rJNpifWAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Kernel Implicit Variational Inference",
+        "url": "https://openreview.net/forum?id=r1l4eQW0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "A Scalable Laplace Approximation for Neural Networks",
+        "url": "https://openreview.net/forum?id=Skdvd2xAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "The High-Dimensional Geometry of Binary Neural Networks",
+        "url": "https://openreview.net/forum?id=B1IDRdeCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Apprentice: Using Knowledge Distillation Techniques To Improve Low-Precision Network Accuracy",
+        "url": "https://openreview.net/forum?id=B1ae1lZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Distributed Prioritized Experience Replay",
+        "url": "https://openreview.net/forum?id=H1Dy---0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning from Between-class Examples for Deep Sound Recognition",
+        "url": "https://openreview.net/forum?id=B1Gi6LeRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples",
+        "url": "https://openreview.net/forum?id=ryiAv2xAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "VoiceLoop: Voice Fitting and Synthesis via a Phonological Loop",
+        "url": "https://openreview.net/forum?id=SkFAWax0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Large scale distributed neural network training through online distillation",
+        "url": "https://openreview.net/forum?id=rkr1UDeC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Differentially Private Recurrent Language Models",
+        "url": "https://openreview.net/forum?id=BJ0hF1Z0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Mastering the Dungeon: Grounded Language Learning by Mechanical Turker Descent",
+        "url": "https://openreview.net/forum?id=SJ-C6JbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Generating Wikipedia by Summarizing Long Sequences",
+        "url": "https://openreview.net/forum?id=Hyg0vbWC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Machine Translation Using Monolingual Corpora Only",
+        "url": "https://openreview.net/forum?id=rkYTTf-AZ",
+        "award": "Poster"
+    },
+    {
+        "title": "A Deep Reinforced Model for Abstractive Summarization",
+        "url": "https://openreview.net/forum?id=HkAClQgA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Compressing Word Embeddings via Deep Compositional Code Learning",
+        "url": "https://openreview.net/forum?id=BJRZzFlRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training",
+        "url": "https://openreview.net/forum?id=SkhQHMW0W",
+        "award": "Poster"
+    },
+    {
+        "title": "QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension",
+        "url": "https://openreview.net/forum?id=B14TlG-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Neural Machine Translation",
+        "url": "https://openreview.net/forum?id=Sy2ogebAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning One-hidden-layer Neural Networks with Landscape Design",
+        "url": "https://openreview.net/forum?id=BkwHObbRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Critical Points of Linear Neural Networks: Analytical Forms and Landscape Properties",
+        "url": "https://openreview.net/forum?id=SysEexbRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Parametric Closed-Loop Policies for Markov Potential Games",
+        "url": "https://openreview.net/forum?id=rJm7VfZA-",
+        "award": "Poster"
+    },
+    {
+        "title": "The power of deeper networks for expressing natural functions",
+        "url": "https://openreview.net/forum?id=SyProzZAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Empirical Risk Landscape Analysis for Understanding Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=B1QgVti6Z",
+        "award": "Poster"
+    },
+    {
+        "title": "On the Discrimination-Generalization Tradeoff in GANs",
+        "url": "https://openreview.net/forum?id=Hk9Xc_lR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+        "url": "https://openreview.net/forum?id=SyZI0GWCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Unbiased Online Recurrent Optimization",
+        "url": "https://openreview.net/forum?id=rJQDjk-0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Measuring the Intrinsic Dimension of Objective Landscapes",
+        "url": "https://openreview.net/forum?id=ryup8-WCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Memorization Precedes Generation: Learning Unsupervised GANs with Memory Networks",
+        "url": "https://openreview.net/forum?id=rkO3uTkAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Stochastic Activation Pruning for Robust Adversarial Defense",
+        "url": "https://openreview.net/forum?id=H1uR4GZRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Sparse Persistent RNNs: Squeezing Large Recurrent Networks On-Chip",
+        "url": "https://openreview.net/forum?id=HkxF5RgC-",
+        "award": "Poster"
+    },
+    {
+        "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+        "url": "https://openreview.net/forum?id=ByKWUeWA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Thermometer Encoding: One Hot Way To Resist Adversarial Examples",
+        "url": "https://openreview.net/forum?id=S18Su--CW",
+        "award": "Poster"
+    },
+    {
+        "title": "Trust-PCL: An Off-Policy Trust Region Method for Continuous Control",
+        "url": "https://openreview.net/forum?id=HyrCWeWCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Stochastic Variational Video Prediction",
+        "url": "https://openreview.net/forum?id=rk49Mg-CW",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards Image Understanding from Deep Compression Without Decoding",
+        "url": "https://openreview.net/forum?id=HkXWCMbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Automatically Inferring Data Quality for Spatiotemporal Forecasting",
+        "url": "https://openreview.net/forum?id=ByJIWUnpW",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards better understanding of gradient-based attribution methods for Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=Sy21R9JAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Countering Adversarial Images using Input Transformations",
+        "url": "https://openreview.net/forum?id=SyJ7ClWCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Skip RNN: Learning to Skip State Updates in Recurrent Neural Networks",
+        "url": "https://openreview.net/forum?id=HkwVAXyCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Modular Continual Learning in a Unified Visual Environment",
+        "url": "https://openreview.net/forum?id=rkPLzgZAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Twin Networks: Matching the Future for Sequence Generation",
+        "url": "https://openreview.net/forum?id=BydLzGb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Interpretable Counting for Visual Question Answering",
+        "url": "https://openreview.net/forum?id=S1J2ZyZ0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Interactive Grounded Language Acquisition and Generalization in a 2D World",
+        "url": "https://openreview.net/forum?id=H1UOm4gA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Emergent Complexity via Multi-Agent Competition",
+        "url": "https://openreview.net/forum?id=Sy0GnUxCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Universal Agent for Disentangling Environments and Tasks",
+        "url": "https://openreview.net/forum?id=B1mvVm-C-",
+        "award": "Poster"
+    },
+    {
+        "title": "Residual Connections Encourage Iterative Inference",
+        "url": "https://openreview.net/forum?id=SJa9iHgAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Emergent Communication through Negotiation",
+        "url": "https://openreview.net/forum?id=Hk6WhagRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Semi-parametric topological memory for navigation",
+        "url": "https://openreview.net/forum?id=SygwwGbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to Count Objects in Natural Images for Visual Question Answering",
+        "url": "https://openreview.net/forum?id=B12Js_yRb",
+        "award": "Poster"
+    },
+    {
+        "title": "i-RevNet: Deep Invertible Networks",
+        "url": "https://openreview.net/forum?id=HJsjkMb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach",
+        "url": "https://openreview.net/forum?id=BkUHlMZ0b",
+        "award": "Poster"
+    },
+    {
+        "title": "HexaConv",
+        "url": "https://openreview.net/forum?id=r1vuQG-CW",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+        "url": "https://openreview.net/forum?id=rJzIBfZAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Learning for Physical Processes: Incorporating Prior Scientific Knowledge",
+        "url": "https://openreview.net/forum?id=By4HsfWAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Communication Algorithms via Deep Learning",
+        "url": "https://openreview.net/forum?id=ryazCMbR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Simulating Action Dynamics with Neural Process Networks",
+        "url": "https://openreview.net/forum?id=rJYFzMZC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Cipher Cracking Using Discrete GANs",
+        "url": "https://openreview.net/forum?id=BkeqO7x0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural Speed Reading via Skim-RNN",
+        "url": "https://openreview.net/forum?id=Sy-dQG-Rb",
+        "award": "Poster"
+    },
+    {
+        "title": "Multi-level Residual Networks from Dynamical Systems View",
+        "url": "https://openreview.net/forum?id=SyJS-OgR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards Neural Phrase-based Machine Translation",
+        "url": "https://openreview.net/forum?id=HktJec1RZ",
+        "award": "Poster"
+    },
+    {
+        "title": "On the State of the Art of Evaluation in Neural Language Models",
+        "url": "https://openreview.net/forum?id=ByJHuTgA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Memory-based Parameter Adaptation",
+        "url": "https://openreview.net/forum?id=rkfOvGbCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Initialization matters: Orthogonal Predictive State Recurrent Neural Networks",
+        "url": "https://openreview.net/forum?id=HJJ23bW0b",
+        "award": "Poster"
+    },
+    {
+        "title": "PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples",
+        "url": "https://openreview.net/forum?id=rJUYGxbCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Certified Defenses against Adversarial Examples",
+        "url": "https://openreview.net/forum?id=Bys4ob-Rb",
+        "award": "Poster"
+    },
+    {
+        "title": "Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models",
+        "url": "https://openreview.net/forum?id=BkJ3ibb0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Ensemble Adversarial Training: Attacks and Defenses",
+        "url": "https://openreview.net/forum?id=rkZvSe-RZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Fraternal Dropout",
+        "url": "https://openreview.net/forum?id=SJyVzQ-C-",
+        "award": "Poster"
+    },
+    {
+        "title": "Can recurrent neural networks warp time?",
+        "url": "https://openreview.net/forum?id=SJcKhk-Ab",
+        "award": "Poster"
+    },
+    {
+        "title": "Parallelizing Linear Recurrent Neural Nets Over Sequence Length",
+        "url": "https://openreview.net/forum?id=HyUNwulC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Attacking Binarized Neural Networks",
+        "url": "https://openreview.net/forum?id=HkTEFfZRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Depthwise Separable Convolutions for Neural Machine Translation",
+        "url": "https://openreview.net/forum?id=S1jBcueAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Noisy Networks For Exploration",
+        "url": "https://openreview.net/forum?id=rywHCPkAW",
+        "award": "Poster"
+    },
+    {
+        "title": "A Hierarchical Model for Device Placement",
+        "url": "https://openreview.net/forum?id=Hkc-TeZ0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection",
+        "url": "https://openreview.net/forum?id=BJJLHbb0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Discrete Weights Using the Local Reparameterization Trick",
+        "url": "https://openreview.net/forum?id=BySRH6CpW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Rewiring: Training very sparse deep networks",
+        "url": "https://openreview.net/forum?id=BJ_wN01C-",
+        "award": "Poster"
+    },
+    {
+        "title": "Quantitatively Evaluating GANs With Divergences Proposed for Training",
+        "url": "https://openreview.net/forum?id=SJQHjzZ0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Improving GAN Training via Binarized Representation Entropy (BRE) Regularization",
+        "url": "https://openreview.net/forum?id=BkLhaGZRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Generative networks as inverse problems with Scattering transforms",
+        "url": "https://openreview.net/forum?id=r1NYjfbR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Critical Percolation as a Framework to Analyze the Training of Deep Networks",
+        "url": "https://openreview.net/forum?id=BJGWO9k0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "On the Expressive Power of Overlapping Architectures of Deep Learning",
+        "url": "https://openreview.net/forum?id=HkNGsseC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers",
+        "url": "https://openreview.net/forum?id=HJ94fqApW",
+        "award": "Poster"
+    },
+    {
+        "title": "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting",
+        "url": "https://openreview.net/forum?id=SJiHXGWAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings",
+        "url": "https://openreview.net/forum?id=SkHDoG-Cb",
+        "award": "Poster"
+    },
+    {
+        "title": "Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and their Interactions",
+        "url": "https://openreview.net/forum?id=ryH20GbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Generative Models of Visually Grounded Imagination",
+        "url": "https://openreview.net/forum?id=HkCsm6lRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions",
+        "url": "https://openreview.net/forum?id=r1wEFyWCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Compositional Obverter Communication Learning from Raw Visual Input",
+        "url": "https://openreview.net/forum?id=rknt2Be0-",
+        "award": "Poster"
+    },
+    {
+        "title": "SCAN: Learning Hierarchical Compositional Visual Concepts",
+        "url": "https://openreview.net/forum?id=rkN2Il-RZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Hierarchical Density Order Embeddings",
+        "url": "https://openreview.net/forum?id=HJCXZQbAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Identifying Analogies Across Domains",
+        "url": "https://openreview.net/forum?id=BkN_r2lR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Emergence of grid-like representations by training recurrent neural networks to perform spatial localization",
+        "url": "https://openreview.net/forum?id=B17JTOe0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning a neural response metric for retinal prosthesis",
+        "url": "https://openreview.net/forum?id=HJhIM0xAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Few-Shot Learning with Graph Neural Networks",
+        "url": "https://openreview.net/forum?id=BJj6qGbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Semantically Decomposing the Latent Spaces of Generative Adversarial Networks",
+        "url": "https://openreview.net/forum?id=S1nQvfgA-",
+        "award": "Poster"
+    },
+    {
+        "title": "A Framework for the Quantitative Evaluation of Disentangled Representations",
+        "url": "https://openreview.net/forum?id=By-7dz-AZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Meta-Learning for Semi-Supervised Few-Shot Classification",
+        "url": "https://openreview.net/forum?id=HJcSzz-CZ",
+        "award": "Poster"
+    },
+    {
+        "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
+        "url": "https://openreview.net/forum?id=H1q-TM-AW",
+        "award": "Poster"
+    },
+    {
+        "title": "Generalizing Across Domains via Cross-Gradient Training",
+        "url": "https://openreview.net/forum?id=r1Dx7fbCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to cluster in order to transfer across domains and tasks",
+        "url": "https://openreview.net/forum?id=ByRWCqvT-",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Complex Networks",
+        "url": "https://openreview.net/forum?id=H1T2hmZAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Skip Connections Eliminate Singularities",
+        "url": "https://openreview.net/forum?id=HkwBEMWCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Bi-Directional Block Self-Attention for Fast and Memory-Efficient Sequence Modeling",
+        "url": "https://openreview.net/forum?id=H1cWzoxA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning",
+        "url": "https://openreview.net/forum?id=ry8dvM-R-",
+        "award": "Poster"
+    },
+    {
+        "title": "Wavelet Pooling for Convolutional Neural Networks",
+        "url": "https://openreview.net/forum?id=rkhlb8lCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "FearNet: Brain-Inspired Model for Incremental Learning",
+        "url": "https://openreview.net/forum?id=SJ1Xmf-Rb",
+        "award": "Poster"
+    },
+    {
+        "title": "Do GANs learn the distribution? Some Theory and Empirics",
+        "url": "https://openreview.net/forum?id=BJehNfW0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards Reverse-Engineering Black-Box Neural Networks",
+        "url": "https://openreview.net/forum?id=BydjJte0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Understanding Deep Neural Networks with Rectified Linear Units",
+        "url": "https://openreview.net/forum?id=B1J_rgWRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Training wide residual networks for deployment using a single bit for each weight",
+        "url": "https://openreview.net/forum?id=rytNfI1AZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Learn to Pay Attention",
+        "url": "https://openreview.net/forum?id=HyzbhfWRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Monotonic Chunkwise Attention",
+        "url": "https://openreview.net/forum?id=Hko85plCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Recasting Gradient-Based Meta-Learning as Hierarchical Bayes",
+        "url": "https://openreview.net/forum?id=BJ_UL-k0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Don't Decay the Learning Rate, Increase the Batch Size",
+        "url": "https://openreview.net/forum?id=B1Yy1BxCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Kronecker-factored Curvature Approximations for Recurrent Neural Networks",
+        "url": "https://openreview.net/forum?id=HyMTkQZAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Proximal Backpropagation",
+        "url": "https://openreview.net/forum?id=ByeqORgAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=rkLyJl-0-",
+        "award": "Poster"
+    },
+    {
+        "title": "SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data",
+        "url": "https://openreview.net/forum?id=rJ33wwxRb",
+        "award": "Poster"
+    },
+    {
+        "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks",
+        "url": "https://openreview.net/forum?id=Skz_WfbCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "On the importance of single directions for generalization",
+        "url": "https://openreview.net/forum?id=r1iuQjxCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "The Implicit Bias of Gradient Descent on Separable Data",
+        "url": "https://openreview.net/forum?id=r1q7n9gAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step",
+        "url": "https://openreview.net/forum?id=ByQpn1ZA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Adaptive Dropout with Rademacher Complexity Regularization",
+        "url": "https://openreview.net/forum?id=S1uxsye0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "A Bayesian Perspective on Generalization and Stochastic Gradient Descent",
+        "url": "https://openreview.net/forum?id=BJij4yg0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Implicit Causal Models for Genome-wide Association Studies",
+        "url": "https://openreview.net/forum?id=SyELrEeAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Sensitivity and Generalization in Neural Networks: an Empirical Study",
+        "url": "https://openreview.net/forum?id=HJC2SzZCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Regularizing and Optimizing LSTM Language Models",
+        "url": "https://openreview.net/forum?id=SyyGPP0TZ",
+        "award": "Poster"
+    },
+    {
+        "title": "DCN+: Mixed Objective And Deep Residual Coattention for Question Answering",
+        "url": "https://openreview.net/forum?id=H1meywxRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Word translation without parallel data",
+        "url": "https://openreview.net/forum?id=H196sainb",
+        "award": "Poster"
+    },
+    {
+        "title": "All-but-the-Top: Simple and Effective Postprocessing for Word Representations",
+        "url": "https://openreview.net/forum?id=HkuGJ3kCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning",
+        "url": "https://openreview.net/forum?id=B18WgG-CZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Natural Language Inference over Interaction Space",
+        "url": "https://openreview.net/forum?id=r1dHXnH6-",
+        "award": "Poster"
+    },
+    {
+        "title": "Multi-Task Learning for Document Ranking and Query Suggestion",
+        "url": "https://openreview.net/forum?id=SJ1nzBeA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Distributed Fine-tuning of Language Models on Private Data",
+        "url": "https://openreview.net/forum?id=HkgNdt26Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+        "url": "https://openreview.net/forum?id=SkT5Yg-RZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Reinforcement Learning Algorithm Selection",
+        "url": "https://openreview.net/forum?id=SyoDInJ0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=S1vuO-bCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Consequentialist conditional cooperation in social dilemmas with imperfect information",
+        "url": "https://openreview.net/forum?id=BkabRiQpb",
+        "award": "Poster"
+    },
+    {
+        "title": "Can Neural Networks Understand Logical Entailment?",
+        "url": "https://openreview.net/forum?id=SkZxCk-0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Cascade Adversarial Machine Learning Regularized with a Unified Embedding",
+        "url": "https://openreview.net/forum?id=HyRVBzap-",
+        "award": "Poster"
+    },
+    {
+        "title": "Mitigating Adversarial Effects Through Randomization",
+        "url": "https://openreview.net/forum?id=Sk9yuql0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Decision Boundary Analysis of Adversarial Examples",
+        "url": "https://openreview.net/forum?id=BkpiPMbA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Matrix capsules with EM routing",
+        "url": "https://openreview.net/forum?id=HJWLfGWRb",
+        "award": "Poster"
+    },
+    {
+        "title": "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training",
+        "url": "https://openreview.net/forum?id=BJE-4xW0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Wasserstein Embeddings",
+        "url": "https://openreview.net/forum?id=SJyEH91A-",
+        "award": "Poster"
+    },
+    {
+        "title": "Training Generative Adversarial Networks via Primal-Dual subgradient Methods: a Lagrangian Perspective on GaN",
+        "url": "https://openreview.net/forum?id=BJNRFNlRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Activation Maximization Generative Adversarial Nets",
+        "url": "https://openreview.net/forum?id=HyyP33gAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields",
+        "url": "https://openreview.net/forum?id=SkVqXOxCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect",
+        "url": "https://openreview.net/forum?id=SJx9GQb0-",
+        "award": "Poster"
+    },
+    {
+        "title": "FusionNet: Fusing via Fully-aware Attention with Application to Machine Comprehension",
+        "url": "https://openreview.net/forum?id=BJIgi_eCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural Language Modeling by Jointly Learning Syntax and Lexicon",
+        "url": "https://openreview.net/forum?id=rkgOLb-0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+        "url": "https://openreview.net/forum?id=rk6cfpRjZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Active Learning for Named Entity Recognition",
+        "url": "https://openreview.net/forum?id=ry018WZAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=Syg-YfWCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Lifelong Learning with Dynamically Expandable Networks",
+        "url": "https://openreview.net/forum?id=Sk7KsfW0-",
+        "award": "Poster"
+    },
+    {
+        "title": "The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings",
+        "url": "https://openreview.net/forum?id=H1VjBebR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Dynamic Neural Program Embeddings for Program Repair",
+        "url": "https://openreview.net/forum?id=BJuWrGW0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Compositional Attention Networks for Machine Reasoning",
+        "url": "https://openreview.net/forum?id=S1Euwz-Rb",
+        "award": "Poster"
+    },
+    {
+        "title": "Beyond Shared Hierarchies: Deep Multitask Learning through Soft Layer Ordering",
+        "url": "https://openreview.net/forum?id=BkXmYfbAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Hierarchical Representations for Efficient Architecture Search",
+        "url": "https://openreview.net/forum?id=BJQRKzbA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration",
+        "url": "https://openreview.net/forum?id=ryTp3f-0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Combining Symbolic Expressions and Black-box Function Evaluations in Neural Programs",
+        "url": "https://openreview.net/forum?id=Hksj2WWAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Scalable Private Learning with PATE",
+        "url": "https://openreview.net/forum?id=rkZB1XbRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Active Learning for Convolutional Neural Networks: A Core-Set Approach",
+        "url": "https://openreview.net/forum?id=H1aIuk-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "Loss-aware Weight Quantization of Deep Networks",
+        "url": "https://openreview.net/forum?id=BkrSv0lA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Global Optimality Conditions for Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=BJk7Gf-CZ",
+        "award": "Poster"
+    },
+    {
+        "title": "SpectralNet: Spectral Clustering using Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=HJ_aoCyRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Not-So-Random Features",
+        "url": "https://openreview.net/forum?id=Hk8XMWgRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning how to explain neural networks: PatternNet and PatternAttribution",
+        "url": "https://openreview.net/forum?id=Hkn7CBaTW",
+        "award": "Poster"
+    },
+    {
+        "title": "Detecting Statistical Interactions from Neural Network Weights",
+        "url": "https://openreview.net/forum?id=ByOfBggRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking",
+        "url": "https://openreview.net/forum?id=r1ZdKJ-0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Generating Natural Adversarial Examples",
+        "url": "https://openreview.net/forum?id=H1BLjgZCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Spatially Transformed Adversarial Examples",
+        "url": "https://openreview.net/forum?id=HyydRMZC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Predicting Floor-Level for 911 Calls with Neural Networks and Smartphone Sensor Data",
+        "url": "https://openreview.net/forum?id=ryBnUWb0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Understanding image motion with group representations",
+        "url": "https://openreview.net/forum?id=SJLlmG-AZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Awareness Models",
+        "url": "https://openreview.net/forum?id=r1HhRfWRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Backpropagation through the Void: Optimizing control variates for black-box gradient estimation",
+        "url": "https://openreview.net/forum?id=SyzKd1bCW",
+        "award": "Poster"
+    },
+    {
+        "title": "On Unifying Deep Generative Models",
+        "url": "https://openreview.net/forum?id=rylSzl-R-",
+        "award": "Poster"
+    },
+    {
+        "title": "Debiasing Evidence Approximations: On Importance-weighted Autoencoders and Jackknife Variational Inference",
+        "url": "https://openreview.net/forum?id=HyZoi-WRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning a Generative Model for Validity in Complex Discrete Structures",
+        "url": "https://openreview.net/forum?id=rkrC3GbRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Boundary Seeking GANs",
+        "url": "https://openreview.net/forum?id=rkTS8lZAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Sparse Latent Representations with the Deep Copula Information Bottleneck",
+        "url": "https://openreview.net/forum?id=Hk0wHx-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "WHAI: Weibull Hybrid Autoencoding Inference for Deep Topic Modeling",
+        "url": "https://openreview.net/forum?id=S1cZsf-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "Understanding Short-Horizon Bias in Stochastic Meta-Optimization",
+        "url": "https://openreview.net/forum?id=H1MczcgR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Self-ensembling for visual domain adaptation",
+        "url": "https://openreview.net/forum?id=rkpoTaxA-",
+        "award": "Poster"
+    },
+    {
+        "title": "Gradient Estimators for Implicit Models",
+        "url": "https://openreview.net/forum?id=SJi9WOeRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to Multi-Task by Active Sampling",
+        "url": "https://openreview.net/forum?id=B1nZ1weCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=rkHywl-A-",
+        "award": "Poster"
+    },
+    {
+        "title": "A Simple Neural Attentive Meta-Learner",
+        "url": "https://openreview.net/forum?id=B1DmUzWAW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design",
+        "url": "https://openreview.net/forum?id=SywXXwJAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards Synthesizing Complex Programs From Input-Output Examples",
+        "url": "https://openreview.net/forum?id=Skp1ESxRZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Expressive power of recurrent neural networks",
+        "url": "https://openreview.net/forum?id=S1WRibb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction",
+        "url": "https://openreview.net/forum?id=rJlMAAeC-",
+        "award": "Poster"
+    },
+    {
+        "title": "An image representation based convolutional network for DNA classification",
+        "url": "https://openreview.net/forum?id=HJvvRoe0W",
+        "award": "Poster"
+    },
+    {
+        "title": "SMASH: One-Shot Model Architecture Search through HyperNetworks",
+        "url": "https://openreview.net/forum?id=rydeCEhs-",
+        "award": "Poster"
+    },
+    {
+        "title": "Parameter Space Noise for Exploration",
+        "url": "https://openreview.net/forum?id=ByBAl2eAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Synthesizing realistic neural population activity patterns using Generative Adversarial Networks",
+        "url": "https://openreview.net/forum?id=r1VVsebAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Auto-Encoding Sequential Monte Carlo",
+        "url": "https://openreview.net/forum?id=BJ8c3f-0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to Teach",
+        "url": "https://openreview.net/forum?id=HJewuJWCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "PixelNN: Example-based Image Synthesis",
+        "url": "https://openreview.net/forum?id=Syhr6pxCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Non-Autoregressive Neural Machine Translation",
+        "url": "https://openreview.net/forum?id=B1l8BtlCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning",
+        "url": "https://openreview.net/forum?id=HJtEm4p6Z",
+        "award": "Poster"
+    },
+    {
+        "title": "mixup: Beyond Empirical Risk Minimization",
+        "url": "https://openreview.net/forum?id=r1Ddp1-Rb",
+        "award": "Poster"
+    },
+    {
+        "title": "TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=HyiAuyb0b",
+        "award": "Poster"
+    },
+    {
+        "title": "DORA The Explorer: Directed Outreaching Reinforcement Action-Selection",
+        "url": "https://openreview.net/forum?id=ry1arUgCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Temporal Difference Models: Model-Free Deep RL for Model-Based Control",
+        "url": "https://openreview.net/forum?id=Skw0n-W0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=H1dh6Ax0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Alternating Multi-bit Quantization for Recurrent Neural Networks",
+        "url": "https://openreview.net/forum?id=S19dR9x0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Residual Loss Prediction: Reinforcement Learning With No Incremental Feedback",
+        "url": "https://openreview.net/forum?id=HJNMYceCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Adaptive Quantization of Neural Networks",
+        "url": "https://openreview.net/forum?id=SyOK1Sg0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Boosting the Actor with Dual Critic",
+        "url": "https://openreview.net/forum?id=BkUp6GZRW",
+        "award": "Poster"
+    },
+    {
+        "title": "Guide Actor-Critic for Continuous Control",
+        "url": "https://openreview.net/forum?id=BJk59JZ0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Policy Optimization by Genetic Distillation",
+        "url": "https://openreview.net/forum?id=ByOnmlWC-",
+        "award": "Poster"
+    },
+    {
+        "title": "When is a Convolutional Filter Easy to Learn?",
+        "url": "https://openreview.net/forum?id=SkA-IE06W",
+        "award": "Poster"
+    },
+    {
+        "title": "Online Learning Rate Adaptation with Hypergradient Descent",
+        "url": "https://openreview.net/forum?id=BkrsAzWAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks",
+        "url": "https://openreview.net/forum?id=HyWrIgW0W",
+        "award": "Poster"
+    },
+    {
+        "title": "Robustness of Classifiers to Universal Perturbations: A Geometric Perspective",
+        "url": "https://openreview.net/forum?id=ByrZyglCb",
+        "award": "Poster"
+    },
+    {
+        "title": "On the regularization of Wasserstein GANs",
+        "url": "https://openreview.net/forum?id=B1hYRMbCW",
+        "award": "Poster"
+    },
+    {
+        "title": "Eigenoption Discovery through the Deep Successor Representation",
+        "url": "https://openreview.net/forum?id=Bk8ZcAxR-",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural Map: Structured Memory for Deep Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=Bk9zbyZCZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Active Neural Localization",
+        "url": "https://openreview.net/forum?id=ry6-G_66b",
+        "award": "Poster"
+    },
+    {
+        "title": "Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation",
+        "url": "https://openreview.net/forum?id=B1al7jg0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Memory Augmented Control Networks",
+        "url": "https://openreview.net/forum?id=HyfHgI6aW",
+        "award": "Poster"
+    },
+    {
+        "title": "Progressive Reinforcement Learning with Distillation for Multi-Skilled Motion Control",
+        "url": "https://openreview.net/forum?id=B13njo1R-",
+        "award": "Poster"
+    },
+    {
+        "title": "N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=B1hcZZ-AW",
+        "award": "Poster"
+    },
+    {
+        "title": "Hierarchical and Interpretable Skill Acquisition in Multi-task Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=SJJQVZW0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Divide-and-Conquer Reinforcement Learning",
+        "url": "https://openreview.net/forum?id=rJwelMbR-",
+        "award": "Poster"
+    },
+    {
+        "title": "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs",
+        "url": "https://openreview.net/forum?id=B1e5ef-C-",
+        "award": "Poster"
+    },
+    {
+        "title": "A New Method of Region Embedding for Text Classification",
+        "url": "https://openreview.net/forum?id=BkSDMA36Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Fix your classifier: the marginal value of training the last weight layer",
+        "url": "https://openreview.net/forum?id=S1Dh8Tg0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Multi-Mention Learning for Reading Comprehension with Neural Cascades",
+        "url": "https://openreview.net/forum?id=HyRnez-RW",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks",
+        "url": "https://openreview.net/forum?id=r1SnX5xCb",
+        "award": "Poster"
+    },
+    {
+        "title": "Temporally Efficient Deep Learning with Spikes",
+        "url": "https://openreview.net/forum?id=HkZy-bW0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational Network Quantization",
+        "url": "https://openreview.net/forum?id=ry-TW-WAb",
+        "award": "Poster"
+    },
+    {
+        "title": "Training GANs with Optimism",
+        "url": "https://openreview.net/forum?id=SJJySbbAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "Sobolev GAN",
+        "url": "https://openreview.net/forum?id=SJA7xfb0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning From Noisy Singly-labeled Data",
+        "url": "https://openreview.net/forum?id=H1sUHgb0Z",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Sparse Neural Networks through L_0 Regularization",
+        "url": "https://openreview.net/forum?id=H1Y8hhg0b",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational Continual Learning",
+        "url": "https://openreview.net/forum?id=BkQqq0gRb",
+        "award": "Poster"
+    },
+    {
+        "title": "Gaussian Process Behaviour in Wide Deep Neural Networks",
+        "url": "https://openreview.net/forum?id=H1-nGgWC-",
+        "award": "Poster"
+    },
+    {
+        "title": "Mixed Precision Training of Convolutional Neural Networks using Integer Operations",
+        "url": "https://openreview.net/forum?id=H135uzZ0-",
+        "award": "Poster"
+    },
+    {
+        "title": "Memory Architectures in Recurrent Neural Network Language Models",
+        "url": "https://openreview.net/forum?id=SkFqf0lAZ",
+        "award": "Poster"
+    },
+    {
+        "title": "On the Information Bottleneck Theory of Deep Learning",
+        "url": "https://openreview.net/forum?id=ry_WPG-A-",
+        "award": "Poster"
+    }
+]

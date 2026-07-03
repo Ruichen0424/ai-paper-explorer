@@ -1,0 +1,402 @@
+[
+    {
+        "title": "Neural Programmer-Interpreters",
+        "url": "http://arxiv.org/abs/1511.06279",
+        "award": "Oral"
+    },
+    {
+        "title": "Regularizing RNNs by Stabilizing Activations",
+        "url": "http://arxiv.org/abs/1511.08400",
+        "award": "Oral"
+    },
+    {
+        "title": "BlackOut: Speeding up Recurrent Neural Network Language Models With Very Large Vocabularies",
+        "url": "http://arxiv.org/abs/1511.06909",
+        "award": "Oral"
+    },
+    {
+        "title": "The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations",
+        "url": "http://arxiv.org/abs/1511.02301",
+        "award": "Oral"
+    },
+    {
+        "title": "Towards Universal Paraphrastic Sentence Embeddings",
+        "url": "http://arxiv.org/abs/1511.08198",
+        "award": "Oral"
+    },
+    {
+        "title": "Convergent Learning: Do different neural networks learn the same representations?",
+        "url": "http://arxiv.org/abs/1511.07543",
+        "award": "Oral"
+    },
+    {
+        "title": "Net2Net: Accelerating Learning via Knowledge Transfer",
+        "url": "http://arxiv.org/abs/1511.05641",
+        "award": "Oral"
+    },
+    {
+        "title": "Variational Gaussian Process",
+        "url": "http://arxiv.org/abs/1511.06499",
+        "award": "Oral"
+    },
+    {
+        "title": "The Variational Fair Autoencoder",
+        "url": "http://arxiv.org/abs/1511.00830",
+        "award": "Oral"
+    },
+    {
+        "title": "A note on the evaluation of generative models",
+        "url": "http://arxiv.org/abs/1511.01844",
+        "award": "Oral"
+    },
+    {
+        "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+        "url": "http://arxiv.org/abs/1510.00149",
+        "award": "Oral"
+    },
+    {
+        "title": "Neural Networks with Few Multiplications",
+        "url": "http://arxiv.org/abs/1510.03009",
+        "award": "Oral"
+    },
+    {
+        "title": "Order-Embeddings of Images and Language",
+        "url": "http://arxiv.org/abs/1511.06361",
+        "award": "Oral"
+    },
+    {
+        "title": "Generating Images from Captions with Attention",
+        "url": "http://arxiv.org/abs/1511.02793",
+        "award": "Oral"
+    },
+    {
+        "title": "Density Modeling of Images using a Generalized Normalization Transformation",
+        "url": "http://arxiv.org/abs/1511.06281",
+        "award": "Oral"
+    },
+    {
+        "title": "Multi-Scale Context Aggregation by Dilated Convolutions",
+        "url": "http://arxiv.org/abs/1511.07122",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning to Diagnose with LSTM Recurrent Neural Networks",
+        "url": "http://arxiv.org/abs/1511.03677",
+        "award": "Poster"
+    },
+    {
+        "title": "Prioritized Experience Replay",
+        "url": "http://arxiv.org/abs/1511.05952",
+        "award": "Poster"
+    },
+    {
+        "title": "Importance Weighted Autoencoders",
+        "url": "http://arxiv.org/abs/1509.00519",
+        "award": "Poster"
+    },
+    {
+        "title": "Variational Auto-encoded Deep Gaussian Processes",
+        "url": "http://arxiv.org/abs/1511.06455",
+        "award": "Poster"
+    },
+    {
+        "title": "Training CNNs with Low-Rank Filters for Efficient Image Classification",
+        "url": "http://arxiv.org/abs/1511.06744",
+        "award": "Poster"
+    },
+    {
+        "title": "Reducing Overfitting in Deep Networks by Decorrelating Representations",
+        "url": "http://arxiv.org/abs/1511.06068",
+        "award": "Poster"
+    },
+    {
+        "title": "Surpassing Humans in Boundary Detection using Deep Learning",
+        "url": "http://arxiv.org/abs/1511.07386",
+        "award": "Poster"
+    },
+    {
+        "title": "Reasoning about Entailment with Neural Attention",
+        "url": "http://arxiv.org/abs/1509.06664",
+        "award": "Poster"
+    },
+    {
+        "title": "Convolutional neural networks with low-rank regularization",
+        "url": "http://arxiv.org/abs/1511.06067",
+        "award": "Poster"
+    },
+    {
+        "title": "Unifying distillation and privileged information",
+        "url": "http://arxiv.org/abs/1511.03643",
+        "award": "Poster"
+    },
+    {
+        "title": "Particular object retrieval with integral max-pooling of CNN activations",
+        "url": "http://arxiv.org/abs/1511.05879",
+        "award": "Poster"
+    },
+    {
+        "title": "All you need is a good init",
+        "url": "http://arxiv.org/abs/1511.06422",
+        "award": "Poster"
+    },
+    {
+        "title": "When crowds hold privileges: Bayesian unsupervised representation learning with oracle constraints",
+        "url": "http://arxiv.org/abs/1506.05011",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural Programmer: Inducing Latent Programs with Gradient Descent",
+        "url": "http://arxiv.org/abs/1511.04834",
+        "award": "Poster"
+    },
+    {
+        "title": "SparkNet: Training Deep Networks in Spark",
+        "url": "http://arxiv.org/abs/1511.06051",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks",
+        "url": "http://arxiv.org/abs/1511.06390",
+        "award": "Poster"
+    },
+    {
+        "title": "MuProp: Unbiased Backpropagation for Stochastic Neural Networks",
+        "url": "http://arxiv.org/abs/1511.05176",
+        "award": "Poster"
+    },
+    {
+        "title": "Data Representation and Compression Using Linear-Programming Approximations",
+        "url": "http://arxiv.org/abs/1511.06606",
+        "award": "Poster"
+    },
+    {
+        "title": "Diversity Networks",
+        "url": "http://arxiv.org/abs/1511.05077",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Reinforcement Learning in Parameterized Action Space",
+        "url": "http://arxiv.org/abs/1511.04143",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Visual Predictive Models of Physics for Playing Billiards",
+        "url": "http://arxiv.org/abs/1511.07404",
+        "award": "Poster"
+    },
+    {
+        "title": "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks",
+        "url": "http://arxiv.org/abs/1502.05698",
+        "award": "Poster"
+    },
+    {
+        "title": "Evaluating Prerequisite Qualities for Learning End-to-End Dialog Systems",
+        "url": "http://arxiv.org/abs/1511.06931",
+        "award": "Poster"
+    },
+    {
+        "title": "Better Computer Go Player with Neural Network and Long-term Prediction",
+        "url": "http://arxiv.org/abs/1511.06410",
+        "award": "Poster"
+    },
+    {
+        "title": "Distributional Smoothing by Virtual Adversarial Examples",
+        "url": "http://arxiv.org/abs/1507.00677",
+        "award": "Poster"
+    },
+    {
+        "title": "Multi-task Sequence to Sequence Learning",
+        "url": "http://arxiv.org/abs/1511.06114",
+        "award": "Poster"
+    },
+    {
+        "title": "A Test of Relative Similarity For Model Selection in Generative Models",
+        "url": "http://arxiv.org/abs/1511.04581",
+        "award": "Poster"
+    },
+    {
+        "title": "Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications",
+        "url": "http://arxiv.org/abs/1511.06530",
+        "award": "Poster"
+    },
+    {
+        "title": "Session-based Recommendations with Recurrent Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06939",
+        "award": "Poster"
+    },
+    {
+        "title": "Continuous control with deep reinforcement learning",
+        "url": "http://arxiv.org/abs/1509.02971",
+        "award": "Poster"
+    },
+    {
+        "title": "Recurrent Gaussian Processes",
+        "url": "http://arxiv.org/abs/1511.06644",
+        "award": "Poster"
+    },
+    {
+        "title": "Modeling Visual Representations: Defining Properties and Deep Approximations",
+        "url": "http://arxiv.org/abs/1411.7676",
+        "award": "Poster"
+    },
+    {
+        "title": "Auxiliary Image Regularization for Deep CNNs with Noisy Labels",
+        "url": "http://arxiv.org/abs/1511.07069",
+        "award": "Poster"
+    },
+    {
+        "title": "Policy Distillation",
+        "url": "http://arxiv.org/abs/1511.06295",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural Random-Access Machines",
+        "url": "http://arxiv.org/abs/1511.06392",
+        "award": "Poster"
+    },
+    {
+        "title": "Gated Graph Sequence Neural Networks",
+        "url": "http://arxiv.org/abs/1511.05493",
+        "award": "Poster"
+    },
+    {
+        "title": "Metric Learning with Adaptive Density Discrimination",
+        "url": "http://arxiv.org/abs/1511.05939",
+        "award": "Poster"
+    },
+    {
+        "title": "Censoring Representations with an Adversary",
+        "url": "http://arxiv.org/abs/1511.05897",
+        "award": "Poster"
+    },
+    {
+        "title": "Variable Rate Image Compression with Recurrent Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06085",
+        "award": "Poster"
+    },
+    {
+        "title": "Delving Deeper into Convolutional Networks for Learning Video Representations",
+        "url": "http://arxiv.org/abs/1511.06432",
+        "award": "Poster"
+    },
+    {
+        "title": "8-Bit Approximations for Parallelism in Deep Learning",
+        "url": "http://arxiv.org/abs/1511.04561",
+        "award": "Poster"
+    },
+    {
+        "title": "Data-dependent Initializations of Convolutional Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06856",
+        "award": "Poster"
+    },
+    {
+        "title": "Order Matters: Sequence to sequence for sets",
+        "url": "http://arxiv.org/abs/1511.06391",
+        "award": "Poster"
+    },
+    {
+        "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+        "url": "http://arxiv.org/abs/1506.02438",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep multi-scale video prediction beyond mean square error",
+        "url": "http://arxiv.org/abs/1511.05440",
+        "award": "Poster"
+    },
+    {
+        "title": "Grid Long Short-Term Memory",
+        "url": "http://arxiv.org/abs/1507.01526",
+        "award": "Poster"
+    },
+    {
+        "title": "Predicting distributions with Linearizing Belief Networks",
+        "url": "http://arxiv.org/abs/1511.05622",
+        "award": "Poster"
+    },
+    {
+        "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+        "url": "http://arxiv.org/abs/1511.07289",
+        "award": "Poster"
+    },
+    {
+        "title": "Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning",
+        "url": "http://arxiv.org/abs/1511.06342",
+        "award": "Poster"
+    },
+    {
+        "title": "Segmental Recurrent Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06018",
+        "award": "Poster"
+    },
+    {
+        "title": "Deep Linear Discriminant Analysis",
+        "url": "http://arxiv.org/abs/1511.04707",
+        "award": "Poster"
+    },
+    {
+        "title": "Large-Scale Approximate Kernel Canonical Correlation Analysis",
+        "url": "http://arxiv.org/abs/1511.04773",
+        "award": "Poster"
+    },
+    {
+        "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+        "url": "http://arxiv.org/abs/1511.06434",
+        "award": "Poster"
+    },
+    {
+        "title": "Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06448",
+        "award": "Poster"
+    },
+    {
+        "title": "Digging Deep into the Layers of CNNs: In Search of How CNNs Achieve View Invariance",
+        "url": "http://arxiv.org/abs/1508.01983",
+        "award": "Poster"
+    },
+    {
+        "title": "An Exploration of Softmax Alternatives Belonging to the Spherical Loss Family",
+        "url": "http://arxiv.org/abs/1511.05042",
+        "award": "Poster"
+    },
+    {
+        "title": "Data-Dependent Path Normalization in Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06747",
+        "award": "Poster"
+    },
+    {
+        "title": "Reasoning in Vector Space: An Exploratory Study of Question Answering",
+        "url": "http://arxiv.org/abs/1511.06426",
+        "award": "Poster"
+    },
+    {
+        "title": "Neural GPUs Learn Algorithms",
+        "url": "http://arxiv.org/abs/1511.08228",
+        "award": "Poster"
+    },
+    {
+        "title": "ACDC: A Structured Efficient Linear Layer",
+        "url": "http://arxiv.org/abs/1511.05946",
+        "award": "Poster"
+    },
+    {
+        "title": "Adversarial Manipulation of Deep Representations",
+        "url": "http://arxiv.org/abs/1511.05122",
+        "award": "Poster"
+    },
+    {
+        "title": "Geodesics of learned representations",
+        "url": "http://arxiv.org/abs/1511.06394",
+        "award": "Poster"
+    },
+    {
+        "title": "Sequence Level Training with Recurrent Neural Networks",
+        "url": "http://arxiv.org/abs/1511.06732",
+        "award": "Poster"
+    },
+    {
+        "title": "Super-Resolution with Deep Convolutional Sufficient Statistics",
+        "url": "http://arxiv.org/abs/1511.05666",
+        "award": "Poster"
+    }
+]
