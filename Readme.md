@@ -1,4 +1,10 @@
-# AIPaperX: A one-stop search engine for top-tier AI conference & Journals papers
+<div align="center">
+
+<h1>AIPaperX: A one-stop search engine for top-tier AI conference & Journals papers</h1>
+
+
+![hits](https://gitviews.com/repo/ruichen0424/ai-paper-explorer.svg?style=flat&label=Hits&color=%234f46e5&label-color=%23334155)
+</div>
 
 ## 📝 About The Project
 
